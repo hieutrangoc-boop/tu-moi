@@ -1462,6 +1462,20 @@
       }, 400);
     }
 
+    let syncCloudTimeout = null;
+    function syncProgressToCloud() {
+      if (syncCloudTimeout) clearTimeout(syncCloudTimeout);
+      syncCloudTimeout = setTimeout(() => {
+        try {
+          fetch(WORDS_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify({ action: 'saveProgress', progress })
+          }).catch(() => {});
+        } catch (e) {}
+      }, 800);
+    }
+
     function saveProgress(syncServer = true) {
       pruneHistoryMap(progress.days, 14);
       pruneHistoryMap(progress.newDays, 14);
@@ -1470,7 +1484,10 @@
       } catch (err) {
         // Ignore storage errors
       }
-      if (syncServer) syncProgressToServer();
+      if (syncServer) {
+        syncProgressToServer();
+        syncProgressToCloud();
+      }
     }
 
     function pickNewWordsAlternatingDates(unseenList, limit, initialLastDate = null) {
@@ -3252,34 +3269,98 @@
           }
         })
         .catch(() => {});
-      fetch('/api/tu-moi/progress')
-        .then(res => (res && res.ok) ? res.json() : fetch('progress.json').then(r => r.ok ? r.json() : null).then(p => p ? { status: 'ok', progress: p } : null))
-        .then(data => {
-          if (data && data.status === 'ok' && data.progress) {
-            const sp = data.progress;
-            if (sp.cards) progress.cards = Object.assign({}, sp.cards, progress.cards);
-            if (sp.days) {
-              if (!progress.days) progress.days = {};
-              for (const [k, v] of Object.entries(sp.days)) {
-                progress.days[k] = Math.max(progress.days[k] || 0, v || 0);
+      function mergeIncomingProgress(sp) {
+        if (!sp || typeof sp !== 'object') return false;
+        let changed = false;
+        if (sp.cards && typeof sp.cards === 'object') {
+          if (!progress.cards) progress.cards = {};
+          for (const [id, inCard] of Object.entries(sp.cards)) {
+            const cur = progress.cards[id];
+            if (!cur) {
+              progress.cards[id] = inCard;
+              changed = true;
+            } else {
+              const inTime = new Date(inCard.last_review || inCard.due || 0).getTime();
+              const curTime = new Date(cur.last_review || cur.due || 0).getTime();
+              if (inTime >= curTime) {
+                progress.cards[id] = inCard;
+                changed = true;
               }
             }
-            if (sp.newDays) {
-              if (!progress.newDays) progress.newDays = {};
-              for (const [k, v] of Object.entries(sp.newDays)) {
-                progress.newDays[k] = Math.max(progress.newDays[k] || 0, v || 0);
-              }
-            }
-            if (sp.weeklyArt) progress.weeklyArt = Object.assign({}, sp.weeklyArt, progress.weeklyArt);
-            if (sp.today && !progress.today) {
-              progress.today = sp.today;
-            }
-            saveProgress(false);
-            syncTodayPlan();
-            render(true);
           }
-        })
-        .catch(() => {});
+        }
+        if (sp.days && typeof sp.days === 'object') {
+          if (!progress.days) progress.days = {};
+          for (const [k, v] of Object.entries(sp.days)) {
+            const oldVal = progress.days[k] || 0;
+            const newVal = Math.max(oldVal, v || 0);
+            if (newVal !== oldVal) {
+              progress.days[k] = newVal;
+              changed = true;
+            }
+          }
+        }
+        if (sp.newDays && typeof sp.newDays === 'object') {
+          if (!progress.newDays) progress.newDays = {};
+          for (const [k, v] of Object.entries(sp.newDays)) {
+            const oldVal = progress.newDays[k] || 0;
+            const newVal = Math.max(oldVal, v || 0);
+            if (newVal !== oldVal) {
+              progress.newDays[k] = newVal;
+              changed = true;
+            }
+          }
+        }
+        if (sp.weeklyArt && typeof sp.weeklyArt === 'object') {
+          progress.weeklyArt = Object.assign({}, sp.weeklyArt, progress.weeklyArt || {});
+          changed = true;
+        }
+        if (sp.today && !progress.today) {
+          progress.today = sp.today;
+          changed = true;
+        }
+        saveProgress(false);
+        syncTodayPlan();
+        render(true);
+        return changed;
+      }
+
+      async function loadWordsData() {
+        try {
+          const res = await fetch('words.json');
+          if (res.ok) {
+            const data = await res.json();
+            return Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : null);
+          }
+        } catch (e) {}
+        return null;
+      }
+
+      async function loadLocalOrStaticProgress() {
+        // 1. Try local Python server API
+        try {
+          const res = await fetch('/api/tu-moi/progress');
+          if (res.ok) {
+            const data = await res.json();
+            if (data && data.status === 'ok' && data.progress && Object.keys(data.progress.cards || {}).length > 0) {
+              return data.progress;
+            }
+          }
+        } catch (e) {}
+
+        // 2. Static progress.json fallback
+        try {
+          const res = await fetch('progress.json');
+          if (res.ok) {
+            const data = await res.json();
+            if (data && typeof data === 'object' && Object.keys(data.cards || {}).length > 0) {
+              return data;
+            }
+          }
+        } catch (e) {}
+
+        return null;
+      }
 
       words = loadSavedWords();
       if (words.length > 0) {
@@ -3287,55 +3368,69 @@
       }
       render();
 
-      try {
-        let fetchedItems = null;
-        try {
-          const localRes = await fetch('words.json');
-          if (localRes.ok) {
-            const localData = await localRes.json();
-            fetchedItems = Array.isArray(localData) ? localData : (localData && Array.isArray(localData.items) ? localData.items : null);
-          }
-        } catch (e) {}
+      // 1. Load local words and progress immediately for instant 0ms rendering
+      const [fetchedWords, fetchedProgress] = await Promise.all([
+        loadWordsData(),
+        loadLocalOrStaticProgress()
+      ]);
 
-        try {
-          const res = await fetch(WORDS_URL);
-          if (res.ok) {
-            const data = await res.json();
-            const onlineItems = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : null);
-            if (onlineItems && onlineItems.length > 0) {
-              const cleanOnline = onlineItems.filter(w => {
-                if (!w || !w.vi) return false;
-                const viLow = w.vi.trim().toLowerCase();
-                if (viLow.includes('http://') || viLow.includes('https://')) return false;
-                if (/^(january|february|march|april|may|june|july|august|september|october|november|december)$/i.test(viLow)) return false;
-                return true;
+      if (fetchedWords && fetchedWords.length > 0) {
+        words = fetchedWords;
+        saveWords(words);
+      }
+
+      if (fetchedProgress) {
+        mergeIncomingProgress(fetchedProgress);
+      } else {
+        syncTodayPlan();
+        render(true);
+      }
+
+      // 2. Check Google Apps Script Cloud sync in background
+      fetch(WORDS_URL + '?action=progress')
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data && data.status === 'ok' && data.progress && Object.keys(data.progress.cards || {}).length > 0) {
+            mergeIncomingProgress(data.progress);
+          } else {
+            // Cloud has no saved progress yet; seed cloud with our current progress
+            syncProgressToCloud();
+          }
+        })
+        .catch(() => {});
+
+      // Background check for fresh words in Google Doc
+      fetch(WORDS_URL)
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          const onlineItems = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : null);
+          if (onlineItems && onlineItems.length > 0) {
+            const cleanOnline = onlineItems.filter(w => {
+              if (!w || !w.vi) return false;
+              const viLow = w.vi.trim().toLowerCase();
+              if (viLow.includes('http://') || viLow.includes('https://')) return false;
+              if (/^(january|february|march|april|may|june|july|august|september|october|november|december)$/i.test(viLow)) return false;
+              return true;
+            });
+            if (cleanOnline.length > 0) {
+              const localMap = new Map((words || []).map(w => [w.id, w]));
+              words = cleanOnline.map(w => {
+                const loc = localMap.get(w.id);
+                if (loc && loc.vi && loc.en && loc.en_from === 'doc' && w.en_from !== 'doc') {
+                  return { ...w, en: loc.en, en_from: loc.en_from };
+                }
+                if (loc && loc.vi === 'Ăn nên làm ra' && w.vi === 'Ăn nên làm') {
+                  return loc;
+                }
+                return w;
               });
-              if (cleanOnline.length > 0) {
-                const localMap = new Map((fetchedItems || []).map(w => [w.id, w]));
-                fetchedItems = cleanOnline.map(w => {
-                  const loc = localMap.get(w.id);
-                  if (loc && loc.vi && loc.en && loc.en_from === 'doc' && w.en_from !== 'doc') {
-                    return { ...w, en: loc.en, en_from: loc.en_from };
-                  }
-                  if (loc && loc.vi === 'Ăn nên làm ra' && w.vi === 'Ăn nên làm') {
-                    return loc;
-                  }
-                  return w;
-                });
-              }
+              saveWords(words);
+              syncTodayPlan();
+              render(true);
             }
           }
-        } catch (e) {}
-
-        if (fetchedItems && fetchedItems.length > 0) {
-          words = fetchedItems;
-          saveWords(words);
-          syncTodayPlan();
-          render(true);
-        }
-      } catch (err) {
-        // Use saved copy from localStorage on fetch failure
-      }
+        })
+        .catch(() => {});
     }
 
     init();
