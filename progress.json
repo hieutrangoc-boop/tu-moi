@@ -636,16 +636,16 @@
       "last_review": "2026-11-04T04:50:35.329Z"
     },
     "f083abc5b2a1": {
-      "due": "2026-11-04T03:53:16.285Z",
-      "stability": 3.63963182,
-      "difficulty": 6.40211507,
-      "elapsed_days": 9,
-      "scheduled_days": 5,
-      "reps": 2,
+      "due": "2026-11-22T04:00:19.762Z",
+      "stability": 15.74517739,
+      "difficulty": 6.39094132,
+      "elapsed_days": 8,
+      "scheduled_days": 15,
+      "reps": 3,
       "lapses": 0,
       "learning_steps": 0,
       "state": 2,
-      "last_review": "2026-10-30T03:53:16.285Z"
+      "last_review": "2026-11-07T04:00:19.762Z"
     },
     "de12cc1a0673": {
       "due": "2026-11-07T04:50:49.389Z",
@@ -1398,15 +1398,16 @@
       "state": 0
     },
     "1229fe5efe47": {
-      "due": "2026-11-04T22:50:27.938Z",
-      "stability": 0,
-      "difficulty": 0,
+      "due": "2026-11-08T04:00:34.550Z",
+      "stability": 0.212,
+      "difficulty": 6.4133,
       "elapsed_days": 0,
-      "scheduled_days": 0,
-      "reps": 0,
+      "scheduled_days": 1,
+      "reps": 1,
       "lapses": 0,
       "learning_steps": 0,
-      "state": 0
+      "state": 2,
+      "last_review": "2026-11-07T04:00:34.550Z"
     },
     "012c260013fe": {
       "due": "2026-11-04T22:50:27.938Z",
@@ -1420,15 +1421,16 @@
       "state": 0
     },
     "0bde441bc265": {
-      "due": "2026-11-04T22:50:27.938Z",
-      "stability": 0,
-      "difficulty": 0,
+      "due": "2026-11-10T04:00:28.116Z",
+      "stability": 2.3065,
+      "difficulty": 2.11810397,
       "elapsed_days": 0,
-      "scheduled_days": 0,
-      "reps": 0,
+      "scheduled_days": 3,
+      "reps": 1,
       "lapses": 0,
       "learning_steps": 0,
-      "state": 0
+      "state": 2,
+      "last_review": "2026-11-07T04:00:28.116Z"
     },
     "07a208e0d58c": {
       "due": "2026-11-06T07:43:58.359Z",
@@ -1541,26 +1543,28 @@
       "state": 0
     },
     "bdaf87f86ad1": {
-      "due": "2026-11-07T01:35:59.504Z",
-      "stability": 0,
-      "difficulty": 0,
+      "due": "2026-11-08T04:00:23.798Z",
+      "stability": 0.212,
+      "difficulty": 6.4133,
       "elapsed_days": 0,
-      "scheduled_days": 0,
-      "reps": 0,
+      "scheduled_days": 1,
+      "reps": 1,
       "lapses": 0,
       "learning_steps": 0,
-      "state": 0
+      "state": 2,
+      "last_review": "2026-11-07T04:00:23.798Z"
     },
     "89a6fb3ac801": {
-      "due": "2026-11-07T01:35:59.504Z",
-      "stability": 0,
-      "difficulty": 0,
+      "due": "2026-11-08T04:00:40.099Z",
+      "stability": 0.212,
+      "difficulty": 6.4133,
       "elapsed_days": 0,
-      "scheduled_days": 0,
-      "reps": 0,
+      "scheduled_days": 1,
+      "reps": 1,
       "lapses": 0,
       "learning_steps": 0,
-      "state": 0
+      "state": 2,
+      "last_review": "2026-11-07T04:00:40.099Z"
     },
     "67027fa6e0e0": {
       "due": "2026-11-07T01:35:59.504Z",
@@ -1660,7 +1664,7 @@
     "2026-11-01": 10,
     "2026-11-04": 88,
     "2026-11-05": 20,
-    "2026-11-07": 1
+    "2026-11-07": 3
   },
   "newDays": {
     "2026-10-18": 10,
@@ -1679,15 +1683,12 @@
   "today": {
     "date": "2026-11-07",
     "queue": [
-      "f083abc5b2a1",
-      "bdaf87f86ad1",
-      "0bde441bc265",
-      "1229fe5efe47",
-      "89a6fb3ac801",
-      "a81ee0610c6f",
       "48f8f66c7b4f",
       "67027fa6e0e0",
+      "bdaf87f86ad1",
       "0ed1bcb7c71c",
+      "1229fe5efe47",
+      "89a6fb3ac801",
       "3295b8041b7c",
       "57b9abbbc3aa",
       "36d56993893a",
@@ -1700,7 +1701,6 @@
       "449db2e88c45",
       "7a9acad9ecf6",
       "ad109e2b55b2",
-      "9d8d01ad280b",
       "f0bba95cd572",
       "e40d5fbde68f",
       "33c00676a449",
@@ -1776,7 +1776,6 @@
       "5fa5e93bf6ab",
       "ce71d4b83be8",
       "b9ecaac47ecc",
-      "34a8482f10e7",
       "07a208e0d58c",
       "0e604887a771",
       "4a61e70bd27b",
@@ -1792,13 +1791,25 @@
       "db0d43b09436"
     ],
     "firstGrade": {
-      "812122e92526": "good"
+      "812122e92526": "good",
+      "f083abc5b2a1": "good",
+      "bdaf87f86ad1": "again",
+      "0bde441bc265": "good",
+      "1229fe5efe47": "again",
+      "89a6fb3ac801": "again"
     },
     "done": [
-      "812122e92526"
+      "812122e92526",
+      "f083abc5b2a1",
+      "0bde441bc265"
     ],
     "studied": {
-      "812122e92526": true
+      "812122e92526": true,
+      "f083abc5b2a1": true,
+      "bdaf87f86ad1": true,
+      "0bde441bc265": true,
+      "1229fe5efe47": true,
+      "89a6fb3ac801": true
     }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "name": "Từ Mới — Học từ vựng FSRS",
+  "short_name": "Từ Mới",
+  "description": "Flashcard học từ vựng tiếng Việt kết hợp thuật toán FSRS và mỹ thuật Việt Nam",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b1714",
+  "theme_color": "#5e7f60",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
