@@ -1,0 +1,3315 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Từ mới</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f6f1e9;
+      --surface: #fffdf9;
+      --sunk: #fbf7f1;
+      --fg: #2b2622;
+      --muted: #6e655c;
+      --line: #efe7dc;
+      --line-strong: #e2d7c8;
+      --accent: #a04a25;
+      --accent-soft: #f4e6da;
+      --sage: #5e7f60;
+      --sage-soft: #e8f0e6;
+      --sage-ink: #3e5a40;
+      --flame: #c8562a;
+      --shadow: 0 1px 2px rgba(60,40,20,.06), 0 8px 24px rgba(60,40,20,.05);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1b1714;
+        --surface: #24201c;
+        --sunk: #1f1b18;
+        --fg: #efe8df;
+        --muted: #b3a89b;
+        --line: #352f29;
+        --line-strong: #463e36;
+        --accent: #e59a72;
+        --accent-soft: #3a2a20;
+        --sage: #9dc09f;
+        --sage-soft: #233026;
+        --sage-ink: #bfd8c0;
+        --flame: #ef8a5a;
+        --shadow: 0 1px 2px rgba(0,0,0,.3);
+      }
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 15px;
+      line-height: 1.45;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+
+    button, input {
+      font: inherit;
+      color: inherit;
+    }
+
+    button:focus-visible,
+    input:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 620px;
+      background: var(--surface);
+      border-radius: 20px;
+      box-shadow: var(--shadow);
+      padding: 22px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: box-shadow 0.4s ease;
+    }
+
+    @media (min-width: 720px) {
+      .card {
+        padding: 26px 28px;
+      }
+    }
+
+    .card.round-glow {
+      box-shadow: var(--shadow), 0 0 0 3px var(--sage-soft);
+    }
+
+    .header-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 12px;
+      align-items: center;
+    }
+
+    .title {
+      margin: 0;
+      font-family: 'Fraunces', serif;
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+
+    .streak-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--flame);
+      font-variant-numeric: tabular-nums;
+      transform-origin: center;
+    }
+
+    .streak-badge.pending-today {
+      color: var(--muted);
+      opacity: 0.6;
+    }
+
+    .streak-badge.pop {
+      animation: streak-pop 0.5s cubic-bezier(.3,1.6,.5,1);
+    }
+
+    .streak-badge svg {
+      width: 16px;
+      height: 16px;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+
+    .cards-left {
+      margin-left: auto;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .empty-words {
+      color: var(--muted);
+    }
+
+    .card-panel {
+      width: 100%;
+      min-height: 92px;
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: var(--sunk);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 6px;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+
+    .card-panel.revealed {
+      background: var(--accent-soft);
+      border-color: transparent;
+      transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .card-panel.revealed.panel-reward-full {
+      background: var(--sage-soft);
+      border: 1px solid var(--sage);
+      animation: tmPanelPulseFull 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .card-panel.revealed.panel-reward-partial {
+      border: 1px solid var(--accent);
+      animation: tmPanelPulsePartial 400ms cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    @keyframes tmPanelPulseFull {
+      0% {
+        box-shadow: 0 0 0 0 transparent;
+      }
+      40% {
+        box-shadow: 0 0 0 5px var(--sage-soft);
+      }
+      100% {
+        box-shadow: 0 0 0 0 transparent;
+      }
+    }
+
+    @keyframes tmPanelPulsePartial {
+      0% {
+        box-shadow: 0 0 0 0 transparent;
+      }
+      40% {
+        box-shadow: 0 0 0 3px var(--accent-soft);
+      }
+      100% {
+        box-shadow: 0 0 0 0 transparent;
+      }
+    }
+
+    .prompt-main {
+      font-family: 'Fraunces', serif;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+
+    .prompt-sub {
+      font-size: 17px;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
+    }
+
+    .prompt-revealed-row {
+      display: inline-flex;
+      align-items: baseline;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 6px 10px;
+      max-width: 100%;
+    }
+
+    .prompt-en-beside {
+      font-family: 'Instrument Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--muted);
+    }
+
+    .typed-echo {
+      font-size: 15px;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .typed-echo.match-full {
+      color: var(--sage-ink);
+      font-weight: 500;
+    }
+
+    .typed-echo.match-partial {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    .typed-echo.match-none {
+      color: var(--muted);
+      opacity: 0.75;
+      text-decoration: line-through;
+      text-decoration-color: var(--line-strong);
+    }
+
+    .typed-echo.skipped {
+      color: var(--muted);
+      font-style: italic;
+      opacity: 0.8;
+      text-decoration: none;
+    }
+
+    .accuracy-mark {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      font-style: normal;
+      user-select: none;
+      flex-shrink: 0;
+    }
+
+    .accuracy-mark.check {
+      width: 17px;
+      height: 17px;
+      border-radius: 50%;
+      background: var(--sage);
+      color: var(--surface);
+      font-size: 11px;
+      font-weight: 700;
+      animation: tmPopCheck 380ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    .accuracy-mark.partial {
+      padding: 0 4px;
+      height: 17px;
+      border-radius: 4px;
+      background: var(--line-strong);
+      color: var(--fg);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    @keyframes tmPopCheck {
+      0% {
+        transform: scale(0.4);
+        opacity: 0;
+      }
+      70% {
+        transform: scale(1.18);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .answer-row {
+      display: flex;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .answer-input {
+      flex: 1;
+      width: 100%;
+      min-width: 0;
+      padding: 11px 14px;
+      font-size: 16px; /* Prevents iOS Safari zoom-on-focus */
+      border-radius: 12px;
+      border: 1px solid var(--line-strong);
+      background: var(--sunk);
+      color: var(--fg);
+    }
+
+    .primary-btn {
+      padding: 11px 18px;
+      border-radius: 12px;
+      background: var(--fg);
+      color: var(--surface);
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    }
+
+    .primary-btn.is-skip {
+      background: var(--line);
+      color: var(--muted);
+      border: 1px solid var(--line-strong);
+      font-weight: 500;
+    }
+
+    .primary-btn.is-skip:hover {
+      background: var(--line-strong);
+      color: var(--fg);
+    }
+
+    .primary-btn.full {
+      width: 100%;
+    }
+
+    .grade-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      width: 100%;
+    }
+
+    .grade-btn {
+      padding: 10px;
+      border-radius: 12px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      background: transparent;
+      cursor: pointer;
+      text-align: center;
+      transition: all 0.12s ease;
+    }
+
+    .grade-btn.is-active,
+    .grade-btn:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 2px;
+      box-shadow: 0 0 0 2px var(--bg, #fff), 0 4px 12px rgba(0,0,0,0.08);
+      transform: translateY(-1px);
+    }
+
+    .grade-hint {
+      font-family: var(--font-mono, monospace);
+      font-size: 0.75em;
+      opacity: 0.5;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .grade-again {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+    .grade-again:hover {
+      background: var(--accent-soft);
+    }
+
+    .grade-hard {
+      color: var(--muted);
+      border-color: var(--line-strong);
+    }
+    .grade-hard:hover {
+      background: var(--sunk);
+    }
+
+    .grade-good {
+      color: var(--sage-ink);
+      border-color: var(--sage);
+    }
+    .grade-good:hover {
+      background: var(--sage-soft);
+    }
+
+    .context-trigger-row {
+      margin-top: 8px;
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+    }
+
+    .context-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.12s ease;
+    }
+    .context-btn:hover {
+      color: var(--fg);
+      border-color: var(--line-strong);
+      background: var(--sunk);
+    }
+    .context-btn.is-open {
+      color: var(--accent);
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .context-hint {
+      display: inline-block;
+      font-family: var(--font-mono, monospace);
+      font-size: 11px;
+      padding: 1px 5px;
+      border-radius: 4px;
+      background: var(--sunk);
+      border: 1px solid var(--line);
+      color: var(--muted);
+      line-height: 1.2;
+    }
+    .context-btn.is-open .context-hint {
+      background: transparent;
+      border-color: currentColor;
+      color: inherit;
+    }
+
+    .context-box {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      animation: contextFadeIn 0.15s ease-out;
+    }
+
+    @keyframes contextFadeIn {
+      from { opacity: 0; transform: translateY(-2px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .example-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .example-vi {
+      font-size: 14.5px;
+      line-height: 1.4;
+      color: var(--fg);
+    }
+    .example-vi b,
+    .example-vi strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .example-en {
+      font-size: 13px;
+      line-height: 1.35;
+      color: var(--muted);
+    }
+
+    .context-loading,
+    .context-error {
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+      padding: 6px 0;
+    }
+    .context-error {
+      color: var(--accent);
+    }
+
+    .roots-box {
+      width: 100%;
+      margin-top: 10px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      animation: contextFadeIn 0.15s ease-out;
+    }
+
+    .roots-section {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .roots-section-title {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+    }
+
+    .roots-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .root-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 3px 9px;
+      border-radius: 6px;
+      background: var(--sunk);
+      border: 1px solid var(--line);
+      font-size: 13px;
+    }
+
+    .root-pill-vi {
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .root-pill-sep {
+      color: var(--line-strong);
+      font-size: 11px;
+    }
+
+    .root-pill-meaning {
+      color: var(--fg);
+    }
+
+    .roots-bridge {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: var(--accent-soft);
+      border-left: 3px solid var(--accent);
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--fg);
+      font-style: italic;
+    }
+
+    .roots-bridge-icon {
+      font-style: normal;
+      font-size: 13px;
+      flex-shrink: 0;
+      line-height: 1.45;
+    }
+
+    .roots-bridge-text {
+      flex: 1;
+    }
+
+    .compounds-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .compound-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: var(--sunk);
+      border: 1px solid var(--line);
+    }
+
+    .compound-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .compound-vi-line {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .compound-vi {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--fg);
+    }
+
+    .compound-literal {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .compound-en {
+      font-size: 12.5px;
+      color: var(--muted);
+      line-height: 1.3;
+    }
+
+    .compound-add-btn {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--fg);
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.12s ease;
+      flex-shrink: 0;
+    }
+
+    .compound-add-btn:hover:not(:disabled) {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .compound-action {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+    }
+
+    .compound-swap-btn {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--muted);
+      border-radius: 6px;
+      padding: 4px 8px;
+      font-size: 11.5px;
+      font-weight: 500;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.12s ease;
+      flex-shrink: 0;
+    }
+
+    .compound-swap-btn:hover:not(:disabled) {
+      color: var(--fg);
+      border-color: var(--line-strong);
+      background: var(--sunk);
+    }
+
+    .compound-swap-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .round-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pips {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 3px;
+    }
+
+    .pip {
+      height: 6px;
+      border-radius: 2px;
+      background: var(--line-strong);
+      transition: background-color 0.25s ease;
+    }
+
+    .pip.filled {
+      background: var(--accent);
+    }
+
+    .round-row.sage-complete .pip {
+      background: var(--sage);
+    }
+
+    .round-count {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+      transition: color 0.25s ease;
+    }
+
+    .round-row.sage-complete .round-count {
+      color: var(--sage);
+    }
+
+    .week-row {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 6px;
+    }
+
+    .day-col {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .day-stack {
+      min-height: 44px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 2px;
+      padding-bottom: 4px;
+    }
+
+    .round-block {
+      width: 100%;
+      max-width: 28px;
+      height: 7px;
+      border-radius: 2px;
+      background: var(--sage);
+    }
+
+    .round-block.drop-in {
+      animation: block-drop 0.45s cubic-bezier(.3,1.5,.5,1);
+    }
+
+    .day-letter {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--muted);
+      text-align: center;
+      padding-top: 4px;
+      border-top: 3px solid transparent;
+      line-height: 1.2;
+    }
+
+    .day-letter.in-streak {
+      border-top-color: var(--flame);
+    }
+
+    .day-letter.is-today {
+      color: var(--accent);
+    }
+
+    .reward-pot-row {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+
+    .reward-pot-text {
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background: transparent;
+      transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    button.reward-pot-text.is-unlocked,
+    .reward-pot-text.is-unlocked {
+      appearance: none;
+      -webkit-appearance: none;
+      font-family: inherit;
+      font-size: 13px;
+      line-height: 1.3;
+      color: #92580c;
+      background: rgba(245, 158, 11, 0.12);
+      border: 1px solid rgba(217, 119, 6, 0.32);
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(245, 158, 11, 0.2);
+      animation: tmRewardGlow 2.8s ease-in-out infinite alternate;
+      transition: transform 0.15s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
+      padding: 6px 14px;
+      min-height: 38px;
+    }
+
+    button.reward-pot-text.is-unlocked:hover,
+    .reward-pot-text.is-unlocked:hover {
+      background: rgba(245, 158, 11, 0.2);
+      box-shadow: 0 0 16px rgba(245, 158, 11, 0.38);
+      transform: translateY(-1px);
+    }
+
+    button.reward-pot-text.is-unlocked:active,
+    .reward-pot-text.is-unlocked:active {
+      transform: scale(0.96);
+      background: rgba(245, 158, 11, 0.28);
+    }
+
+    @keyframes tmRewardGlow {
+      0% {
+        box-shadow: 0 0 6px rgba(245, 158, 11, 0.15);
+        border-color: rgba(217, 119, 6, 0.25);
+      }
+      100% {
+        box-shadow: 0 0 16px rgba(245, 158, 11, 0.38);
+        border-color: rgba(217, 119, 6, 0.55);
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .reward-pot-text.is-unlocked {
+        color: #fcd34d;
+        background: rgba(245, 158, 11, 0.16);
+        border-color: rgba(245, 158, 11, 0.42);
+        box-shadow: 0 0 14px rgba(245, 158, 11, 0.25);
+      }
+    }
+
+    /* Vietnamese Masterpiece Modal */
+    .tm-art-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(20, 16, 12, 0.72);
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 10000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.28s ease;
+    }
+    .tm-art-backdrop.is-active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .tm-art-dialog {
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      border-radius: 16px;
+      max-width: 580px;
+      width: 100%;
+      max-height: 88vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 48px rgba(30, 20, 10, 0.35);
+      position: relative;
+      padding: 26px 24px 22px;
+      transform: translateY(14px) scale(0.98);
+      transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .tm-art-backdrop.is-active .tm-art-dialog {
+      transform: translateY(0) scale(1);
+    }
+    .tm-art-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      background: transparent;
+      border: none;
+      font-size: 24px;
+      line-height: 1;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: color 0.15s, background-color 0.15s;
+    }
+    .tm-art-close:hover {
+      color: var(--fg);
+      background: var(--line);
+    }
+    .tm-art-milestone-banner {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: var(--sage-soft);
+      border: 1px solid rgba(94, 127, 96, 0.25);
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 18px;
+    }
+    .tm-art-milestone-icon {
+      font-size: 22px;
+      line-height: 1.2;
+      flex-shrink: 0;
+    }
+    .tm-art-milestone-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--sage-ink);
+      margin-bottom: 3px;
+    }
+    .tm-art-milestone-desc {
+      font-size: 13px;
+      line-height: 1.45;
+      color: var(--fg);
+    }
+    .tm-art-frame {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--sunk);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+    .tm-art-frame img {
+      max-width: 100%;
+      max-height: 330px;
+      height: auto;
+      object-fit: contain;
+      border-radius: 6px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .tm-art-metadata {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .tm-art-field {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .tm-art-field-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .tm-art-field-value {
+      color: var(--fg);
+    }
+    .tm-art-title-val {
+      font-family: 'Fraunces', serif;
+      font-size: 17px;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .tm-art-title-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .tm-art-title-sub {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .tm-art-milestone-sub {
+      font-size: 12px;
+      line-height: 1.4;
+      color: var(--sage-ink);
+      opacity: 0.9;
+      margin-top: 5px;
+      font-style: italic;
+    }
+    .tm-art-bio-box {
+      background: var(--sunk);
+      border-left: 3px solid var(--accent);
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      margin-top: 4px;
+    }
+    .tm-art-bio-vi {
+      font-size: 13.5px;
+      line-height: 1.55;
+      color: var(--fg);
+    }
+    .tm-art-bio-divider {
+      height: 1px;
+      background: var(--line-strong);
+      margin: 10px 0;
+      opacity: 0.7;
+    }
+    .tm-art-bio-en {
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .tm-art-actions {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .tm-art-nav {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .tm-art-nav-btn {
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 500;
+      border-radius: 6px;
+      border: 1px solid var(--line-strong);
+      background: var(--surface);
+      color: var(--fg);
+      cursor: pointer;
+      transition: all 0.12s ease;
+    }
+    .tm-art-nav-btn:hover:not(:disabled) {
+      background: var(--sunk);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .tm-art-nav-btn:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+    }
+    .tm-art-nav-counter {
+      font-size: 12px;
+      font-family: var(--font-mono, monospace);
+      color: var(--muted);
+      min-width: 38px;
+      text-align: center;
+      user-select: none;
+    }
+    .tm-art-dismiss-btn {
+      margin-left: auto;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      background: var(--line);
+      border: 1px solid var(--line-strong);
+      color: var(--fg);
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.15s, border-color 0.15s;
+    }
+    .tm-art-dismiss-btn:hover {
+      background: var(--line-strong);
+    }
+
+    .reward-pot-row.pot-glow .reward-pot-text {
+      animation: tmPotPulse 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 0 0 4px var(--sage-soft);
+    }
+
+    @keyframes tmPotPulse {
+      0% {
+        transform: scale(0.96);
+        box-shadow: 0 0 0 0 transparent;
+      }
+      35% {
+        transform: scale(1.06);
+        box-shadow: 0 0 0 6px var(--sage-soft);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent;
+      }
+    }
+
+    @keyframes block-drop {
+      0% {
+        transform: translateY(-18px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes streak-pop {
+      0% {
+        transform: scale(0);
+      }
+      60% {
+        transform: scale(1.35);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .card,
+      .pip,
+      .round-count,
+      .round-block.drop-in,
+      .streak-badge.pop,
+      .card-panel.revealed.panel-reward-full,
+      .card-panel.revealed.panel-reward-partial,
+      .accuracy-mark.check,
+      .reward-pot-row.pot-glow .reward-pot-text {
+        transition: none !important;
+        animation: none !important;
+      }
+    }
+
+    /* Mobile / iPhone Touch Enhancements */
+    @media (max-width: 640px), (pointer: coarse) {
+      .grade-hint, .context-hint {
+        display: none !important;
+      }
+      .grade-btn {
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+      }
+      .context-btn {
+        padding: 8px 16px;
+        font-size: 14px;
+        min-height: 38px;
+      }
+      .primary-btn {
+        min-height: 48px;
+        font-size: 16px;
+      }
+      .compound-swap-btn, .compound-add-btn {
+        padding: 6px 12px !important;
+        min-height: 36px !important;
+        font-size: 13px !important;
+      }
+      .round-row {
+        padding: 4px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card" id="card-root"></main>
+
+  <div id="tm-art-backdrop" class="tm-art-backdrop" onclick="window.closeArtRewardModal(event)">
+    <div class="tm-art-dialog" onclick="event.stopPropagation()">
+      <button type="button" class="tm-art-close" onclick="window.closeArtRewardModal()" aria-label="Đóng">&times;</button>
+      <div class="tm-art-milestone-banner">
+        <span class="tm-art-milestone-icon">🏆</span>
+        <div>
+          <div class="tm-art-milestone-title">MILESTONE REACHED · CỘT MỐC ĐẠT ĐƯỢC</div>
+          <div id="tm-art-milestone-vi" class="tm-art-milestone-desc"></div>
+          <div id="tm-art-milestone-en" class="tm-art-milestone-sub"></div>
+        </div>
+      </div>
+      <div class="tm-art-frame">
+        <img id="tm-art-img" src="" alt="Vietnamese Masterpiece" />
+      </div>
+      <div class="tm-art-metadata">
+        <div class="tm-art-field">
+          <div class="tm-art-field-label">🖼️ ARTPIECE · TÁC PHẨM</div>
+          <div class="tm-art-title-wrap">
+            <span id="tm-art-title-vi" class="tm-art-title-val"></span>
+            <span id="tm-art-title-en" class="tm-art-title-sub"></span>
+          </div>
+        </div>
+        <div class="tm-art-field">
+          <div class="tm-art-field-label">🧑‍🎨 ARTIST · HỌA SĨ</div>
+          <div id="tm-art-artist" class="tm-art-field-value" style="font-weight: 600;"></div>
+        </div>
+        <div class="tm-art-field">
+          <div class="tm-art-field-label">📅 YEAR &amp; MEDIUM · NĂM SÁNG TÁC &amp; CHẤT LIỆU</div>
+          <div id="tm-art-year" class="tm-art-field-value"></div>
+        </div>
+        <div class="tm-art-field">
+          <div class="tm-art-field-label">📜 ARTIST BIOGRAPHY · TIỂU SỬ DANH HỌA</div>
+          <div class="tm-art-bio-box">
+            <div id="tm-art-bio-vi" class="tm-art-bio-vi"></div>
+            <div class="tm-art-bio-divider"></div>
+            <div id="tm-art-bio-en" class="tm-art-bio-en"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-art-actions">
+        <div class="tm-art-nav" id="tm-art-nav" style="display: none;">
+          <button type="button" class="tm-art-nav-btn" id="tm-art-prev" onclick="window.navigateArtReward(-1)" aria-label="Tác phẩm trước">‹ Trước</button>
+          <span class="tm-art-nav-counter" id="tm-art-counter">1 / 1</span>
+          <button type="button" class="tm-art-nav-btn" id="tm-art-next" onclick="window.navigateArtReward(1)" aria-label="Tác phẩm sau">Sau ›</button>
+        </div>
+        <button type="button" class="tm-art-dismiss-btn" onclick="window.closeArtRewardModal()">Đóng · Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module">
+    import { fsrs, createEmptyCard, Rating } from 'https://cdn.jsdelivr.net/npm/ts-fsrs@5.4.2/+esm';
+
+    const WORDS_URL = 'https://script.google.com/macros/s/AKfycbyp03Bjj-F8XoP3Oh776Ha8bjP9OGQ2J5CBXFUOB2nTc5V2acCVzuiD3g0W-nvkdCY/exec';
+    const STORAGE_WORDS_KEY = 'tuMoi.words';
+    const STORAGE_PROGRESS_KEY = 'tuMoi.progress';
+    const NEW_PER_DAY = 10;
+
+    const scheduler = fsrs({
+      request_retention: 0.9,
+      enable_fuzz: true,
+      enable_short_term: false
+    });
+
+    let words = [];
+    let wordMap = new Map();
+    let progress = {
+      cards: {},
+      days: {},
+      newDays: {},
+      today: null
+    };
+
+    let revealed = false;
+    let typedValue = '';
+    let lastAccuracy = null;
+    let selectedGradeIndex = 2; // 0: again, 1: hard, 2: good
+    let roundCelebrate = false;
+    let celebrateTimer = null;
+    let animateNewBlock = false;
+    let animateStreakPop = false;
+    let rewardCelebrate = false;
+    let rewardCelebrateTimer = null;
+    let audioCtx = null;
+    let contextVisible = false;
+    let contextLoading = false;
+    let contextError = null;
+    let examplesCache = {};
+    const EXAMPLES_STORAGE_KEY = 'tu_moi_examples_v1';
+    let rootsVisible = false;
+    let rootsLoading = false;
+    let rootsError = null;
+    let rootsCache = {};
+    const ROOTS_STORAGE_KEY = 'tu_moi_roots_v1';
+    let knownCompounds = new Set();
+    const KNOWN_STORAGE_KEY = 'tu_moi_known_compounds_v1';
+    let activeLegoSlots = {};
+
+    let rewardsCatalog = [
+      {
+        id: "thieu-nu-ben-hoa-hue",
+        milestone: "Chúc mừng bạn đã hoàn thành 7 vòng từ vựng trong tuần! Sự kiên trì và tĩnh tại trong học tập của bạn tựa như vẻ đẹp thuần khiết ngàn năm của mỹ thuật nước nhà.",
+        title: "Thiếu nữ bên hoa huệ (Young Woman by Lilies)",
+        artist: "Tô Ngọc Vân",
+        year: "1943 · Sơn dầu (Oil on canvas)",
+        bio: "Tô Ngọc Vân (1906–1954) was one of the foundational masters of Vietnamese modern art and a celebrated graduate and subsequent director of the École des Beaux-Arts de l'Indochine. Revered as a pioneer of Vietnamese oil painting, he masterfully wedded Western post-impressionist luminescence with the contemplative grace and lyrical spirit of Vietnamese women.",
+        image: "rewards/thieu_nu_ben_hoa_hue.jpg"
+      },
+      {
+        id: "em-thuy",
+        milestone: "Vinh danh cột mốc 7 vòng từ vựng tuần này! Từng bước tiến vững chắc của bạn kết tinh lại như một tuyệt tác vẹn tròn và mộc mạc.",
+        title: "Em Thúy (Little Sister Thúy) — Bảo vật quốc gia",
+        artist: "Trần Văn Cẩn",
+        year: "1943 · Sơn dầu (Oil on canvas)",
+        bio: "Trần Văn Cẩn (1910–1994) was a foremost giant of 20th-century Vietnamese fine arts, graduating at the top of the Indochina Fine Arts College in 1936. His portrait of eight-year-old Thúy is celebrated as an apex of Vietnamese portraiture, capturing childhood innocence with profound psychological depth, delicate linear contouring, and luminous tonal restraint.",
+        image: "rewards/em_thuy.jpeg"
+      },
+      {
+        id: "choi-o-an-quan",
+        milestone: "7 vòng luyện tập kiên trì đã hoàn tất! Chúc mừng bạn đã chạm tay vào kho tàng tinh hoa văn hóa và nét đẹp mộc mạc quê hương.",
+        title: "Chơi ô ăn quan (Children Playing Mandarin Square)",
+        artist: "Nguyễn Phan Chánh",
+        year: "1931 · Mực & màu nước trên lụa (Ink and gouache on silk)",
+        bio: "Nguyễn Phan Chánh (1892–1984) single-handedly elevated Vietnamese silk painting onto the world stage at the 1931 Paris Colonial Exhibition. Renowned for his poetic earthen palette and unique 'silk washing' technique, he portrayed Vietnamese rural life, childhood games, and folk culture with timeless serenity and Eastern philosophical harmony.",
+        image: "rewards/choi_o_an_quan.jpg"
+      },
+      {
+        id: "vuon-xuan-trung-nam-bac",
+        milestone: "Tuyệt vời! Bạn đã tích lũy đủ 7 vòng bền bỉ trong tuần này—minh chứng cho sự chuyên tâm và gắn kết lâu dài.",
+        title: "Vườn xuân Trung Nam Bắc (Spring Garden of North, Central, and South) — Bảo vật quốc gia",
+        artist: "Nguyễn Gia Trí",
+        year: "1969–1989 · Sơn mài (Lacquer on wood)",
+        bio: "Nguyễn Gia Trí (1908–1993) is the undisputed master of modern Vietnamese lacquer art, who revolutionized a traditional decorative craft into a monumental fine art form. Working over two decades on this epic multi-panel masterpiece, he synthesized gold leaf, crushed eggshell, and layered resin to evoke the unity, vitality, and spiritual renewal of Vietnam's three regions.",
+        image: "rewards/vuon_xuan_trung_nam_bac.jpg"
+      }
+    ];
+
+    function localDateStr(d = new Date()) {
+      const yyyy = d.getFullYear();
+      const mm = String(d.getMonth() + 1).padStart(2, '0');
+      const dd = String(d.getDate()).padStart(2, '0');
+      return `${yyyy}-${mm}-${dd}`;
+    }
+
+    function endOfToday(d = new Date()) {
+      return new Date(d.getFullYear(), d.getMonth(), d.getDate(), 23, 59, 59, 999);
+    }
+
+    function reviveCard(raw) {
+      if (!raw || typeof raw !== 'object') return createEmptyCard(new Date());
+      const c = { ...raw };
+      c.due = c.due ? new Date(c.due) : new Date();
+      if (c.last_review) {
+        c.last_review = new Date(c.last_review);
+      }
+      return c;
+    }
+
+    function loadSavedWords() {
+      try {
+        const raw = localStorage.getItem(STORAGE_WORDS_KEY);
+        if (!raw) return [];
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) return parsed;
+        if (parsed && Array.isArray(parsed.items)) return parsed.items;
+      } catch (err) {
+        // Ignore storage errors
+      }
+      return [];
+    }
+
+    function saveWords(items) {
+      try {
+        localStorage.setItem(STORAGE_WORDS_KEY, JSON.stringify(items));
+      } catch (err) {
+        // Ignore storage errors
+      }
+    }
+
+    function loadProgress() {
+      try {
+        const raw = localStorage.getItem(STORAGE_PROGRESS_KEY);
+        if (!raw) return;
+        const parsed = JSON.parse(raw);
+        if (!parsed || typeof parsed !== 'object') return;
+
+        const cards = {};
+        if (parsed.cards && typeof parsed.cards === 'object') {
+          for (const [id, c] of Object.entries(parsed.cards)) {
+            cards[id] = reviveCard(c);
+          }
+        }
+
+        progress = {
+          cards,
+          days: parsed.days && typeof parsed.days === 'object' ? { ...parsed.days } : {},
+          newDays: parsed.newDays && typeof parsed.newDays === 'object' ? { ...parsed.newDays } : {},
+          today: parsed.today && typeof parsed.today === 'object' ? {
+            date: parsed.today.date || '',
+            queue: Array.isArray(parsed.today.queue) ? [...parsed.today.queue] : [],
+            firstGrade: parsed.today.firstGrade && typeof parsed.today.firstGrade === 'object' ? { ...parsed.today.firstGrade } : {},
+            done: Array.isArray(parsed.today.done) ? [...parsed.today.done] : [],
+            studied: parsed.today.studied && typeof parsed.today.studied === 'object' ? { ...parsed.today.studied } : {}
+          } : null
+        };
+      } catch (err) {
+        // Ignore storage errors
+      }
+    }
+
+    function pruneHistoryMap(mapObj, maxDays = 14) {
+      const keys = Object.keys(mapObj).sort((a, b) => b.localeCompare(a));
+      for (let i = maxDays; i < keys.length; i++) {
+        delete mapObj[keys[i]];
+      }
+    }
+
+    let syncTimeout = null;
+    function syncProgressToServer() {
+      if (syncTimeout) clearTimeout(syncTimeout);
+      syncTimeout = setTimeout(() => {
+        try {
+          fetch('/api/tu-moi/progress', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ progress })
+          }).catch(() => {});
+        } catch (e) {}
+      }, 400);
+    }
+
+    function saveProgress(syncServer = true) {
+      pruneHistoryMap(progress.days, 14);
+      pruneHistoryMap(progress.newDays, 14);
+      try {
+        localStorage.setItem(STORAGE_PROGRESS_KEY, JSON.stringify(progress));
+      } catch (err) {
+        // Ignore storage errors
+      }
+      if (syncServer) syncProgressToServer();
+    }
+
+    function pickNewWordsAlternatingDates(unseenList, limit, initialLastDate = null) {
+      if (limit <= 0 || unseenList.length === 0) return [];
+
+      // Group by date, newest date first
+      const byDate = new Map();
+      for (const w of unseenList) {
+        const d = w.date || '';
+        if (!byDate.has(d)) byDate.set(d, []);
+        byDate.get(d).push(w);
+      }
+
+      const sortedDates = Array.from(byDate.keys()).sort((a, b) => b.localeCompare(a));
+      const picked = [];
+      let lastDate = initialLastDate;
+
+      while (picked.length < limit) {
+        let chosenDate = null;
+        for (const d of sortedDates) {
+          const bucket = byDate.get(d);
+          if (bucket && bucket.length > 0 && d !== lastDate) {
+            chosenDate = d;
+            break;
+          }
+        }
+        if (chosenDate === null) {
+          for (const d of sortedDates) {
+            const bucket = byDate.get(d);
+            if (bucket && bucket.length > 0) {
+              chosenDate = d;
+              break;
+            }
+          }
+        }
+        if (chosenDate === null) break;
+
+        const word = byDate.get(chosenDate).shift();
+        picked.push(word);
+        lastDate = chosenDate;
+      }
+
+      return picked;
+    }
+
+    function syncTodayPlan() {
+      wordMap = new Map(words.map(w => [w.id, w]));
+      if (words.length === 0) return;
+
+      const now = new Date();
+      const todayStr = localDateStr(now);
+      const todayEndMs = endOfToday(now).getTime();
+
+      if (!progress.today || progress.today.date !== todayStr) {
+        progress.today = {
+          date: todayStr,
+          queue: [],
+          firstGrade: {},
+          done: [],
+          studied: {}
+        };
+
+        // 1. Reviews first: every word that is due, most overdue first
+        const dueReviews = words
+          .filter(w => {
+            const c = progress.cards[w.id];
+            return c && new Date(c.due).getTime() <= todayEndMs;
+          })
+          .sort((a, b) => new Date(progress.cards[a.id].due).getTime() - new Date(progress.cards[b.id].due).getTime())
+          .map(w => w.id);
+
+        // 2. New words: up to NEW_PER_DAY, newest date first, alternating dates
+        const usedNew = progress.newDays[todayStr] || 0;
+        const quota = Math.max(0, NEW_PER_DAY - usedNew);
+        const unseen = words.filter(w => !progress.cards[w.id]);
+        const newWords = pickNewWordsAlternatingDates(unseen, quota, null);
+        const newIds = [];
+
+        for (const w of newWords) {
+          progress.cards[w.id] = createEmptyCard(now);
+          progress.newDays[todayStr] = (progress.newDays[todayStr] || 0) + 1;
+          newIds.push(w.id);
+        }
+
+        // 3. Mix ~1 new word after every 2 reviews while both are available
+        const mixed = [];
+        let r = 0;
+        let n = 0;
+        while (r < dueReviews.length && n < newIds.length) {
+          mixed.push(dueReviews[r++]);
+          if (r < dueReviews.length) {
+            mixed.push(dueReviews[r++]);
+          }
+          mixed.push(newIds[n++]);
+        }
+        while (r < dueReviews.length) mixed.push(dueReviews[r++]);
+        while (n < newIds.length) mixed.push(newIds[n++]);
+
+        progress.today.queue = mixed;
+        saveProgress();
+      } else {
+        // Same day: filter valid IDs and top up new words if new words arrived in doc
+        const doneSet = new Set(progress.today.done);
+        progress.today.queue = progress.today.queue.filter(id => wordMap.has(id) && !doneSet.has(id));
+
+        const usedNew = progress.newDays[todayStr] || 0;
+        const quota = Math.max(0, NEW_PER_DAY - usedNew);
+        if (quota > 0) {
+          const inQueue = new Set(progress.today.queue);
+          const unseen = words.filter(w => !progress.cards[w.id] && !inQueue.has(w.id) && !doneSet.has(w.id));
+          if (unseen.length > 0) {
+            const lastId = progress.today.queue[progress.today.queue.length - 1];
+            const lastDate = lastId && wordMap.has(lastId) ? wordMap.get(lastId).date : null;
+            const added = pickNewWordsAlternatingDates(unseen, quota, lastDate);
+            for (const w of added) {
+              progress.cards[w.id] = createEmptyCard(now);
+              progress.newDays[todayStr] = (progress.newDays[todayStr] || 0) + 1;
+              progress.today.queue.push(w.id);
+            }
+            saveProgress();
+          }
+        }
+      }
+    }
+
+    function isStudyCard(id) {
+      return false;
+    }
+
+    function getWeekInfo() {
+      const now = new Date();
+      const todayIdx = (now.getDay() + 6) % 7; // Monday = 0 .. Sunday = 6
+      const monday = new Date(now.getFullYear(), now.getMonth(), now.getDate() - todayIdx);
+      const dayNames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+      const dayLetters = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
+
+      const cols = [];
+      for (let i = 0; i < 7; i++) {
+        const d = new Date(monday.getFullYear(), monday.getMonth(), monday.getDate() + i);
+        const dateStr = localDateStr(d);
+        const count = progress.days[dateStr] || 0;
+        const rounds = Math.floor(count / 10);
+        cols.push({
+          index: i,
+          dateStr,
+          name: dayNames[i],
+          letter: dayLetters[i],
+          rounds,
+          isToday: i === todayIdx
+        });
+      }
+
+      const todayHasRound = cols[todayIdx].rounds >= 1;
+      const endIdx = todayHasRound ? todayIdx : todayIdx - 1;
+      const streakSet = new Set();
+      let streak = 0;
+
+      if (endIdx >= 0 && cols[endIdx].rounds >= 1) {
+        for (let j = endIdx; j >= 0; j--) {
+          if (cols[j].rounds >= 1) {
+            streakSet.add(j);
+            streak++;
+          } else {
+            break;
+          }
+        }
+      }
+
+      const fullWeek = cols.every(c => c.rounds >= 1);
+      return { cols, streak, streakSet, todayHasRound, fullWeek };
+    }
+
+    function getAudioCtx() {
+      try {
+        if (!audioCtx) {
+          const Ctx = window.AudioContext || window.webkitAudioContext;
+          if (!Ctx) return null;
+          audioCtx = new Ctx();
+        }
+        if (audioCtx.state === 'suspended') {
+          audioCtx.resume().catch(() => {});
+        }
+        return audioCtx;
+      } catch (err) {
+        return null;
+      }
+    }
+
+    function bell(freq, at, dur, vol, type = 'sine') {
+      try {
+        const ctx = getAudioCtx();
+        if (!ctx) return;
+        const t0 = ctx.currentTime + at;
+        const partials = [
+          [1, vol],
+          [2, vol * 0.18],
+          [3, vol * 0.06]
+        ];
+        for (const [mult, level] of partials) {
+          const osc = ctx.createOscillator();
+          const gain = ctx.createGain();
+          osc.type = type;
+          osc.frequency.setValueAtTime(freq * mult, t0);
+          gain.gain.setValueAtTime(0.0001, t0);
+          gain.gain.linearRampToValueAtTime(Math.max(0.0002, level), t0 + 0.012);
+          gain.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+          osc.connect(gain);
+          gain.connect(ctx.destination);
+          osc.start(t0);
+          osc.stop(t0 + dur + 0.02);
+        }
+      } catch (err) {
+        // Ignore audio errors
+      }
+    }
+
+    function unlockAudioOnFirstTouch() {
+      const unlock = () => {
+        const ctx = getAudioCtx();
+        if (ctx && ctx.state === 'suspended') {
+          ctx.resume().catch(() => {});
+        }
+        window.removeEventListener('touchstart', unlock, true);
+        window.removeEventListener('pointerdown', unlock, true);
+        window.removeEventListener('click', unlock, true);
+      };
+      window.addEventListener('touchstart', unlock, { capture: true, passive: true });
+      window.addEventListener('pointerdown', unlock, { capture: true, passive: true });
+      window.addEventListener('click', unlock, { capture: true, passive: true });
+    }
+    unlockAudioOnFirstTouch();
+
+    function playFinishSound(countToday, fullWeek) {
+      const rem = countToday % 10;
+      if (rem !== 0) {
+        // Silenced: do not make a sound when transitioning to a new word
+        return;
+      }
+
+      // Rich harmonic celebratory chime on every 10-word round completion!
+      const notes = [
+        [523.25, 0],       // C5
+        [659.25, 0.12],    // E5
+        [783.99, 0.24],    // G5
+        [1046.5, 0.38],    // C6
+        [1318.5, 0.54]     // E6
+      ];
+      for (const [f, start] of notes) {
+        bell(f, start, 2.0, 0.16, 'triangle');
+      }
+      for (const chordFreq of [261.63, 329.63, 392]) {
+        bell(chordFreq, 0.65, 2.4, 0.10);
+      }
+    }
+
+    function playRewardPotChime() {
+      const notes = [
+        [523.25, 0],       // C5
+        [659.25, 0.12],    // E5
+        [783.99, 0.24],    // G5
+        [1046.5, 0.38]     // C6
+      ];
+      for (const [f, start] of notes) {
+        bell(f, start, 2.0, 0.16, 'triangle');
+      }
+    }
+
+    function getRewardPotInfo(week) {
+      const totalWeeklyRounds = week.cols.reduce((sum, col) => sum + col.rounds, 0);
+      const rewardsEarned = Math.floor(totalWeeklyRounds / 7);
+      const nextTarget = (rewardsEarned + 1) * 7;
+      let text = '';
+      if (rewardsEarned === 0) {
+        text = `${totalWeeklyRounds} / 7 rounds this week`;
+      } else if (rewardsEarned === 1) {
+        if (totalWeeklyRounds === 7) {
+          text = `1 reward unlocked! (7 / 7 rounds)`;
+        } else {
+          text = `1 reward unlocked · ${totalWeeklyRounds} / 14 rounds`;
+        }
+      } else {
+        if (totalWeeklyRounds % 7 === 0) {
+          text = `${rewardsEarned} rewards unlocked! (${totalWeeklyRounds} / ${totalWeeklyRounds} rounds)`;
+        } else {
+          text = `${rewardsEarned} rewards unlocked · ${totalWeeklyRounds} / ${nextTarget} rounds`;
+        }
+      }
+      return {
+        totalWeeklyRounds,
+        rewardsEarned,
+        nextTarget,
+        text
+      };
+    }
+
+    function getMondayDateStr(dateObj) {
+      const d = dateObj || new Date();
+      const todayIdx = (d.getDay() + 6) % 7; // Monday = 0
+      const monday = new Date(d.getFullYear(), d.getMonth(), d.getDate() - todayIdx);
+      return localDateStr(monday);
+    }
+
+    let currentArtIndex = 0;
+    let unlockedWeeklyArtworks = [];
+
+    function getWeeklyMasterpieces(mondayStr) {
+      if (!progress.weeklyArt) progress.weeklyArt = {};
+      const key = mondayStr || getMondayDateStr();
+      let assigned = progress.weeklyArt[key];
+
+      // Backward-compatibility: normalize string to array
+      if (typeof assigned === 'string') {
+        assigned = [assigned];
+        progress.weeklyArt[key] = assigned;
+      } else if (!Array.isArray(assigned)) {
+        assigned = [];
+        progress.weeklyArt[key] = assigned;
+      }
+
+      const week = getWeekInfo();
+      const rewardPot = getRewardPotInfo(week);
+      const neededCount = Math.max(1, rewardPot.rewardsEarned);
+
+      // Collect all artworks used across other weeks so far
+      const otherWeeksUsed = [];
+      for (const [k, v] of Object.entries(progress.weeklyArt)) {
+        if (k !== key) {
+          if (Array.isArray(v)) otherWeeksUsed.push(...v);
+          else if (typeof v === 'string') otherWeeksUsed.push(v);
+        }
+      }
+
+      let mutated = false;
+      while (assigned.length < neededCount) {
+        // Pool candidate paintings not yet in this week's assigned list
+        let pool = rewardsCatalog.filter(a => !assigned.includes(a.id));
+        // Prefer candidate paintings not recently used in other weeks either
+        const freshPool = pool.filter(a => !otherWeeksUsed.includes(a.id));
+        if (freshPool.length > 0) pool = freshPool;
+        if (pool.length === 0) pool = rewardsCatalog;
+
+        const picked = pool[Math.floor(Math.random() * pool.length)] || rewardsCatalog[0];
+        assigned.push(picked.id);
+        mutated = true;
+      }
+
+      if (mutated) saveProgress();
+
+      // Resolve IDs to catalog objects
+      const resolved = assigned.map(id => rewardsCatalog.find(a => a.id === id)).filter(Boolean);
+      return resolved.length > 0 ? resolved : [rewardsCatalog[0]];
+    }
+
+    function renderArtRewardContent(index) {
+      if (!unlockedWeeklyArtworks || unlockedWeeklyArtworks.length === 0) return;
+      currentArtIndex = Math.max(0, Math.min(index, unlockedWeeklyArtworks.length - 1));
+      const art = unlockedWeeklyArtworks[currentArtIndex];
+      const isStandalone = window.location.pathname.includes('/tu-moi');
+      const imgSrc = (isStandalone ? '' : 'tu-moi/') + art.image;
+
+      const milestoneViEl = document.getElementById('tm-art-milestone-vi');
+      const milestoneEnEl = document.getElementById('tm-art-milestone-en');
+      const imgEl = document.getElementById('tm-art-img');
+      const titleViEl = document.getElementById('tm-art-title-vi');
+      const titleEnEl = document.getElementById('tm-art-title-en');
+      const artistEl = document.getElementById('tm-art-artist');
+      const yearEl = document.getElementById('tm-art-year');
+      const bioViEl = document.getElementById('tm-art-bio-vi');
+      const bioEnEl = document.getElementById('tm-art-bio-en');
+
+      if (milestoneViEl) milestoneViEl.textContent = art.milestone_vi || art.milestone || '';
+      if (milestoneEnEl) milestoneEnEl.textContent = art.milestone_en || '';
+      if (imgEl) {
+        imgEl.src = imgSrc;
+        imgEl.alt = (art.title_vi || art.title) + (art.title_en ? ` (${art.title_en})` : '');
+      }
+      if (titleViEl) titleViEl.textContent = art.title_vi || art.title || '';
+      if (titleEnEl) titleEnEl.textContent = art.title_en ? `(${art.title_en})` : '';
+      if (artistEl) artistEl.textContent = art.artist;
+      if (yearEl) yearEl.textContent = art.year;
+      if (bioViEl) bioViEl.textContent = art.bio_vi || art.bio || '';
+      if (bioEnEl) bioEnEl.textContent = art.bio_en || '';
+
+      // Update multi-reward navigation bar if > 1 artwork
+      const navEl = document.getElementById('tm-art-nav');
+      const counterEl = document.getElementById('tm-art-counter');
+      const prevBtn = document.getElementById('tm-art-prev');
+      const nextBtn = document.getElementById('tm-art-next');
+      const milestoneBadgeTitle = document.querySelector('.tm-art-milestone-title');
+
+      if (unlockedWeeklyArtworks.length > 1) {
+        if (navEl) navEl.style.display = 'inline-flex';
+        if (counterEl) counterEl.textContent = `${currentArtIndex + 1} / ${unlockedWeeklyArtworks.length}`;
+        if (prevBtn) prevBtn.disabled = currentArtIndex <= 0;
+        if (nextBtn) nextBtn.disabled = currentArtIndex >= unlockedWeeklyArtworks.length - 1;
+        if (milestoneBadgeTitle) {
+          milestoneBadgeTitle.textContent = `MILESTONE REACHED · CỘT MỐC ĐẠT ĐƯỢC (${currentArtIndex + 1}/${unlockedWeeklyArtworks.length})`;
+        }
+      } else {
+        if (navEl) navEl.style.display = 'none';
+        if (milestoneBadgeTitle) {
+          milestoneBadgeTitle.textContent = 'MILESTONE REACHED · CỘT MỐC ĐẠT ĐƯỢC';
+        }
+      }
+    }
+
+    function navigateArtReward(delta) {
+      if (!unlockedWeeklyArtworks || unlockedWeeklyArtworks.length <= 1) return;
+      renderArtRewardContent(currentArtIndex + delta);
+    }
+
+    function openArtRewardModal() {
+      const week = getWeekInfo();
+      const rewardPot = getRewardPotInfo(week);
+      if (rewardPot.rewardsEarned <= 0) return;
+
+      const mondayStr = getMondayDateStr();
+      unlockedWeeklyArtworks = getWeeklyMasterpieces(mondayStr);
+      if (!unlockedWeeklyArtworks || unlockedWeeklyArtworks.length === 0) return;
+
+      const modalEl = document.getElementById('tm-art-backdrop');
+      if (!modalEl) return;
+
+      // Default to the latest unlocked artwork
+      renderArtRewardContent(unlockedWeeklyArtworks.length - 1);
+
+      modalEl.classList.add('is-active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeArtRewardModal(e) {
+      if (e && e.target && e.target.id !== 'tm-art-backdrop' && !e.target.classList.contains('tm-art-close') && !e.target.classList.contains('tm-art-dismiss-btn')) {
+        return;
+      }
+      const modalEl = document.getElementById('tm-art-backdrop');
+      if (modalEl) modalEl.classList.remove('is-active');
+      document.body.style.overflow = '';
+      const inp = document.getElementById('answer-input');
+      if (inp) inp.focus();
+    }
+
+    window.openArtRewardModal = openArtRewardModal;
+    window.closeArtRewardModal = closeArtRewardModal;
+    window.navigateArtReward = navigateArtReward;
+
+    function stripDiacritics(str) {
+      return String(str || '')
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[đĐ]/g, m => m === 'Đ' ? 'D' : 'd')
+        .trim()
+        .toLowerCase();
+    }
+
+    function cleanVietnameseWord(str) {
+      return String(str || '')
+        .trim()
+        .toLowerCase()
+        .replace(/[.,/#!$%^&*;:{}=\-_`~()?"'<>]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+        .normalize('NFC');
+    }
+
+    function checkAccuracy(targetVi, typedVi) {
+      const normTyped = cleanVietnameseWord(typedVi);
+      if (!normTyped) return null;
+      const strippedTyped = stripDiacritics(normTyped);
+
+      const targetCleanNoParens = String(targetVi || '').replace(/\([^)]*\)/g, ' ');
+      const rawAlternatives = [targetVi, targetCleanNoParens, ...targetCleanNoParens.split(/[=/;,]/)];
+      const alternatives = rawAlternatives
+        .map(alt => cleanVietnameseWord(alt))
+        .filter(alt => alt.length > 0);
+
+      // 1. Full match: all letters & tone marks exact
+      for (const alt of alternatives) {
+        if (alt === normTyped) {
+          return 'full';
+        }
+      }
+
+      // 2. Partial match: all base letters match without tone marks / diacritics
+      for (const alt of alternatives) {
+        if (stripDiacritics(alt) === strippedTyped) {
+          return 'partial';
+        }
+      }
+
+      return null;
+    }
+
+    function playRecallSound(accuracy) {
+      if (accuracy === 'full') {
+        bell(659.25, 0, 0.65, 0.13, 'triangle');
+        bell(987.77, 0.09, 0.85, 0.15, 'triangle');
+      } else if (accuracy === 'partial') {
+        bell(392.00, 0, 0.75, 0.13, 'triangle');
+      }
+    }
+    window.checkAccuracy = checkAccuracy;
+    window.playRecallSound = playRecallSound;
+
+    function loadLocalExamplesCache() {
+      try {
+        const raw = localStorage.getItem(EXAMPLES_STORAGE_KEY);
+        if (raw) examplesCache = JSON.parse(raw);
+      } catch (e) {
+        examplesCache = {};
+      }
+    }
+
+    function saveLocalExamplesCache() {
+      try {
+        localStorage.setItem(EXAMPLES_STORAGE_KEY, JSON.stringify(examplesCache));
+      } catch (e) {}
+    }
+
+    function getCachedExamples(item) {
+      if (!item) return null;
+      if (item.id && Array.isArray(examplesCache[item.id]) && examplesCache[item.id].length > 0) {
+        return examplesCache[item.id];
+      }
+      const cleanVi = cleanVietnameseWord(item.vi);
+      for (const key of Object.keys(examplesCache)) {
+        if (cleanVietnameseWord(key) === cleanVi && Array.isArray(examplesCache[key]) && examplesCache[key].length > 0) {
+          return examplesCache[key];
+        }
+      }
+      return null;
+    }
+
+    function formatExampleVi(raw) {
+      if (!raw) return '';
+      let escaped = escapeHtml(raw);
+      escaped = escaped.replace(/&lt;b&gt;/gi, '<b>').replace(/&lt;\/b&gt;/gi, '</b>');
+      escaped = escaped.replace(/&lt;strong&gt;/gi, '<strong>').replace(/&lt;\/strong&gt;/gi, '</strong>');
+      escaped = escaped.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+      return escaped;
+    }
+
+    function renderContextBox(item) {
+      if (!contextVisible) return '';
+      if (contextLoading) {
+        return `
+          <div class="context-box">
+            <div class="context-loading">Đang tải ví dụ...</div>
+          </div>
+        `;
+      }
+      if (contextError) {
+        return `
+          <div class="context-box">
+            <div class="context-error">${escapeHtml(contextError)}</div>
+          </div>
+        `;
+      }
+      const examples = getCachedExamples(item);
+      if (!examples || examples.length === 0) {
+        return `
+          <div class="context-box">
+            <div class="context-error">Chưa có ví dụ cho từ này.</div>
+          </div>
+        `;
+      }
+      const itemsHtml = examples.map((ex, idx) => `
+        <div class="example-item">
+          <div class="example-vi" lang="vi">${idx + 1}. ${formatExampleVi(ex.vi)}</div>
+          <div class="example-en" lang="en">${escapeHtml(ex.en)}</div>
+        </div>
+      `).join('');
+      return `
+        <div class="context-box" id="context-box">
+          ${itemsHtml}
+        </div>
+      `;
+    }
+
+    async function toggleContext() {
+      const queue = progress.today ? progress.today.queue : [];
+      if (!queue || queue.length === 0) return;
+      const currentId = queue[0];
+      const studyMode = isStudyCard(currentId);
+      if (!revealed && !studyMode) return;
+
+      if (contextVisible) {
+        contextVisible = false;
+        render(true);
+        return;
+      }
+
+      contextVisible = true;
+      rootsVisible = false;
+      const item = wordMap.get(currentId);
+      if (!item) {
+        render(true);
+        return;
+      }
+
+      const cached = getCachedExamples(item);
+      if (cached) {
+        contextLoading = false;
+        contextError = null;
+        render(true);
+        return;
+      }
+
+      contextLoading = true;
+      contextError = null;
+      render(true);
+
+      try {
+        const res = await fetch('/api/tu-moi/context', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: item.id, vi: item.vi, en: item.en })
+        });
+        if (!res.ok) throw new Error('API returned ' + res.status);
+        const data = await res.json();
+        if (data && Array.isArray(data.examples)) {
+          examplesCache[item.id] = data.examples;
+          saveLocalExamplesCache();
+          contextLoading = false;
+          contextError = null;
+        } else {
+          throw new Error('Invalid format');
+        }
+      } catch (err) {
+        console.warn('Context fetch error:', err);
+        contextLoading = false;
+        contextError = 'Không thể tải ví dụ lúc này.';
+      }
+
+      const curQueue = progress.today ? progress.today.queue : [];
+      if (curQueue && curQueue[0] === currentId && contextVisible) {
+        render(true);
+      }
+    }
+
+    function loadLocalRootsCache() {
+      try {
+        const raw = localStorage.getItem(ROOTS_STORAGE_KEY);
+        if (raw) rootsCache = JSON.parse(raw);
+      } catch (e) {
+        rootsCache = {};
+      }
+    }
+
+    function saveLocalRootsCache() {
+      try {
+        localStorage.setItem(ROOTS_STORAGE_KEY, JSON.stringify(rootsCache));
+      } catch (e) {}
+    }
+
+    function loadLocalKnownCompounds() {
+      try {
+        const raw = localStorage.getItem(KNOWN_STORAGE_KEY);
+        if (raw) {
+          const arr = JSON.parse(raw);
+          if (Array.isArray(arr)) {
+            arr.forEach(k => {
+              const norm = cleanVietnameseWord(k);
+              if (norm) knownCompounds.add(norm);
+            });
+          }
+        }
+      } catch (e) {
+        knownCompounds = new Set();
+      }
+    }
+
+    function saveLocalKnownCompounds() {
+      try {
+        localStorage.setItem(KNOWN_STORAGE_KEY, JSON.stringify(Array.from(knownCompounds)));
+      } catch (e) {}
+    }
+
+    function isCompoundKnown(vi) {
+      const norm = cleanVietnameseWord(vi);
+      if (!norm) return false;
+      return knownCompounds.has(norm);
+    }
+
+    function isWordInList(vi) {
+      const norm = cleanVietnameseWord(vi);
+      if (!norm) return false;
+      return words.some(w => cleanVietnameseWord(w.vi) === norm);
+    }
+
+    function getActiveCompounds(item) {
+      if (!item) return [];
+      const cached = getCachedRoots(item);
+      if (!cached || !Array.isArray(cached.compounds)) return [];
+
+      const all = cached.compounds.filter(c => c && c.vi);
+      const available = all.filter(c => !isCompoundKnown(c.vi));
+
+      const itemId = item.id || cleanVietnameseWord(item.vi);
+      let slots = activeLegoSlots[itemId];
+
+      if (!slots || !Array.isArray(slots) || slots.length === 0) {
+        slots = available.slice(0, 3);
+        activeLegoSlots[itemId] = slots;
+        return slots;
+      }
+
+      // If any slot is in knownCompounds, replace it
+      for (let i = 0; i < slots.length; i++) {
+        const s = slots[i];
+        if (!s || isCompoundKnown(s.vi)) {
+          const usedVis = new Set(slots.filter((x, idx) => idx !== i && x && x.vi).map(x => cleanVietnameseWord(x.vi)));
+          const targetRoot = s && s.root ? cleanVietnameseWord(s.root) : '';
+
+          let nextCand = available.find(c => {
+            const cVi = cleanVietnameseWord(c.vi);
+            return !usedVis.has(cVi) && targetRoot && cleanVietnameseWord(c.root) === targetRoot;
+          });
+          if (!nextCand) {
+            nextCand = available.find(c => {
+              const cVi = cleanVietnameseWord(c.vi);
+              return !usedVis.has(cVi);
+            });
+          }
+          if (nextCand) {
+            slots[i] = nextCand;
+          } else {
+            slots.splice(i, 1);
+            i--;
+          }
+        }
+      }
+
+      // Fill up to 3 if more un-known candidates are available
+      while (slots.length < Math.min(3, available.length)) {
+        const usedVis = new Set(slots.map(x => cleanVietnameseWord(x.vi)));
+        const cand = available.find(c => !usedVis.has(cleanVietnameseWord(c.vi)));
+        if (cand) {
+          slots.push(cand);
+        } else {
+          break;
+        }
+      }
+
+      activeLegoSlots[itemId] = slots;
+      return slots;
+    }
+
+    async function onSwapLegoWord(item, vi, root, slotIdx, btn) {
+      if (!item || !vi) return;
+      const normVi = cleanVietnameseWord(vi);
+      knownCompounds.add(normVi);
+      saveLocalKnownCompounds();
+      fetch('/api/tu-moi/mark-known', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ vi })
+      }).catch(() => {});
+
+      const itemId = item.id || cleanVietnameseWord(item.vi);
+      const cached = getCachedRoots(item);
+      const all = (cached && Array.isArray(cached.compounds)) ? cached.compounds : [];
+      const available = all.filter(c => !isCompoundKnown(c.vi));
+      let slots = activeLegoSlots[itemId] || [];
+      const usedVis = new Set(slots.filter((_, idx) => idx !== slotIdx).map(x => cleanVietnameseWord(x.vi)));
+      const targetRoot = root ? cleanVietnameseWord(root) : '';
+
+      let nextCand = available.find(c => {
+        const cVi = cleanVietnameseWord(c.vi);
+        return !usedVis.has(cVi) && targetRoot && cleanVietnameseWord(c.root) === targetRoot;
+      });
+      if (!nextCand) {
+        nextCand = available.find(c => !usedVis.has(cleanVietnameseWord(c.vi)));
+      }
+
+      if (nextCand) {
+        slots[slotIdx] = nextCand;
+        activeLegoSlots[itemId] = slots;
+        render(true);
+        return;
+      }
+
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = '...';
+      }
+
+      try {
+        const res = await fetch('/api/tu-moi/exchange-compound', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            word_id: item.id,
+            word_vi: item.vi,
+            root: root,
+            exclude: Array.from(knownCompounds)
+          })
+        });
+        const data = res.ok ? await res.json() : null;
+        const newComps = data && Array.isArray(data.compounds) ? data.compounds : [];
+        if (newComps.length > 0) {
+          if (cached && Array.isArray(cached.compounds)) {
+            newComps.forEach(nc => {
+              if (!cached.compounds.some(c => cleanVietnameseWord(c.vi) === cleanVietnameseWord(nc.vi))) {
+                cached.compounds.push(nc);
+              }
+            });
+            saveLocalRootsCache();
+          }
+          slots[slotIdx] = newComps[0];
+          activeLegoSlots[itemId] = slots;
+          render(true);
+        } else {
+          if (btn) {
+            btn.disabled = false;
+            btn.textContent = 'Hết từ';
+            setTimeout(() => { if (btn) btn.textContent = '↻ Đổi'; }, 1500);
+          }
+        }
+      } catch (err) {
+        console.warn('Error exchanging compound:', err);
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = '↻ Đổi';
+        }
+      }
+    }
+
+    function getCachedRoots(item) {
+      if (!item) return null;
+      if (item.id && rootsCache[item.id]) {
+        return rootsCache[item.id];
+      }
+      const cleanVi = cleanVietnameseWord(item.vi);
+      if (cleanVi && rootsCache[cleanVi]) {
+        return rootsCache[cleanVi];
+      }
+      for (const key of Object.keys(rootsCache)) {
+        if (cleanVietnameseWord(key) === cleanVi && rootsCache[key]) {
+          return rootsCache[key];
+        }
+      }
+      return null;
+    }
+
+    function renderRootsBox(item) {
+      if (!rootsVisible) return '';
+      if (rootsLoading) {
+        return `
+          <div class="roots-box">
+            <div class="context-loading">Đang phân tích gốc từ...</div>
+          </div>
+        `;
+      }
+      if (rootsError) {
+        return `
+          <div class="roots-box">
+            <div class="context-error">${escapeHtml(rootsError)}</div>
+          </div>
+        `;
+      }
+      const cached = getCachedRoots(item);
+      if (!cached) {
+        return `
+          <div class="roots-box">
+            <div class="context-error">Chưa có thông tin gốc từ cho từ này.</div>
+          </div>
+        `;
+      }
+
+      const etymology = cached.etymology || {};
+      const roots = Array.isArray(etymology.roots) ? etymology.roots : (Array.isArray(cached.roots) ? cached.roots : []);
+      const bridge = etymology.bridge || cached.bridge || '';
+      const compounds = Array.isArray(cached.compounds) ? cached.compounds : [];
+
+      if (roots.length === 0 && !bridge && compounds.length === 0) {
+        return `
+          <div class="roots-box">
+            <div class="context-error">Chưa có thông tin gốc từ cho từ này.</div>
+          </div>
+        `;
+      }
+
+      let html = '<div class="roots-box" id="roots-box">';
+
+      if (roots.length > 0) {
+        html += `
+          <div class="roots-section">
+            <div class="roots-section-title">Gốc từ</div>
+            <div class="roots-pills">
+              ${roots.map(r => `
+                <div class="root-pill">
+                  <span class="root-pill-vi" lang="vi">${escapeHtml(r.vi || '')}</span>
+                  <span class="root-pill-sep">·</span>
+                  <span class="root-pill-meaning">${escapeHtml(r.meaning || '')}</span>
+                </div>
+              `).join('')}
+            </div>
+          </div>
+        `;
+      }
+
+      if (bridge) {
+        html += `
+          <div class="roots-section">
+            <div class="roots-section-title">Ý nghĩa gốc</div>
+            <div class="roots-bridge">
+              <span class="roots-bridge-icon">💡</span>
+              <span class="roots-bridge-text">${escapeHtml(bridge)}</span>
+            </div>
+          </div>
+        `;
+      }
+
+      const displayedCompounds = getActiveCompounds(item);
+
+      if (displayedCompounds.length > 0) {
+        html += `
+          <div class="roots-section">
+            <div class="roots-section-title">Từ liên quan (Linguistic Lego)</div>
+            <div class="compounds-list">
+              ${displayedCompounds.map((cp, slotIdx) => {
+                const alreadyInWords = isWordInList(cp.vi);
+                return `
+                  <div class="compound-item" data-slot="${slotIdx}">
+                    <div class="compound-info">
+                      <div class="compound-vi-line">
+                        <span class="compound-vi" lang="vi">${escapeHtml(cp.vi || '')}</span>
+                        ${cp.literal ? `<span class="compound-literal">(${escapeHtml(cp.literal)})</span>` : ''}
+                      </div>
+                      ${cp.en ? `<div class="compound-en" lang="en">${escapeHtml(cp.en)}</div>` : ''}
+                    </div>
+                    <div class="compound-action">
+                      ${alreadyInWords ? `
+                        <button type="button" class="compound-add-btn is-added" disabled title="Từ này đã có trong danh sách học">✓ Đã có</button>
+                      ` : `
+                        <button type="button" class="compound-add-btn" data-vi="${escapeHtml(cp.vi || '')}" data-en="${escapeHtml(cp.en || '')}" title="Thêm vào danh sách học">+ Thêm</button>
+                      `}
+                      <button type="button" class="compound-swap-btn" data-slot="${slotIdx}" data-vi="${escapeHtml(cp.vi || '')}" data-root="${escapeHtml(cp.root || '')}" title="Đã biết từ này, đổi từ khác">↻ Đổi</button>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      } else if (compounds.length > 0) {
+        html += `
+          <div class="roots-section">
+            <div class="roots-section-title">Từ liên quan (Linguistic Lego)</div>
+            <div class="context-loading" style="text-align:left; font-size:12.5px;">Bạn đã đánh dấu biết tất cả từ gợi ý cho gốc từ này.</div>
+          </div>
+        `;
+      }
+
+      html += '</div>';
+      return html;
+    }
+
+    async function toggleRoots() {
+      const queue = progress.today ? progress.today.queue : [];
+      if (!queue || queue.length === 0) return;
+      const currentId = queue[0];
+      const studyMode = isStudyCard(currentId);
+      if (!revealed && !studyMode) return;
+
+      if (rootsVisible) {
+        rootsVisible = false;
+        render(true);
+        return;
+      }
+
+      rootsVisible = true;
+      contextVisible = false;
+      const item = wordMap.get(currentId);
+      if (!item) {
+        render(true);
+        return;
+      }
+
+      const cached = getCachedRoots(item);
+      if (cached) {
+        rootsLoading = false;
+        rootsError = null;
+        render(true);
+        return;
+      }
+
+      rootsLoading = true;
+      rootsError = null;
+      render(true);
+
+      try {
+        const res = await fetch('/api/tu-moi/roots', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ id: item.id, vi: item.vi, en: item.en })
+        });
+        if (!res.ok) throw new Error('API returned ' + res.status);
+        const data = await res.json();
+        if (data && data.roots_data) {
+          if (item.id) rootsCache[item.id] = data.roots_data;
+          const cleanVi = cleanVietnameseWord(item.vi);
+          if (cleanVi) rootsCache[cleanVi] = data.roots_data;
+          saveLocalRootsCache();
+          rootsLoading = false;
+          rootsError = null;
+        } else {
+          throw new Error('Invalid format');
+        }
+      } catch (err) {
+        console.warn('Roots fetch error:', err);
+        rootsLoading = false;
+        rootsError = 'Không thể tải gốc từ lúc này.';
+      }
+
+      const curQueue = progress.today ? progress.today.queue : [];
+      if (curQueue && curQueue[0] === currentId && rootsVisible) {
+        render(true);
+      }
+    }
+
+    async function onAddLegoWord(vi, en, btn) {
+      if (!vi || !btn) return;
+      btn.disabled = true;
+      btn.textContent = '...';
+      try {
+        const res = await fetch('/api/tu-moi/add-word', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ vi, en })
+        });
+        const data = res.ok ? await res.json() : null;
+        const newItem = (data && data.item) || {
+          id: 'w_' + Math.random().toString(36).slice(2, 10),
+          vi,
+          en,
+          en_from: 'lego',
+          date: localDateStr()
+        };
+        if (!words.some(w => cleanVietnameseWord(w.vi) === cleanVietnameseWord(newItem.vi))) {
+          words.push(newItem);
+          wordMap.set(newItem.id, newItem);
+          saveWords(words);
+        }
+        btn.className = 'compound-add-btn is-added';
+        btn.textContent = '✓ Đã thêm';
+        btn.title = 'Đã thêm vào danh sách học';
+      } catch (err) {
+        console.warn('Error adding word:', err);
+        btn.disabled = false;
+        btn.textContent = '+ Thêm';
+      }
+    }
+
+    function onStudyContinue() {
+      if (!progress.today || progress.today.queue.length === 0) return;
+      const id = progress.today.queue.shift();
+      progress.today.studied[id] = true;
+      const pos = Math.min(4, progress.today.queue.length);
+      progress.today.queue.splice(pos, 0, id);
+      revealed = false;
+      typedValue = '';
+      lastAccuracy = null;
+      contextVisible = false;
+      contextLoading = false;
+      contextError = null;
+      rootsVisible = false;
+      rootsLoading = false;
+      rootsError = null;
+      saveProgress();
+      render();
+    }
+
+    function onReveal(currentTyped) {
+      typedValue = currentTyped;
+      revealed = true;
+      lastAccuracy = null;
+      contextVisible = false;
+      contextLoading = false;
+      contextError = null;
+      rootsVisible = false;
+      rootsLoading = false;
+      rootsError = null;
+      if (progress.today && progress.today.queue.length > 0) {
+        const currentId = progress.today.queue[0];
+        const item = wordMap.get(currentId);
+        if (item && item.vi) {
+          lastAccuracy = checkAccuracy(item.vi, currentTyped);
+          if (lastAccuracy) {
+            playRecallSound(lastAccuracy);
+          }
+        }
+      }
+      if (lastAccuracy === 'full') {
+        selectedGradeIndex = 2; // Good (fully correct)
+      } else {
+        selectedGradeIndex = 0; // Again (wrong, partial/missing diacritics, or blank)
+      }
+      render();
+    }
+
+    function updateGradeSelection(newIndex) {
+      selectedGradeIndex = Math.max(0, Math.min(2, newIndex));
+      const buttons = [
+        document.getElementById('btn-again'),
+        document.getElementById('btn-hard'),
+        document.getElementById('btn-good')
+      ];
+      buttons.forEach((btn, idx) => {
+        if (!btn) return;
+        if (idx === selectedGradeIndex) {
+          btn.classList.add('is-active');
+          btn.focus();
+        } else {
+          btn.classList.remove('is-active');
+        }
+      });
+    }
+
+    function onGrade(grade) {
+      if (!progress.today || progress.today.queue.length === 0) return;
+      const id = progress.today.queue.shift();
+      const now = new Date();
+      const todayStr = localDateStr(now);
+      if (progress.today.date !== todayStr) {
+        syncTodayPlan();
+        revealed = false;
+        typedValue = '';
+        lastAccuracy = null;
+        contextVisible = false;
+        contextLoading = false;
+        contextError = null;
+        rootsVisible = false;
+        rootsLoading = false;
+        rootsError = null;
+        render();
+        return;
+      }
+
+      progress.today.studied[id] = true;
+
+      if (!progress.today.firstGrade[id]) {
+        progress.today.firstGrade[id] = grade;
+        const rating = grade === 'again' ? Rating.Again : grade === 'hard' ? Rating.Hard : Rating.Good;
+        const currentCard = progress.cards[id] ? reviveCard(progress.cards[id]) : createEmptyCard(now);
+        progress.cards[id] = scheduler.next(currentCard, now, rating).card;
+      }
+
+      revealed = false;
+      typedValue = '';
+      lastAccuracy = null;
+      contextVisible = false;
+      contextLoading = false;
+      contextError = null;
+      rootsVisible = false;
+      rootsLoading = false;
+      rootsError = null;
+
+      if (grade === 'again') {
+        const pos = Math.min(5, progress.today.queue.length);
+        progress.today.queue.splice(pos, 0, id);
+        saveProgress();
+        render();
+        return;
+      }
+
+      let finishedNow = false;
+      if (!progress.today.done.includes(id)) {
+        progress.today.done.push(id);
+        progress.days[todayStr] = (progress.days[todayStr] || 0) + 1;
+        finishedNow = true;
+      }
+
+      saveProgress();
+
+      if (finishedNow) {
+        const countToday = progress.days[todayStr] || 0;
+        const weekInfo = getWeekInfo();
+        playFinishSound(countToday, weekInfo.fullWeek);
+
+        if (countToday > 0 && countToday % 10 === 0) {
+          roundCelebrate = true;
+          animateNewBlock = true;
+          if (countToday === 10) {
+            animateStreakPop = true;
+          }
+          if (celebrateTimer) clearTimeout(celebrateTimer);
+          celebrateTimer = setTimeout(() => {
+            roundCelebrate = false;
+            render(true);
+          }, 1400);
+
+          const totalWeeklyRounds = weekInfo.cols.reduce((sum, col) => sum + col.rounds, 0);
+          if (totalWeeklyRounds > 0 && totalWeeklyRounds % 7 === 0) {
+            rewardCelebrate = true;
+            playRewardPotChime();
+            if (rewardCelebrateTimer) clearTimeout(rewardCelebrateTimer);
+            rewardCelebrateTimer = setTimeout(() => {
+              rewardCelebrate = false;
+              render(true);
+            }, 1800);
+          }
+        }
+      }
+
+      render();
+    }
+
+    function startNextRound(extraCount = 10) {
+      if (celebrateTimer) {
+        clearTimeout(celebrateTimer);
+        celebrateTimer = null;
+      }
+      roundCelebrate = false;
+
+      if (!words || words.length === 0) return;
+      if (wordMap.size === 0) {
+        wordMap = new Map(words.map(w => [w.id, w]));
+      }
+
+      const now = new Date();
+      const todayStr = localDateStr(now);
+      if (!progress.today || progress.today.date !== todayStr) {
+        syncTodayPlan();
+        revealed = false;
+        typedValue = '';
+        render();
+        return;
+      }
+
+      const inQueue = new Set(progress.today.queue);
+      const unseen = words.filter(w => !progress.cards[w.id] && !inQueue.has(w.id));
+
+      if (unseen.length > 0) {
+        const lastId = progress.today.queue[progress.today.queue.length - 1];
+        const lastDate = lastId && wordMap.has(lastId) ? wordMap.get(lastId).date : null;
+        const countToAdd = Math.min(extraCount, unseen.length);
+        const added = pickNewWordsAlternatingDates(unseen, countToAdd, lastDate);
+        for (const w of added) {
+          progress.cards[w.id] = createEmptyCard(now);
+          progress.newDays[todayStr] = (progress.newDays[todayStr] || 0) + 1;
+          progress.today.queue.push(w.id);
+        }
+      } else {
+        const reviewCandidates = words
+          .filter(w => progress.cards[w.id] && !inQueue.has(w.id))
+          .sort((a, b) => {
+            const dueA = new Date(progress.cards[a.id].due || 0).getTime();
+            const dueB = new Date(progress.cards[b.id].due || 0).getTime();
+            return dueA - dueB;
+          })
+          .slice(0, extraCount);
+
+        for (const w of reviewCandidates) {
+          progress.today.queue.push(w.id);
+          if (progress.today.done) {
+            const idx = progress.today.done.indexOf(w.id);
+            if (idx >= 0) progress.today.done.splice(idx, 1);
+          }
+          if (progress.today.firstGrade) {
+            delete progress.today.firstGrade[w.id];
+          }
+        }
+      }
+
+      revealed = false;
+      typedValue = '';
+      lastAccuracy = null;
+      contextVisible = false;
+      contextLoading = false;
+      contextError = null;
+      saveProgress();
+      render();
+    }
+    window.startNextRound = startNextRound;
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function render(preserveFocus = false) {
+      const root = document.getElementById('card-root');
+      if (!root) return;
+
+      let prevInputVal = '';
+      if (preserveFocus) {
+        const existingInput = document.getElementById('answer-input');
+        if (existingInput) prevInputVal = existingInput.value;
+      }
+
+      if (words.length === 0) {
+        root.className = 'card';
+        root.innerHTML = `
+          <div class="header-row">
+            <h1 class="title" lang="vi">Từ mới</h1>
+          </div>
+          <div class="empty-words">No words yet.</div>
+        `;
+        return;
+      }
+
+      const now = new Date();
+      const todayStr = localDateStr(now);
+      if (!progress.today || progress.today.date !== todayStr) {
+        syncTodayPlan();
+      }
+
+      const queue = progress.today ? progress.today.queue : [];
+      const cardsLeft = queue.length;
+      const week = getWeekInfo();
+
+      root.className = roundCelebrate ? 'card round-glow' : 'card';
+
+      const streakHtml = week.streak > 0 ? `
+        <span class="streak-badge${week.todayHasRound ? '' : ' pending-today'}${animateStreakPop ? ' pop' : ''}" title="${week.streak} days in a row">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8.6 1.2c.2 1.8-.7 3.1-1.8 4.3-1.2 1.3-2.3 2.5-2.3 4.4 0 1.9 1.4 3.6 3.5 3.9-.8-.6-1.2-1.5-1.2-2.5 0-1.4 1-2.4 1.9-3.4.7-.8 1.4-1.6 1.5-2.8 1.5 1.2 2.5 2.9 2.5 4.9 0 2.9-2.1 5-4.8 5S3 12.9 3 10c0-2.6 1.5-4.4 3-6 1.1-1.1 2.1-2.1 2.6-2.8z"/></svg>
+          <span>${week.streak}</span>
+        </span>
+      ` : '';
+
+      let panelHtml = '';
+      let controlsHtml = '';
+      let focusTarget = null;
+
+      if (cardsLeft === 0) {
+        const unseen = words.filter(w => !progress.cards[w.id]);
+        const nextCount = Math.min(10, unseen.length);
+        const btnText = unseen.length > 0 ? `Học thêm ${nextCount} từ` : 'Ôn tập lại';
+        panelHtml = `
+          <div class="card-panel">
+            <div class="prompt-main" lang="vi">Xong</div>
+          </div>
+        `;
+        controlsHtml = `
+          <div class="answer-row">
+            <button type="button" class="primary-btn full" id="btn-xong-tiep" lang="vi">${btnText}</button>
+          </div>
+        `;
+        focusTarget = 'btn-xong-tiep';
+      } else {
+        const currentId = queue[0];
+        const item = wordMap.get(currentId);
+        const studyMode = isStudyCard(currentId);
+
+        if (studyMode) {
+          const contextTriggerHtml = `
+            <div class="context-trigger-row">
+              <button type="button" class="context-btn${contextVisible ? ' is-open' : ''}" id="btn-context" aria-expanded="${contextVisible}" title="Xem ví dụ câu (C)">
+                Ví dụ <span class="context-hint">C</span>
+              </button>
+              <button type="button" class="context-btn${rootsVisible ? ' is-open' : ''}" id="btn-roots" aria-expanded="${rootsVisible}" title="Xem gốc từ & từ liên quan (R)">
+                Gốc từ <span class="context-hint">R</span>
+              </button>
+            </div>
+            ${renderContextBox(item)}
+            ${renderRootsBox(item)}
+          `;
+          panelHtml = `
+            <div class="card-panel">
+              <div class="prompt-main" lang="vi">${escapeHtml(item.vi)}</div>
+              <div class="prompt-sub" lang="en">${escapeHtml(item.en)}</div>
+              ${contextTriggerHtml}
+            </div>
+          `;
+          controlsHtml = `
+            <div class="answer-row">
+              <button type="button" class="primary-btn full" id="btn-tiep" lang="vi">Tiếp</button>
+            </div>
+          `;
+          focusTarget = 'btn-tiep';
+        } else if (!revealed) {
+          panelHtml = `
+            <div class="card-panel">
+              <div class="prompt-main" lang="en">${escapeHtml(item.en)}</div>
+            </div>
+          `;
+          controlsHtml = `
+            <form class="answer-row" id="answer-form" autocomplete="off">
+              <input
+                type="text"
+                class="answer-input"
+                id="answer-input"
+                lang="vi"
+                aria-label="Vietnamese"
+                autocomplete="off"
+                autocorrect="off"
+                autocapitalize="off"
+                spellcheck="false"
+              >
+              <button type="submit" class="primary-btn${prevInputVal.trim() ? '' : ' is-skip'}" id="btn-hien" lang="vi">${prevInputVal.trim() ? 'Hiện' : 'Bỏ qua'}</button>
+            </form>
+          `;
+          focusTarget = 'answer-input';
+        } else {
+          const trimmedTyped = typedValue.trim();
+          let echoClass = 'typed-echo';
+          if (lastAccuracy === 'full') {
+            echoClass += ' match-full';
+          } else if (lastAccuracy === 'partial') {
+            echoClass += ' match-partial';
+          } else {
+            echoClass += trimmedTyped ? ' match-none' : '';
+          }
+
+          const contextTriggerHtml = `
+            <div class="context-trigger-row">
+              <button type="button" class="context-btn${contextVisible ? ' is-open' : ''}" id="btn-context" aria-expanded="${contextVisible}" title="Xem ví dụ câu (C)">
+                Ví dụ <span class="context-hint">C</span>
+              </button>
+              <button type="button" class="context-btn${rootsVisible ? ' is-open' : ''}" id="btn-roots" aria-expanded="${rootsVisible}" title="Xem gốc từ & từ liên quan (R)">
+                Gốc từ <span class="context-hint">R</span>
+              </button>
+            </div>
+            ${renderContextBox(item)}
+            ${renderRootsBox(item)}
+          `;
+
+          const rewardClass = lastAccuracy === 'full' ? ' panel-reward-full' : (lastAccuracy === 'partial' ? ' panel-reward-partial' : '');
+          const accuracyIcon = lastAccuracy === 'full'
+            ? `<span class="accuracy-mark check" aria-label="Đúng hoàn toàn">✓</span>`
+            : (lastAccuracy === 'partial' ? `<span class="accuracy-mark partial" aria-label="Thiếu dấu">~</span>` : '');
+
+          panelHtml = `
+            <div class="card-panel revealed${rewardClass}">
+              <div class="prompt-revealed-row">
+                <span class="prompt-main" lang="vi">${escapeHtml(item.vi)}</span>
+                ${item.en ? `<span class="prompt-en-beside" lang="en">· ${escapeHtml(item.en)}</span>` : ''}
+              </div>
+              ${trimmedTyped ? `<div class="${echoClass}" lang="vi">${accuracyIcon}<span>${escapeHtml(trimmedTyped)}</span></div>` : `<div class="typed-echo skipped" lang="vi"><span>(Bỏ qua)</span></div>`}
+              ${contextTriggerHtml}
+            </div>
+          `;
+          controlsHtml = `
+            <div class="grade-row">
+              <button type="button" class="grade-btn grade-again ${selectedGradeIndex === 0 ? 'is-active' : ''}" id="btn-again">
+                <span class="grade-hint">J &larr;</span> Again
+              </button>
+              <button type="button" class="grade-btn grade-hard ${selectedGradeIndex === 1 ? 'is-active' : ''}" id="btn-hard">
+                Hard
+              </button>
+              <button type="button" class="grade-btn grade-good ${selectedGradeIndex === 2 ? 'is-active' : ''}" id="btn-good">
+                Good <span class="grade-hint">&rarr; L</span>
+              </button>
+            </div>
+          `;
+          const focusTargets = ['btn-again', 'btn-hard', 'btn-good'];
+          focusTarget = focusTargets[selectedGradeIndex] || 'btn-again';
+        }
+      }
+
+      const rawDoneToday = progress.days[todayStr] || 0;
+      const pipVal = roundCelebrate ? 10 : (rawDoneToday % 10);
+      let pipsInner = '';
+      for (let i = 0; i < 10; i++) {
+        pipsInner += `<div class="pip${i < pipVal ? ' filled' : ''}"></div>`;
+      }
+
+      const weekColsHtml = week.cols.map(col => {
+        let blocksHtml = '';
+        for (let b = 0; b < col.rounds; b++) {
+          const isNewestToday = col.isToday && b === col.rounds - 1 && animateNewBlock;
+          blocksHtml += `<div class="round-block${isNewestToday ? ' drop-in' : ''}"></div>`;
+        }
+        const letterClasses = [
+          'day-letter',
+          week.streakSet.has(col.index) ? 'in-streak' : '',
+          col.isToday ? 'is-today' : ''
+        ].filter(Boolean).join(' ');
+
+        return `
+          <div class="day-col" title="${col.name}: ${col.rounds} rounds">
+            <div class="day-stack">${blocksHtml}</div>
+            <div class="${letterClasses}">${col.letter}</div>
+          </div>
+        `;
+      }).join('');
+
+      const rewardPot = getRewardPotInfo(week);
+      const isRewardUnlocked = rewardPot.rewardsEarned > 0;
+      const rewardPotHtml = isRewardUnlocked ? `
+        <div class="reward-pot-row${rewardCelebrate ? ' pot-glow' : ''}">
+          <button type="button" class="reward-pot-text is-unlocked" id="btn-open-reward" title="Chiêm ngưỡng tác phẩm nghệ thuật mở khóa" aria-label="Mở phần thưởng tác phẩm nghệ thuật">
+            <span class="reward-pot-icon" aria-hidden="true">🎁</span>
+            <span>${escapeHtml(rewardPot.text)}</span>
+          </button>
+        </div>
+      ` : `
+        <div class="reward-pot-row${rewardCelebrate ? ' pot-glow' : ''}">
+          <span class="reward-pot-text">
+            <span class="reward-pot-icon" aria-hidden="true">🎁</span>
+            <span>${escapeHtml(rewardPot.text)}</span>
+          </span>
+        </div>
+      `;
+
+      root.innerHTML = `
+        <div class="header-row">
+          <h1 class="title" lang="vi">Từ mới</h1>
+          ${streakHtml}
+          <span class="cards-left">${cardsLeft}</span>
+        </div>
+        ${panelHtml}
+        ${controlsHtml}
+        <div class="round-row${roundCelebrate ? ' sage-complete' : ''}">
+          <div class="pips" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="${pipVal}" aria-label="Round progress">
+            ${pipsInner}
+          </div>
+          <span class="round-count">${pipVal} / 10</span>
+        </div>
+        <div class="week-row">
+          ${weekColsHtml}
+        </div>
+        ${rewardPotHtml}
+      `;
+
+      animateNewBlock = false;
+      animateStreakPop = false;
+
+      const btnTiep = document.getElementById('btn-tiep');
+      if (btnTiep) {
+        btnTiep.addEventListener('click', onStudyContinue);
+      }
+
+      const btnXongTiep = document.getElementById('btn-xong-tiep');
+      if (btnXongTiep) {
+        btnXongTiep.addEventListener('click', () => startNextRound(10));
+      }
+
+      const btnOpenReward = document.getElementById('btn-open-reward');
+      if (btnOpenReward) {
+        const triggerOpenModal = (e) => {
+          e.preventDefault();
+          window.openArtRewardModal();
+        };
+        btnOpenReward.addEventListener('click', triggerOpenModal);
+        btnOpenReward.addEventListener('touchend', triggerOpenModal);
+      }
+
+      const answerForm = document.getElementById('answer-form');
+      const answerInput = document.getElementById('answer-input');
+      const btnHien = document.getElementById('btn-hien');
+      if (answerInput && preserveFocus && prevInputVal) {
+        answerInput.value = prevInputVal;
+      }
+      if (answerInput && btnHien) {
+        const updateBtn = () => {
+          const hasText = answerInput.value.trim().length > 0;
+          btnHien.textContent = hasText ? 'Hiện' : 'Bỏ qua';
+          if (hasText) {
+            btnHien.classList.remove('is-skip');
+          } else {
+            btnHien.classList.add('is-skip');
+          }
+        };
+        answerInput.addEventListener('input', updateBtn);
+        updateBtn();
+      }
+      if (answerForm && answerInput) {
+        answerForm.addEventListener('submit', e => {
+          e.preventDefault();
+          onReveal(answerInput.value);
+        });
+      }
+
+      const btnAgain = document.getElementById('btn-again');
+      const btnHard = document.getElementById('btn-hard');
+      const btnGood = document.getElementById('btn-good');
+      if (btnAgain) {
+        btnAgain.addEventListener('mouseenter', () => updateGradeSelection(0));
+        btnAgain.addEventListener('click', () => {
+          updateGradeSelection(0);
+          onGrade('again');
+        });
+      }
+      if (btnHard) {
+        btnHard.addEventListener('mouseenter', () => updateGradeSelection(1));
+        btnHard.addEventListener('click', () => {
+          updateGradeSelection(1);
+          onGrade('hard');
+        });
+      }
+      if (btnGood) {
+        btnGood.addEventListener('mouseenter', () => updateGradeSelection(2));
+        btnGood.addEventListener('click', () => {
+          updateGradeSelection(2);
+          onGrade('good');
+        });
+      }
+
+      const btnContext = document.getElementById('btn-context');
+      if (btnContext) {
+        btnContext.addEventListener('click', e => {
+          e.stopPropagation();
+          toggleContext();
+        });
+      }
+
+      const btnRoots = document.getElementById('btn-roots');
+      if (btnRoots) {
+        btnRoots.addEventListener('click', e => {
+          e.stopPropagation();
+          toggleRoots();
+        });
+      }
+
+      document.querySelectorAll('.compound-add-btn:not(:disabled)').forEach(btn => {
+        btn.addEventListener('click', e => {
+          e.stopPropagation();
+          const vi = btn.getAttribute('data-vi');
+          const en = btn.getAttribute('data-en') || '';
+          onAddLegoWord(vi, en, btn);
+        });
+      });
+
+      document.querySelectorAll('.compound-swap-btn:not(:disabled)').forEach(btn => {
+        btn.addEventListener('click', e => {
+          e.stopPropagation();
+          const vi = btn.getAttribute('data-vi');
+          const root = btn.getAttribute('data-root') || '';
+          const slotIdx = parseInt(btn.getAttribute('data-slot') || '0', 10);
+          const queue = progress.today ? progress.today.queue : [];
+          const currentId = queue[0];
+          const item = wordMap.get(currentId);
+          if (item) {
+            onSwapLegoWord(item, vi, root, slotIdx, btn);
+          }
+        });
+      });
+
+      if (focusTarget) {
+        const el = document.getElementById(focusTarget);
+        if (el) el.focus();
+      }
+    }
+
+    window.addEventListener('keydown', e => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+      if (e.key === 'Escape') {
+        const modal = document.getElementById('tm-art-backdrop');
+        if (modal && modal.classList.contains('is-active')) {
+          e.preventDefault();
+          window.closeArtRewardModal();
+          return;
+        }
+      }
+
+      const activeModal = document.getElementById('tm-art-backdrop');
+      if (activeModal && activeModal.classList.contains('is-active')) {
+        if (e.key === 'ArrowLeft' || e.key === 'Left') {
+          e.preventDefault();
+          window.navigateArtReward(-1);
+          return;
+        }
+        if (e.key === 'ArrowRight' || e.key === 'Right') {
+          e.preventDefault();
+          window.navigateArtReward(1);
+          return;
+        }
+        return;
+      }
+
+      const queue = progress.today ? progress.today.queue : [];
+      if (!queue || queue.length === 0) {
+        if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') && e.target.id !== 'btn-xong-tiep') return;
+        if (e.key === 'Enter' || e.key === ' ' || e.code === 'Space' || e.code === 'Enter') {
+          e.preventDefault();
+          startNextRound(10);
+        }
+        return;
+      }
+
+      if (isStudyCard(queue[0])) {
+        const keyLower = (e.key || '').toLowerCase();
+        if (keyLower === 'c' || e.code === 'KeyC') {
+          e.preventDefault();
+          toggleContext();
+          return;
+        }
+        if (keyLower === 'r' || e.code === 'KeyR') {
+          e.preventDefault();
+          toggleRoots();
+          return;
+        }
+        if (e.key === 'Enter' || e.key === ' ' || e.code === 'Space' || e.code === 'Enter') {
+          e.preventDefault();
+          onStudyContinue();
+        }
+        return;
+      }
+
+      if (!revealed) return;
+
+      const keyLower = (e.key || '').toLowerCase();
+      if (keyLower === 'c' || e.code === 'KeyC') {
+        e.preventDefault();
+        toggleContext();
+        return;
+      }
+      if (keyLower === 'r' || e.code === 'KeyR') {
+        e.preventDefault();
+        toggleRoots();
+        return;
+      }
+      if (keyLower === 'j' || e.code === 'KeyJ' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        updateGradeSelection(selectedGradeIndex - 1);
+      } else if (keyLower === 'l' || e.code === 'KeyL' || e.key === 'ArrowRight') {
+        e.preventDefault();
+        updateGradeSelection(selectedGradeIndex + 1);
+      } else if (e.key === 'Enter' || e.key === ' ' || e.code === 'Space' || e.code === 'Enter') {
+        e.preventDefault();
+        const grades = ['again', 'hard', 'good'];
+        onGrade(grades[selectedGradeIndex]);
+      }
+    });
+
+    async function init() {
+      loadProgress();
+      loadLocalExamplesCache();
+      loadLocalRootsCache();
+      loadLocalKnownCompounds();
+      fetch('/api/tu-moi/examples')
+        .catch(() => null)
+        .then(res => (res && res.ok) ? res : fetch('examples_cache.json'))
+        .then(res => res && res.ok ? res.json() : null)
+        .then(data => {
+          if (data && typeof data === 'object') {
+            const cacheObj = data.cache || data;
+            Object.assign(examplesCache, cacheObj);
+            saveLocalExamplesCache();
+          }
+        })
+        .catch(() => {});
+      fetch('/api/tu-moi/roots-cache')
+        .catch(() => null)
+        .then(res => (res && res.ok) ? res : fetch('roots_cache.json'))
+        .then(res => res && res.ok ? res.json() : null)
+        .then(data => {
+          if (data && typeof data === 'object') {
+            const cacheObj = data.cache || data;
+            Object.assign(rootsCache, cacheObj);
+            saveLocalRootsCache();
+          }
+        })
+        .catch(() => {});
+      fetch('/api/tu-moi/known-compounds')
+        .catch(() => null)
+        .then(res => (res && res.ok) ? res : fetch('known_compounds.json'))
+        .then(res => res && res.ok ? res.json() : null)
+        .then(data => {
+          if (data && Array.isArray(data.known)) {
+            data.known.forEach(k => {
+              const norm = cleanVietnameseWord(k);
+              if (norm) knownCompounds.add(norm);
+            });
+            saveLocalKnownCompounds();
+          }
+        })
+        .catch(() => {});
+      fetch('/api/tu-moi/art-rewards')
+        .catch(() => null)
+        .then(res => (res && res.ok) ? res : fetch('rewards_catalog.json'))
+        .then(res => res && res.ok ? res.json() : null)
+        .then(data => {
+          if (data && data.status === 'ok' && Array.isArray(data.catalog) && data.catalog.length > 0) {
+            rewardsCatalog = data.catalog;
+          } else if (Array.isArray(data) && data.length > 0) {
+            rewardsCatalog = data;
+          }
+        })
+        .catch(() => {});
+      fetch('/api/tu-moi/progress')
+        .then(res => res.ok ? res.json() : null)
+        .then(data => {
+          if (data && data.status === 'ok' && data.progress) {
+            const sp = data.progress;
+            if (sp.cards) progress.cards = Object.assign({}, sp.cards, progress.cards);
+            if (sp.days) {
+              if (!progress.days) progress.days = {};
+              for (const [k, v] of Object.entries(sp.days)) {
+                progress.days[k] = Math.max(progress.days[k] || 0, v || 0);
+              }
+            }
+            if (sp.newDays) {
+              if (!progress.newDays) progress.newDays = {};
+              for (const [k, v] of Object.entries(sp.newDays)) {
+                progress.newDays[k] = Math.max(progress.newDays[k] || 0, v || 0);
+              }
+            }
+            if (sp.weeklyArt) progress.weeklyArt = Object.assign({}, sp.weeklyArt, progress.weeklyArt);
+            if (sp.today && !progress.today) {
+              progress.today = sp.today;
+            }
+            saveProgress(false);
+            render(true);
+          }
+        })
+        .catch(() => {});
+
+      words = loadSavedWords();
+      if (words.length > 0) {
+        syncTodayPlan();
+      }
+      render();
+
+      try {
+        let fetchedItems = null;
+        try {
+          const localRes = await fetch('words.json');
+          if (localRes.ok) {
+            const localData = await localRes.json();
+            fetchedItems = Array.isArray(localData) ? localData : (localData && Array.isArray(localData.items) ? localData.items : null);
+          }
+        } catch (e) {}
+
+        try {
+          const res = await fetch(WORDS_URL);
+          if (res.ok) {
+            const data = await res.json();
+            const onlineItems = Array.isArray(data) ? data : (data && Array.isArray(data.items) ? data.items : null);
+            if (onlineItems && onlineItems.length > 0) {
+              const cleanOnline = onlineItems.filter(w => {
+                if (!w || !w.vi) return false;
+                const viLow = w.vi.trim().toLowerCase();
+                if (viLow.includes('http://') || viLow.includes('https://')) return false;
+                if (/^(january|february|march|april|may|june|july|august|september|october|november|december)$/i.test(viLow)) return false;
+                return true;
+              });
+              if (cleanOnline.length > 0) {
+                const localMap = new Map((fetchedItems || []).map(w => [w.id, w]));
+                fetchedItems = cleanOnline.map(w => {
+                  const loc = localMap.get(w.id);
+                  if (loc && loc.vi && loc.en && loc.en_from === 'doc' && w.en_from !== 'doc') {
+                    return { ...w, en: loc.en, en_from: loc.en_from };
+                  }
+                  if (loc && loc.vi === 'Ăn nên làm ra' && w.vi === 'Ăn nên làm') {
+                    return loc;
+                  }
+                  return w;
+                });
+              }
+            }
+          }
+        } catch (e) {}
+
+        if (fetchedItems && fetchedItems.length > 0) {
+          words = fetchedItems;
+          saveWords(words);
+          syncTodayPlan();
+          render(true);
+        }
+      } catch (err) {
+        // Use saved copy from localStorage on fetch failure
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,4771 @@
+{
+  "chuẩn bị": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "chuẩn",
+          "meaning": "Standard / Norm / Accurate"
+        },
+        {
+          "vi": "bị",
+          "meaning": "Equip / Complete / Ready"
+        }
+      ],
+      "bridge": "To prepare is to bring things up to the required standard (chuẩn) and fully equip or make them ready (bị) in advance."
+    },
+    "compounds": [
+      {
+        "vi": "tiêu chuẩn",
+        "literal": "rule / mark + standard",
+        "en": "criterion / standard",
+        "root": "chuẩn"
+      },
+      {
+        "vi": "chuẩn xác",
+        "literal": "standard + precise",
+        "en": "accurate / exact",
+        "root": "chuẩn"
+      },
+      {
+        "vi": "trang bị",
+        "literal": "array / arrange + equip",
+        "en": "equipment / to equip",
+        "root": "bị"
+      },
+      {
+        "vi": "phòng bị",
+        "literal": "guard / defend + ready",
+        "en": "to take precautions / guard against",
+        "root": "bị"
+      }
+    ]
+  },
+  "629a8a7281d2": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "phản",
+          "meaning": "Turn back / reverse / reflect"
+        },
+        {
+          "vi": "tư",
+          "meaning": "Think / ponder / thought"
+        }
+      ],
+      "bridge": "Self-reflection is the mental act of turning (phản) one's thoughts (tư) back inward to examine one's own actions and mind."
+    },
+    "compounds": [
+      {
+        "vi": "phản chiếu",
+        "literal": "reflect + illuminate",
+        "en": "to reflect (light or image)",
+        "root": "phản"
+      },
+      {
+        "vi": "phản ứng",
+        "literal": "back + respond",
+        "en": "to react / reaction",
+        "root": "phản"
+      },
+      {
+        "vi": "tư duy",
+        "literal": "thought + link",
+        "en": "mindset / cognitive thinking",
+        "root": "tư"
+      },
+      {
+        "vi": "tư tưởng",
+        "literal": "thought + concept",
+        "en": "ideology / thought system",
+        "root": "tư"
+      }
+    ]
+  },
+  "phản tư": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "phản",
+          "meaning": "Turn back / reverse / reflect"
+        },
+        {
+          "vi": "tư",
+          "meaning": "Think / ponder / thought"
+        }
+      ],
+      "bridge": "Self-reflection is the mental act of turning (phản) one's thoughts (tư) back inward to examine one's own actions and mind."
+    },
+    "compounds": [
+      {
+        "vi": "phản chiếu",
+        "literal": "reflect + illuminate",
+        "en": "to reflect (light or image)",
+        "root": "phản"
+      },
+      {
+        "vi": "phản ứng",
+        "literal": "back + respond",
+        "en": "to react / reaction",
+        "root": "phản"
+      },
+      {
+        "vi": "tư duy",
+        "literal": "thought + link",
+        "en": "mindset / cognitive thinking",
+        "root": "tư"
+      },
+      {
+        "vi": "tư tưởng",
+        "literal": "thought + concept",
+        "en": "ideology / thought system",
+        "root": "tư"
+      }
+    ]
+  },
+  "88fcb2e81753": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chặng",
+          "meaning": "Stage / Segment / Interval"
+        },
+        {
+          "vi": "Đường",
+          "meaning": "Road / Path / Way"
+        }
+      ],
+      "bridge": "Combining a discrete segment or interval ('chặng') with a path or course ('đường') creates the meaning of a specific leg, phase, or portion of a longer journey."
+    },
+    "compounds": [
+      {
+        "vi": "Chặng cuối",
+        "literal": "stage + final",
+        "en": "final leg / final stage",
+        "root": "Chặng"
+      },
+      {
+        "vi": "Chặng dừng",
+        "literal": "stage + stop",
+        "en": "stopover / layover / waypoint",
+        "root": "Chặng"
+      },
+      {
+        "vi": "Đường dài",
+        "literal": "road + long",
+        "en": "long journey / long distance",
+        "root": "Đường"
+      },
+      {
+        "vi": "Đường xa",
+        "literal": "road + far",
+        "en": "distant path / long journey",
+        "root": "Đường"
+      },
+      {
+        "vi": "Chặng đầu",
+        "literal": "head stage",
+        "en": "initial stage / first leg",
+        "root": "Chặng"
+      },
+      {
+        "vi": "Chặng bay",
+        "literal": "flying stage",
+        "en": "flight leg / flight segment",
+        "root": "Chặng"
+      },
+      {
+        "vi": "Chặng đua",
+        "literal": "racing stage",
+        "en": "race leg / stage of a race",
+        "root": "Chặng"
+      }
+    ]
+  },
+  "chặng đường": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chặng",
+          "meaning": "Stage / Segment / Interval"
+        },
+        {
+          "vi": "Đường",
+          "meaning": "Road / Path / Way"
+        }
+      ],
+      "bridge": "Combining a discrete segment or interval ('chặng') with a path or course ('đường') creates the meaning of a specific leg, phase, or portion of a longer journey."
+    },
+    "compounds": [
+      {
+        "vi": "Chặng cuối",
+        "literal": "stage + final",
+        "en": "final leg / final stage",
+        "root": "Chặng"
+      },
+      {
+        "vi": "Chặng dừng",
+        "literal": "stage + stop",
+        "en": "stopover / layover / waypoint",
+        "root": "Chặng"
+      },
+      {
+        "vi": "Đường dài",
+        "literal": "road + long",
+        "en": "long journey / long distance",
+        "root": "Đường"
+      },
+      {
+        "vi": "Đường xa",
+        "literal": "road + far",
+        "en": "distant path / long journey",
+        "root": "Đường"
+      }
+    ]
+  },
+  "35902e91918d": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Ngây",
+          "meaning": "Stupefied, dazed, or simple-minded (often denoting a lack of worldly experience or intelligence)."
+        },
+        {
+          "vi": "Thơ",
+          "meaning": "Young, immature, or infantile (derived from 'thơ ấu')."
+        }
+      ],
+      "bridge": "The word describes the state of being 'stupefied by youth,' capturing the essence of someone whose lack of worldly experience keeps them in a simple, childlike, and unsophisticated mental state."
+    },
+    "compounds": [
+      {
+        "vi": "Ngây dại",
+        "literal": "stupefied + foolish",
+        "en": "foolish / mindless",
+        "root": "Ngây"
+      },
+      {
+        "vi": "Ngây ngất",
+        "literal": "stupefied + intoxicated",
+        "en": "ecstatic / spellbound",
+        "root": "Ngây"
+      },
+      {
+        "vi": "Ngây người",
+        "literal": "stupefied + person",
+        "en": "to be dumbstruck / stunned",
+        "root": "Ngây"
+      },
+      {
+        "vi": "Thơ ấu",
+        "literal": "young + infant",
+        "en": "childhood",
+        "root": "Thơ"
+      },
+      {
+        "vi": "Thơ ngây",
+        "literal": "young + simple",
+        "en": "innocent / naive",
+        "root": "Thơ"
+      },
+      {
+        "vi": "Nhi đồng",
+        "literal": "young/small + child",
+        "en": "children",
+        "root": "Thơ"
+      }
+    ]
+  },
+  "ngây thơ": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Ngây",
+          "meaning": "Stupefied, dazed, or simple-minded (often denoting a lack of worldly experience or intelligence)."
+        },
+        {
+          "vi": "Thơ",
+          "meaning": "Young, immature, or infantile (derived from 'thơ ấu')."
+        }
+      ],
+      "bridge": "The word describes the state of being 'stupefied by youth,' capturing the essence of someone whose lack of worldly experience keeps them in a simple, childlike, and unsophisticated mental state."
+    },
+    "compounds": [
+      {
+        "vi": "Ngây dại",
+        "literal": "stupefied + foolish",
+        "en": "foolish / mindless",
+        "root": "Ngây"
+      },
+      {
+        "vi": "Ngây ngất",
+        "literal": "stupefied + intoxicated",
+        "en": "ecstatic / spellbound",
+        "root": "Ngây"
+      },
+      {
+        "vi": "Ngây người",
+        "literal": "stupefied + person",
+        "en": "to be dumbstruck / stunned",
+        "root": "Ngây"
+      },
+      {
+        "vi": "Thơ ấu",
+        "literal": "young + infant",
+        "en": "childhood",
+        "root": "Thơ"
+      },
+      {
+        "vi": "Thơ ngây",
+        "literal": "young + simple",
+        "en": "innocent / naive",
+        "root": "Thơ"
+      },
+      {
+        "vi": "Nhi đồng",
+        "literal": "young/small + child",
+        "en": "children",
+        "root": "Thơ"
+      }
+    ]
+  },
+  "47c8d643c064": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hồi",
+          "meaning": "Return / Recall / Look back"
+        },
+        {
+          "vi": "Ký",
+          "meaning": "Record / Write down / Mark"
+        }
+      ],
+      "bridge": "An autobiography ('Hồi ký') is literally the act of looking back into the past ('Hồi') to record or write down ('Ký') one's life story."
+    },
+    "compounds": [
+      {
+        "vi": "Hồi tưởng",
+        "literal": "recall + think/imagine",
+        "en": "to reminisce / recollect",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Hồi sinh",
+        "literal": "return + live",
+        "en": "to revive / come back to life",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Hồi đáp",
+        "literal": "return + answer",
+        "en": "to reply / respond",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Luân hồi",
+        "literal": "wheel/cycle + return",
+        "en": "reincarnation / cycle of rebirth",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Nhật ký",
+        "literal": "day + record",
+        "en": "diary / journal",
+        "root": "Ký"
+      },
+      {
+        "vi": "Ký ức",
+        "literal": "record + memory",
+        "en": "memories / recollections",
+        "root": "Ký"
+      },
+      {
+        "vi": "Ký sự",
+        "literal": "record + events",
+        "en": "chronicle / written account",
+        "root": "Ký"
+      },
+      {
+        "vi": "Ký tên",
+        "literal": "mark + name",
+        "en": "to sign a name",
+        "root": "Ký"
+      }
+    ]
+  },
+  "hồi ký": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hồi",
+          "meaning": "Return / Recall / Look back"
+        },
+        {
+          "vi": "Ký",
+          "meaning": "Record / Write down / Mark"
+        }
+      ],
+      "bridge": "An autobiography ('Hồi ký') is literally the act of looking back into the past ('Hồi') to record or write down ('Ký') one's life story."
+    },
+    "compounds": [
+      {
+        "vi": "Hồi tưởng",
+        "literal": "recall + think/imagine",
+        "en": "to reminisce / recollect",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Hồi sinh",
+        "literal": "return + live",
+        "en": "to revive / come back to life",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Hồi đáp",
+        "literal": "return + answer",
+        "en": "to reply / respond",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Luân hồi",
+        "literal": "wheel/cycle + return",
+        "en": "reincarnation / cycle of rebirth",
+        "root": "Hồi"
+      },
+      {
+        "vi": "Nhật ký",
+        "literal": "day + record",
+        "en": "diary / journal",
+        "root": "Ký"
+      },
+      {
+        "vi": "Ký ức",
+        "literal": "record + memory",
+        "en": "memories / recollections",
+        "root": "Ký"
+      },
+      {
+        "vi": "Ký sự",
+        "literal": "record + events",
+        "en": "chronicle / written account",
+        "root": "Ký"
+      },
+      {
+        "vi": "Ký tên",
+        "literal": "mark + name",
+        "en": "to sign a name",
+        "root": "Ký"
+      }
+    ]
+  },
+  "1b214c033d01": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Bí",
+          "meaning": "Secret / Hidden / Mysterious"
+        },
+        {
+          "vi": "Quyết",
+          "meaning": "Decisive / Final / Determined / Solving"
+        }
+      ],
+      "bridge": "A 'bí quyết' is the hidden, decisive formula or internal key that solves a complex problem and ensures success."
+    },
+    "compounds": [
+      {
+        "vi": "Bí mật",
+        "literal": "Secret + Close",
+        "en": "Secret",
+        "root": "Bí"
+      },
+      {
+        "vi": "Bí ẩn",
+        "literal": "Secret + Hidden",
+        "en": "Mysterious",
+        "root": "Bí"
+      },
+      {
+        "vi": "Bí hiểm",
+        "literal": "Secret + Dangerous/Dark",
+        "en": "Enigmatic/Sinister",
+        "root": "Bí"
+      },
+      {
+        "vi": "Quyết định",
+        "literal": "Decisive + Set",
+        "en": "Decision",
+        "root": "Quyết"
+      },
+      {
+        "vi": "Quyết tâm",
+        "literal": "Decisive + Heart",
+        "en": "Determination",
+        "root": "Quyết"
+      },
+      {
+        "vi": "Quyết liệt",
+        "literal": "Decisive + Fierce",
+        "en": "Intense/Fierce",
+        "root": "Quyết"
+      },
+      {
+        "vi": "Giải quyết",
+        "literal": "Unloose + Resolve",
+        "en": "To solve/resolve",
+        "root": "Quyết"
+      }
+    ]
+  },
+  "bí quyết": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Bí",
+          "meaning": "Secret / Hidden / Mysterious"
+        },
+        {
+          "vi": "Quyết",
+          "meaning": "Decisive / Final / Determined / Solving"
+        }
+      ],
+      "bridge": "A 'bí quyết' is the hidden, decisive formula or internal key that solves a complex problem and ensures success."
+    },
+    "compounds": [
+      {
+        "vi": "Bí mật",
+        "literal": "Secret + Close",
+        "en": "Secret",
+        "root": "Bí"
+      },
+      {
+        "vi": "Bí ẩn",
+        "literal": "Secret + Hidden",
+        "en": "Mysterious",
+        "root": "Bí"
+      },
+      {
+        "vi": "Bí hiểm",
+        "literal": "Secret + Dangerous/Dark",
+        "en": "Enigmatic/Sinister",
+        "root": "Bí"
+      },
+      {
+        "vi": "Quyết định",
+        "literal": "Decisive + Set",
+        "en": "Decision",
+        "root": "Quyết"
+      },
+      {
+        "vi": "Quyết tâm",
+        "literal": "Decisive + Heart",
+        "en": "Determination",
+        "root": "Quyết"
+      },
+      {
+        "vi": "Quyết liệt",
+        "literal": "Decisive + Fierce",
+        "en": "Intense/Fierce",
+        "root": "Quyết"
+      },
+      {
+        "vi": "Giải quyết",
+        "literal": "Unloose + Resolve",
+        "en": "To solve/resolve",
+        "root": "Quyết"
+      }
+    ]
+  },
+  "8f8fada5a6af": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Lợi",
+          "meaning": "Gain / Benefit / Sharp advantage"
+        },
+        {
+          "vi": "Nhuận",
+          "meaning": "Moisten / Enrich / Extra yield"
+        }
+      ],
+      "bridge": "Combining 'gain' (Lợi) with 'enriching moisture' (Nhuận), the term metaphorically views profit as a smooth, nourishing surplus generated by business activity."
+    },
+    "compounds": [
+      {
+        "vi": "Lợi ích",
+        "literal": "gain + benefit",
+        "en": "benefit / self-interest",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Lợi tức",
+        "literal": "gain + growth/interest",
+        "en": "dividend / interest income",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Quyền lợi",
+        "literal": "power + benefit",
+        "en": "rights and privileges",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Thuận lợi",
+        "literal": "smooth + advantageous",
+        "en": "favorable / convenient",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Nhuận bút",
+        "literal": "moisten + brush/pen",
+        "en": "author royalty / writing fee",
+        "root": "Nhuận"
+      },
+      {
+        "vi": "Nhuận sắc",
+        "literal": "moisten + color/appearance",
+        "en": "to polish / touch up (a text)",
+        "root": "Nhuận"
+      },
+      {
+        "vi": "Nhuận tràng",
+        "literal": "moisten + intestines",
+        "en": "laxative / digestive aid",
+        "root": "Nhuận"
+      }
+    ]
+  },
+  "lợi nhuận": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Lợi",
+          "meaning": "Gain / Benefit / Sharp advantage"
+        },
+        {
+          "vi": "Nhuận",
+          "meaning": "Moisten / Enrich / Extra yield"
+        }
+      ],
+      "bridge": "Combining 'gain' (Lợi) with 'enriching moisture' (Nhuận), the term metaphorically views profit as a smooth, nourishing surplus generated by business activity."
+    },
+    "compounds": [
+      {
+        "vi": "Lợi ích",
+        "literal": "gain + benefit",
+        "en": "benefit / self-interest",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Lợi tức",
+        "literal": "gain + growth/interest",
+        "en": "dividend / interest income",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Quyền lợi",
+        "literal": "power + benefit",
+        "en": "rights and privileges",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Thuận lợi",
+        "literal": "smooth + advantageous",
+        "en": "favorable / convenient",
+        "root": "Lợi"
+      },
+      {
+        "vi": "Nhuận bút",
+        "literal": "moisten + brush/pen",
+        "en": "author royalty / writing fee",
+        "root": "Nhuận"
+      },
+      {
+        "vi": "Nhuận sắc",
+        "literal": "moisten + color/appearance",
+        "en": "to polish / touch up (a text)",
+        "root": "Nhuận"
+      },
+      {
+        "vi": "Nhuận tràng",
+        "literal": "moisten + intestines",
+        "en": "laxative / digestive aid",
+        "root": "Nhuận"
+      }
+    ]
+  },
+  "01202d524def": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cang",
+          "meaning": "Firm / Unyielding / Hard"
+        },
+        {
+          "vi": "Đảm",
+          "meaning": "Gallbladder / Inner Guts (symbol of courage)"
+        }
+      ],
+      "bridge": "Traditional East Asian medicine viewed the gallbladder as the physiological seat of courage; combining it with unyielding firmness defines a person of unshakable fortitude."
+    },
+    "compounds": [
+      {
+        "vi": "Cang cường",
+        "literal": "unyielding + strong",
+        "en": "indomitable / steadfastly resilient",
+        "root": "Cang"
+      },
+      {
+        "vi": "Cang trực",
+        "literal": "unyielding + upright",
+        "en": "upright / unbendingly honest and principled",
+        "root": "Cang"
+      },
+      {
+        "vi": "Can đảm",
+        "literal": "liver + gallbladder",
+        "en": "courageous / brave",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đảm lược",
+        "literal": "courage + strategy",
+        "en": "boldness and vision / strategic bravery",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đảm khí",
+        "literal": "courage + spirit",
+        "en": "mettle / nerve / pluck",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đại đảm",
+        "literal": "great + courage",
+        "en": "audacious / daring / bold",
+        "root": "Đảm"
+      }
+    ]
+  },
+  "cang đảm": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cang",
+          "meaning": "Firm / Unyielding / Hard"
+        },
+        {
+          "vi": "Đảm",
+          "meaning": "Gallbladder / Inner Guts (symbol of courage)"
+        }
+      ],
+      "bridge": "Traditional East Asian medicine viewed the gallbladder as the physiological seat of courage; combining it with unyielding firmness defines a person of unshakable fortitude."
+    },
+    "compounds": [
+      {
+        "vi": "Cang cường",
+        "literal": "unyielding + strong",
+        "en": "indomitable / steadfastly resilient",
+        "root": "Cang"
+      },
+      {
+        "vi": "Cang trực",
+        "literal": "unyielding + upright",
+        "en": "upright / unbendingly honest and principled",
+        "root": "Cang"
+      },
+      {
+        "vi": "Can đảm",
+        "literal": "liver + gallbladder",
+        "en": "courageous / brave",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đảm lược",
+        "literal": "courage + strategy",
+        "en": "boldness and vision / strategic bravery",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đảm khí",
+        "literal": "courage + spirit",
+        "en": "mettle / nerve / pluck",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đại đảm",
+        "literal": "great + courage",
+        "en": "audacious / daring / bold",
+        "root": "Đảm"
+      }
+    ]
+  },
+  "56cbf69a0173": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chức",
+          "meaning": "Duty / Role / Official position"
+        },
+        {
+          "vi": "Năng",
+          "meaning": "Ability / Capacity / Power"
+        }
+      ],
+      "bridge": "A function is the specific inherent ability (năng) required to fulfill a designated role or duty (chức)."
+    },
+    "compounds": [
+      {
+        "vi": "Chức vụ",
+        "literal": "role + task",
+        "en": "official position / post",
+        "root": "Chức"
+      },
+      {
+        "vi": "Chức nghiệp",
+        "literal": "role + occupation",
+        "en": "profession / career",
+        "root": "Chức"
+      },
+      {
+        "vi": "Chức quyền",
+        "literal": "role + power",
+        "en": "official authority",
+        "root": "Chức"
+      },
+      {
+        "vi": "Tổ chức",
+        "literal": "weave/arrange + role/structure",
+        "en": "organization / to organize",
+        "root": "Chức"
+      },
+      {
+        "vi": "Năng lực",
+        "literal": "ability + strength",
+        "en": "capability / competence",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng lượng",
+        "literal": "ability + measure/quantity",
+        "en": "energy",
+        "root": "Năng"
+      },
+      {
+        "vi": "Khả năng",
+        "literal": "possible + ability",
+        "en": "possibility / potential / ability",
+        "root": "Năng"
+      },
+      {
+        "vi": "Kỹ năng",
+        "literal": "skill + ability",
+        "en": "skill / practical capability",
+        "root": "Năng"
+      }
+    ]
+  },
+  "chức năng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chức",
+          "meaning": "Duty / Role / Official position"
+        },
+        {
+          "vi": "Năng",
+          "meaning": "Ability / Capacity / Power"
+        }
+      ],
+      "bridge": "A function is the specific inherent ability (năng) required to fulfill a designated role or duty (chức)."
+    },
+    "compounds": [
+      {
+        "vi": "Chức vụ",
+        "literal": "role + task",
+        "en": "official position / post",
+        "root": "Chức"
+      },
+      {
+        "vi": "Chức nghiệp",
+        "literal": "role + occupation",
+        "en": "profession / career",
+        "root": "Chức"
+      },
+      {
+        "vi": "Chức quyền",
+        "literal": "role + power",
+        "en": "official authority",
+        "root": "Chức"
+      },
+      {
+        "vi": "Tổ chức",
+        "literal": "weave/arrange + role/structure",
+        "en": "organization / to organize",
+        "root": "Chức"
+      },
+      {
+        "vi": "Năng lực",
+        "literal": "ability + strength",
+        "en": "capability / competence",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng lượng",
+        "literal": "ability + measure/quantity",
+        "en": "energy",
+        "root": "Năng"
+      },
+      {
+        "vi": "Khả năng",
+        "literal": "possible + ability",
+        "en": "possibility / potential / ability",
+        "root": "Năng"
+      },
+      {
+        "vi": "Kỹ năng",
+        "literal": "skill + ability",
+        "en": "skill / practical capability",
+        "root": "Năng"
+      }
+    ]
+  },
+  "0869e8c47e76": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Lãng",
+          "meaning": "Wave / Unrestrained / Overflowing"
+        },
+        {
+          "vi": "Mạn",
+          "meaning": "Boundless / Spreading without limit"
+        }
+      ],
+      "bridge": "Originally describing water unrestrainedly overflowing its banks, 'Lãng mạn' metaphorically captures imagination and emotion surging beyond rigid logic and worldly boundaries."
+    },
+    "compounds": [
+      {
+        "vi": "Lãng phí",
+        "literal": "unrestrained + spend",
+        "en": "to waste / squander",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Lãng tử",
+        "literal": "wandering + person",
+        "en": "wanderer / vagabond / bohemian",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Phong lãng",
+        "literal": "wind + wave",
+        "en": "stormy waves / life's trials",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Phóng lãng",
+        "literal": "unbound + unrestrained",
+        "en": "licentious / dissolute / unrestrained",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Tản mạn",
+        "literal": "scattered + boundless",
+        "en": "rambling / discursive / unfocused",
+        "root": "Mạn"
+      },
+      {
+        "vi": "Mạn đàm",
+        "literal": "unrestrained + talk",
+        "en": "casual chat / informal discussion",
+        "root": "Mạn"
+      },
+      {
+        "vi": "Mạn họa",
+        "literal": "unrestrained + drawing",
+        "en": "comics / manga",
+        "root": "Mạn"
+      },
+      {
+        "vi": "Mạn phép",
+        "literal": "take liberty + permission",
+        "en": "to take the liberty (to do something)",
+        "root": "Mạn"
+      }
+    ]
+  },
+  "lãng mạn": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Lãng",
+          "meaning": "Wave / Unrestrained / Overflowing"
+        },
+        {
+          "vi": "Mạn",
+          "meaning": "Boundless / Spreading without limit"
+        }
+      ],
+      "bridge": "Originally describing water unrestrainedly overflowing its banks, 'Lãng mạn' metaphorically captures imagination and emotion surging beyond rigid logic and worldly boundaries."
+    },
+    "compounds": [
+      {
+        "vi": "Lãng phí",
+        "literal": "unrestrained + spend",
+        "en": "to waste / squander",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Lãng tử",
+        "literal": "wandering + person",
+        "en": "wanderer / vagabond / bohemian",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Phong lãng",
+        "literal": "wind + wave",
+        "en": "stormy waves / life's trials",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Phóng lãng",
+        "literal": "unbound + unrestrained",
+        "en": "licentious / dissolute / unrestrained",
+        "root": "Lãng"
+      },
+      {
+        "vi": "Tản mạn",
+        "literal": "scattered + boundless",
+        "en": "rambling / discursive / unfocused",
+        "root": "Mạn"
+      },
+      {
+        "vi": "Mạn đàm",
+        "literal": "unrestrained + talk",
+        "en": "casual chat / informal discussion",
+        "root": "Mạn"
+      },
+      {
+        "vi": "Mạn họa",
+        "literal": "unrestrained + drawing",
+        "en": "comics / manga",
+        "root": "Mạn"
+      },
+      {
+        "vi": "Mạn phép",
+        "literal": "take liberty + permission",
+        "en": "to take the liberty (to do something)",
+        "root": "Mạn"
+      }
+    ]
+  },
+  "7436344f5627": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hiến",
+          "meaning": "Statute, law, or model; originally referring to a system of rules or a virtuous pattern to follow."
+        },
+        {
+          "vi": "Pháp",
+          "meaning": "Method, law, or doctrine; originating from the concept of a standard or objective rule governing behavior or nature."
+        }
+      ],
+      "bridge": "The word 'Hiến pháp' represents the foundational 'model' (Hiến) that acts as the ultimate 'standard law' (Pháp) governing the structure of a state."
+    },
+    "compounds": [
+      {
+        "vi": "Hiến chương",
+        "literal": "Statute + Document/Regimen",
+        "en": "Charter",
+        "root": "Hiến"
+      },
+      {
+        "vi": "Hiến tặng",
+        "literal": "Offer/Model + Give",
+        "en": "Donate / Present as an offering",
+        "root": "Hiến"
+      },
+      {
+        "vi": "Cống hiến",
+        "literal": "Tribute + Offer",
+        "en": "Dedicate / Contribute",
+        "root": "Hiến"
+      },
+      {
+        "vi": "Pháp luật",
+        "literal": "Law + Rule/Statute",
+        "en": "Legal system / Laws",
+        "root": "Pháp"
+      },
+      {
+        "vi": "Phương pháp",
+        "literal": "Direction/Way + Method",
+        "en": "Methodology / Approach",
+        "root": "Pháp"
+      },
+      {
+        "vi": "Pháp sư",
+        "literal": "Law/Ritual + Master",
+        "en": "Sorcerer / Mage / Ritual specialist",
+        "root": "Pháp"
+      }
+    ]
+  },
+  "hiến pháp": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hiến",
+          "meaning": "Statute, law, or model; originally referring to a system of rules or a virtuous pattern to follow."
+        },
+        {
+          "vi": "Pháp",
+          "meaning": "Method, law, or doctrine; originating from the concept of a standard or objective rule governing behavior or nature."
+        }
+      ],
+      "bridge": "The word 'Hiến pháp' represents the foundational 'model' (Hiến) that acts as the ultimate 'standard law' (Pháp) governing the structure of a state."
+    },
+    "compounds": [
+      {
+        "vi": "Hiến chương",
+        "literal": "Statute + Document/Regimen",
+        "en": "Charter",
+        "root": "Hiến"
+      },
+      {
+        "vi": "Hiến tặng",
+        "literal": "Offer/Model + Give",
+        "en": "Donate / Present as an offering",
+        "root": "Hiến"
+      },
+      {
+        "vi": "Cống hiến",
+        "literal": "Tribute + Offer",
+        "en": "Dedicate / Contribute",
+        "root": "Hiến"
+      },
+      {
+        "vi": "Pháp luật",
+        "literal": "Law + Rule/Statute",
+        "en": "Legal system / Laws",
+        "root": "Pháp"
+      },
+      {
+        "vi": "Phương pháp",
+        "literal": "Direction/Way + Method",
+        "en": "Methodology / Approach",
+        "root": "Pháp"
+      },
+      {
+        "vi": "Pháp sư",
+        "literal": "Law/Ritual + Master",
+        "en": "Sorcerer / Mage / Ritual specialist",
+        "root": "Pháp"
+      }
+    ]
+  },
+  "d3cb434925c8": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tính",
+          "meaning": "Nature / Quality / Inner property"
+        },
+        {
+          "vi": "Năng",
+          "meaning": "Ability / Capability / Power"
+        }
+      ],
+      "bridge": "A product or device's 'tính năng' (feature) is its inherent quality (tính) regarding what it has the ability (năng) to do."
+    },
+    "compounds": [
+      {
+        "vi": "Tính chất",
+        "literal": "nature + substance",
+        "en": "property / quality / characteristic",
+        "root": "Tính"
+      },
+      {
+        "vi": "Tính cách",
+        "literal": "nature + manner/pattern",
+        "en": "personality / character",
+        "root": "Tính"
+      },
+      {
+        "vi": "Thuộc tính",
+        "literal": "belong to + nature",
+        "en": "attribute / property",
+        "root": "Tính"
+      },
+      {
+        "vi": "Cá tính",
+        "literal": "individual + nature",
+        "en": "individuality / distinct character",
+        "root": "Tính"
+      },
+      {
+        "vi": "Năng lực",
+        "literal": "ability + strength",
+        "en": "competence / capability",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng lượng",
+        "literal": "ability + measure",
+        "en": "energy / power",
+        "root": "Năng"
+      },
+      {
+        "vi": "Khả năng",
+        "literal": "possible + ability",
+        "en": "capability / possibility",
+        "root": "Năng"
+      },
+      {
+        "vi": "Kỹ năng",
+        "literal": "craft/skill + ability",
+        "en": "skill / technique",
+        "root": "Năng"
+      }
+    ]
+  },
+  "tính năng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tính",
+          "meaning": "Nature / Quality / Inner property"
+        },
+        {
+          "vi": "Năng",
+          "meaning": "Ability / Capability / Power"
+        }
+      ],
+      "bridge": "A product or device's 'tính năng' (feature) is its inherent quality (tính) regarding what it has the ability (năng) to do."
+    },
+    "compounds": [
+      {
+        "vi": "Tính chất",
+        "literal": "nature + substance",
+        "en": "property / quality / characteristic",
+        "root": "Tính"
+      },
+      {
+        "vi": "Tính cách",
+        "literal": "nature + manner/pattern",
+        "en": "personality / character",
+        "root": "Tính"
+      },
+      {
+        "vi": "Thuộc tính",
+        "literal": "belong to + nature",
+        "en": "attribute / property",
+        "root": "Tính"
+      },
+      {
+        "vi": "Cá tính",
+        "literal": "individual + nature",
+        "en": "individuality / distinct character",
+        "root": "Tính"
+      },
+      {
+        "vi": "Năng lực",
+        "literal": "ability + strength",
+        "en": "competence / capability",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng lượng",
+        "literal": "ability + measure",
+        "en": "energy / power",
+        "root": "Năng"
+      },
+      {
+        "vi": "Khả năng",
+        "literal": "possible + ability",
+        "en": "capability / possibility",
+        "root": "Năng"
+      },
+      {
+        "vi": "Kỹ năng",
+        "literal": "craft/skill + ability",
+        "en": "skill / technique",
+        "root": "Năng"
+      }
+    ]
+  },
+  "09a1ccad2cff": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thành",
+          "meaning": "To succeed, to complete, to become, or to finalize."
+        },
+        {
+          "vi": "Tích",
+          "meaning": "Accumulation, evidence, trace, or footprint."
+        }
+      ],
+      "bridge": "An accomplishment is the literal accumulation of completed actions that leave behind a tangible mark or record of one's efforts."
+    },
+    "compounds": [
+      {
+        "vi": "Thành công",
+        "literal": "Succeed + work/feat",
+        "en": "Success",
+        "root": "Thành"
+      },
+      {
+        "vi": "Thành lập",
+        "literal": "Succeed/complete + set up/establish",
+        "en": "To establish or found",
+        "root": "Thành"
+      },
+      {
+        "vi": "Thành hình",
+        "literal": "Succeed/complete + shape/form",
+        "en": "To take shape or materialize",
+        "root": "Thành"
+      },
+      {
+        "vi": "Tích lũy",
+        "literal": "Accumulate + accumulate",
+        "en": "To accumulate or hoard",
+        "root": "Tích"
+      },
+      {
+        "vi": "Tích cực",
+        "literal": "Accumulate/active + pole/extreme",
+        "en": "Positive or proactive",
+        "root": "Tích"
+      },
+      {
+        "vi": "Thành tích",
+        "literal": "Completed + traces/accumulation",
+        "en": "Achievement or accomplishment",
+        "root": "Tích"
+      }
+    ]
+  },
+  "thành tích": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thành",
+          "meaning": "To succeed, to complete, to become, or to finalize."
+        },
+        {
+          "vi": "Tích",
+          "meaning": "Accumulation, evidence, trace, or footprint."
+        }
+      ],
+      "bridge": "An accomplishment is the literal accumulation of completed actions that leave behind a tangible mark or record of one's efforts."
+    },
+    "compounds": [
+      {
+        "vi": "Thành công",
+        "literal": "Succeed + work/feat",
+        "en": "Success",
+        "root": "Thành"
+      },
+      {
+        "vi": "Thành lập",
+        "literal": "Succeed/complete + set up/establish",
+        "en": "To establish or found",
+        "root": "Thành"
+      },
+      {
+        "vi": "Thành hình",
+        "literal": "Succeed/complete + shape/form",
+        "en": "To take shape or materialize",
+        "root": "Thành"
+      },
+      {
+        "vi": "Tích lũy",
+        "literal": "Accumulate + accumulate",
+        "en": "To accumulate or hoard",
+        "root": "Tích"
+      },
+      {
+        "vi": "Tích cực",
+        "literal": "Accumulate/active + pole/extreme",
+        "en": "Positive or proactive",
+        "root": "Tích"
+      },
+      {
+        "vi": "Thành tích",
+        "literal": "Completed + traces/accumulation",
+        "en": "Achievement or accomplishment",
+        "root": "Tích"
+      }
+    ]
+  },
+  "0027f3322d06": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chiến",
+          "meaning": "War/Battle/Combat"
+        },
+        {
+          "vi": "Lược",
+          "meaning": "Method/Plan/Simplify/Pass through"
+        }
+      ],
+      "bridge": "A strategy is essentially a calculated method or simplified plan designed to manage the complexities of a battle."
+    },
+    "compounds": [
+      {
+        "vi": "Chiến tranh",
+        "literal": "War + Battle",
+        "en": "War",
+        "root": "Chiến"
+      },
+      {
+        "vi": "Chiến sĩ",
+        "literal": "War + Person/Soldier",
+        "en": "Fighter/Soldier",
+        "root": "Chiến"
+      },
+      {
+        "vi": "Quyết chiến",
+        "literal": "Decide/Resolve + War",
+        "en": "Decisive battle",
+        "root": "Chiến"
+      },
+      {
+        "vi": "Lược đồ",
+        "literal": "Plan/Method + Diagram",
+        "en": "Sketch/Map/Diagram",
+        "root": "Lược"
+      },
+      {
+        "vi": "Lược sử",
+        "literal": "Plan/Simplify + History",
+        "en": "A brief history/Outline of history",
+        "root": "Lược"
+      },
+      {
+        "vi": "Tóm lược",
+        "literal": "Gather/Summarize + Method/Simplify",
+        "en": "Summary/Overview",
+        "root": "Lược"
+      }
+    ]
+  },
+  "chiến lược": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chiến",
+          "meaning": "War/Battle/Combat"
+        },
+        {
+          "vi": "Lược",
+          "meaning": "Method/Plan/Simplify/Pass through"
+        }
+      ],
+      "bridge": "A strategy is essentially a calculated method or simplified plan designed to manage the complexities of a battle."
+    },
+    "compounds": [
+      {
+        "vi": "Chiến tranh",
+        "literal": "War + Battle",
+        "en": "War",
+        "root": "Chiến"
+      },
+      {
+        "vi": "Chiến sĩ",
+        "literal": "War + Person/Soldier",
+        "en": "Fighter/Soldier",
+        "root": "Chiến"
+      },
+      {
+        "vi": "Quyết chiến",
+        "literal": "Decide/Resolve + War",
+        "en": "Decisive battle",
+        "root": "Chiến"
+      },
+      {
+        "vi": "Lược đồ",
+        "literal": "Plan/Method + Diagram",
+        "en": "Sketch/Map/Diagram",
+        "root": "Lược"
+      },
+      {
+        "vi": "Lược sử",
+        "literal": "Plan/Simplify + History",
+        "en": "A brief history/Outline of history",
+        "root": "Lược"
+      },
+      {
+        "vi": "Tóm lược",
+        "literal": "Gather/Summarize + Method/Simplify",
+        "en": "Summary/Overview",
+        "root": "Lược"
+      }
+    ]
+  },
+  "ff21a0b624f2": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Phi",
+          "meaning": "Not / Non- / Un- (negation prefix or 'to fly')"
+        },
+        {
+          "vi": "Thướng",
+          "meaning": "Ordinary / Common / Normal (often a variation of 'thường')"
+        }
+      ],
+      "bridge": "By defining something as 'not' (phi) 'ordinary/common' (thướng), the term conceptually isolates an object or person from the mundane, highlighting their status as exceptional or extraordinary."
+    },
+    "compounds": [
+      {
+        "vi": "Phi thường",
+        "literal": "not + ordinary",
+        "en": "extraordinary / unusual",
+        "root": "Phi"
+      },
+      {
+        "vi": "Phi pháp",
+        "literal": "not + law",
+        "en": "illegal / unlawful",
+        "root": "Phi"
+      },
+      {
+        "vi": "Phi vụ",
+        "literal": "not + standard-task",
+        "en": "secret mission / clandestine operation",
+        "root": "Phi"
+      },
+      {
+        "vi": "Thường nhật",
+        "literal": "ordinary + day",
+        "en": "daily / everyday",
+        "root": "Thướng"
+      },
+      {
+        "vi": "Tầm thường",
+        "literal": "ordinary + ordinary",
+        "en": "mediocre / commonplace",
+        "root": "Thướng"
+      },
+      {
+        "vi": "Thường lệ",
+        "literal": "ordinary + rule/custom",
+        "en": "routine / standard practice",
+        "root": "Thướng"
+      }
+    ]
+  },
+  "phi thướng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Phi",
+          "meaning": "Not / Non- / Un- (negation prefix or 'to fly')"
+        },
+        {
+          "vi": "Thướng",
+          "meaning": "Ordinary / Common / Normal (often a variation of 'thường')"
+        }
+      ],
+      "bridge": "By defining something as 'not' (phi) 'ordinary/common' (thướng), the term conceptually isolates an object or person from the mundane, highlighting their status as exceptional or extraordinary."
+    },
+    "compounds": [
+      {
+        "vi": "Phi thường",
+        "literal": "not + ordinary",
+        "en": "extraordinary / unusual",
+        "root": "Phi"
+      },
+      {
+        "vi": "Phi pháp",
+        "literal": "not + law",
+        "en": "illegal / unlawful",
+        "root": "Phi"
+      },
+      {
+        "vi": "Phi vụ",
+        "literal": "not + standard-task",
+        "en": "secret mission / clandestine operation",
+        "root": "Phi"
+      },
+      {
+        "vi": "Thường nhật",
+        "literal": "ordinary + day",
+        "en": "daily / everyday",
+        "root": "Thướng"
+      },
+      {
+        "vi": "Tầm thường",
+        "literal": "ordinary + ordinary",
+        "en": "mediocre / commonplace",
+        "root": "Thướng"
+      },
+      {
+        "vi": "Thường lệ",
+        "literal": "ordinary + rule/custom",
+        "en": "routine / standard practice",
+        "root": "Thướng"
+      }
+    ]
+  },
+  "0a123a6ae778": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "gánh",
+          "meaning": "Native Vietnamese root: to carry using a shoulder pole; a load; a responsibility."
+        },
+        {
+          "vi": "nặng",
+          "meaning": "Native Vietnamese root: heavy; weighty; serious; difficult."
+        }
+      ],
+      "bridge": "The word metaphorically maps the physical exhaustion of balancing a heavy weight on a shoulder pole onto the psychological and social experience of enduring a difficult responsibility."
+    },
+    "compounds": [
+      {
+        "vi": "gánh vác",
+        "literal": "carry + shoulder/bear",
+        "en": "to undertake; to shoulder (a responsibility)",
+        "root": "gánh"
+      },
+      {
+        "vi": "gánh chịu",
+        "literal": "carry + endure",
+        "en": "to bear the brunt; to suffer/endure",
+        "root": "gánh"
+      },
+      {
+        "vi": "gánh hàng",
+        "literal": "carry + merchandise",
+        "en": "a peddler's load of goods",
+        "root": "gánh"
+      },
+      {
+        "vi": "nặng nề",
+        "literal": "heavy + repetitive suffix",
+        "en": "cumbersome; heavy-hearted; sluggish",
+        "root": "nặng"
+      },
+      {
+        "vi": "nặng lòng",
+        "literal": "heavy + heart/mind",
+        "en": "heavy-hearted; troubled; burdened by thoughts",
+        "root": "nặng"
+      },
+      {
+        "vi": "trọng lượng",
+        "literal": "heavy/important + measure",
+        "en": "weight (physical)",
+        "root": "nặng"
+      }
+    ]
+  },
+  "gánh nặng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "gánh",
+          "meaning": "Native Vietnamese root: to carry using a shoulder pole; a load; a responsibility."
+        },
+        {
+          "vi": "nặng",
+          "meaning": "Native Vietnamese root: heavy; weighty; serious; difficult."
+        }
+      ],
+      "bridge": "The word metaphorically maps the physical exhaustion of balancing a heavy weight on a shoulder pole onto the psychological and social experience of enduring a difficult responsibility."
+    },
+    "compounds": [
+      {
+        "vi": "gánh vác",
+        "literal": "carry + shoulder/bear",
+        "en": "to undertake; to shoulder (a responsibility)",
+        "root": "gánh"
+      },
+      {
+        "vi": "gánh chịu",
+        "literal": "carry + endure",
+        "en": "to bear the brunt; to suffer/endure",
+        "root": "gánh"
+      },
+      {
+        "vi": "gánh hàng",
+        "literal": "carry + merchandise",
+        "en": "a peddler's load of goods",
+        "root": "gánh"
+      },
+      {
+        "vi": "nặng nề",
+        "literal": "heavy + repetitive suffix",
+        "en": "cumbersome; heavy-hearted; sluggish",
+        "root": "nặng"
+      },
+      {
+        "vi": "nặng lòng",
+        "literal": "heavy + heart/mind",
+        "en": "heavy-hearted; troubled; burdened by thoughts",
+        "root": "nặng"
+      },
+      {
+        "vi": "trọng lượng",
+        "literal": "heavy/important + measure",
+        "en": "weight (physical)",
+        "root": "nặng"
+      }
+    ]
+  },
+  "6b6088057404": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cấp",
+          "meaning": "Grade, step, rank, or degree in a hierarchy."
+        },
+        {
+          "vi": "Độ",
+          "meaning": "Measure, scale, limit, or degree of intensity/temperature."
+        }
+      ],
+      "bridge": "Cấp represents the structural 'rungs' on a ladder of hierarchy, while Độ represents the 'measure' of distance or intensity between those rungs, together defining a position on a scale."
+    },
+    "compounds": [
+      {
+        "vi": "Cao cấp",
+        "literal": "High + grade",
+        "en": "High-class / advanced",
+        "root": "Cấp"
+      },
+      {
+        "vi": "Sơ cấp",
+        "literal": "Initial + grade",
+        "en": "Elementary / primary",
+        "root": "Cấp"
+      },
+      {
+        "vi": "Cấp bậc",
+        "literal": "Grade + rank",
+        "en": "Rank / hierarchy",
+        "root": "Cấp"
+      },
+      {
+        "vi": "Nhiệt độ",
+        "literal": "Heat + measure",
+        "en": "Temperature",
+        "root": "Độ"
+      },
+      {
+        "vi": "Tốc độ",
+        "literal": "Speed + measure",
+        "en": "Velocity / speed",
+        "root": "Độ"
+      },
+      {
+        "vi": "Mức độ",
+        "literal": "Level + measure",
+        "en": "Extent / intensity",
+        "root": "Độ"
+      }
+    ]
+  },
+  "cấp độ": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cấp",
+          "meaning": "Grade, step, rank, or degree in a hierarchy."
+        },
+        {
+          "vi": "Độ",
+          "meaning": "Measure, scale, limit, or degree of intensity/temperature."
+        }
+      ],
+      "bridge": "Cấp represents the structural 'rungs' on a ladder of hierarchy, while Độ represents the 'measure' of distance or intensity between those rungs, together defining a position on a scale."
+    },
+    "compounds": [
+      {
+        "vi": "Cao cấp",
+        "literal": "High + grade",
+        "en": "High-class / advanced",
+        "root": "Cấp"
+      },
+      {
+        "vi": "Sơ cấp",
+        "literal": "Initial + grade",
+        "en": "Elementary / primary",
+        "root": "Cấp"
+      },
+      {
+        "vi": "Cấp bậc",
+        "literal": "Grade + rank",
+        "en": "Rank / hierarchy",
+        "root": "Cấp"
+      },
+      {
+        "vi": "Nhiệt độ",
+        "literal": "Heat + measure",
+        "en": "Temperature",
+        "root": "Độ"
+      },
+      {
+        "vi": "Tốc độ",
+        "literal": "Speed + measure",
+        "en": "Velocity / speed",
+        "root": "Độ"
+      },
+      {
+        "vi": "Mức độ",
+        "literal": "Level + measure",
+        "en": "Extent / intensity",
+        "root": "Độ"
+      }
+    ]
+  },
+  "bf2012f7ee0d": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hoàn",
+          "meaning": "Complete / Wholeness / Intact (Sino-Vietnamese: 完)"
+        },
+        {
+          "vi": "Hảo",
+          "meaning": "Good / Fine / Excellent (Sino-Vietnamese: 好)"
+        }
+      ],
+      "bridge": "When something is completely (hoàn) and thoroughly good (hảo) without any flaw or omission, it achieves true perfection."
+    },
+    "compounds": [
+      {
+        "vi": "Hoàn thành",
+        "literal": "Complete + accomplish",
+        "en": "To finish / complete",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hoàn toàn",
+        "literal": "Complete + entire",
+        "en": "Completely / totally",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hoàn mỹ",
+        "literal": "Complete + beautiful",
+        "en": "Flawless / perfect beauty",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hoàn nguyên",
+        "literal": "Return + original",
+        "en": "To restore to original state",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hảo tâm",
+        "literal": "Good + heart",
+        "en": "Kind-hearted / benevolent",
+        "root": "Hảo"
+      },
+      {
+        "vi": "Hảo hạng",
+        "literal": "Good + rank/grade",
+        "en": "Top-grade / premium quality",
+        "root": "Hảo"
+      },
+      {
+        "vi": "Hảo hữu",
+        "literal": "Good + friend",
+        "en": "Good friend / close companion",
+        "root": "Hảo"
+      },
+      {
+        "vi": "Hảo cảm",
+        "literal": "Good + feeling",
+        "en": "Favorable impression / goodwill",
+        "root": "Hảo"
+      }
+    ]
+  },
+  "hoàn hảo": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hoàn",
+          "meaning": "Complete / Wholeness / Intact (Sino-Vietnamese: 完)"
+        },
+        {
+          "vi": "Hảo",
+          "meaning": "Good / Fine / Excellent (Sino-Vietnamese: 好)"
+        }
+      ],
+      "bridge": "When something is completely (hoàn) and thoroughly good (hảo) without any flaw or omission, it achieves true perfection."
+    },
+    "compounds": [
+      {
+        "vi": "Hoàn thành",
+        "literal": "Complete + accomplish",
+        "en": "To finish / complete",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hoàn toàn",
+        "literal": "Complete + entire",
+        "en": "Completely / totally",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hoàn mỹ",
+        "literal": "Complete + beautiful",
+        "en": "Flawless / perfect beauty",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hoàn nguyên",
+        "literal": "Return + original",
+        "en": "To restore to original state",
+        "root": "Hoàn"
+      },
+      {
+        "vi": "Hảo tâm",
+        "literal": "Good + heart",
+        "en": "Kind-hearted / benevolent",
+        "root": "Hảo"
+      },
+      {
+        "vi": "Hảo hạng",
+        "literal": "Good + rank/grade",
+        "en": "Top-grade / premium quality",
+        "root": "Hảo"
+      },
+      {
+        "vi": "Hảo hữu",
+        "literal": "Good + friend",
+        "en": "Good friend / close companion",
+        "root": "Hảo"
+      },
+      {
+        "vi": "Hảo cảm",
+        "literal": "Good + feeling",
+        "en": "Favorable impression / goodwill",
+        "root": "Hảo"
+      }
+    ]
+  },
+  "test_tc_999": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thành",
+          "meaning": "Complete, accomplish, to finish, or to turn into"
+        },
+        {
+          "vi": "Công",
+          "meaning": "Merit, achievement, work, or labor"
+        }
+      ],
+      "bridge": "When completed effort (thành) merges with labor and merit (công), the result is a successful achievement."
+    },
+    "compounds": [
+      {
+        "vi": "Hoàn thành",
+        "literal": "complete + finish",
+        "en": "to complete / to fulfill",
+        "root": "Thành"
+      },
+      {
+        "vi": "Thành lập",
+        "literal": "accomplish + establish",
+        "en": "to found / to establish",
+        "root": "Thành"
+      },
+      {
+        "vi": "Trở thành",
+        "literal": "turn into + accomplish",
+        "en": "to become",
+        "root": "Thành"
+      },
+      {
+        "vi": "Công lao",
+        "literal": "merit + labor",
+        "en": "contribution / credit",
+        "root": "Công"
+      },
+      {
+        "vi": "Công nhân",
+        "literal": "labor + person",
+        "en": "factory worker",
+        "root": "Công"
+      },
+      {
+        "vi": "Công việc",
+        "literal": "work + matter",
+        "en": "job / work / task",
+        "root": "Công"
+      }
+    ]
+  },
+  "thành công": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thành",
+          "meaning": "Complete, accomplish, to finish, or to turn into"
+        },
+        {
+          "vi": "Công",
+          "meaning": "Merit, achievement, work, or labor"
+        }
+      ],
+      "bridge": "When completed effort (thành) merges with labor and merit (công), the result is a successful achievement."
+    },
+    "compounds": [
+      {
+        "vi": "Hoàn thành",
+        "literal": "complete + finish",
+        "en": "to complete / to fulfill",
+        "root": "Thành"
+      },
+      {
+        "vi": "Thành lập",
+        "literal": "accomplish + establish",
+        "en": "to found / to establish",
+        "root": "Thành"
+      },
+      {
+        "vi": "Trở thành",
+        "literal": "turn into + accomplish",
+        "en": "to become",
+        "root": "Thành"
+      },
+      {
+        "vi": "Công lao",
+        "literal": "merit + labor",
+        "en": "contribution / credit",
+        "root": "Công"
+      },
+      {
+        "vi": "Công nhân",
+        "literal": "labor + person",
+        "en": "factory worker",
+        "root": "Công"
+      },
+      {
+        "vi": "Công việc",
+        "literal": "work + matter",
+        "en": "job / work / task",
+        "root": "Công"
+      }
+    ]
+  },
+  "573172527b74": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thuyết",
+          "meaning": "Speak, explain, expound, or theory/doctrine"
+        },
+        {
+          "vi": "Phục",
+          "meaning": "Submit, yield, obey, or convince/win over"
+        }
+      ],
+      "bridge": "To persuade someone is to use exposition, reasoning, or words (thuyết) to make them willingly submit or yield in agreement (phục)."
+    },
+    "compounds": [
+      {
+        "vi": "Thuyết minh",
+        "literal": "explain + clarify",
+        "en": "To illustrate, explain, or narrate",
+        "root": "Thuyết"
+      },
+      {
+        "vi": "Thuyết giáo",
+        "literal": "explain + doctrine/teach",
+        "en": "To preach or lecture",
+        "root": "Thuyết"
+      },
+      {
+        "vi": "Diễn thuyết",
+        "literal": "express/perform + explain",
+        "en": "To give a speech or lecture",
+        "root": "Thuyết"
+      },
+      {
+        "vi": "Bất phục",
+        "literal": "not + submit",
+        "en": "Unsubmissive, rebellious, or unconvuiced",
+        "root": "Phục"
+      },
+      {
+        "vi": "Cảm phục",
+        "literal": "feel/moved + submit",
+        "en": "To admire deeply or be won over with respect",
+        "root": "Phục"
+      },
+      {
+        "vi": "Kính phục",
+        "literal": "respect + submit",
+        "en": "To look up to with great admiration",
+        "root": "Phục"
+      }
+    ]
+  },
+  "thuyết phục": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thuyết",
+          "meaning": "Speak, explain, expound, or theory/doctrine"
+        },
+        {
+          "vi": "Phục",
+          "meaning": "Submit, yield, obey, or convince/win over"
+        }
+      ],
+      "bridge": "To persuade someone is to use exposition, reasoning, or words (thuyết) to make them willingly submit or yield in agreement (phục)."
+    },
+    "compounds": [
+      {
+        "vi": "Thuyết minh",
+        "literal": "explain + clarify",
+        "en": "To illustrate, explain, or narrate",
+        "root": "Thuyết"
+      },
+      {
+        "vi": "Thuyết giáo",
+        "literal": "explain + doctrine/teach",
+        "en": "To preach or lecture",
+        "root": "Thuyết"
+      },
+      {
+        "vi": "Diễn thuyết",
+        "literal": "express/perform + explain",
+        "en": "To give a speech or lecture",
+        "root": "Thuyết"
+      },
+      {
+        "vi": "Bất phục",
+        "literal": "not + submit",
+        "en": "Unsubmissive, rebellious, or unconvuiced",
+        "root": "Phục"
+      },
+      {
+        "vi": "Cảm phục",
+        "literal": "feel/moved + submit",
+        "en": "To admire deeply or be won over with respect",
+        "root": "Phục"
+      },
+      {
+        "vi": "Kính phục",
+        "literal": "respect + submit",
+        "en": "To look up to with great admiration",
+        "root": "Phục"
+      }
+    ]
+  },
+  "9b2d7eb19487": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Góc",
+          "meaning": "Corner / Angle / Point of view"
+        },
+        {
+          "vi": "Độ",
+          "meaning": "Degree / Measure / Extent"
+        },
+        {
+          "vi": "Vĩ",
+          "meaning": "Great / Large / Vast"
+        },
+        {
+          "vi": "Mô",
+          "meaning": "Model / Framework / Pattern"
+        }
+      ],
+      "bridge": "Literally translating to 'angle-measure great-model', 'góc độ vĩ mô' combines 'góc độ' (the angle or degree from which something is viewed) with 'vĩ mô' (vast model or macro-scale), creating the conceptual picture of observing a vast framework from a specific vantage point."
+    },
+    "compounds": [
+      {
+        "vi": "Góc nhìn",
+        "literal": "Corner + look/see",
+        "en": "Perspective / Viewpoint",
+        "root": "Góc"
+      },
+      {
+        "vi": "Góc cạnh",
+        "literal": "Corner + edge/side",
+        "en": "Facet / Aspect / Edgy",
+        "root": "Góc"
+      },
+      {
+        "vi": "Nhiệt độ",
+        "literal": "Heat + degree",
+        "en": "Temperature",
+        "root": "Độ"
+      },
+      {
+        "vi": "Tốc độ",
+        "literal": "Speed + degree",
+        "en": "Velocity / Speed",
+        "root": "Độ"
+      },
+      {
+        "vi": "Vĩ đại",
+        "literal": "Great + vast/grand",
+        "en": "Great / Mighty / Grand",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Vĩ tuyến",
+        "literal": "Vast + line/parallel",
+        "en": "Parallel of latitude",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Mô hình",
+        "literal": "Model + shape/form",
+        "en": "Model / Paradigm",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô phỏng",
+        "literal": "Model + imitate/copy",
+        "en": "To simulate / Mock-up",
+        "root": "Mô"
+      }
+    ]
+  },
+  "góc độ vĩ mô": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Góc",
+          "meaning": "Corner / Angle / Point of view"
+        },
+        {
+          "vi": "Độ",
+          "meaning": "Degree / Measure / Extent"
+        },
+        {
+          "vi": "Vĩ",
+          "meaning": "Great / Large / Vast"
+        },
+        {
+          "vi": "Mô",
+          "meaning": "Model / Framework / Pattern"
+        }
+      ],
+      "bridge": "Literally translating to 'angle-measure great-model', 'góc độ vĩ mô' combines 'góc độ' (the angle or degree from which something is viewed) with 'vĩ mô' (vast model or macro-scale), creating the conceptual picture of observing a vast framework from a specific vantage point."
+    },
+    "compounds": [
+      {
+        "vi": "Góc nhìn",
+        "literal": "Corner + look/see",
+        "en": "Perspective / Viewpoint",
+        "root": "Góc"
+      },
+      {
+        "vi": "Góc cạnh",
+        "literal": "Corner + edge/side",
+        "en": "Facet / Aspect / Edgy",
+        "root": "Góc"
+      },
+      {
+        "vi": "Nhiệt độ",
+        "literal": "Heat + degree",
+        "en": "Temperature",
+        "root": "Độ"
+      },
+      {
+        "vi": "Tốc độ",
+        "literal": "Speed + degree",
+        "en": "Velocity / Speed",
+        "root": "Độ"
+      },
+      {
+        "vi": "Vĩ đại",
+        "literal": "Great + vast/grand",
+        "en": "Great / Mighty / Grand",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Vĩ tuyến",
+        "literal": "Vast + line/parallel",
+        "en": "Parallel of latitude",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Mô hình",
+        "literal": "Model + shape/form",
+        "en": "Model / Paradigm",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô phỏng",
+        "literal": "Model + imitate/copy",
+        "en": "To simulate / Mock-up",
+        "root": "Mô"
+      }
+    ]
+  },
+  "2dccdad91c22": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "bằng",
+          "meaning": "Level, even, flat"
+        },
+        {
+          "vi": "phẳng",
+          "meaning": "Smooth, flat, even"
+        }
+      ],
+      "bridge": "By combining two native synonyms meaning 'level' and 'flat,' the reduplicative compound 'bằng phẳng' vividly reinforces the idea of a surface completely free of bumps or irregularities."
+    },
+    "compounds": [
+      {
+        "vi": "bằng lặng",
+        "meaning": "Calm, peaceful, quiet",
+        "literal": "even + silent",
+        "root": "bằng"
+      },
+      {
+        "vi": "bằng hữu",
+        "meaning": "Friend, companion",
+        "literal": "equal + friend",
+        "root": "bằng"
+      },
+      {
+        "vi": "đường bằng",
+        "meaning": "Level road, flat path",
+        "literal": "road + even",
+        "root": "bằng"
+      },
+      {
+        "vi": "phẳng lì",
+        "meaning": "Pitch-flat, completely smooth",
+        "literal": "flat + completely",
+        "root": "phẳng"
+      },
+      {
+        "vi": "phẳng phiu",
+        "meaning": "Neatly smoothed out, ironed flat",
+        "literal": "flat + smooth-form",
+        "root": "phẳng"
+      },
+      {
+        "vi": "san phẳng",
+        "meaning": "To bulldoze, level, flatten",
+        "literal": "to make equal + flat",
+        "root": "phẳng"
+      }
+    ]
+  },
+  "bằng phẳng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "bằng",
+          "meaning": "Level, even, flat"
+        },
+        {
+          "vi": "phẳng",
+          "meaning": "Smooth, flat, even"
+        }
+      ],
+      "bridge": "By combining two native synonyms meaning 'level' and 'flat,' the reduplicative compound 'bằng phẳng' vividly reinforces the idea of a surface completely free of bumps or irregularities."
+    },
+    "compounds": [
+      {
+        "vi": "bằng lặng",
+        "meaning": "Calm, peaceful, quiet",
+        "literal": "even + silent",
+        "root": "bằng"
+      },
+      {
+        "vi": "bằng hữu",
+        "meaning": "Friend, companion",
+        "literal": "equal + friend",
+        "root": "bằng"
+      },
+      {
+        "vi": "đường bằng",
+        "meaning": "Level road, flat path",
+        "literal": "road + even",
+        "root": "bằng"
+      },
+      {
+        "vi": "phẳng lì",
+        "meaning": "Pitch-flat, completely smooth",
+        "literal": "flat + completely",
+        "root": "phẳng"
+      },
+      {
+        "vi": "phẳng phiu",
+        "meaning": "Neatly smoothed out, ironed flat",
+        "literal": "flat + smooth-form",
+        "root": "phẳng"
+      },
+      {
+        "vi": "san phẳng",
+        "meaning": "To bulldoze, level, flatten",
+        "literal": "to make equal + flat",
+        "root": "phẳng"
+      }
+    ]
+  },
+  "3095f98446d6": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cạnh",
+          "meaning": "To contend, strive, or vie with one another"
+        },
+        {
+          "vi": "Tranh",
+          "meaning": "To fight, struggle, or compete for"
+        }
+      ],
+      "bridge": "Combining 'cạnh' (to strive/vie) and 'tranh' (to struggle/compete) creates a vivid image of mutual striving and striving against others to win a goal or secure a position."
+    },
+    "compounds": [
+      {
+        "vi": "Cạnh tranh",
+        "literal": "vie + struggle",
+        "en": "Competitive / to compete",
+        "root": "Cạnh"
+      },
+      {
+        "vi": "Cạnh khách",
+        "literal": "vie + guest/customer",
+        "en": "Competing for customers",
+        "root": "Cạnh"
+      },
+      {
+        "vi": "Cạnh vị",
+        "literal": "vie + position",
+        "en": "Competitive position",
+        "root": "Cạnh"
+      },
+      {
+        "vi": "Tranh luận",
+        "literal": "struggle + discuss",
+        "en": "To debate / argument",
+        "root": "Tranh"
+      },
+      {
+        "vi": "Tranh giành",
+        "literal": "struggle + grab",
+        "en": "To vie for / to fight over",
+        "root": "Tranh"
+      },
+      {
+        "vi": "Tranh thủ",
+        "literal": "struggle + hand/time",
+        "en": "To make the most of / to seize the opportunity",
+        "root": "Tranh"
+      },
+      {
+        "vi": "Tranh cử",
+        "literal": "struggle + nominate/election",
+        "en": "To run for office / campaign",
+        "root": "Tranh"
+      }
+    ]
+  },
+  "cạnh tranh": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cạnh",
+          "meaning": "To contend, strive, or vie with one another"
+        },
+        {
+          "vi": "Tranh",
+          "meaning": "To fight, struggle, or compete for"
+        }
+      ],
+      "bridge": "Combining 'cạnh' (to strive/vie) and 'tranh' (to struggle/compete) creates a vivid image of mutual striving and striving against others to win a goal or secure a position."
+    },
+    "compounds": [
+      {
+        "vi": "Cạnh tranh",
+        "literal": "vie + struggle",
+        "en": "Competitive / to compete",
+        "root": "Cạnh"
+      },
+      {
+        "vi": "Cạnh khách",
+        "literal": "vie + guest/customer",
+        "en": "Competing for customers",
+        "root": "Cạnh"
+      },
+      {
+        "vi": "Cạnh vị",
+        "literal": "vie + position",
+        "en": "Competitive position",
+        "root": "Cạnh"
+      },
+      {
+        "vi": "Tranh luận",
+        "literal": "struggle + discuss",
+        "en": "To debate / argument",
+        "root": "Tranh"
+      },
+      {
+        "vi": "Tranh giành",
+        "literal": "struggle + grab",
+        "en": "To vie for / to fight over",
+        "root": "Tranh"
+      },
+      {
+        "vi": "Tranh thủ",
+        "literal": "struggle + hand/time",
+        "en": "To make the most of / to seize the opportunity",
+        "root": "Tranh"
+      },
+      {
+        "vi": "Tranh cử",
+        "literal": "struggle + nominate/election",
+        "en": "To run for office / campaign",
+        "root": "Tranh"
+      }
+    ]
+  },
+  "834591eff93a": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cảm",
+          "meaning": "To feel, to touch, to be moved (Việt gốc Hán: 感)"
+        },
+        {
+          "vi": "Giác",
+          "meaning": "To sense, to perceive, to realize (Việt gốc Hán: 覺)"
+        },
+        {
+          "vi": "Có",
+          "meaning": "To possess, to have (Vietnamese native word)"
+        },
+        {
+          "vi": "Ích",
+          "meaning": "Benefit, profit, usefulness, advantage (Việt gốc Hán: 益)"
+        }
+      ],
+      "bridge": "Literally translating to 'feeling and perceiving that one possesses benefit', the phrase combines the sensory awareness of 'cảm giác' with the utilitarian value of 'có ích' to describe the psychological state of recognizing one's own usefulness to others."
+    },
+    "compounds": [
+      {
+        "vi": "Cảm xúc",
+        "meaning": "feeling + touch/plant",
+        "literal": "To touch emotion / feelings",
+        "en": "Emotion",
+        "root": "Cảm"
+      },
+      {
+        "vi": "Cảm ơn",
+        "meaning": "feeling + grace/favor",
+        "literal": "To feel grace / appreciation",
+        "en": "Thank you",
+        "root": "Cảm"
+      },
+      {
+        "vi": "Giác quan",
+        "meaning": "sense + officer/part",
+        "literal": "Organs of perception",
+        "en": "Sense organ",
+        "root": "Giác"
+      },
+      {
+        "vi": "Tỉnh giác",
+        "meaning": "awake + sense",
+        "literal": "To be mentally awake and aware",
+        "en": "Vigilant / Alert",
+        "root": "Giác"
+      },
+      {
+        "vi": "Có mặt",
+        "meaning": "to have + face",
+        "literal": "To have presence",
+        "en": "To be present",
+        "root": "Có"
+      },
+      {
+        "vi": "Có lý",
+        "meaning": "to have + reason",
+        "literal": "To possess logic/reason",
+        "en": "Makes sense / Reasonable",
+        "root": "Có"
+      },
+      {
+        "vi": "Ích lợi",
+        "meaning": "benefit + profit",
+        "literal": "Benefit and advantage",
+        "en": "Benefit / Advantage",
+        "root": "Ích"
+      },
+      {
+        "vi": "Bảo vệ ích nước",
+        "meaning": "protect + benefit + country",
+        "literal": "Protecting national benefits",
+        "en": "Serving the national interest",
+        "root": "Ích"
+      }
+    ]
+  },
+  "cảm giác có ích": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cảm",
+          "meaning": "To feel, to touch, to be moved (Việt gốc Hán: 感)"
+        },
+        {
+          "vi": "Giác",
+          "meaning": "To sense, to perceive, to realize (Việt gốc Hán: 覺)"
+        },
+        {
+          "vi": "Có",
+          "meaning": "To possess, to have (Vietnamese native word)"
+        },
+        {
+          "vi": "Ích",
+          "meaning": "Benefit, profit, usefulness, advantage (Việt gốc Hán: 益)"
+        }
+      ],
+      "bridge": "Literally translating to 'feeling and perceiving that one possesses benefit', the phrase combines the sensory awareness of 'cảm giác' with the utilitarian value of 'có ích' to describe the psychological state of recognizing one's own usefulness to others."
+    },
+    "compounds": [
+      {
+        "vi": "Cảm xúc",
+        "meaning": "feeling + touch/plant",
+        "literal": "To touch emotion / feelings",
+        "en": "Emotion",
+        "root": "Cảm"
+      },
+      {
+        "vi": "Cảm ơn",
+        "meaning": "feeling + grace/favor",
+        "literal": "To feel grace / appreciation",
+        "en": "Thank you",
+        "root": "Cảm"
+      },
+      {
+        "vi": "Giác quan",
+        "meaning": "sense + officer/part",
+        "literal": "Organs of perception",
+        "en": "Sense organ",
+        "root": "Giác"
+      },
+      {
+        "vi": "Tỉnh giác",
+        "meaning": "awake + sense",
+        "literal": "To be mentally awake and aware",
+        "en": "Vigilant / Alert",
+        "root": "Giác"
+      },
+      {
+        "vi": "Có mặt",
+        "meaning": "to have + face",
+        "literal": "To have presence",
+        "en": "To be present",
+        "root": "Có"
+      },
+      {
+        "vi": "Có lý",
+        "meaning": "to have + reason",
+        "literal": "To possess logic/reason",
+        "en": "Makes sense / Reasonable",
+        "root": "Có"
+      },
+      {
+        "vi": "Ích lợi",
+        "meaning": "benefit + profit",
+        "literal": "Benefit and advantage",
+        "en": "Benefit / Advantage",
+        "root": "Ích"
+      },
+      {
+        "vi": "Bảo vệ ích nước",
+        "meaning": "protect + benefit + country",
+        "literal": "Protecting national benefits",
+        "en": "Serving the national interest",
+        "root": "Ích"
+      }
+    ]
+  },
+  "15e2e1fe591f": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cải",
+          "meaning": "Change / Reform / Correct"
+        },
+        {
+          "vi": "Thiện",
+          "meaning": "Good / Better / Virtue"
+        }
+      ],
+      "bridge": "To 'cải thiện' is to change something for the better, combining the action of reforming with the goal of achieving goodness."
+    },
+    "compounds": [
+      {
+        "vi": "Cải cách",
+        "meaning": "reform",
+        "literal": "change + rule/system",
+        "en": "To reform a system or structure",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải biên",
+        "meaning": "adapt",
+        "literal": "change + border/edit",
+        "en": "To adapt or rewrite a work",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải táng",
+        "meaning": "re-burial",
+        "literal": "change + burial",
+        "en": "To relocate remains for re-burial",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải hối",
+        "meaning": "repent",
+        "literal": "change + regret",
+        "en": "To reform and repent",
+        "root": "Cải"
+      },
+      {
+        "vi": "Hướng thiện",
+        "meaning": "turn to goodness",
+        "literal": "face/direct + good",
+        "en": "To aspire to do good",
+        "root": "Thiện"
+      },
+      {
+        "vi": "Mỹ thiện",
+        "meaning": "good and beautiful",
+        "literal": "beautiful + good",
+        "en": "Perfect and virtuous",
+        "root": "Thiện"
+      },
+      {
+        "vi": "Thiện cảm",
+        "meaning": "good feeling",
+        "literal": "good + feeling/sympathy",
+        "en": "Sympathy or good impression",
+        "root": "Thiện"
+      },
+      {
+        "vi": "Thiện chí",
+        "meaning": "goodwill",
+        "literal": "good + will/mind",
+        "en": "Goodwill or well-intentioned spirit",
+        "root": "Thiện"
+      }
+    ]
+  },
+  "cải thiện": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cải",
+          "meaning": "Change / Reform / Correct"
+        },
+        {
+          "vi": "Thiện",
+          "meaning": "Good / Better / Virtue"
+        }
+      ],
+      "bridge": "To 'cải thiện' is to change something for the better, combining the action of reforming with the goal of achieving goodness."
+    },
+    "compounds": [
+      {
+        "vi": "Cải cách",
+        "meaning": "reform",
+        "literal": "change + rule/system",
+        "en": "To reform a system or structure",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải biên",
+        "meaning": "adapt",
+        "literal": "change + border/edit",
+        "en": "To adapt or rewrite a work",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải táng",
+        "meaning": "re-burial",
+        "literal": "change + burial",
+        "en": "To relocate remains for re-burial",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải hối",
+        "meaning": "repent",
+        "literal": "change + regret",
+        "en": "To reform and repent",
+        "root": "Cải"
+      },
+      {
+        "vi": "Hướng thiện",
+        "meaning": "turn to goodness",
+        "literal": "face/direct + good",
+        "en": "To aspire to do good",
+        "root": "Thiện"
+      },
+      {
+        "vi": "Mỹ thiện",
+        "meaning": "good and beautiful",
+        "literal": "beautiful + good",
+        "en": "Perfect and virtuous",
+        "root": "Thiện"
+      },
+      {
+        "vi": "Thiện cảm",
+        "meaning": "good feeling",
+        "literal": "good + feeling/sympathy",
+        "en": "Sympathy or good impression",
+        "root": "Thiện"
+      },
+      {
+        "vi": "Thiện chí",
+        "meaning": "goodwill",
+        "literal": "good + will/mind",
+        "en": "Goodwill or well-intentioned spirit",
+        "root": "Thiện"
+      }
+    ]
+  },
+  "8e9ed49e25bb": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tăng",
+          "meaning": "Increase, add, rise, or grow"
+        },
+        {
+          "vi": "Trưởng",
+          "meaning": "Chief, leader, or to develop/grow up"
+        }
+      ],
+      "bridge": "Combining 'tăng' (to increase) and 'trưởng' (to develop and mature) creates 'tăng trưởng', capturing the dual concept of quantitative increase and qualitative maturation in growth."
+    },
+    "compounds": [
+      {
+        "vi": "Tăng ca",
+        "literal": "increase + shift",
+        "en": "overtime work",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Tăng thêm",
+        "literal": "increase + more/additional",
+        "en": "to augment / to add further",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Tăng tốc",
+        "literal": "increase + speed",
+        "en": "to accelerate",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Gia tăng",
+        "literal": "add/increase + increase",
+        "en": "to increase / to escalate",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Trưởng thành",
+        "literal": "grow up + achieve/accomplish",
+        "en": "to mature / adulthood",
+        "root": "Trưởng"
+      },
+      {
+        "vi": "Trưởng phòng",
+        "literal": "head/chief + room/department",
+        "en": "head of department / manager",
+        "root": "Trưởng"
+      },
+      {
+        "vi": "Hiệu trưởng",
+        "literal": "school/institution + head/chief",
+        "en": "school principal / university president",
+        "root": "Trưởng"
+      }
+    ]
+  },
+  "tăng trưởng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tăng",
+          "meaning": "Increase, add, rise, or grow"
+        },
+        {
+          "vi": "Trưởng",
+          "meaning": "Chief, leader, or to develop/grow up"
+        }
+      ],
+      "bridge": "Combining 'tăng' (to increase) and 'trưởng' (to develop and mature) creates 'tăng trưởng', capturing the dual concept of quantitative increase and qualitative maturation in growth."
+    },
+    "compounds": [
+      {
+        "vi": "Tăng ca",
+        "literal": "increase + shift",
+        "en": "overtime work",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Tăng thêm",
+        "literal": "increase + more/additional",
+        "en": "to augment / to add further",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Tăng tốc",
+        "literal": "increase + speed",
+        "en": "to accelerate",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Gia tăng",
+        "literal": "add/increase + increase",
+        "en": "to increase / to escalate",
+        "root": "Tăng"
+      },
+      {
+        "vi": "Trưởng thành",
+        "literal": "grow up + achieve/accomplish",
+        "en": "to mature / adulthood",
+        "root": "Trưởng"
+      },
+      {
+        "vi": "Trưởng phòng",
+        "literal": "head/chief + room/department",
+        "en": "head of department / manager",
+        "root": "Trưởng"
+      },
+      {
+        "vi": "Hiệu trưởng",
+        "literal": "school/institution + head/chief",
+        "en": "school principal / university president",
+        "root": "Trưởng"
+      }
+    ]
+  },
+  "66f840ed05d7": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Biến",
+          "meaning": "Change / transform / unexpected event"
+        },
+        {
+          "vi": "Động",
+          "meaning": "Move / shake / motion"
+        }
+      ],
+      "bridge": "When things undergo transformation (biến) and shaking movement (động), it creates unstable ups and downs, which we perceive as fluctuations."
+    },
+    "compounds": [
+      {
+        "vi": "Thay đổi",
+        "literal": "Change + shift",
+        "en": "To change",
+        "root": "Biến"
+      },
+      {
+        "vi": "Biến hóa",
+        "literal": "Transform + change",
+        "en": "Metamorphosis / magical transformation",
+        "root": "Biến"
+      },
+      {
+        "vi": "Biến thể",
+        "literal": "Transform + body/form",
+        "en": "Variant / mutation",
+        "root": "Biến"
+      },
+      {
+        "vi": "Biến cố",
+        "literal": "Transform + event/trouble",
+        "en": "Vicissitude / major upheaval",
+        "root": "Biến"
+      },
+      {
+        "vi": "Chuyển động",
+        "literal": "Move + motion",
+        "en": "Movement / motion",
+        "root": "Động"
+      },
+      {
+        "vi": "Hoạt động",
+        "literal": "Active + motion",
+        "en": "Activity / operation",
+        "root": "Động"
+      },
+      {
+        "vi": "Động đất",
+        "literal": "Shake + earth",
+        "en": "Earthquake",
+        "root": "Động"
+      },
+      {
+        "vi": "Rung động",
+        "literal": "Vibrate + shake",
+        "en": "Vibration / emotional resonance",
+        "root": "Động"
+      }
+    ]
+  },
+  "biến động": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Biến",
+          "meaning": "Change / transform / unexpected event"
+        },
+        {
+          "vi": "Động",
+          "meaning": "Move / shake / motion"
+        }
+      ],
+      "bridge": "When things undergo transformation (biến) and shaking movement (động), it creates unstable ups and downs, which we perceive as fluctuations."
+    },
+    "compounds": [
+      {
+        "vi": "Thay đổi",
+        "literal": "Change + shift",
+        "en": "To change",
+        "root": "Biến"
+      },
+      {
+        "vi": "Biến hóa",
+        "literal": "Transform + change",
+        "en": "Metamorphosis / magical transformation",
+        "root": "Biến"
+      },
+      {
+        "vi": "Biến thể",
+        "literal": "Transform + body/form",
+        "en": "Variant / mutation",
+        "root": "Biến"
+      },
+      {
+        "vi": "Biến cố",
+        "literal": "Transform + event/trouble",
+        "en": "Vicissitude / major upheaval",
+        "root": "Biến"
+      },
+      {
+        "vi": "Chuyển động",
+        "literal": "Move + motion",
+        "en": "Movement / motion",
+        "root": "Động"
+      },
+      {
+        "vi": "Hoạt động",
+        "literal": "Active + motion",
+        "en": "Activity / operation",
+        "root": "Động"
+      },
+      {
+        "vi": "Động đất",
+        "literal": "Shake + earth",
+        "en": "Earthquake",
+        "root": "Động"
+      },
+      {
+        "vi": "Rung động",
+        "literal": "Vibrate + shake",
+        "en": "Vibration / emotional resonance",
+        "root": "Động"
+      }
+    ]
+  },
+  "677d7f883df6": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nghịch",
+          "meaning": "Contrary, opposite, adverse, or going against the flow"
+        },
+        {
+          "vi": "Lý",
+          "meaning": "Reason, logic, principle, or truth"
+        }
+      ],
+      "bridge": "A paradox is literally a 'contrary reason' (nghịch lý), where two opposing logical statements or truths coexist, defying conventional reasoning."
+    },
+    "compounds": [
+      {
+        "vi": "Nghịch cảnh",
+        "literal": "contrary + scenery/situation",
+        "en": "adversity / difficult life circumstances",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Nghịch ý",
+        "literal": "contrary + thought/opinion",
+        "en": "disagreement / going against someone's wishes",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Nghịch chiều",
+        "literal": "contrary + direction",
+        "en": "going against traffic / running counter-current",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Nghịch chuyển",
+        "literal": "contrary + transition/reversal",
+        "en": "reversal of fortune / adverse change",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Lý lẽ",
+        "literal": "reason + reason/argument",
+        "en": "argument / rationale / reasoning",
+        "root": "Lý"
+      },
+      {
+        "vi": "Lý luận",
+        "literal": "reason + discuss/theory",
+        "en": "theory / theoretical discourse",
+        "root": "Lý"
+      },
+      {
+        "vi": "Chân lý",
+        "literal": "true + reason/principle",
+        "en": "truth",
+        "root": "Lý"
+      },
+      {
+        "vi": "Hợp lý",
+        "literal": "accordant + reason",
+        "en": "reasonable / logical / making sense",
+        "root": "Lý"
+      }
+    ]
+  },
+  "nghịc lý": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nghịch",
+          "meaning": "Contrary, opposite, adverse, or going against the flow"
+        },
+        {
+          "vi": "Lý",
+          "meaning": "Reason, logic, principle, or truth"
+        }
+      ],
+      "bridge": "A paradox is literally a 'contrary reason' (nghịch lý), where two opposing logical statements or truths coexist, defying conventional reasoning."
+    },
+    "compounds": [
+      {
+        "vi": "Nghịch cảnh",
+        "literal": "contrary + scenery/situation",
+        "en": "adversity / difficult life circumstances",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Nghịch ý",
+        "literal": "contrary + thought/opinion",
+        "en": "disagreement / going against someone's wishes",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Nghịch chiều",
+        "literal": "contrary + direction",
+        "en": "going against traffic / running counter-current",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Nghịch chuyển",
+        "literal": "contrary + transition/reversal",
+        "en": "reversal of fortune / adverse change",
+        "root": "Nghịch"
+      },
+      {
+        "vi": "Lý lẽ",
+        "literal": "reason + reason/argument",
+        "en": "argument / rationale / reasoning",
+        "root": "Lý"
+      },
+      {
+        "vi": "Lý luận",
+        "literal": "reason + discuss/theory",
+        "en": "theory / theoretical discourse",
+        "root": "Lý"
+      },
+      {
+        "vi": "Chân lý",
+        "literal": "true + reason/principle",
+        "en": "truth",
+        "root": "Lý"
+      },
+      {
+        "vi": "Hợp lý",
+        "literal": "accordant + reason",
+        "en": "reasonable / logical / making sense",
+        "root": "Lý"
+      }
+    ]
+  },
+  "aa4752c1d2f4": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đề",
+          "meaning": "To raise, to put forward, to inscribe, or to propose."
+        },
+        {
+          "vi": "Tài",
+          "meaning": "Material, substance, timber, or subject matter."
+        }
+      ],
+      "bridge": "The word literally means 'raising material' or 'proposing subject matter,' representing the core material or subject that is put forward for discussion or research."
+    },
+    "compounds": [
+      {
+        "vi": "Đề xuất",
+        "literal": "raise + go out",
+        "en": "to propose or suggest",
+        "root": "Đề"
+      },
+      {
+        "vi": "Đề cập",
+        "literal": "raise + reach/touch",
+        "en": "to mention or broach a topic",
+        "root": "Đề"
+      },
+      {
+        "vi": "Đề cử",
+        "literal": "raise + lift/recommend",
+        "en": "to nominate",
+        "root": "Đề"
+      },
+      {
+        "vi": "Vật liệu",
+        "literal": "thing/matter + material",
+        "en": "material (physical)",
+        "root": "Tài"
+      },
+      {
+        "vi": "Tài liệu",
+        "literal": "material + category/records",
+        "en": "documents or reference materials",
+        "root": "Tài"
+      },
+      {
+        "vi": "Nguyên liệu",
+        "literal": "original + material",
+        "en": "raw materials",
+        "root": "Tài"
+      }
+    ]
+  },
+  "đề tài": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đề",
+          "meaning": "To raise, to put forward, to inscribe, or to propose."
+        },
+        {
+          "vi": "Tài",
+          "meaning": "Material, substance, timber, or subject matter."
+        }
+      ],
+      "bridge": "The word literally means 'raising material' or 'proposing subject matter,' representing the core material or subject that is put forward for discussion or research."
+    },
+    "compounds": [
+      {
+        "vi": "Đề xuất",
+        "literal": "raise + go out",
+        "en": "to propose or suggest",
+        "root": "Đề"
+      },
+      {
+        "vi": "Đề cập",
+        "literal": "raise + reach/touch",
+        "en": "to mention or broach a topic",
+        "root": "Đề"
+      },
+      {
+        "vi": "Đề cử",
+        "literal": "raise + lift/recommend",
+        "en": "to nominate",
+        "root": "Đề"
+      },
+      {
+        "vi": "Vật liệu",
+        "literal": "thing/matter + material",
+        "en": "material (physical)",
+        "root": "Tài"
+      },
+      {
+        "vi": "Tài liệu",
+        "literal": "material + category/records",
+        "en": "documents or reference materials",
+        "root": "Tài"
+      },
+      {
+        "vi": "Nguyên liệu",
+        "literal": "original + material",
+        "en": "raw materials",
+        "root": "Tài"
+      }
+    ]
+  },
+  "740b1edea1bc": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Phân",
+          "meaning": "To divide, separate, or distribute"
+        },
+        {
+          "vi": "Bổ",
+          "meaning": "To supplement, supply, or assign"
+        }
+      ],
+      "bridge": "To 'allocate' (phân bổ) is to divide resources and supply them to where they are needed."
+    },
+    "compounds": [
+      {
+        "vi": "Phân chia",
+        "literal": "divide + split/divide",
+        "en": "to divide / to partition",
+        "root": "Phân"
+      },
+      {
+        "vi": "Phân tích",
+        "literal": "divide + analyze/parse",
+        "en": "to analyze",
+        "root": "Phân"
+      },
+      {
+        "vi": "Phân loại",
+        "literal": "divide + category/kind",
+        "en": "to classify / to categorize",
+        "root": "Phân"
+      },
+      {
+        "vi": "Phân biệt",
+        "literal": "divide + distinguish",
+        "en": "to distinguish / to differentiate",
+        "root": "Phân"
+      },
+      {
+        "vi": "Bổ sung",
+        "literal": "supplement + fill/complete",
+        "en": "to supplement / to add",
+        "root": "Bổ"
+      },
+      {
+        "vi": "Bổ nhiệm",
+        "literal": "assign + task/office",
+        "en": "to appoint (someone to a position)",
+        "root": "Bổ"
+      },
+      {
+        "vi": "Bổ khuyết",
+        "literal": "supplement + flaw/gap",
+        "en": "to make up for deficiencies / to mend gaps",
+        "root": "Bổ"
+      }
+    ]
+  },
+  "phân bổ": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Phân",
+          "meaning": "To divide, separate, or distribute"
+        },
+        {
+          "vi": "Bổ",
+          "meaning": "To supplement, supply, or assign"
+        }
+      ],
+      "bridge": "To 'allocate' (phân bổ) is to divide resources and supply them to where they are needed."
+    },
+    "compounds": [
+      {
+        "vi": "Phân chia",
+        "literal": "divide + split/divide",
+        "en": "to divide / to partition",
+        "root": "Phân"
+      },
+      {
+        "vi": "Phân tích",
+        "literal": "divide + analyze/parse",
+        "en": "to analyze",
+        "root": "Phân"
+      },
+      {
+        "vi": "Phân loại",
+        "literal": "divide + category/kind",
+        "en": "to classify / to categorize",
+        "root": "Phân"
+      },
+      {
+        "vi": "Phân biệt",
+        "literal": "divide + distinguish",
+        "en": "to distinguish / to differentiate",
+        "root": "Phân"
+      },
+      {
+        "vi": "Bổ sung",
+        "literal": "supplement + fill/complete",
+        "en": "to supplement / to add",
+        "root": "Bổ"
+      },
+      {
+        "vi": "Bổ nhiệm",
+        "literal": "assign + task/office",
+        "en": "to appoint (someone to a position)",
+        "root": "Bổ"
+      },
+      {
+        "vi": "Bổ khuyết",
+        "literal": "supplement + flaw/gap",
+        "en": "to make up for deficiencies / to mend gaps",
+        "root": "Bổ"
+      }
+    ]
+  },
+  "1383bd6f0edf": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tuyệt",
+          "meaning": "Extinct / Cut off / Absolute / Extreme"
+        },
+        {
+          "vi": "Vọng",
+          "meaning": "Expectation / Hope / Wish"
+        }
+      ],
+      "bridge": "When all expectations and hopes are completely cut off and extinguished, one is left in a state of hopelessness."
+    },
+    "compounds": [
+      {
+        "vi": "Tuyệt mật",
+        "literal": "Cut off + secret",
+        "en": "Top secret / classified",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Tuyệt chủng",
+        "literal": "Cut off + seed/species",
+        "en": "Extinction",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Tuyệt đỉnh",
+        "literal": "Extreme + peak",
+        "en": "Pinacle / Zenith / Master",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Tuyệt thực",
+        "literal": "Cut off + food/eat",
+        "en": "Hunger strike",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Hy vọng",
+        "literal": "Hope + expectation",
+        "en": "To hope / Hope",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Trông vọng",
+        "literal": "Look + expect/hope",
+        "en": "To look forward to / To anticipate",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Vọng tưởng",
+        "literal": "Expect/Hope + thought/imagination",
+        "en": "Delusion / Illusion",
+        "root": "Vọng"
+      }
+    ]
+  },
+  "tuyệt vọng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tuyệt",
+          "meaning": "Extinct / Cut off / Absolute / Extreme"
+        },
+        {
+          "vi": "Vọng",
+          "meaning": "Expectation / Hope / Wish"
+        }
+      ],
+      "bridge": "When all expectations and hopes are completely cut off and extinguished, one is left in a state of hopelessness."
+    },
+    "compounds": [
+      {
+        "vi": "Tuyệt mật",
+        "literal": "Cut off + secret",
+        "en": "Top secret / classified",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Tuyệt chủng",
+        "literal": "Cut off + seed/species",
+        "en": "Extinction",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Tuyệt đỉnh",
+        "literal": "Extreme + peak",
+        "en": "Pinacle / Zenith / Master",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Tuyệt thực",
+        "literal": "Cut off + food/eat",
+        "en": "Hunger strike",
+        "root": "Tuyệt"
+      },
+      {
+        "vi": "Hy vọng",
+        "literal": "Hope + expectation",
+        "en": "To hope / Hope",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Trông vọng",
+        "literal": "Look + expect/hope",
+        "en": "To look forward to / To anticipate",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Vọng tưởng",
+        "literal": "Expect/Hope + thought/imagination",
+        "en": "Delusion / Illusion",
+        "root": "Vọng"
+      }
+    ]
+  },
+  "1df1c138d17f": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "giấu",
+          "meaning": "to hide, to conceal, to keep secret"
+        },
+        {
+          "vi": "dốt",
+          "meaning": "ignorant, uneducated, lacking knowledge"
+        }
+      ],
+      "bridge": "Literally meaning 'to hide ignorance,' this native Vietnamese phrase captures the self-defeating human tendency to conceal one's lack of knowledge out of pride, thereby preventing oneself from learning."
+    },
+    "compounds": [
+      {
+        "vi": "giấu giếm",
+        "literal": "to hide + to conceal",
+        "en": "to cover up / to keep hidden secretly",
+        "root": "giấu"
+      },
+      {
+        "vi": "giấu tên",
+        "literal": "to hide + name",
+        "en": "anonymous / to remain unnamed",
+        "root": "giấu"
+      },
+      {
+        "vi": "giấu mặt",
+        "literal": "to hide + face",
+        "en": "to conceal one's identity / behind-the-scenes",
+        "root": "giấu"
+      },
+      {
+        "vi": "che giấu",
+        "literal": "to cover + to hide",
+        "en": "to conceal / to harbor (feelings or faults)",
+        "root": "giấu"
+      },
+      {
+        "vi": "dốt nát",
+        "literal": "ignorant + uncultured/ruined",
+        "en": "ignorant / utterly uneducated",
+        "root": "dốt"
+      },
+      {
+        "vi": "dốt đặc",
+        "literal": "ignorant + solid/dense",
+        "en": "completely ignorant / thick-headed",
+        "root": "dốt"
+      },
+      {
+        "vi": "vừa dốt vừa ngông",
+        "literal": "both ignorant + both arrogant",
+        "en": "ignorant yet arrogant",
+        "root": "dốt"
+      }
+    ]
+  },
+  "giấu dốt": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "giấu",
+          "meaning": "to hide, to conceal, to keep secret"
+        },
+        {
+          "vi": "dốt",
+          "meaning": "ignorant, uneducated, lacking knowledge"
+        }
+      ],
+      "bridge": "Literally meaning 'to hide ignorance,' this native Vietnamese phrase captures the self-defeating human tendency to conceal one's lack of knowledge out of pride, thereby preventing oneself from learning."
+    },
+    "compounds": [
+      {
+        "vi": "giấu giếm",
+        "literal": "to hide + to conceal",
+        "en": "to cover up / to keep hidden secretly",
+        "root": "giấu"
+      },
+      {
+        "vi": "giấu tên",
+        "literal": "to hide + name",
+        "en": "anonymous / to remain unnamed",
+        "root": "giấu"
+      },
+      {
+        "vi": "giấu mặt",
+        "literal": "to hide + face",
+        "en": "to conceal one's identity / behind-the-scenes",
+        "root": "giấu"
+      },
+      {
+        "vi": "che giấu",
+        "literal": "to cover + to hide",
+        "en": "to conceal / to harbor (feelings or faults)",
+        "root": "giấu"
+      },
+      {
+        "vi": "dốt nát",
+        "literal": "ignorant + uncultured/ruined",
+        "en": "ignorant / utterly uneducated",
+        "root": "dốt"
+      },
+      {
+        "vi": "dốt đặc",
+        "literal": "ignorant + solid/dense",
+        "en": "completely ignorant / thick-headed",
+        "root": "dốt"
+      },
+      {
+        "vi": "vừa dốt vừa ngông",
+        "literal": "both ignorant + both arrogant",
+        "en": "ignorant yet arrogant",
+        "root": "dốt"
+      }
+    ]
+  },
+  "d1ecd907e7c4": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thăng",
+          "meaning": "To rise, ascend, go up"
+        },
+        {
+          "vi": "Chức",
+          "meaning": "Office, duty, official position"
+        }
+      ],
+      "bridge": "Literally meaning 'ascending in official position', 'thăng chức' captures the concept of moving upward in rank within a professional or administrative hierarchy."
+    },
+    "compounds": [
+      {
+        "vi": "Thăng thiên",
+        "literal": "Ascend + heaven",
+        "en": "Ascend to heaven / pass away",
+        "root": "Thăng"
+      },
+      {
+        "vi": "Thăng cấp",
+        "literal": "Ascend + grade/level",
+        "en": "Upgrade / promotion in rank",
+        "root": "Thăng"
+      },
+      {
+        "vi": "Thăng hoa",
+        "literal": "Ascend + flower",
+        "en": "Sublimation / artistic peak",
+        "root": "Thăng"
+      },
+      {
+        "vi": "Chức vụ",
+        "literal": "Position + affair/duty",
+        "en": "Official position / job title",
+        "root": "Chức"
+      },
+      {
+        "vi": "Chức năng",
+        "literal": "Position/duty + function",
+        "en": "Function / role",
+        "root": "Chức"
+      },
+      {
+        "vi": "Nữ công gia chức",
+        "literal": "Woman work + household + duty",
+        "en": "Traditional household duties of women",
+        "root": "Chức"
+      }
+    ]
+  },
+  "thăng chức": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thăng",
+          "meaning": "To rise, ascend, go up"
+        },
+        {
+          "vi": "Chức",
+          "meaning": "Office, duty, official position"
+        }
+      ],
+      "bridge": "Literally meaning 'ascending in official position', 'thăng chức' captures the concept of moving upward in rank within a professional or administrative hierarchy."
+    },
+    "compounds": [
+      {
+        "vi": "Thăng thiên",
+        "literal": "Ascend + heaven",
+        "en": "Ascend to heaven / pass away",
+        "root": "Thăng"
+      },
+      {
+        "vi": "Thăng cấp",
+        "literal": "Ascend + grade/level",
+        "en": "Upgrade / promotion in rank",
+        "root": "Thăng"
+      },
+      {
+        "vi": "Thăng hoa",
+        "literal": "Ascend + flower",
+        "en": "Sublimation / artistic peak",
+        "root": "Thăng"
+      },
+      {
+        "vi": "Chức vụ",
+        "literal": "Position + affair/duty",
+        "en": "Official position / job title",
+        "root": "Chức"
+      },
+      {
+        "vi": "Chức năng",
+        "literal": "Position/duty + function",
+        "en": "Function / role",
+        "root": "Chức"
+      },
+      {
+        "vi": "Nữ công gia chức",
+        "literal": "Woman work + household + duty",
+        "en": "Traditional household duties of women",
+        "root": "Chức"
+      }
+    ]
+  },
+  "89ce32edaf36": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Yên",
+          "meaning": "Peaceful / Calm / Still"
+        },
+        {
+          "vi": "Tĩnh",
+          "meaning": "Quiet / Silent / Motionless"
+        }
+      ],
+      "bridge": "By combining two distinct characters that both independently denote peace and stillness, 'Yên tĩnh' creates an intensified state of complete tranquility and quietude."
+    },
+    "compounds": [
+      {
+        "vi": "Yên bình",
+        "meaning": "Peaceful + gentle/level",
+        "literal": "Peaceful and tranquil",
+        "en": "Peaceful",
+        "root": "Yên"
+      },
+      {
+        "vi": "Yên vui",
+        "meaning": "Peaceful + happy",
+        "literal": "Peaceful and happy",
+        "en": "Peaceful and joyful",
+        "root": "Yên"
+      },
+      {
+        "vi": "An yên",
+        "meaning": "Safe + peaceful",
+        "literal": "Safe and tranquil",
+        "en": "At peace / Serene",
+        "root": "Yên"
+      },
+      {
+        "vi": "Yên lòng",
+        "meaning": "Peaceful + heart/mind",
+        "literal": "Peaceful heart",
+        "en": "Reassured / Put at ease",
+        "root": "Yên"
+      },
+      {
+        "vi": "Tĩnh lặng",
+        "meaning": "Quiet + silent",
+        "literal": "Quiet and silent",
+        "en": "Silent / Still",
+        "root": "Tĩnh"
+      },
+      {
+        "vi": "Bình tĩnh",
+        "meaning": "Level/peaceful + quiet",
+        "literal": "Level and composed",
+        "en": "Calm / Composed",
+        "root": "Tĩnh"
+      },
+      {
+        "vi": "Tĩnh mịch",
+        "meaning": "Quiet + lonely/desolate",
+        "literal": "Quiet and desolate",
+        "en": "Hush / Deeply quiet",
+        "root": "Tĩnh"
+      }
+    ]
+  },
+  "yên tĩnh": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Yên",
+          "meaning": "Peaceful / Calm / Still"
+        },
+        {
+          "vi": "Tĩnh",
+          "meaning": "Quiet / Silent / Motionless"
+        }
+      ],
+      "bridge": "By combining two distinct characters that both independently denote peace and stillness, 'Yên tĩnh' creates an intensified state of complete tranquility and quietude."
+    },
+    "compounds": [
+      {
+        "vi": "Yên bình",
+        "meaning": "Peaceful + gentle/level",
+        "literal": "Peaceful and tranquil",
+        "en": "Peaceful",
+        "root": "Yên"
+      },
+      {
+        "vi": "Yên vui",
+        "meaning": "Peaceful + happy",
+        "literal": "Peaceful and happy",
+        "en": "Peaceful and joyful",
+        "root": "Yên"
+      },
+      {
+        "vi": "An yên",
+        "meaning": "Safe + peaceful",
+        "literal": "Safe and tranquil",
+        "en": "At peace / Serene",
+        "root": "Yên"
+      },
+      {
+        "vi": "Yên lòng",
+        "meaning": "Peaceful + heart/mind",
+        "literal": "Peaceful heart",
+        "en": "Reassured / Put at ease",
+        "root": "Yên"
+      },
+      {
+        "vi": "Tĩnh lặng",
+        "meaning": "Quiet + silent",
+        "literal": "Quiet and silent",
+        "en": "Silent / Still",
+        "root": "Tĩnh"
+      },
+      {
+        "vi": "Bình tĩnh",
+        "meaning": "Level/peaceful + quiet",
+        "literal": "Level and composed",
+        "en": "Calm / Composed",
+        "root": "Tĩnh"
+      },
+      {
+        "vi": "Tĩnh mịch",
+        "meaning": "Quiet + lonely/desolate",
+        "literal": "Quiet and desolate",
+        "en": "Hush / Deeply quiet",
+        "root": "Tĩnh"
+      }
+    ]
+  },
+  "c0f1168a6ac1": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "thiện",
+          "meaning": "Good, virtuous, or kind"
+        },
+        {
+          "vi": "cảm",
+          "meaning": "To feel, emotion, or to affect"
+        }
+      ],
+      "bridge": "A 'thiện cảm' is literally a 'good feeling,' describing the initial positive impression or sympathetic emotion one feels toward another person."
+    },
+    "compounds": [
+      {
+        "vi": "cải thiện",
+        "literal": "change + good",
+        "en": "to improve / betterment",
+        "root": "thiện"
+      },
+      {
+        "vi": "thiện chí",
+        "literal": "good + will",
+        "en": "goodwill / benevolent intent",
+        "root": "thiện"
+      },
+      {
+        "vi": "thân thiện",
+        "literal": "close + good",
+        "en": "friendly / hospitable",
+        "root": "thiện"
+      },
+      {
+        "vi": "từ thiện",
+        "literal": "mercy + good",
+        "en": "charity / philanthropic",
+        "root": "thiện"
+      },
+      {
+        "vi": "cảm xúc",
+        "literal": "feel + touch",
+        "en": "emotion / feelings",
+        "root": "cảm"
+      },
+      {
+        "vi": "cảm ơn",
+        "literal": "feel + favor",
+        "en": "to thank / express gratitude",
+        "root": "cảm"
+      },
+      {
+        "vi": "tình cảm",
+        "literal": "sentiment + feel",
+        "en": "affection / sentiment",
+        "root": "cảm"
+      },
+      {
+        "vi": "nhạy cảm",
+        "literal": "sharp + feel",
+        "en": "sensitive",
+        "root": "cảm"
+      }
+    ]
+  },
+  "thiện cảm": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "thiện",
+          "meaning": "Good, virtuous, or kind"
+        },
+        {
+          "vi": "cảm",
+          "meaning": "To feel, emotion, or to affect"
+        }
+      ],
+      "bridge": "A 'thiện cảm' is literally a 'good feeling,' describing the initial positive impression or sympathetic emotion one feels toward another person."
+    },
+    "compounds": [
+      {
+        "vi": "cải thiện",
+        "literal": "change + good",
+        "en": "to improve / betterment",
+        "root": "thiện"
+      },
+      {
+        "vi": "thiện chí",
+        "literal": "good + will",
+        "en": "goodwill / benevolent intent",
+        "root": "thiện"
+      },
+      {
+        "vi": "thân thiện",
+        "literal": "close + good",
+        "en": "friendly / hospitable",
+        "root": "thiện"
+      },
+      {
+        "vi": "từ thiện",
+        "literal": "mercy + good",
+        "en": "charity / philanthropic",
+        "root": "thiện"
+      },
+      {
+        "vi": "cảm xúc",
+        "literal": "feel + touch",
+        "en": "emotion / feelings",
+        "root": "cảm"
+      },
+      {
+        "vi": "cảm ơn",
+        "literal": "feel + favor",
+        "en": "to thank / express gratitude",
+        "root": "cảm"
+      },
+      {
+        "vi": "tình cảm",
+        "literal": "sentiment + feel",
+        "en": "affection / sentiment",
+        "root": "cảm"
+      },
+      {
+        "vi": "nhạy cảm",
+        "literal": "sharp + feel",
+        "en": "sensitive",
+        "root": "cảm"
+      }
+    ]
+  },
+  "9a91e40dc221": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Trì",
+          "meaning": "To hold, maintain, or delay/linger"
+        },
+        {
+          "vi": "Hoãn",
+          "meaning": "To slow down, postpone, or relax"
+        }
+      ],
+      "bridge": "By holding back (trì) and slowing down the pace (hoãn), you deliberately postpone action, which is the essence of procrastination."
+    },
+    "compounds": [
+      {
+        "vi": "Duy trì",
+        "literal": "maintain + hold",
+        "en": "to maintain, preserve, or sustain",
+        "root": "Trì"
+      },
+      {
+        "vi": "Chủ trì",
+        "literal": "master + hold",
+        "en": "to chair, preside over, or host",
+        "root": "Trì"
+      },
+      {
+        "vi": "Trì trệ",
+        "literal": "delay + sluggish",
+        "en": "stagnant or sluggish",
+        "root": "Trì"
+      },
+      {
+        "vi": "Kỷ luật trì",
+        "literal": "discipline + hold",
+        "en": "strict adherence to discipline",
+        "root": "Trì"
+      },
+      {
+        "vi": "Hoãn binh",
+        "literal": "postpone + soldiers",
+        "en": "buying time / delaying tactic",
+        "root": "Hoãn"
+      },
+      {
+        "vi": "Đình hoãn",
+        "literal": "halt + postpone",
+        "en": "suspension or postponement",
+        "root": "Hoãn"
+      },
+      {
+        "vi": "Khoan hoãn",
+        "literal": "lenient + slow",
+        "en": "reprieve or granting an extension",
+        "root": "Hoãn"
+      }
+    ]
+  },
+  "trì hoãn": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Trì",
+          "meaning": "To hold, maintain, or delay/linger"
+        },
+        {
+          "vi": "Hoãn",
+          "meaning": "To slow down, postpone, or relax"
+        }
+      ],
+      "bridge": "By holding back (trì) and slowing down the pace (hoãn), you deliberately postpone action, which is the essence of procrastination."
+    },
+    "compounds": [
+      {
+        "vi": "Duy trì",
+        "literal": "maintain + hold",
+        "en": "to maintain, preserve, or sustain",
+        "root": "Trì"
+      },
+      {
+        "vi": "Chủ trì",
+        "literal": "master + hold",
+        "en": "to chair, preside over, or host",
+        "root": "Trì"
+      },
+      {
+        "vi": "Trì trệ",
+        "literal": "delay + sluggish",
+        "en": "stagnant or sluggish",
+        "root": "Trì"
+      },
+      {
+        "vi": "Kỷ luật trì",
+        "literal": "discipline + hold",
+        "en": "strict adherence to discipline",
+        "root": "Trì"
+      },
+      {
+        "vi": "Hoãn binh",
+        "literal": "postpone + soldiers",
+        "en": "buying time / delaying tactic",
+        "root": "Hoãn"
+      },
+      {
+        "vi": "Đình hoãn",
+        "literal": "halt + postpone",
+        "en": "suspension or postponement",
+        "root": "Hoãn"
+      },
+      {
+        "vi": "Khoan hoãn",
+        "literal": "lenient + slow",
+        "en": "reprieve or granting an extension",
+        "root": "Hoãn"
+      }
+    ]
+  },
+  "c786f383e290": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nản",
+          "meaning": "Tired / Weary / Discouraged"
+        }
+      ],
+      "bridge": "The root 'nản' originates from the sensation of physical and mental exhaustion, which conceptually bridges into the modern psychological state of wanting to give up due to fatigue or discouragement."
+    },
+    "compounds": [
+      {
+        "vi": "Nản lòng",
+        "literal": "tired + heart/spirit",
+        "en": "To lose heart / to be discouraged",
+        "root": "Nản"
+      },
+      {
+        "vi": "Nản chí",
+        "literal": "tired + will/ambition",
+        "en": "To lose determination / to give up hope",
+        "root": "Nản"
+      },
+      {
+        "vi": "Nản lòng thoái chí",
+        "literal": "tired heart + retreat will",
+        "en": "Totally discouraged and ready to quit",
+        "root": "Nản"
+      },
+      {
+        "vi": "Chán nản",
+        "literal": "bored/fed up + tired",
+        "en": "Depressed / dejected / despondent",
+        "root": "Nản"
+      },
+      {
+        "vi": "Mệt nản",
+        "literal": "fatigued + weary",
+        "en": "Exhausted and listless",
+        "root": "Nản"
+      },
+      {
+        "vi": "Không nản",
+        "literal": "not + tired/giving up",
+        "en": "Undaunted / persistent / unfaltering",
+        "root": "Nản"
+      },
+      {
+        "vi": "Nản giả",
+        "literal": "weary + fake/slack off",
+        "en": "Wearied and slacking in effort",
+        "root": "Nản"
+      }
+    ]
+  },
+  "nản (adj)": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nản",
+          "meaning": "Tired / Weary / Discouraged"
+        }
+      ],
+      "bridge": "The root 'nản' originates from the sensation of physical and mental exhaustion, which conceptually bridges into the modern psychological state of wanting to give up due to fatigue or discouragement."
+    },
+    "compounds": [
+      {
+        "vi": "Nản lòng",
+        "literal": "tired + heart/spirit",
+        "en": "To lose heart / to be discouraged",
+        "root": "Nản"
+      },
+      {
+        "vi": "Nản chí",
+        "literal": "tired + will/ambition",
+        "en": "To lose determination / to give up hope",
+        "root": "Nản"
+      },
+      {
+        "vi": "Nản lòng thoái chí",
+        "literal": "tired heart + retreat will",
+        "en": "Totally discouraged and ready to quit",
+        "root": "Nản"
+      },
+      {
+        "vi": "Chán nản",
+        "literal": "bored/fed up + tired",
+        "en": "Depressed / dejected / despondent",
+        "root": "Nản"
+      },
+      {
+        "vi": "Mệt nản",
+        "literal": "fatigued + weary",
+        "en": "Exhausted and listless",
+        "root": "Nản"
+      },
+      {
+        "vi": "Không nản",
+        "literal": "not + tired/giving up",
+        "en": "Undaunted / persistent / unfaltering",
+        "root": "Nản"
+      },
+      {
+        "vi": "Nản giả",
+        "literal": "weary + fake/slack off",
+        "en": "Wearied and slacking in effort",
+        "root": "Nản"
+      }
+    ]
+  },
+  "e3541f4c3753": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tư",
+          "meaning": "Think, consider, or personal/private (Hán tự: 資 - originally meaning wealth, resources, or capital, derived from goods/supplies)."
+        },
+        {
+          "vi": "Bản",
+          "meaning": "Root, base, foundation, or origin (Hán tự: 本)."
+        }
+      ],
+      "bridge": "Combining 'Tư' (resources/wealth) and 'Bản' (foundation/root) creates a term that literally translates to 'the root of wealth or foundational resources,' defining the economic system built upon privately owned capital."
+    },
+    "compounds": [
+      {
+        "vi": "Tư liệu",
+        "literal": "resources + material/data",
+        "en": "materials / data / means (of production)",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư trang",
+        "literal": "private + luggage/belongings",
+        "en": "personal belongings / private effects",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư nhân",
+        "literal": "private + person",
+        "en": "private individual / private sector",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư gia",
+        "literal": "private + home",
+        "en": "private residence / private home",
+        "root": "Tư"
+      },
+      {
+        "vi": "Bản thân",
+        "literal": "root/base + body",
+        "en": "oneself / personal",
+        "root": "Bản"
+      },
+      {
+        "vi": "Cơ bản",
+        "literal": "foundation + root",
+        "en": "fundamental / basic",
+        "root": "Bản"
+      },
+      {
+        "vi": "Ban đầu",
+        "literal": "root + beginning",
+        "en": "initially / at first",
+        "root": "Bản"
+      },
+      {
+        "vi": "Văn bản",
+        "literal": "pattern/text + root",
+        "en": "document / text",
+        "root": "Bản"
+      }
+    ]
+  },
+  "tư bản": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tư",
+          "meaning": "Think, consider, or personal/private (Hán tự: 資 - originally meaning wealth, resources, or capital, derived from goods/supplies)."
+        },
+        {
+          "vi": "Bản",
+          "meaning": "Root, base, foundation, or origin (Hán tự: 本)."
+        }
+      ],
+      "bridge": "Combining 'Tư' (resources/wealth) and 'Bản' (foundation/root) creates a term that literally translates to 'the root of wealth or foundational resources,' defining the economic system built upon privately owned capital."
+    },
+    "compounds": [
+      {
+        "vi": "Tư liệu",
+        "literal": "resources + material/data",
+        "en": "materials / data / means (of production)",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư trang",
+        "literal": "private + luggage/belongings",
+        "en": "personal belongings / private effects",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư nhân",
+        "literal": "private + person",
+        "en": "private individual / private sector",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư gia",
+        "literal": "private + home",
+        "en": "private residence / private home",
+        "root": "Tư"
+      },
+      {
+        "vi": "Bản thân",
+        "literal": "root/base + body",
+        "en": "oneself / personal",
+        "root": "Bản"
+      },
+      {
+        "vi": "Cơ bản",
+        "literal": "foundation + root",
+        "en": "fundamental / basic",
+        "root": "Bản"
+      },
+      {
+        "vi": "Ban đầu",
+        "literal": "root + beginning",
+        "en": "initially / at first",
+        "root": "Bản"
+      },
+      {
+        "vi": "Văn bản",
+        "literal": "pattern/text + root",
+        "en": "document / text",
+        "root": "Bản"
+      }
+    ]
+  },
+  "db0d43b09436": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Trái",
+          "meaning": "Contrary, opposite, reverse (Native Vietnamese word)"
+        },
+        {
+          "vi": "Nghĩa",
+          "meaning": "Meaning, sense, justice, righteousness (Sino-Vietnamese: 義)"
+        }
+      ],
+      "bridge": "When two words have meanings (nghĩa) that go in contrary directions (trái), they are conceptual opposites."
+    },
+    "compounds": [
+      {
+        "vi": "Trái chiều",
+        "literal": "contrary + direction",
+        "en": "Opposite direction / conflicting",
+        "root": "Trái"
+      },
+      {
+        "vi": "Trái tim",
+        "literal": "reverse/other side + heart (historical folk etymology)",
+        "en": "Heart",
+        "root": "Trái"
+      },
+      {
+        "vi": "Trái ý",
+        "literal": "contrary + mind/wish",
+        "en": "Displeasing / against one's wishes",
+        "root": "Trái"
+      },
+      {
+        "vi": "Trái luật",
+        "literal": "contrary + law",
+        "en": "Illegal / unlawful",
+        "root": "Trái"
+      },
+      {
+        "vi": "Ý nghĩa",
+        "literal": "thought/idea + meaning",
+        "en": "Meaning / significance",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Chính nghĩa",
+        "literal": "right/just + righteousness",
+        "en": "Just cause / righteousness",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Nghĩa vụ",
+        "literal": "righteousness/duty + task",
+        "en": "Duty / obligation",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Tình nghĩa",
+        "literal": "affection + meaning/loyalty",
+        "en": "Bonds of affection and loyalty",
+        "root": "Nghĩa"
+      }
+    ]
+  },
+  "trái nghĩa": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Trái",
+          "meaning": "Contrary, opposite, reverse (Native Vietnamese word)"
+        },
+        {
+          "vi": "Nghĩa",
+          "meaning": "Meaning, sense, justice, righteousness (Sino-Vietnamese: 義)"
+        }
+      ],
+      "bridge": "When two words have meanings (nghĩa) that go in contrary directions (trái), they are conceptual opposites."
+    },
+    "compounds": [
+      {
+        "vi": "Trái chiều",
+        "literal": "contrary + direction",
+        "en": "Opposite direction / conflicting",
+        "root": "Trái"
+      },
+      {
+        "vi": "Trái tim",
+        "literal": "reverse/other side + heart (historical folk etymology)",
+        "en": "Heart",
+        "root": "Trái"
+      },
+      {
+        "vi": "Trái ý",
+        "literal": "contrary + mind/wish",
+        "en": "Displeasing / against one's wishes",
+        "root": "Trái"
+      },
+      {
+        "vi": "Trái luật",
+        "literal": "contrary + law",
+        "en": "Illegal / unlawful",
+        "root": "Trái"
+      },
+      {
+        "vi": "Ý nghĩa",
+        "literal": "thought/idea + meaning",
+        "en": "Meaning / significance",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Chính nghĩa",
+        "literal": "right/just + righteousness",
+        "en": "Just cause / righteousness",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Nghĩa vụ",
+        "literal": "righteousness/duty + task",
+        "en": "Duty / obligation",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Tình nghĩa",
+        "literal": "affection + meaning/loyalty",
+        "en": "Bonds of affection and loyalty",
+        "root": "Nghĩa"
+      }
+    ]
+  },
+  "c5e5b2a9aee7": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tha",
+          "meaning": "Release / Pardon / Let go"
+        }
+      ],
+      "bridge": "The root 'tha' fundamentally means to loosen, let go, or set free, which extends conceptually to both physical release (setting something free) and moral release (forgiving or pardoning a fault)."
+    },
+    "compounds": [
+      {
+        "vi": "Tha thứ",
+        "literal": "Release + allow/permit",
+        "en": "To forgive / Pardon",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha bổng",
+        "literal": "Release + acquit/absolve",
+        "en": "To acquit / Set free",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha hương",
+        "literal": "Release/Leave + native village",
+        "en": "Far from one's homeland / Expatriate",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha thiết",
+        "literal": "Release/Extend + earnest/intense",
+        "en": "Earnest / Ardent / Heartfelt",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha mạng",
+        "literal": "Release + life",
+        "en": "To spare someone's life",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha lỗi",
+        "literal": "Release + fault/mistake",
+        "en": "To excuse / Forgive a mistake",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha cho",
+        "literal": "Release + give/let",
+        "en": "To let someone off / Spare",
+        "root": "Tha"
+      }
+    ]
+  },
+  "tha": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tha",
+          "meaning": "Release / Pardon / Let go"
+        }
+      ],
+      "bridge": "The root 'tha' fundamentally means to loosen, let go, or set free, which extends conceptually to both physical release (setting something free) and moral release (forgiving or pardoning a fault)."
+    },
+    "compounds": [
+      {
+        "vi": "Tha thứ",
+        "literal": "Release + allow/permit",
+        "en": "To forgive / Pardon",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha bổng",
+        "literal": "Release + acquit/absolve",
+        "en": "To acquit / Set free",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha hương",
+        "literal": "Release/Leave + native village",
+        "en": "Far from one's homeland / Expatriate",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha thiết",
+        "literal": "Release/Extend + earnest/intense",
+        "en": "Earnest / Ardent / Heartfelt",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha mạng",
+        "literal": "Release + life",
+        "en": "To spare someone's life",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha lỗi",
+        "literal": "Release + fault/mistake",
+        "en": "To excuse / Forgive a mistake",
+        "root": "Tha"
+      },
+      {
+        "vi": "Tha cho",
+        "literal": "Release + give/let",
+        "en": "To let someone off / Spare",
+        "root": "Tha"
+      }
+    ]
+  },
+  "3f442ffbe73e": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tác",
+          "meaning": "To create, to make, to initiate, or to act upon"
+        },
+        {
+          "vi": "Dụng",
+          "meaning": "To use, to employ, function, or effect"
+        }
+      ],
+      "bridge": "Tác dụng translates literally to 'making use' or 'initiating an effect,' representing the resulting impact or function when an action is applied to something."
+    },
+    "compounds": [
+      {
+        "vi": "Tác giả",
+        "meaning": "Author / Creator",
+        "literal": "make + person/elder",
+        "en": "Author",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác phẩm",
+        "meaning": "Work of art / Literary work",
+        "literal": "make + article/product",
+        "en": "Work of art or literature",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác chiến",
+        "meaning": "Combat / Military operations",
+        "literal": "make + battle/war",
+        "en": "Combat operations",
+        "root": "Tác"
+      },
+      {
+        "vi": "Sử dụng",
+        "meaning": "To use / To utilize",
+        "literal": "use + use/employ",
+        "en": "To use",
+        "root": "Dụng"
+      },
+      {
+        "vi": "Lợi dụng",
+        "meaning": "To take advantage of / To exploit",
+        "literal": "profit + use",
+        "en": "To take advantage of",
+        "root": "Dụng"
+      },
+      {
+        "vi": "Công dụng",
+        "meaning": "Utility / Usefulness / Function",
+        "literal": "work/merit + use",
+        "en": "Utility or function",
+        "root": "Dụng"
+      }
+    ]
+  },
+  "tác dụng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tác",
+          "meaning": "To create, to make, to initiate, or to act upon"
+        },
+        {
+          "vi": "Dụng",
+          "meaning": "To use, to employ, function, or effect"
+        }
+      ],
+      "bridge": "Tác dụng translates literally to 'making use' or 'initiating an effect,' representing the resulting impact or function when an action is applied to something."
+    },
+    "compounds": [
+      {
+        "vi": "Tác giả",
+        "meaning": "Author / Creator",
+        "literal": "make + person/elder",
+        "en": "Author",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác phẩm",
+        "meaning": "Work of art / Literary work",
+        "literal": "make + article/product",
+        "en": "Work of art or literature",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác chiến",
+        "meaning": "Combat / Military operations",
+        "literal": "make + battle/war",
+        "en": "Combat operations",
+        "root": "Tác"
+      },
+      {
+        "vi": "Sử dụng",
+        "meaning": "To use / To utilize",
+        "literal": "use + use/employ",
+        "en": "To use",
+        "root": "Dụng"
+      },
+      {
+        "vi": "Lợi dụng",
+        "meaning": "To take advantage of / To exploit",
+        "literal": "profit + use",
+        "en": "To take advantage of",
+        "root": "Dụng"
+      },
+      {
+        "vi": "Công dụng",
+        "meaning": "Utility / Usefulness / Function",
+        "literal": "work/merit + use",
+        "en": "Utility or function",
+        "root": "Dụng"
+      }
+    ]
+  }
+}

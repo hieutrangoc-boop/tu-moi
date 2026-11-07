@@ -1,0 +1,50 @@
+[
+  {
+    "id": "thieu-nu-ben-hoa-hue",
+    "milestone_vi": "Chúc mừng bạn đã hoàn thành 7 vòng từ vựng trong tuần! Sự kiên trì và tĩnh tại trong học tập của bạn tựa như vẻ đẹp thuần khiết ngàn năm của mỹ thuật nước nhà.",
+    "milestone_en": "Congratulations on completing 7 vocabulary rounds this week! Your steady focus mirrors the timeless grace and lyricism of Vietnamese fine arts.",
+    "title_vi": "Thiếu nữ bên hoa huệ",
+    "title_en": "Young Woman by Lilies",
+    "artist": "Tô Ngọc Vân (1906–1954)",
+    "year": "1943 · Sơn dầu trên toan (Oil on canvas)",
+    "bio_vi": "Tô Ngọc Vân (1906–1954) là bậc thầy tiên phong của nền mỹ thuật hiện đại Việt Nam, cựu sinh viên xuất sắc và sau này là Hiệu trưởng Trường Mỹ thuật Việt Bắc. Ông được tôn vinh là người đặt nền móng và nâng tầm kỹ thuật tranh sơn dầu tại Việt Nam khi kết hợp nhuần nhuyễn ánh sáng hậu ấn tượng phương Tây với vẻ đẹp dịu dàng, kín đáo và trữ tình của người phụ nữ Hà thành.",
+    "bio_en": "Tô Ngọc Vân (1906–1954) was a foundational master of modern Vietnamese art, an illustrious graduate of the École des Beaux-Arts de l'Indochine and later director of the Resistance Fine Arts School. He is celebrated for pioneering and elevating Vietnamese oil painting, harmonizing European post-impressionist luminescence with the lyrical spirit, poise, and tender contemplation of traditional Hanoi women.",
+    "image": "rewards/thieu_nu_ben_hoa_hue.jpg"
+  },
+  {
+    "id": "em-thuy",
+    "milestone_vi": "Vinh danh cột mốc 7 vòng từ vựng tuần này! Từng bước tiến vững chắc của bạn kết tinh lại như một tuyệt tác vẹn tròn và mộc mạc.",
+    "milestone_en": "Honoring your 7-round vocabulary milestone! Every steady step of your learning journey crystallizes into an enduring, harmonious masterpiece.",
+    "title_vi": "Em Thúy — Bảo vật quốc gia",
+    "title_en": "Little Sister Thúy — National Treasure",
+    "artist": "Trần Văn Cẩn (1910–1994)",
+    "year": "1943 · Sơn dầu trên toan (Oil on canvas)",
+    "bio_vi": "Trần Văn Cẩn (1910–1994) là một trong \"bộ tứ\" danh họa trụ cột của mỹ thuật hiện đại Việt Nam (Trí, Vân, Lân, Cẩn), tốt nghiệp thủ khoa Trường Cao đẳng Mỹ thuật Đông Dương năm 1936. Bức chân dung bé Thúy 8 tuổi được xem là đỉnh cao nghệ thuật chân dung thế kỷ 20, khắc họa trọn vẹn vẻ đẹp hồn nhiên, trong trẻo của tuổi thơ với chiều sâu tâm lý xúc động cùng bảng màu tinh tế, trang nhã.",
+    "bio_en": "Trần Văn Cẩn (1910–1994) was one of the legendary \"Four Pillars\" of modern Vietnamese fine arts, graduating valedictorian from the Indochina Fine Arts College in 1936. His portrait of eight-year-old Thúy stands as a 20th-century zenith of Vietnamese portraiture, capturing pristine childhood innocence and heartfelt psychological depth through luminous tonal restraint and delicate linear grace.",
+    "image": "rewards/em_thuy.jpeg"
+  },
+  {
+    "id": "choi-o-an-quan",
+    "milestone_vi": "7 vòng luyện tập kiên trì đã hoàn tất! Chúc mừng bạn đã chạm tay vào kho tàng tinh hoa văn hóa và nét đẹp mộc mạc quê hương.",
+    "milestone_en": "7 rounds of dedicated practice completed! Congratulations on unlocking a timeless treasure of Vietnamese folk culture and artistic heritage.",
+    "title_vi": "Chơi ô ăn quan",
+    "title_en": "Children Playing Mandarin Square",
+    "artist": "Nguyễn Phan Chánh (1892–1984)",
+    "year": "1931 · Mực & màu nước trên lụa (Ink and gouache on silk)",
+    "bio_vi": "Nguyễn Phan Chánh (1892–1984) là bậc thầy khai sinh và đưa tranh lụa hiện đại Việt Nam vươn tầm quốc tế tại Đấu xảo Thuộc địa Paris năm 1931. Với kỹ thuật \"rửa lụa\" độc đáo cùng bảng màu nâu trầm dung dị, ông khắc họa đời sống nông thôn, trò chơi dân gian và tâm hồn phụ nữ Việt Nam bằng một sự thanh thản, mộc mạc và chiều sâu triết lý phương Đông sâu sắc.",
+    "bio_en": "Nguyễn Phan Chánh (1892–1984) single-handedly elevated modern Vietnamese silk painting onto the global stage at the 1931 Paris Colonial Exhibition. Renowned for his signature \"silk washing\" method and poetic earthen palette, he depicted rural daily life and childhood folk games with timeless serenity, profound modesty, and deep Eastern philosophical harmony.",
+    "image": "rewards/choi_o_an_quan.jpg"
+  },
+  {
+    "id": "vuon-xuan-trung-nam-bac",
+    "milestone_vi": "Tuyệt vời! Bạn đã tích lũy đủ 7 vòng bền bỉ trong tuần này—minh chứng cho sự chuyên tâm và gắn kết lâu dài.",
+    "milestone_en": "Magnificent achievement! Completing 7 weekly rounds reflects the enduring power of steady dedication and lifelong learning.",
+    "title_vi": "Vườn xuân Trung Nam Bắc — Bảo vật quốc gia",
+    "title_en": "Spring Garden of North, Central, and South — National Treasure",
+    "artist": "Nguyễn Gia Trí (1908–1993)",
+    "year": "1969–1989 · Sơn mài (Lacquer on wood)",
+    "bio_vi": "Nguyễn Gia Trí (1908–1993) là đại thụ đứng đầu trường phái tranh sơn mài hiện đại Việt Nam, người đã biến chất liệu thủ công mỹ nghệ cổ truyền thành ngôn ngữ hội họa hàn lâm đỉnh cao của thế giới. Tác phẩm đại quy mô này được ông sáng tạo ròng rã suốt hai thập kỷ, kết hợp tinh tế giữa vàng quỳ, vỏ trứng và lớp sơn huyền bí để ca ngợi sức sống mùa xuân và sự hòa hợp tâm hồn của ba miền đất nước.",
+    "bio_en": "Nguyễn Gia Trí (1908–1993) was the paramount visionary of modern Vietnamese lacquer art, revolutionizing a traditional decorative craft into a world-class fine art medium. Created painstakingly across two decades, this monumental multi-panel masterpiece synthesizes gold leaf, crushed eggshell, and deep resin layers to celebrate the spring renewal, vitality, and spiritual unity of Vietnam’s three regions.",
+    "image": "rewards/vuon_xuan_trung_nam_bac.jpg"
+  }
+]

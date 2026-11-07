@@ -1,0 +1,1321 @@
+{
+  "updated": "2026-11-04T03:59:02.478221+00:00",
+  "items": [
+    {
+      "id": "6afeecba6fbd",
+      "vi": "phản tư",
+      "en": "reflect",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "5959f6ed0818",
+      "vi": "Tôn trọng sự khác biệt",
+      "en": "respect differences",
+      "en_from": "translate",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "62e4510c4080",
+      "vi": "Xuất phát từ ...",
+      "en": "originating from...",
+      "en_from": "translate",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "839c567e279d",
+      "vi": "Rước họa vào thân",
+      "en": "bring trouble upon oneself",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "9f2876c4df02",
+      "vi": "Lương tâm",
+      "en": "conscience",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "f69c159462ed",
+      "vi": "Anh ấy có nhu cầu cao về ..., nhưng vợ không đáp ứng được",
+      "en": "he has high needs for ..., but his wife cannot satisfy them",
+      "en_from": "translate",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "73555e93e99c",
+      "vi": "Bồ nhí - tiểu tam - người thứ ba - người khác",
+      "en": "mistress / third party / the other person",
+      "en_from": "translate",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "262f927143b2",
+      "vi": "Yếu sinh lý",
+      "en": "physiological weakness",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "436765e4a370",
+      "vi": "Đổi chủ đề = nói lảng sang chuyện khác = đánh trống lảng",
+      "en": "change the subject / dodge the topic",
+      "en_from": "translate",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "c754a1c2606d",
+      "vi": "Né tránh",
+      "en": "speak out - evade - speak out",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "6d35f757090e",
+      "vi": "Lệ thuộc/ phụ thuộc vào",
+      "en": "depend on / rely on",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "c376a87fe679",
+      "vi": "Đầu óc kinh doanh",
+      "en": "business mind",
+      "en_from": "doc",
+      "date": "2026-08-10"
+    },
+    {
+      "id": "56f1682fccce",
+      "vi": "Nhây (dùng cho người thân thiết) - giỡn nhây, nói nhây.",
+      "en": "teasing / joking persistently (used with close friends)",
+      "en_from": "translate",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "b54ff5e70f5e",
+      "vi": "Nhìn thấu",
+      "en": "see through",
+      "en_from": "doc",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "d4e2b4a6ea6c",
+      "vi": "Vi phạm (v/n)",
+      "en": "violate / violation",
+      "en_from": "doc",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "43a77693de82",
+      "vi": "Bị ngợp vì cách cư xử của người thân",
+      "en": "overwhelmed by relatives' behavior",
+      "en_from": "doc",
+      "date": "2026-08-13"
+    },
+    {
+      "id": "7cc288b25fb5",
+      "vi": "Xì - căng - đan",
+      "en": "scandal",
+      "en_from": "doc",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "cf985689ba7b",
+      "vi": "Can thiệp",
+      "en": "intervene",
+      "en_from": "doc",
+      "date": "2026-08-31"
+    },
+    {
+      "id": "158077c367c1",
+      "vi": "Ăn nên làm",
+      "en": "ra",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "f708dcac1cdd",
+      "vi": "Hòa bình - chiến tranh",
+      "en": "peace - war",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "8d77bbb1e3f5",
+      "vi": "Quyền lực",
+      "en": "power",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "2ba80b536a11",
+      "vi": "Thúc đẩy/ bảo vệ hòa bình thế giới",
+      "en": "promote / protect world peace",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "7eb440652f7e",
+      "vi": "Bao quát",
+      "en": "generalize",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "214060ae6220",
+      "vi": "Đối tác",
+      "en": "collaboration",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "adfa5055b393",
+      "vi": "Hợp tác",
+      "en": "to collaborate",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "2fcc62edb3e5",
+      "vi": "Duyệt- thông qua",
+      "en": "approve",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "58d81eb849dc",
+      "vi": "Xéo sắc",
+      "en": "sassy / sharp-tongued",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "49a52b25ecc8",
+      "vi": "Giữ khoảng cách",
+      "en": "keep a distance",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "87eb166690ae",
+      "vi": "Trang trọng",
+      "en": "formal",
+      "en_from": "doc",
+      "date": "2026-09-08"
+    },
+    {
+      "id": "5ec3d3296988",
+      "vi": "Lúa mì",
+      "en": "wheat",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "89a6fb3ac801",
+      "vi": "Lúa mạch",
+      "en": "oat",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "57b9abbbc3aa",
+      "vi": "Lúa nếp",
+      "en": "sticky rice",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "3583aa3e2886",
+      "vi": "Gần mực thì đen, gần đèn thì sáng",
+      "en": "choose your friends wisely",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "f0bba95cd572",
+      "vi": "Thực hành",
+      "en": "to practice",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "43969b3ac853",
+      "vi": "Nổi loạn",
+      "en": "rebellious",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "9fc675490d1d",
+      "vi": "Cách mạng màu",
+      "en": "revolutionary",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "f4ea582c58ca",
+      "vi": "dân chủ",
+      "en": "democracy",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "dade00d19370",
+      "vi": "Xã hội chủ nghĩa",
+      "en": "socialism",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "26dab5b18515",
+      "vi": "Tư bản chủ nghĩa",
+      "en": "capitalism",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "7f59f717f85f",
+      "vi": "Báo cháy",
+      "en": "fire alarm",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "674941827e28",
+      "vi": "Vận hành",
+      "en": "to operate",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "6558973d9a1b",
+      "vi": "Phụ thuộc +vào + someone",
+      "en": "dependent",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "3bde4be6231d",
+      "vi": "Khoảng cách giàu nghèo",
+      "en": "economic gap",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "b3286684f0e5",
+      "vi": "Liên bang",
+      "en": "states",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "1a497023bddb",
+      "vi": "Thủ tướng",
+      "en": "prime minister",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "2eea19741455",
+      "vi": "Tổng thống",
+      "en": "president",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "1d95932baf3f",
+      "vi": "Bài thuyết trình",
+      "en": "presentation",
+      "en_from": "doc",
+      "date": "2026-09-24"
+    },
+    {
+      "id": "47c8d643c064",
+      "vi": "Hồi ký",
+      "en": "autobiography",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "1b520862c7d0",
+      "vi": "Hiệu ứng",
+      "en": "effect",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "812122e92526",
+      "vi": "Hiện tượng",
+      "en": "phenomena",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "4e2d34197d30",
+      "vi": "Trung lập",
+      "en": "in the middle",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "5fa5e93bf6ab",
+      "vi": "Thờ ơ",
+      "en": "neutral",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "bdaf87f86ad1",
+      "vi": "Bệnh lao",
+      "en": "tubercolosis",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "67027fa6e0e0",
+      "vi": "Đối thủ",
+      "en": "opponent",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "2e596f59c54a",
+      "vi": "Thận thiện",
+      "en": "friendly",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "7a9acad9ecf6",
+      "vi": "Chủ động",
+      "en": "proactive",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "509369da5177",
+      "vi": "Bầu bạn",
+      "en": "friend",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "79dfc4906bb2",
+      "vi": "Thiện chí",
+      "en": "view, wishes that are positive",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "dd164f41cc7b",
+      "vi": "Tình huống",
+      "en": "scenario",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "798f7a4df8e6",
+      "vi": "Chẳng hạn",
+      "en": "example",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "0f9dd8bd152d",
+      "vi": "Đánh trống lảng",
+      "en": "to change topic in a conversation",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "cc0a9220b728",
+      "vi": "Vô thức",
+      "en": "unconscious",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "20c83741c03b",
+      "vi": "Thái độ",
+      "en": "attitude",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "325baf365f7e",
+      "vi": "Cơ chế",
+      "en": "mechanism",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "9c48238c174d",
+      "vi": "Thí nghiệm",
+      "en": "experiment",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "0af09b913ba1",
+      "vi": "Tương tác",
+      "en": "interact",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "70341aa11a43",
+      "vi": "Góp phần",
+      "en": "to contribute a small part",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "3407a2d7cc55",
+      "vi": "Định hình",
+      "en": "to form",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "188a40ee8e4c",
+      "vi": "Đầu tư",
+      "en": "invest",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "2655309a4314",
+      "vi": "Nhờ vả",
+      "en": "ask for help",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "67d2822e855c",
+      "vi": "Dần - từ từ",
+      "en": "slowly",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "315a3ed9da7c",
+      "vi": "Hình thành",
+      "en": "take shape - form",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "3adfb5a6d5c4",
+      "vi": "Trả treo",
+      "en": "to argue",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "3272611fdbee",
+      "vi": "Thông điệp",
+      "en": "message",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "470b4ab477f2",
+      "vi": "Ngầm",
+      "en": "nonverbal",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "101232347b91",
+      "vi": "Công nhận",
+      "en": "recognize - agree",
+      "en_from": "doc",
+      "date": "2026-09-28"
+    },
+    {
+      "id": "40cc142fd44a",
+      "vi": "Phần lời",
+      "en": "script",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "c1ea8619ed76",
+      "vi": "Thừa/dư",
+      "en": "too much",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "db0d43b09436",
+      "vi": "Trái nghĩa",
+      "en": "opposite",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "f8cf1432f7f9",
+      "vi": "Mỉa mai",
+      "en": "sarcastic",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "cfc992d4bc61",
+      "vi": "Thôi miên",
+      "en": "hypnosis",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "59eae95fdd4a",
+      "vi": "Vỉ",
+      "en": "blister package",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "5bf8a5182f48",
+      "vi": "Công thức",
+      "en": "recipe",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "8f0aa3fe5b2e",
+      "vi": "Tạp chí",
+      "en": "magazine",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "ce71d4b83be8",
+      "vi": "Xì trét",
+      "en": "stress",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "88be42acaeab",
+      "vi": "Giới hạn",
+      "en": "limitation",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "b9ecaac47ecc",
+      "vi": "Hạn chế",
+      "en": "limited",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "0869e8c47e76",
+      "vi": "Lãng mạn",
+      "en": "romantic",
+      "en_from": "doc",
+      "date": "2026-10-01"
+    },
+    {
+      "id": "2a501566f41a",
+      "vi": "Nghiên cứu khoa học",
+      "en": "scientific research",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "f083abc5b2a1",
+      "vi": "tỷ lệ",
+      "en": "proportion",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "f5a9caae8a5f",
+      "vi": "sa sút trí tuệ",
+      "en": "dementia",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "ad109e2b55b2",
+      "vi": "triệu chứng",
+      "en": "symptom",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "e40d5fbde68f",
+      "vi": "Thích nghi",
+      "en": "adapt",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "9a91e40dc221",
+      "vi": "Trì hoãn",
+      "en": "procrastination",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "981d36d634f3",
+      "vi": "năng lực",
+      "en": "capacity, skill",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "834591eff93a",
+      "vi": "Cảm giác có ích",
+      "en": "to feel useful, e.g. for others",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "c0f1168a6ac1",
+      "vi": "thiện cảm",
+      "en": "positive feelings towards someone",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "33c00676a449",
+      "vi": "Sự thấu hiểu hai bên",
+      "en": "mutual understanding",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "0a123a6ae778",
+      "vi": "gánh nặng",
+      "en": "a burden",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "5767f114e872",
+      "vi": "vừa sức",
+      "en": "suitable to our skills",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "cac52b8a27c3",
+      "vi": "đối phương",
+      "en": "other person",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "dfecdeee0876",
+      "vi": "Đối diện",
+      "en": "other area or thing",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "d6960bf45a7d",
+      "vi": "đóng góp",
+      "en": "to contribute",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "0bde441bc265",
+      "vi": "Hoá",
+      "en": "transformation",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "0e3834a43ff0",
+      "vi": "“Thao túng tâm lý”",
+      "en": "gaslighting",
+      "en_from": "doc",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "db8af18e2f6c",
+      "vi": "Nạn nhân",
+      "en": "victim",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "573172527b74",
+      "vi": "Thuyết phục",
+      "en": "persuade or convince",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "de12cc1a0673",
+      "vi": "đồng trang lứa",
+      "en": "peers",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "2dccdad91c22",
+      "vi": "bằng phẳng",
+      "en": "straight",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "e3541f4c3753",
+      "vi": "Tư bản",
+      "en": "capitalism",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "7a6c46e92dd1",
+      "vi": "Nguyên nhân",
+      "en": "cause",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "2ae68d2425e7",
+      "vi": "tâm tình",
+      "en": "intimate conversation",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "4c3421873849",
+      "vi": "chu toàn",
+      "en": "thorough",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "1c829b29c2c5",
+      "vi": "thay lòng đổi dạ",
+      "en": "fickle, inconstant, change one's heart",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "4d533726d61c",
+      "vi": "lạc quan",
+      "en": "optimistic",
+      "en_from": "doc",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "09a1ccad2cff",
+      "vi": "Thành tích",
+      "en": "accomplishment",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "d60ee35bc0f3",
+      "vi": "Số lượng",
+      "en": "number",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "526f37f66abd",
+      "vi": "Xem thường",
+      "en": "look down upon",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "ff21a0b624f2",
+      "vi": "Phi thướng",
+      "en": "extraordinary",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "bf2012f7ee0d",
+      "vi": "Hoàn hảo",
+      "en": "perfect",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "3095f98446d6",
+      "vi": "Cạnh tranh",
+      "en": "competitive",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "1229fe5efe47",
+      "vi": "Tước đi/lấy đi",
+      "en": "to deprive of someone",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cb3d1c3eebb5",
+      "vi": "Vô tình",
+      "en": "accidentially",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "449db2e88c45",
+      "vi": "Hữu ích",
+      "en": "useful",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "484f7e526672",
+      "vi": "Thao túng",
+      "en": "gaslight",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "7eb77929f05d",
+      "vi": "Chủ đích",
+      "en": "goal",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "d6952c94d778",
+      "vi": "Nhằm",
+      "en": "target",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "1b214c033d01",
+      "vi": "Bí quyết",
+      "en": "tips on what to do",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "8581917fbeea",
+      "vi": "Sự tham gia",
+      "en": "attendance",
+      "en_from": "doc",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "d3cb434925c8",
+      "vi": "Tính năng",
+      "en": "feature",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "56cbf69a0173",
+      "vi": "Chức năng",
+      "en": "function",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "7436344f5627",
+      "vi": "Hiến pháp",
+      "en": "constitution",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "0027f3322d06",
+      "vi": "Chiến lược",
+      "en": "strategy",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "cd5eb94139ac",
+      "vi": "Nỗi đâu",
+      "en": "pain",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "e7f6e5a54b41",
+      "vi": "Cụm từ",
+      "en": "phrase",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "41763449551c",
+      "vi": "Nỗi lo cơm áo gạo tiền",
+      "en": "worries about food, clothes, rice and money",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "8481b913dfb0",
+      "vi": "Ăn chắc mặc bền > ăn ngon mặc đẹp",
+      "en": "eat to stay fed wear > eat well, wear beautifully",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "15e2e1fe591f",
+      "vi": "Cải thiện",
+      "en": "to improve",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "15eaa4a1979f",
+      "vi": "Kỹ năng giao tiếp",
+      "en": "social skills",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "35902e91918d",
+      "vi": "Ngây thơ",
+      "en": "naive",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "c5e5b2a9aee7",
+      "vi": "Tha",
+      "en": "release",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "0d601dc11521",
+      "vi": "cá",
+      "en": "bet",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "8f8fada5a6af",
+      "vi": "Lợi nhuận",
+      "en": "profit",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "01202d524def",
+      "vi": "Cang đảm",
+      "en": "brave",
+      "en_from": "doc",
+      "date": "2026-10-14"
+    },
+    {
+      "id": "48f8f66c7b4f",
+      "vi": "Phát hiện",
+      "en": "discover, detect, find out",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "0ed1bcb7c71c",
+      "vi": "Hiện ra",
+      "en": "manifest, come into view",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "e5f8a7790640",
+      "vi": "Xuất hiện",
+      "en": "appear, show up, emerge",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "9b2d7eb19487",
+      "vi": "Góc độ vĩ mô",
+      "en": "macroperspective",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "d51c113ed964",
+      "vi": "Hiện diện",
+      "en": "present",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "8e9ed49e25bb",
+      "vi": "Tăng trưởng",
+      "en": "growth",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "6b6088057404",
+      "vi": "Cấp độ",
+      "en": "level",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "3476ad83425b",
+      "vi": "Tài sản",
+      "en": "asset",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "66f840ed05d7",
+      "vi": "Biến động",
+      "en": "fluctuations",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "677d7f883df6",
+      "vi": "Nghịc lý",
+      "en": "paradox",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "eb452f33e682",
+      "vi": "Lợi ích",
+      "en": "benefit",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "740b1edea1bc",
+      "vi": "Phân bổ",
+      "en": "allocate",
+      "en_from": "doc",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "88fcb2e81753",
+      "vi": "Chặng đường",
+      "en": "part of a journey",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "89ce32edaf36",
+      "vi": "Yên tĩnh",
+      "en": "calm",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "d16248df284d",
+      "vi": "Nhiếp ảnh gia",
+      "en": "photographer",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "2233a3e2bf02",
+      "vi": "Giáo sư",
+      "en": "professor",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "aa4752c1d2f4",
+      "vi": "Đề tài",
+      "en": "topic, typically use for research topics",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "ec6d5b649ee8",
+      "vi": "Dự án nghiên cứu",
+      "en": "research project",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "c786f383e290",
+      "vi": "Nản (adj)",
+      "en": "want to give up",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "1383bd6f0edf",
+      "vi": "Tuyệt vọng",
+      "en": "hopeless",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "1df1c138d17f",
+      "vi": "giấu dốt",
+      "en": "hide one's ignorance",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "d1ecd907e7c4",
+      "vi": "Thăng chức",
+      "en": "promotion",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "db8455b18931",
+      "vi": "Biết tuốt",
+      "en": "know everything",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "c1b362538390",
+      "vi": "Tiêu chí",
+      "en": "criteria",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "dffedef98abc",
+      "vi": "Rập khuôn",
+      "en": "completely same",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "9a5a9b5a7ded",
+      "vi": "Cộng hưởng",
+      "en": "combined",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "e16b6adfa8d6",
+      "vi": "Hối thúc",
+      "en": "to hurry and pressure someone",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "3f442ffbe73e",
+      "vi": "Tác dụng",
+      "en": "impact",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "3295b8041b7c",
+      "vi": "Hoài nghi",
+      "en": "doubt",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "36d56993893a",
+      "vi": "Vô dụng",
+      "en": "useless",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "e0e7cf7c119c",
+      "vi": "Lợi dụng",
+      "en": "take advantage of someone",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "012c260013fe",
+      "vi": "Bủa vây",
+      "en": "to overwhelm",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "07a208e0d58c",
+      "vi": "Tâm trí",
+      "en": "mind",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "0e604887a771",
+      "vi": "Nuôi dưởng",
+      "en": "nurture",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "4a61e70bd27b",
+      "vi": "Tái cấu trúc",
+      "en": "reconstruct",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "7f8bf1cab1fb",
+      "vi": "Mô hình",
+      "en": "model",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "b2a610222379",
+      "vi": "Doanh nghiệp",
+      "en": "a company",
+      "en_from": "doc",
+      "date": "2026-10-26"
+    },
+    {
+      "id": "bfd331c9424f",
+      "vi": "Chặng cuối",
+      "en": "final leg / final stage",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "51fffcbb7803",
+      "vi": "Ngây dại",
+      "en": "foolish / mindless",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "229e9552cae6",
+      "vi": "Ngây ngất",
+      "en": "ecstatic / spellbound",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "5a0efa02e074",
+      "vi": "Ngây người",
+      "en": "to be dumbstruck / stunned",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "7c67187aa44f",
+      "vi": "Hồi tưởng",
+      "en": "to reminisce / recollect",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "a8fff562b637",
+      "vi": "Hồi sinh",
+      "en": "to revive / come back to life",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    },
+    {
+      "id": "eefdc0ff6632",
+      "vi": "Hồi đáp",
+      "en": "to reply / respond",
+      "en_from": "lego",
+      "date": "2026-11-04"
+    }
+  ]
+}
