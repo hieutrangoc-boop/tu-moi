@@ -772,21 +772,36 @@
     }
 
     .day-stack {
-      min-height: 44px;
+      min-height: 48px;
+      height: 48px;
       display: flex;
       flex-direction: column-reverse;
       align-items: center;
       justify-content: flex-start;
       gap: 2px;
-      padding-bottom: 4px;
+      padding-bottom: 2px;
+      box-sizing: border-box;
     }
 
     .round-block {
       width: 100%;
       max-width: 28px;
-      height: 7px;
+      height: 6px;
       border-radius: 2px;
       background: var(--sage);
+      flex-shrink: 0;
+    }
+
+    .round-overflow-badge {
+      font-size: 9px;
+      font-weight: 700;
+      color: var(--sage);
+      line-height: 1;
+      padding: 1px 3px;
+      border-radius: 4px;
+      background: var(--sage-soft);
+      margin-bottom: 1px;
+      flex-shrink: 0;
     }
 
     .round-block.drop-in {
@@ -2911,9 +2926,14 @@
 
       const weekColsHtml = week.cols.map(col => {
         let blocksHtml = '';
-        for (let b = 0; b < col.rounds; b++) {
-          const isNewestToday = col.isToday && b === col.rounds - 1 && animateNewBlock;
+        const maxVisible = 5;
+        const visibleRounds = Math.min(col.rounds, maxVisible);
+        for (let b = 0; b < visibleRounds; b++) {
+          const isNewestToday = col.isToday && b === visibleRounds - 1 && animateNewBlock;
           blocksHtml += `<div class="round-block${isNewestToday ? ' drop-in' : ''}"></div>`;
+        }
+        if (col.rounds > maxVisible) {
+          blocksHtml += `<span class="round-overflow-badge" aria-label="${col.rounds} rounds">${col.rounds}</span>`;
         }
         const letterClasses = [
           'day-letter',
