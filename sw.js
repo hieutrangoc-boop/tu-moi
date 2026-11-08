@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tu-moi-v1.0.3';
+const CACHE_NAME = 'tu-moi-v1.0.4';
 
 const PRECACHE_URLS = [
   './',
