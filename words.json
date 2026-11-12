@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T03:59:02.478221+00:00",
+  "updated": "2026-11-12T03:24:37.804Z",
   "items": [
     {
       "id": "6afeecba6fbd",
@@ -11,14 +11,14 @@
     {
       "id": "5959f6ed0818",
       "vi": "Tôn trọng sự khác biệt",
-      "en": "respect differences",
+      "en": "Respect differences",
       "en_from": "translate",
       "date": "2026-08-10"
     },
     {
       "id": "62e4510c4080",
       "vi": "Xuất phát từ ...",
-      "en": "originating from...",
+      "en": "Originating from...",
       "en_from": "translate",
       "date": "2026-08-10"
     },
@@ -39,14 +39,14 @@
     {
       "id": "f69c159462ed",
       "vi": "Anh ấy có nhu cầu cao về ..., nhưng vợ không đáp ứng được",
-      "en": "he has high needs for ..., but his wife cannot satisfy them",
+      "en": "He has high needs for ..., but his wife cannot satisfy them.",
       "en_from": "translate",
       "date": "2026-08-10"
     },
     {
       "id": "73555e93e99c",
       "vi": "Bồ nhí - tiểu tam - người thứ ba - người khác",
-      "en": "mistress / third party / the other person",
+      "en": "Mistress - mistress - third party - other person",
       "en_from": "translate",
       "date": "2026-08-10"
     },
@@ -60,7 +60,7 @@
     {
       "id": "436765e4a370",
       "vi": "Đổi chủ đề = nói lảng sang chuyện khác = đánh trống lảng",
-      "en": "change the subject / dodge the topic",
+      "en": "Changing the subject = shifting the conversation to something else = deflecting the conversation.",
       "en_from": "translate",
       "date": "2026-08-10"
     },
@@ -88,7 +88,7 @@
     {
       "id": "56f1682fccce",
       "vi": "Nhây (dùng cho người thân thiết) - giỡn nhây, nói nhây.",
-      "en": "teasing / joking persistently (used with close friends)",
+      "en": "\"Nhây\" (used for close friends/family) - joking around, saying things in a teasing way.",
       "en_from": "translate",
       "date": "2026-08-13"
     },
@@ -243,13 +243,6 @@
       "id": "43969b3ac853",
       "vi": "Nổi loạn",
       "en": "rebellious",
-      "en_from": "doc",
-      "date": "2026-09-24"
-    },
-    {
-      "id": "9fc675490d1d",
-      "vi": "Cách mạng màu",
-      "en": "revolutionary",
       "en_from": "doc",
       "date": "2026-09-24"
     },
@@ -730,8 +723,8 @@
       "date": "2026-10-05"
     },
     {
-      "id": "0e3834a43ff0",
-      "vi": "“Thao túng tâm lý”",
+      "id": "34a8482f10e7",
+      "vi": "Thao túng tâm lý",
       "en": "gaslighting",
       "en_from": "doc",
       "date": "2026-10-05"
@@ -870,13 +863,6 @@
       "date": "2026-10-12"
     },
     {
-      "id": "484f7e526672",
-      "vi": "Thao túng",
-      "en": "gaslight",
-      "en_from": "doc",
-      "date": "2026-10-12"
-    },
-    {
       "id": "7eb77929f05d",
       "vi": "Chủ đích",
       "en": "goal",
@@ -1003,8 +989,8 @@
       "date": "2026-10-14"
     },
     {
-      "id": "01202d524def",
-      "vi": "Cang đảm",
+      "id": "a81ee0610c6f",
+      "vi": "Can đảm",
       "en": "brave",
       "en_from": "doc",
       "date": "2026-10-14"
@@ -1040,7 +1026,7 @@
     {
       "id": "d51c113ed964",
       "vi": "Hiện diện",
-      "en": "present",
+      "en": "presence",
       "en_from": "doc",
       "date": "2026-10-21"
     },
@@ -1267,6 +1253,216 @@
       "en": "a company",
       "en_from": "doc",
       "date": "2026-10-26"
+    },
+    {
+      "id": "0daed9b60ec1",
+      "vi": "Tư tưởng",
+      "en": "ideology",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "7b3158bfdbb1",
+      "vi": "Cực đoan",
+      "en": "extreme",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "b79606d54d1a",
+      "vi": "Kết hợp",
+      "en": "combine",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "459ccbd84dd4",
+      "vi": "liệu pháp tâm động học chuyên sâu ngắn hạn",
+      "en": "ISTDP",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "986b4c4be14d",
+      "vi": "Nhân cách",
+      "en": "personality",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "4789c8598a0b",
+      "vi": "Tính cách",
+      "en": "characteristic",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "6ecea87e9687",
+      "vi": "Định nghĩa",
+      "en": "definition",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "45837d1c4a07",
+      "vi": "Khái niệm",
+      "en": "concept",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "801bb13b315d",
+      "vi": "Tử vi",
+      "en": "horoscope",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "a6c652ee1e57",
+      "vi": "chính thức",
+      "en": "official",
+      "en_from": "doc",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "4a43e157cec2",
+      "vi": "Nộp",
+      "en": "submit",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "395bb28ed40d",
+      "vi": "Đơn",
+      "en": "permission letter",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "ec8bb073bf2b",
+      "vi": "Toàn cầu",
+      "en": "worldwide",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "1a12c188c2bb",
+      "vi": "Quả điạ cầu",
+      "en": "globus",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "a23771352fc9",
+      "vi": "Dự kiến",
+      "en": "to predict",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "c2b18a095275",
+      "vi": "Quy mô: độ lớ",
+      "en": "extent, size",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "a1d0b8e85463",
+      "vi": "Vĩ đại",
+      "en": "very large",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "e779c65d7108",
+      "vi": "Nhân sự",
+      "en": "HR",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "443f491b8b78",
+      "vi": "Tác động",
+      "en": "affect",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "be95dc43a555",
+      "vi": "Công bố",
+      "en": "announce publicly",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "07a048b0bc53",
+      "vi": "Biểu hiện",
+      "en": "Manifestations",
+      "en_from": "translate",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "d261f4a2113a",
+      "vi": "Hiếu thảo - thành công, không cho ba mẹ lo, nghe lồi",
+      "en": "Filial piety leads to success, not causing parents worry, and obedience.",
+      "en_from": "translate",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "42ccfca60310",
+      "vi": "Đáng đồng",
+      "en": "to think that two things are similar",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "41fda004a396",
+      "vi": "Kết quả tuyển dụng",
+      "en": "recruitment result",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "55b8df3aefb5",
+      "vi": "Toàn bộ",
+      "en": "whole",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "d29421984bf3",
+      "vi": "Diễn giải",
+      "en": "explain",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "476cf1ac781d",
+      "vi": "Dấu hiệu",
+      "en": "label or sign",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "d37ef467b813",
+      "vi": "Tiềm năng",
+      "en": "potential",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "7389a0dccfc6",
+      "vi": "Đỉnh điểm",
+      "en": "peak",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "a230a89481c9",
+      "vi": "Nương nhờ",
+      "en": "to seek support or shelter",
+      "en_from": "doc",
+      "date": "2026-11-09"
     },
     {
       "id": "bfd331c9424f",

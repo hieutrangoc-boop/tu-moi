@@ -1305,9 +1305,40 @@
     };
 
     let revealed = false;
+    let renderedCardId = null;
     let typedValue = '';
     let lastAccuracy = null;
     let selectedGradeIndex = 2; // 0: again, 1: hard, 2: good
+
+    function resetTransientCardState() {
+      revealed = false;
+      typedValue = '';
+      lastAccuracy = null;
+      selectedGradeIndex = 2;
+      contextVisible = false;
+      contextLoading = false;
+      contextError = null;
+      rootsVisible = false;
+      rootsLoading = false;
+      rootsError = null;
+    }
+
+    function hasActiveCardInteraction() {
+      if (revealed) return true;
+      const inputEl = document.getElementById('answer-input');
+      return !!(inputEl && inputEl.value.trim().length > 0);
+    }
+
+    function keepActiveCardFront(cardId) {
+      if (!cardId || !progress.today || !Array.isArray(progress.today.queue)) return;
+      if (!wordMap.has(cardId)) return;
+      if (Array.isArray(progress.today.done) && progress.today.done.includes(cardId)) return;
+      const idx = progress.today.queue.indexOf(cardId);
+      if (idx > 0) {
+        progress.today.queue.splice(idx, 1);
+        progress.today.queue.unshift(cardId);
+      }
+    }
     let roundCelebrate = false;
     let celebrateTimer = null;
     let animateNewBlock = false;
@@ -1533,7 +1564,7 @@
       return picked;
     }
 
-    function syncTodayPlan() {
+    function syncTodayPlan(syncServer = true) {
       wordMap = new Map(words.map(w => [w.id, w]));
       if (words.length === 0) return;
 
@@ -1587,7 +1618,7 @@
         while (n < newIds.length) mixed.push(newIds[n++]);
 
         progress.today.queue = mixed;
-        saveProgress();
+        saveProgress(syncServer);
       } else {
         // Same day: filter valid IDs and top up new words if new words arrived in doc
         const doneSet = new Set(progress.today.done);
@@ -1607,7 +1638,7 @@
               progress.newDays[todayStr] = (progress.newDays[todayStr] || 0) + 1;
               progress.today.queue.push(w.id);
             }
-            saveProgress();
+            saveProgress(syncServer);
           }
         }
       }
@@ -2544,41 +2575,39 @@
 
     function onStudyContinue() {
       if (!progress.today || progress.today.queue.length === 0) return;
+      const todayStr = localDateStr();
+      if (progress.today.date !== todayStr || (renderedCardId && progress.today.queue[0] !== renderedCardId)) {
+        syncTodayPlan();
+        resetTransientCardState();
+        render();
+        return;
+      }
       const id = progress.today.queue.shift();
       progress.today.studied[id] = true;
       const pos = Math.min(4, progress.today.queue.length);
       progress.today.queue.splice(pos, 0, id);
-      revealed = false;
-      typedValue = '';
-      lastAccuracy = null;
-      contextVisible = false;
-      contextLoading = false;
-      contextError = null;
-      rootsVisible = false;
-      rootsLoading = false;
-      rootsError = null;
+      resetTransientCardState();
       saveProgress();
       render();
     }
 
     function onReveal(currentTyped) {
+      const todayStr = localDateStr();
+      if (!progress.today || progress.today.queue.length === 0 || progress.today.date !== todayStr || progress.today.queue[0] !== renderedCardId) {
+        syncTodayPlan();
+        resetTransientCardState();
+        render();
+        return;
+      }
+      resetTransientCardState();
       typedValue = currentTyped;
       revealed = true;
-      lastAccuracy = null;
-      contextVisible = false;
-      contextLoading = false;
-      contextError = null;
-      rootsVisible = false;
-      rootsLoading = false;
-      rootsError = null;
-      if (progress.today && progress.today.queue.length > 0) {
-        const currentId = progress.today.queue[0];
-        const item = wordMap.get(currentId);
-        if (item && item.vi) {
-          lastAccuracy = checkAccuracy(item.vi, currentTyped);
-          if (lastAccuracy) {
-            playRecallSound(lastAccuracy);
-          }
+      const currentId = progress.today.queue[0];
+      const item = wordMap.get(currentId);
+      if (item && item.vi) {
+        lastAccuracy = checkAccuracy(item.vi, currentTyped);
+        if (lastAccuracy) {
+          playRecallSound(lastAccuracy);
         }
       }
       if (lastAccuracy === 'full') {
@@ -2609,23 +2638,15 @@
 
     function onGrade(grade) {
       if (!progress.today || progress.today.queue.length === 0) return;
-      const id = progress.today.queue.shift();
       const now = new Date();
       const todayStr = localDateStr(now);
-      if (progress.today.date !== todayStr) {
+      if (progress.today.date !== todayStr || (renderedCardId && progress.today.queue[0] !== renderedCardId)) {
         syncTodayPlan();
-        revealed = false;
-        typedValue = '';
-        lastAccuracy = null;
-        contextVisible = false;
-        contextLoading = false;
-        contextError = null;
-        rootsVisible = false;
-        rootsLoading = false;
-        rootsError = null;
+        resetTransientCardState();
         render();
         return;
       }
+      const id = progress.today.queue.shift();
 
       progress.today.studied[id] = true;
 
@@ -2636,15 +2657,7 @@
         progress.cards[id] = scheduler.next(currentCard, now, rating).card;
       }
 
-      revealed = false;
-      typedValue = '';
-      lastAccuracy = null;
-      contextVisible = false;
-      contextLoading = false;
-      contextError = null;
-      rootsVisible = false;
-      rootsLoading = false;
-      rootsError = null;
+      resetTransientCardState();
 
       if (grade === 'again') {
         const pos = Math.min(5, progress.today.queue.length);
@@ -2753,12 +2766,7 @@
         }
       }
 
-      revealed = false;
-      typedValue = '';
-      lastAccuracy = null;
-      contextVisible = false;
-      contextLoading = false;
-      contextError = null;
+      resetTransientCardState();
       saveProgress();
       render();
     }
@@ -2783,6 +2791,8 @@
       }
 
       if (words.length === 0) {
+        renderedCardId = null;
+        resetTransientCardState();
         root.className = 'card';
         root.innerHTML = `
           <div class="header-row">
@@ -2800,6 +2810,12 @@
       }
 
       const queue = progress.today ? progress.today.queue : [];
+      const nextCardId = queue.length > 0 ? queue[0] : null;
+      if (nextCardId !== renderedCardId) {
+        resetTransientCardState();
+        prevInputVal = '';
+      }
+      renderedCardId = nextCardId;
       const cardsLeft = queue.length;
       const week = getWeekInfo();
 
@@ -3315,12 +3331,45 @@
           progress.weeklyArt = Object.assign({}, sp.weeklyArt, progress.weeklyArt || {});
           changed = true;
         }
-        if (sp.today && !progress.today) {
-          progress.today = sp.today;
-          changed = true;
+        const todayStr = localDateStr();
+        if (sp.today && typeof sp.today === 'object') {
+          if (!progress.today || (sp.today.date === todayStr && progress.today.date !== todayStr)) {
+            progress.today = {
+              date: sp.today.date || '',
+              queue: Array.isArray(sp.today.queue) ? [...sp.today.queue] : [],
+              firstGrade: sp.today.firstGrade && typeof sp.today.firstGrade === 'object' ? { ...sp.today.firstGrade } : {},
+              done: Array.isArray(sp.today.done) ? [...sp.today.done] : [],
+              studied: sp.today.studied && typeof sp.today.studied === 'object' ? { ...sp.today.studied } : {}
+            };
+            changed = true;
+          } else if (progress.today && sp.today.date === progress.today.date) {
+            if (Array.isArray(sp.today.done)) {
+              if (!Array.isArray(progress.today.done)) progress.today.done = [];
+              const doneSet = new Set(progress.today.done);
+              for (const id of sp.today.done) {
+                if (!doneSet.has(id)) {
+                  progress.today.done.push(id);
+                  doneSet.add(id);
+                  changed = true;
+                }
+              }
+            }
+            if (sp.today.firstGrade && typeof sp.today.firstGrade === 'object') {
+              progress.today.firstGrade = Object.assign({}, sp.today.firstGrade, progress.today.firstGrade || {});
+            }
+            if (sp.today.studied && typeof sp.today.studied === 'object') {
+              progress.today.studied = Object.assign({}, sp.today.studied, progress.today.studied || {});
+            }
+            if (progress.today.done.length === 0 && Object.keys(progress.today.studied || {}).length === 0 && Array.isArray(sp.today.queue) && sp.today.queue.length > 0 && !hasActiveCardInteraction()) {
+              progress.today.queue = [...sp.today.queue];
+              changed = true;
+            }
+          }
         }
+        const activeId = hasActiveCardInteraction() ? renderedCardId : null;
         saveProgress(false);
-        syncTodayPlan();
+        syncTodayPlan(false);
+        if (activeId) keepActiveCardFront(activeId);
         render(true);
         return changed;
       }
@@ -3364,7 +3413,7 @@
 
       words = loadSavedWords();
       if (words.length > 0) {
-        syncTodayPlan();
+        syncTodayPlan(false);
       }
       render();
 
@@ -3375,14 +3424,22 @@
       ]);
 
       if (fetchedWords && fetchedWords.length > 0) {
-        words = fetchedWords;
+        const fetchedIds = new Set(fetchedWords.map(w => w.id));
+        const maxStaticDate = fetchedWords.reduce((m, w) => (w.date && w.date > m ? w.date : m), '');
+        const extraCached = (words || []).filter(w =>
+          w && w.id && !fetchedIds.has(w.id) &&
+          ((w.date && w.date > maxStaticDate) || w.en_from === 'lego' || (progress.today && Array.isArray(progress.today.queue) && progress.today.queue.includes(w.id)))
+        );
+        words = fetchedWords.concat(extraCached);
         saveWords(words);
       }
 
       if (fetchedProgress) {
         mergeIncomingProgress(fetchedProgress);
       } else {
-        syncTodayPlan();
+        const activeId = hasActiveCardInteraction() ? renderedCardId : null;
+        syncTodayPlan(false);
+        if (activeId) keepActiveCardFront(activeId);
         render(true);
       }
 
@@ -3413,6 +3470,7 @@
               return true;
             });
             if (cleanOnline.length > 0) {
+              const activeId = hasActiveCardInteraction() ? renderedCardId : null;
               const localMap = new Map((words || []).map(w => [w.id, w]));
               words = cleanOnline.map(w => {
                 const loc = localMap.get(w.id);
@@ -3425,13 +3483,28 @@
                 return w;
               });
               saveWords(words);
-              syncTodayPlan();
+              syncTodayPlan(false);
+              if (activeId) keepActiveCardFront(activeId);
               render(true);
             }
           }
         })
         .catch(() => {});
     }
+
+    function checkDayRollover() {
+      if (words.length === 0) return;
+      const todayStr = localDateStr();
+      if (!progress.today || progress.today.date !== todayStr) {
+        syncTodayPlan();
+        resetTransientCardState();
+        render();
+      }
+    }
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') checkDayRollover();
+    });
+    window.addEventListener('focus', checkDayRollover);
 
     init();
 

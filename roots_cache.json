@@ -15096,5 +15096,135 @@
         "root": "Thường"
       }
     ]
+  },
+  "a81ee0610c6f": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Can",
+          "meaning": "Liver / Inner courage, daring"
+        },
+        {
+          "vi": "Đảm",
+          "meaning": "Gallbladder / Boldness, resolution"
+        }
+      ],
+      "bridge": "In traditional Asian medicine and philosophy, the liver (can) and gallbladder (đảm) are viewed as the physiological seat of courage, nerve, and emotional daring, directly connecting internal organs to fearless behavior."
+    },
+    "compounds": [
+      {
+        "vi": "Can đảm",
+        "literal": "Liver + gallbladder",
+        "en": "Brave / Courageous",
+        "root": "Can"
+      },
+      {
+        "vi": "Can trường",
+        "literal": "Liver + long/enduring",
+        "en": "Steadfast courage / Utterly fearless",
+        "root": "Can"
+      },
+      {
+        "vi": "Can thiệp",
+        "literal": "Liver + step/intervene",
+        "en": "To intervene / Meddle",
+        "root": "Can"
+      },
+      {
+        "vi": "Can gián",
+        "literal": "Liver + remonstrate",
+        "en": "To remonstrate / Boldly advise a superior",
+        "root": "Can"
+      },
+      {
+        "vi": "Đảm lược",
+        "literal": "Gallbladder + strategy/tactics",
+        "en": "Courage and resourcefulness",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đảm đương",
+        "literal": "Gallbladder + undertake/bear",
+        "en": "To shoulder responsibility / Undertake",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Can phảm",
+        "literal": "Liver + rebel/offend",
+        "en": "Audacious / Boldly defying",
+        "root": "Can"
+      },
+      {
+        "vi": "Bảo đảm",
+        "literal": "Protect + gallbladder/secure",
+        "en": "To guarantee / Ensure",
+        "root": "Đảm"
+      }
+    ]
+  },
+  "can đảm": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Can",
+          "meaning": "Liver / Inner courage, daring"
+        },
+        {
+          "vi": "Đảm",
+          "meaning": "Gallbladder / Boldness, resolution"
+        }
+      ],
+      "bridge": "In traditional Asian medicine and philosophy, the liver (can) and gallbladder (đảm) are viewed as the physiological seat of courage, nerve, and emotional daring, directly connecting internal organs to fearless behavior."
+    },
+    "compounds": [
+      {
+        "vi": "Can đảm",
+        "literal": "Liver + gallbladder",
+        "en": "Brave / Courageous",
+        "root": "Can"
+      },
+      {
+        "vi": "Can trường",
+        "literal": "Liver + long/enduring",
+        "en": "Steadfast courage / Utterly fearless",
+        "root": "Can"
+      },
+      {
+        "vi": "Can thiệp",
+        "literal": "Liver + step/intervene",
+        "en": "To intervene / Meddle",
+        "root": "Can"
+      },
+      {
+        "vi": "Can gián",
+        "literal": "Liver + remonstrate",
+        "en": "To remonstrate / Boldly advise a superior",
+        "root": "Can"
+      },
+      {
+        "vi": "Đảm lược",
+        "literal": "Gallbladder + strategy/tactics",
+        "en": "Courage and resourcefulness",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Đảm đương",
+        "literal": "Gallbladder + undertake/bear",
+        "en": "To shoulder responsibility / Undertake",
+        "root": "Đảm"
+      },
+      {
+        "vi": "Can phảm",
+        "literal": "Liver + rebel/offend",
+        "en": "Audacious / Boldly defying",
+        "root": "Can"
+      },
+      {
+        "vi": "Bảo đảm",
+        "literal": "Protect + gallbladder/secure",
+        "en": "To guarantee / Ensure",
+        "root": "Đảm"
+      }
+    ]
   }
 }
