@@ -3484,8 +3484,8 @@
                 if (loc && loc.vi && loc.en && loc.en_from === 'doc' && w.en_from !== 'doc') {
                   return { ...w, en: loc.en, en_from: loc.en_from };
                 }
-                if (loc && loc.vi && loc.vi !== w.vi) {
-                  return { ...w, vi: loc.vi, en: loc.en || w.en };
+                if (loc && (loc.vi !== w.vi || (loc.en && loc.en !== w.en))) {
+                  return { ...w, vi: loc.vi, en: loc.en };
                 }
                 return w;
               });
