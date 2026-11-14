@@ -67,7 +67,7 @@
     {
       "id": "c754a1c2606d",
       "vi": "Né tránh",
-      "en": "speak out - evade - speak out",
+      "en": "evade / avoid",
       "en_from": "doc",
       "date": "2026-08-10"
     },
@@ -129,8 +129,8 @@
     },
     {
       "id": "158077c367c1",
-      "vi": "Ăn nên làm",
-      "en": "ra",
+      "vi": "Ăn nên làm ra",
+      "en": "to prosper / thrive in business",
       "en_from": "doc",
       "date": "2026-09-08"
     },
@@ -361,7 +361,7 @@
     {
       "id": "bdaf87f86ad1",
       "vi": "Bệnh lao",
-      "en": "tubercolosis",
+      "en": "tuberculosis",
       "en_from": "doc",
       "date": "2026-09-28"
     },
@@ -374,7 +374,7 @@
     },
     {
       "id": "2e596f59c54a",
-      "vi": "Thận thiện",
+      "vi": "Thân thiện",
       "en": "friendly",
       "en_from": "doc",
       "date": "2026-09-28"
@@ -760,7 +760,7 @@
     {
       "id": "e3541f4c3753",
       "vi": "Tư bản",
-      "en": "capitalism",
+      "en": "capital / capitalist",
       "en_from": "doc",
       "date": "2026-10-09"
     },
@@ -1060,7 +1060,7 @@
     },
     {
       "id": "677d7f883df6",
-      "vi": "Nghịc lý",
+      "vi": "Nghịch lý",
       "en": "paradox",
       "en_from": "doc",
       "date": "2026-10-21"
@@ -1228,7 +1228,7 @@
     },
     {
       "id": "0e604887a771",
-      "vi": "Nuôi dưởng",
+      "vi": "Nuôi dưỡng",
       "en": "nurture",
       "en_from": "doc",
       "date": "2026-10-26"
@@ -1347,8 +1347,8 @@
     },
     {
       "id": "1a12c188c2bb",
-      "vi": "Quả điạ cầu",
-      "en": "globus",
+      "vi": "Quả địa cầu",
+      "en": "globe / terrestrial globe",
       "en_from": "doc",
       "date": "2026-11-09"
     },
@@ -1361,8 +1361,8 @@
     },
     {
       "id": "c2b18a095275",
-      "vi": "Quy mô: độ lớ",
-      "en": "extent, size",
+      "vi": "Quy mô",
+      "en": "scale, extent, size",
       "en_from": "doc",
       "date": "2026-11-09"
     },
@@ -1403,15 +1403,15 @@
     },
     {
       "id": "d261f4a2113a",
-      "vi": "Hiếu thảo - thành công, không cho ba mẹ lo, nghe lồi",
+      "vi": "Hiếu thảo - thành công, không cho ba mẹ lo, nghe lời",
       "en": "Filial piety leads to success, not causing parents worry, and obedience.",
       "en_from": "translate",
       "date": "2026-11-09"
     },
     {
       "id": "42ccfca60310",
-      "vi": "Đáng đồng",
-      "en": "to think that two things are similar",
+      "vi": "Đánh đồng",
+      "en": "to equate / lump together",
       "en_from": "doc",
       "date": "2026-11-09"
     },
@@ -1466,7 +1466,7 @@
     },
     {
       "id": "41326f21c2ee",
-      "vi": "Tham vộng",
+      "vi": "Tham vọng",
       "en": "ambition",
       "en_from": "doc",
       "date": "2026-11-09"
@@ -1480,8 +1480,8 @@
     },
     {
       "id": "e5790443419e",
-      "vi": "Nghỉ dưởng",
-      "en": "retreat vacation",
+      "vi": "Nghỉ dưỡng",
+      "en": "retreat vacation / convalescence",
       "en_from": "doc",
       "date": "2026-11-09"
     },

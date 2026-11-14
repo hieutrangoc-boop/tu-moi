@@ -18157,64 +18157,64 @@
     "etymology": {
       "roots": [
         {
-          "vi": "Đáng",
-          "meaning": "Worth / To be worthy / Deserving"
+          "vi": "Đánh",
+          "meaning": "To strike / engage / treat / consider in combination"
         },
         {
           "vi": "Đồng",
           "meaning": "Same / Equal / Similar / Together"
         }
       ],
-      "bridge": "The phrase combines 'đáng' (to be worthy/equivalent) and 'đồng' (the same/equal), conceptually mapping to the idea of two things being weighed as equivalent or matching in value and nature."
+      "bridge": "To 'đánh đồng' is to treat or lump different things together (đồng) as if they were identical, often oversimplifying their real differences."
     },
     "compounds": [
       {
-        "vi": "Đáng giá",
-        "literal": "Worth + price/value",
-        "en": "Valuable / Worthwhile",
-        "root": "Đáng"
+        "vi": "Đồng nhất",
+        "literal": "Same + one/unified",
+        "meaning": "Identical / Homogeneous",
+        "root": "Đồng"
       },
       {
-        "vi": "Đáng tin",
-        "literal": "Worth + to believe",
-        "en": "Trustworthy / Reliable",
-        "root": "Đáng"
-      },
-      {
-        "vi": "Đáng yêu",
-        "literal": "Worth + to love",
-        "en": "Adorable / Cute",
-        "root": "Đáng"
-      },
-      {
-        "vi": "Đáng kể",
-        "literal": "Worth + to recount/mention",
-        "en": "Significant / Considerable",
-        "root": "Đáng"
-      },
-      {
-        "vi": "Đồng hương",
-        "literal": "Same + native village",
-        "en": "Compatriot / Fellow townsman",
+        "vi": "Đồng nghĩa",
+        "literal": "Same + meaning",
+        "meaning": "Synonymous",
         "root": "Đồng"
       },
       {
         "vi": "Đồng ý",
         "literal": "Same + will/mind",
-        "en": "To agree / To consent",
+        "meaning": "To agree",
         "root": "Đồng"
       },
       {
         "vi": "Đồng nghiệp",
-        "literal": "Same + profession/task",
-        "en": "Colleague / Coworker",
+        "literal": "Same + profession",
+        "meaning": "Colleague",
         "root": "Đồng"
       },
       {
-        "vi": "Đồng đều",
-        "literal": "Same + even/uniform",
-        "en": "Uniform / Evenly distributed",
-        "root": "Đồng"
+        "vi": "Đánh giá",
+        "literal": "Strike + price",
+        "meaning": "To evaluate / judge",
+        "root": "Đánh"
+      },
+      {
+        "vi": "Đánh dấu",
+        "literal": "Strike + mark",
+        "meaning": "To mark / highlight",
+        "root": "Đánh"
+      },
+      {
+        "vi": "Đánh đổi",
+        "literal": "Strike + exchange",
+        "meaning": "To trade off / sacrifice",
+        "root": "Đánh"
+      },
+      {
+        "vi": "Đánh thức",
+        "literal": "Strike + awake",
+        "meaning": "To awaken / arouse",
+        "root": "Đánh"
       }
     ]
   },
@@ -19524,6 +19524,522 @@
         "literal": "Look toward + outside",
         "en": "Adoring foreign things / Xenocentric",
         "root": "Vọng"
+      }
+    ]
+  },
+  "quy mô": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Quy",
+          "meaning": "Compass / Standard / Rule"
+        },
+        {
+          "vi": "Mô",
+          "meaning": "Model / Pattern / Scope"
+        }
+      ],
+      "bridge": "Combining a drafting compass (quy) used for drawing circles with a model or pattern (mô) establishes the standard boundaries and dimensions of a structure, which conceptualizes the overall extent or scale of something."
+    },
+    "compounds": [
+      {
+        "vi": "Quy tắc",
+        "meaning": "Rule + standard",
+        "literal": "compass + rule",
+        "en": "Rule / Regulation",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy định",
+        "meaning": "Standard + set/fix",
+        "literal": "standard + fix",
+        "en": "Regulation / Stipulation",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy luật",
+        "meaning": "Standard + law/rhythm",
+        "literal": "standard + law",
+        "en": "Law / Regularity",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy hoạch",
+        "meaning": "Standard + plan/layout",
+        "literal": "standard + layout",
+        "en": "Urban planning / Zoning",
+        "root": "Quy"
+      },
+      {
+        "vi": "Mô hình",
+        "meaning": "Model + shape/pattern",
+        "literal": "model + pattern",
+        "en": "Model / Prototype",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô tả",
+        "meaning": "Model + express/depict",
+        "literal": "model + depict",
+        "en": "To describe",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô phỏng",
+        "meaning": "Model + imitate/copy",
+        "literal": "model + imitate",
+        "en": "To simulate / To emulate",
+        "root": "Mô"
+      }
+    ]
+  },
+  "nghịch lý": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "nghịch",
+          "meaning": "contrary, adverse, against (Sino-Vietnamese: 逆)"
+        },
+        {
+          "vi": "lý",
+          "meaning": "reason, logic, principle (Sino-Vietnamese: 理)"
+        }
+      ],
+      "bridge": "The roots combine to mean reasoning that goes against conventional logic, forming a paradox."
+    },
+    "compounds": [
+      {
+        "vi": "Nghịch cảnh",
+        "meaning": "contrary + scenery/circumstance",
+        "literal": "adversity",
+        "root": "nghịch"
+      },
+      {
+        "vi": "Nghịch ngợm",
+        "meaning": "contrary/mischievous + modifier",
+        "literal": "mischievous / naughty",
+        "root": "nghịch"
+      },
+      {
+        "vi": "Lý lẽ",
+        "meaning": "reason + reason/logic",
+        "literal": "arguments / reasoning",
+        "root": "lý"
+      },
+      {
+        "vi": "Hợp lý",
+        "meaning": "matching + reason",
+        "literal": "reasonable / logical",
+        "root": "lý"
+      }
+    ]
+  },
+  "đánh đồng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đánh",
+          "meaning": "To strike / engage / treat / consider in combination"
+        },
+        {
+          "vi": "Đồng",
+          "meaning": "Same / Equal / Similar / Together"
+        }
+      ],
+      "bridge": "To 'đánh đồng' is to treat or lump different things together (đồng) as if they were identical, often oversimplifying their real differences."
+    },
+    "compounds": [
+      {
+        "vi": "Đồng nhất",
+        "literal": "Same + one/unified",
+        "meaning": "Identical / Homogeneous",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng nghĩa",
+        "literal": "Same + meaning",
+        "meaning": "Synonymous",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng ý",
+        "literal": "Same + will/mind",
+        "meaning": "To agree",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng nghiệp",
+        "literal": "Same + profession",
+        "meaning": "Colleague",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đánh giá",
+        "literal": "Strike + price",
+        "meaning": "To evaluate / judge",
+        "root": "Đánh"
+      },
+      {
+        "vi": "Đánh dấu",
+        "literal": "Strike + mark",
+        "meaning": "To mark / highlight",
+        "root": "Đánh"
+      },
+      {
+        "vi": "Đánh đổi",
+        "literal": "Strike + exchange",
+        "meaning": "To trade off / sacrifice",
+        "root": "Đánh"
+      },
+      {
+        "vi": "Đánh thức",
+        "literal": "Strike + awake",
+        "meaning": "To awaken / arouse",
+        "root": "Đánh"
+      }
+    ]
+  },
+  "thân thiện": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "thân",
+          "meaning": "close, intimate, relative (Hán-Việt: 親)"
+        },
+        {
+          "vi": "thiện",
+          "meaning": "good, kind, benevolent (Hán-Việt: 善)"
+        }
+      ],
+      "bridge": "Thân thiện combines 'thân' (close/intimate) and 'thiện' (good/kind) to mean having a warm, kind, and approachable demeanor."
+    },
+    "compounds": [
+      {
+        "vi": "Thân thiết",
+        "meaning": "close, intimate",
+        "literal": "close + intimate",
+        "root": "thân"
+      },
+      {
+        "vi": "Thân nhân",
+        "meaning": "relatives, family members",
+        "literal": "close + person",
+        "root": "thân"
+      },
+      {
+        "vi": "Thiện chí",
+        "meaning": "goodwill",
+        "literal": "good + will",
+        "root": "thiện"
+      },
+      {
+        "vi": "Thiện cảm",
+        "meaning": "good sympathy, affection",
+        "literal": "good + feeling",
+        "root": "thiện"
+      },
+      {
+        "vi": "Lương thiện",
+        "meaning": "honest and kind, upright",
+        "literal": "good + kind",
+        "root": "thiện"
+      }
+    ]
+  },
+  "nuôi dưỡng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "nuôi",
+          "meaning": "to raise, to feed, to nurture"
+        },
+        {
+          "vi": "dưỡng",
+          "meaning": "养 - to nourish, to care for"
+        }
+      ],
+      "bridge": "Both roots mean to care for and provide sustenance, combining to emphasize the complete physical and mental nurturing of something."
+    },
+    "compounds": [
+      {
+        "vi": "Nuôi nấng",
+        "meaning": "to raise and nurture",
+        "literal": "to raise-grow",
+        "root": "nuôi"
+      },
+      {
+        "vi": "Nuôi trồng",
+        "meaning": "to cultivate and farm",
+        "literal": "to feed-plant",
+        "root": "nuôi"
+      },
+      {
+        "vi": "Dưỡng sinh",
+        "meaning": "health preservation",
+        "literal": "nourish-life",
+        "root": "dưỡng"
+      },
+      {
+        "vi": "Bồi dưỡng",
+        "meaning": "to foster, to train, to supplement",
+        "literal": "replenish-nourish",
+        "root": "dưỡng"
+      }
+    ]
+  },
+  "nghỉ dưỡng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nghỉ",
+          "meaning": "Rest / Stop / Pause"
+        },
+        {
+          "vi": "Dưỡng",
+          "meaning": "Nourish / Care for / Cultivate"
+        }
+      ],
+      "bridge": "To 'nghỉ dưỡng' is to pause work in order to nourish and restore one's physical and mental well-being."
+    },
+    "compounds": [
+      {
+        "vi": "Nghỉ ngơi",
+        "meaning": "Rest + Relax",
+        "literal": "Rest and relax",
+        "en": "to rest / to take a break",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nghỉ việc",
+        "meaning": "Rest + Job/Work",
+        "literal": "Stop work",
+        "en": "to quit a job / to retire",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nghỉ hè",
+        "meaning": "Rest + Summer",
+        "literal": "Summer rest",
+        "en": "summer vacation",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nuôi dưỡng",
+        "meaning": "Raise + Nourish",
+        "literal": "Nurture and care for",
+        "en": "to nurture / to foster",
+        "root": "Dưỡng"
+      },
+      {
+        "vi": "Bồi dưỡng",
+        "meaning": "Supplement + Nourish",
+        "literal": "Nourish and replenish",
+        "en": "to improve / to train / to nourish",
+        "root": "Dưỡng"
+      },
+      {
+        "vi": "Dưỡng sinh",
+        "meaning": "Nourish + Life",
+        "literal": "Nourishing life",
+        "en": " menjaga kesehatan / longevity preservation / wellness",
+        "root": "Dưỡng"
+      }
+    ]
+  },
+  "tham vọng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tham",
+          "meaning": "To desire, to covet, to have an excessive craving for"
+        },
+        {
+          "vi": "Vọng",
+          "meaning": "To look into the distance, to hope, to aspire, to gaze toward"
+        }
+      ],
+      "bridge": "Tham vọng literally means \"craving for distant sights,\" connecting an insatiable desire (tham) with looking far ahead at grand future goals (vọng)."
+    },
+    "compounds": [
+      {
+        "vi": "Tham lam",
+        "literal": "Desire + greedy",
+        "en": "Greedy / Covetous",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham ô",
+        "literal": "Desire + corrupt",
+        "en": "Embezzlement / Corruption",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham ăn",
+        "literal": "Desire + eat",
+        "en": "Gluttonous / Fond of eating",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham quan",
+        "literal": "Desire + look",
+        "en": "To sightsee / Visit",
+        "root": "Tham"
+      },
+      {
+        "vi": "Hy vọng",
+        "literal": "Hope + look toward",
+        "en": "To hope / Expectation",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Trông vọng",
+        "literal": "Look + look toward",
+        "en": "To look forward to / Await",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Vọng ngoại",
+        "literal": "Look toward + outside",
+        "en": "Adoring foreign things / Xenocentric",
+        "root": "Vọng"
+      }
+    ]
+  },
+  "quả địa cầu": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Quả",
+          "meaning": "Fruit / Round object / Sphere"
+        },
+        {
+          "vi": "Địa",
+          "meaning": "Earth / Ground / Land"
+        },
+        {
+          "vi": "Cầu",
+          "meaning": "Sphere / Globe / Ball"
+        }
+      ],
+      "bridge": "Literally translated as 'round object of the earthly sphere', 'quả địa cầu' uses 'quả' as a classifier for round things, paired with 'địa cầu' (earth + globe) to describe our spherical planet."
+    },
+    "compounds": [
+      {
+        "vi": "Quả đất",
+        "meaning": "Earth / The globe",
+        "literal": "Round object + earth",
+        "root": "Quả"
+      },
+      {
+        "vi": "Hoa quả",
+        "meaning": "Fruits",
+        "literal": "Flower + fruit",
+        "root": "Quả"
+      },
+      {
+        "vi": "Địa lý",
+        "meaning": "Geography",
+        "literal": "Earth + principles/science",
+        "root": "Địa"
+      },
+      {
+        "vi": "Địa phương",
+        "meaning": "Local / Locality",
+        "literal": "Land + direction/region",
+        "root": "Địa"
+      },
+      {
+        "vi": "Quả cầu",
+        "meaning": "Globe / Sphere",
+        "literal": "Round object + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Cầu lông",
+        "meaning": "Badminton",
+        "literal": "Ball + feather",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Địa điểm",
+        "meaning": "Location / Spot",
+        "literal": "Earth/Land + point",
+        "root": "Địa"
+      }
+    ]
+  },
+  "hiếu thảo - thành công, không cho ba mẹ lo, nghe lời": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hiếu",
+          "meaning": "Filial piety / Reverence towards parents (Hán-Việt: 孝)"
+        },
+        {
+          "vi": "Thảo",
+          "meaning": "Submissive / Obedient / Grassy lushness extended to gentle compliance (Hán-Việt:  thảo)"
+        },
+        {
+          "vi": "Thành",
+          "meaning": "Accomplish / Complete / Realize / Sincere (Hán-Việt: 成)"
+        },
+        {
+          "vi": "Công",
+          "meaning": "Merit / Achievement / Work / Labor (Hán-Việt: 功)"
+        },
+        {
+          "vi": "Lo",
+          "meaning": "Worry / Anxious / Care for (Native Vietnamese root: lo lắng)"
+        },
+        {
+          "vi": "Nghe lời",
+          "meaning": "Listen to words / Obey instructions (Native Vietnamese phrase, sometimes phonetically or colloquially rendered as 'nghe lồi')"
+        }
+      ],
+      "bridge": "The phrase weaves together traditional Confucian virtues of filial devotion (hiếu thảo) and personal achievement (thành công) as the ultimate duty to spare parents anxiety (không lo) through absolute obedience and respect (nghe lời)."
+    },
+    "compounds": [
+      {
+        "vi": "Hiếu kính",
+        "meaning": "Filial + Respect",
+        "literal": "filial piety + respect",
+        "en": "deep filial respect and devotion",
+        "root": "Hiếu"
+      },
+      {
+        "vi": "Thảo hiền",
+        "meaning": "Obedient + Virtuous",
+        "literal": "obedient + virtuous",
+        "en": "dutiful and good-natured child",
+        "root": "Thảo"
+      },
+      {
+        "vi": "Thành tựu",
+        "meaning": "Accomplish + Result",
+        "literal": "achieve + result",
+        "en": "achievement / success",
+        "root": "Thành"
+      },
+      {
+        "vi": "Công lao",
+        "meaning": "Merit + Labor",
+        "literal": "merit + effort",
+        "en": "contribution / hard-earned merit",
+        "root": "Công"
+      },
+      {
+        "vi": "Lo âu",
+        "meaning": "Worry + Anxious",
+        "literal": "worry + anxiety",
+        "en": "anxiety / worry",
+        "root": "Lo"
+      },
+      {
+        "vi": "Vâng lời",
+        "meaning": "Obey + Words",
+        "literal": "obey + words",
+        "en": "to obey / follow instructions",
+        "root": "Nghe lời"
       }
     ]
   }

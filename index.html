@@ -1989,7 +1989,13 @@
       const strippedTyped = stripDiacritics(normTyped);
 
       const targetCleanNoParens = String(targetVi || '').replace(/\([^)]*\)/g, ' ');
-      const rawAlternatives = [targetVi, targetCleanNoParens, ...targetCleanNoParens.split(/[=/;,]/)];
+      const splitParts = targetCleanNoParens.split(/[=/;,:]|\s*[-—]\s*/);
+      const rawAlternatives = [
+        targetVi,
+        targetCleanNoParens,
+        targetCleanNoParens.replace(/[-—]/g, ' '),
+        ...splitParts
+      ];
       const alternatives = rawAlternatives
         .map(alt => cleanVietnameseWord(alt))
         .filter(alt => alt.length > 0);
@@ -3472,16 +3478,19 @@
             if (cleanOnline.length > 0) {
               const activeId = hasActiveCardInteraction() ? renderedCardId : null;
               const localMap = new Map((words || []).map(w => [w.id, w]));
-              words = cleanOnline.map(w => {
+              const onlineIdSet = new Set(cleanOnline.map(w => w.id));
+              const updatedOnline = cleanOnline.map(w => {
                 const loc = localMap.get(w.id);
                 if (loc && loc.vi && loc.en && loc.en_from === 'doc' && w.en_from !== 'doc') {
                   return { ...w, en: loc.en, en_from: loc.en_from };
                 }
-                if (loc && loc.vi === 'Ăn nên làm ra' && w.vi === 'Ăn nên làm') {
-                  return loc;
+                if (loc && loc.vi && loc.vi !== w.vi) {
+                  return { ...w, vi: loc.vi, en: loc.en || w.en };
                 }
                 return w;
               });
+              const preservedLocal = (words || []).filter(w => !onlineIdSet.has(w.id));
+              words = [...updatedOnline, ...preservedLocal];
               saveWords(words);
               syncTodayPlan(false);
               if (activeId) keepActiveCardFront(activeId);

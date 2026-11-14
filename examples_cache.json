@@ -4341,12 +4341,12 @@
   ],
   "42ccfca60310": [
     {
-      "vi": "Nhiều người hay <b>đáng đồng</b> hai khái niệm này với nhau nhưng thực ra chúng rất khác.",
-      "en": "Many people often think these two concepts are similar to each other, but actually they are very different."
+      "vi": "Nhiều người hay <b>đánh đồng</b> hai khái niệm này với nhau nhưng thực ra chúng rất khác.",
+      "en": "Many people often equate these two concepts with each other, but actually they are very different."
     },
     {
-      "vi": "Bạn đừng <b>đáng đồng</b> chuyện công việc với chuyện cá nhân nhé.",
-      "en": "Please don't think that work matters and personal matters are the same."
+      "vi": "Bạn đừng <b>đánh đồng</b> chuyện công việc với chuyện cá nhân nhé.",
+      "en": "Please don't lump work matters and personal matters together."
     }
   ],
   "đáng đồng": [
@@ -4517,6 +4517,96 @@
     {
       "vi": "Những <b>biểu hiện</b> nhỏ nhặt đó lại cho thấy cô ấy rất quan tâm đến bạn.",
       "en": "Those minor manifestations actually show that she cares a lot about you."
+    }
+  ],
+  "quy mô": [
+    {
+      "vi": "Quán cà phê mới mở tuy nhỏ nhưng <b>quy mô</b> dịch vụ rất chuyên nghiệp.",
+      "en": "The newly opened café is small, but the extent of its service is very professional."
+    },
+    {
+      "vi": "Chúng ta cần bàn kỹ hơn về <b>quy mô</b> của bữa tiệc sinh nhật sắp tới.",
+      "en": "We need to discuss the size of the upcoming birthday party in more detail."
+    }
+  ],
+  "nghịch lý": [
+    {
+      "vi": "Đây là một <b>nghịch lý</b> trong quản lý nhân sự hiện đại.",
+      "en": "This is a paradox in modern personnel management."
+    },
+    {
+      "vi": "Cuộc sống luôn chứa đựng nhiều <b>nghịch lý</b> thú vị.",
+      "en": "Life always contains many interesting paradoxes."
+    }
+  ],
+  "đánh đồng": [
+    {
+      "vi": "Nhiều người hay <b>đánh đồng</b> hai khái niệm này với nhau nhưng thực ra chúng rất khác.",
+      "en": "Many people often equate these two concepts with each other, but actually they are very different."
+    },
+    {
+      "vi": "Bạn đừng <b>đánh đồng</b> chuyện công việc với chuyện cá nhân nhé.",
+      "en": "Please don't lump work matters and personal matters together."
+    }
+  ],
+  "thân thiện": [
+    {
+      "vi": "Mọi người ở đây rất <b>thân thiện</b> và cởi mở.",
+      "en": "Everyone here is very friendly and open."
+    },
+    {
+      "vi": "Chúng tôi muốn xây dựng một môi trường làm việc <b>thân thiện</b>.",
+      "en": "We want to build a friendly working environment."
+    }
+  ],
+  "nuôi dưỡng": [
+    {
+      "vi": "Cha mẹ luôn muốn <b>nuôi dưỡng</b> tâm hồn con trẻ bằng những điều tốt đẹp.",
+      "en": "Parents always want to nurture the souls of their children with good things."
+    },
+    {
+      "vi": "Chúng ta cần <b>nuôi dưỡng</b> tinh thần học hỏi không ngừng trong công việc.",
+      "en": "We need to foster a spirit of continuous learning in our work."
+    }
+  ],
+  "nghỉ dưỡng": [
+    {
+      "vi": "Cuối tuần này cả nhà mình sẽ đi <b>nghỉ dưỡng</b> ở một resort tại Vũng Tàu.",
+      "en": "This weekend, my whole family is going on a retreat vacation at a resort in Vung Tau."
+    },
+    {
+      "vi": "Sau dự án này, mình nhất định phải đi <b>nghỉ dưỡng</b> vài ngày để nạp lại năng lượng.",
+      "en": "After this project, I definitely have to go on a retreat vacation for a few days to recharge my energy."
+    }
+  ],
+  "tham vọng": [
+    {
+      "vi": "Mình thấy anh ấy có <b>tham vọng</b> lớn lắm, chắc chắn sau này sẽ làm nên chuyện.",
+      "en": "I see that he has great ambition; he will definitely do something big in the future."
+    },
+    {
+      "vi": "Dù có <b>tham vọng</b> đến đâu thì cũng đừng quên dành thời gian cho gia đình nhé.",
+      "en": "No matter how much ambition you have, don't forget to spend time with your family."
+    }
+  ],
+  "quả địa cầu": [
+    {
+      "vi": "Con hãy xoay cái <b>quả địa cầu</b> này để tìm vị trí đất nước Việt Nam nhé.",
+      "en": "Can you spin this globe to find where Vietnam is?"
+    },
+    {
+      "vi": "Thầy giáo dùng <b>quả địa cầu</b> trên bàn để giảng bài về các châu lục cho chúng tôi.",
+      "en": "The teacher used the globe on the desk to teach us about the continents."
+    }
+  ],
+  "hiếu thảo - thành công, không cho ba mẹ lo, nghe lời": [
+    {
+      "vi": "Đối với người Việt Nam, <b>hiếu thảo - thành công, không cho ba mẹ lo, nghe lời</b> luôn là những chuẩn mực đạo đức quan trọng nhất của người con.",
+      "en": "For Vietnamese people, filial piety leads to success, not causing parents worry, and obedience are always the most important moral standards for a child."
+    },
+    {
+      "vi": "Ông bà mình thường dạy rằng <b>hiếu thảo - thành công, không cho ba mẹ lo, nghe lời</b> chính là gốc rễ để làm người.",
+      "en": "Our grandparents often taught that filial piety leads to success, not causing parents worry, and obedience are the very roots of becoming a good person."
     }
   ]
 }
