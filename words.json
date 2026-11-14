@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T03:24:37.804Z",
+  "updated": "2026-11-14T07:12:51.883Z",
   "items": [
     {
       "id": "6afeecba6fbd",
@@ -1461,6 +1461,27 @@
       "id": "a230a89481c9",
       "vi": "Nương nhờ",
       "en": "to seek support or shelter",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "41326f21c2ee",
+      "vi": "Tham vộng",
+      "en": "ambition",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "790a2bb0d598",
+      "vi": "Cải tạo",
+      "en": "to reform or renovate",
+      "en_from": "doc",
+      "date": "2026-11-09"
+    },
+    {
+      "id": "e5790443419e",
+      "vi": "Nghỉ dưởng",
+      "en": "retreat vacation",
       "en_from": "doc",
       "date": "2026-11-09"
     },

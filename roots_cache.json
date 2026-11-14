@@ -15226,5 +15226,4305 @@
         "root": "Đảm"
       }
     ]
+  },
+  "d29421984bf3": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Diễn",
+          "meaning": "Spread out / Express / Elaborate / Perform"
+        },
+        {
+          "vi": "Giải",
+          "meaning": "Untie / Loosen / Explain / Resolve"
+        }
+      ],
+      "bridge": "To 'diễn giải' is to untie (giải) a knot and spread it out (diễn) for clear viewing, transforming complex ideas into easily understood explanations."
+    },
+    "compounds": [
+      {
+        "vi": "Diễn đạt",
+        "meaning": "spread out + reach/express",
+        "literal": "To express / convey ideas clearly",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Diễn văn",
+        "meaning": "spread out + text/speech",
+        "literal": "Speech / Address",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Diễn biến",
+        "meaning": "spread out + change/occur",
+        "literal": "Developments / Evolution",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Biểu diễn",
+        "meaning": "surface/manifest + spread out",
+        "literal": "To perform / demonstration",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Giải thích",
+        "meaning": "untie + clarify",
+        "literal": "To explain / interpret",
+        "root": "Giải"
+      },
+      {
+        "vi": "Giải quyết",
+        "meaning": "untie + decide/settle",
+        "literal": "To solve / resolve",
+        "root": "Giải"
+      },
+      {
+        "vi": "Giải phóng",
+        "meaning": "untie + release/free",
+        "literal": "To liberate / emancipate",
+        "root": "Giải"
+      },
+      {
+        "vi": "Hòa giải",
+        "meaning": "harmony + untie",
+        "literal": "Reconciliation / Mediation",
+        "root": "Giải"
+      }
+    ]
+  },
+  "diễn giải": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Diễn",
+          "meaning": "Spread out / Express / Elaborate / Perform"
+        },
+        {
+          "vi": "Giải",
+          "meaning": "Untie / Loosen / Explain / Resolve"
+        }
+      ],
+      "bridge": "To 'diễn giải' is to untie (giải) a knot and spread it out (diễn) for clear viewing, transforming complex ideas into easily understood explanations."
+    },
+    "compounds": [
+      {
+        "vi": "Diễn đạt",
+        "meaning": "spread out + reach/express",
+        "literal": "To express / convey ideas clearly",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Diễn văn",
+        "meaning": "spread out + text/speech",
+        "literal": "Speech / Address",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Diễn biến",
+        "meaning": "spread out + change/occur",
+        "literal": "Developments / Evolution",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Biểu diễn",
+        "meaning": "surface/manifest + spread out",
+        "literal": "To perform / demonstration",
+        "root": "Diễn"
+      },
+      {
+        "vi": "Giải thích",
+        "meaning": "untie + clarify",
+        "literal": "To explain / interpret",
+        "root": "Giải"
+      },
+      {
+        "vi": "Giải quyết",
+        "meaning": "untie + decide/settle",
+        "literal": "To solve / resolve",
+        "root": "Giải"
+      },
+      {
+        "vi": "Giải phóng",
+        "meaning": "untie + release/free",
+        "literal": "To liberate / emancipate",
+        "root": "Giải"
+      },
+      {
+        "vi": "Hòa giải",
+        "meaning": "harmony + untie",
+        "literal": "Reconciliation / Mediation",
+        "root": "Giải"
+      }
+    ]
+  },
+  "b79606d54d1a": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Kết",
+          "meaning": "Tie / Knot / Bind / Form"
+        },
+        {
+          "vi": "Hợp",
+          "meaning": "Join / Fit / Gather / Match"
+        }
+      ],
+      "bridge": "To 'kết hợp' is to tie (kết) and join (hợp) separate elements together into a unified whole."
+    },
+    "compounds": [
+      {
+        "vi": "Kết cấu",
+        "literal": "Tie + build/structure",
+        "en": "Structure / Architecture",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết cục",
+        "literal": "Tie + end/result",
+        "en": "Conclusion / Outcome",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết quả",
+        "literal": "Tie + fruit",
+        "en": "Result / Outcome",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết đoàn",
+        "literal": "Tie + group",
+        "en": "Solidarity / Unite",
+        "root": "Kết"
+      },
+      {
+        "vi": "Hợp lý",
+        "literal": "Fit + reason",
+        "en": "Logical / Reasonable",
+        "root": "Hợp"
+      },
+      {
+        "vi": "Hợp tác",
+        "literal": "Join + work/action",
+        "en": "Cooperate",
+        "root": "Hợp"
+      },
+      {
+        "vi": "Phù hợp",
+        "literal": "Float/match + fit",
+        "en": "Suitable / Appropriate",
+        "root": "Hợp"
+      },
+      {
+        "vi": "Hợp pháp",
+        "literal": "Fit + law",
+        "en": "Legal / Lawful",
+        "root": "Hợp"
+      }
+    ]
+  },
+  "kết hợp": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Kết",
+          "meaning": "Tie / Knot / Bind / Form"
+        },
+        {
+          "vi": "Hợp",
+          "meaning": "Join / Fit / Gather / Match"
+        }
+      ],
+      "bridge": "To 'kết hợp' is to tie (kết) and join (hợp) separate elements together into a unified whole."
+    },
+    "compounds": [
+      {
+        "vi": "Kết cấu",
+        "literal": "Tie + build/structure",
+        "en": "Structure / Architecture",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết cục",
+        "literal": "Tie + end/result",
+        "en": "Conclusion / Outcome",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết quả",
+        "literal": "Tie + fruit",
+        "en": "Result / Outcome",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết đoàn",
+        "literal": "Tie + group",
+        "en": "Solidarity / Unite",
+        "root": "Kết"
+      },
+      {
+        "vi": "Hợp lý",
+        "literal": "Fit + reason",
+        "en": "Logical / Reasonable",
+        "root": "Hợp"
+      },
+      {
+        "vi": "Hợp tác",
+        "literal": "Join + work/action",
+        "en": "Cooperate",
+        "root": "Hợp"
+      },
+      {
+        "vi": "Phù hợp",
+        "literal": "Float/match + fit",
+        "en": "Suitable / Appropriate",
+        "root": "Hợp"
+      },
+      {
+        "vi": "Hợp pháp",
+        "literal": "Fit + law",
+        "en": "Legal / Lawful",
+        "root": "Hợp"
+      }
+    ]
+  },
+  "45837d1c4a07": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Khái",
+          "meaning": "General, summary, approximate, or broad outline"
+        },
+        {
+          "vi": "Niệm",
+          "meaning": "Thought, idea, to keep in mind, or mental state"
+        }
+      ],
+      "bridge": "A concept is a general thought that strips away specific details to capture the summarized essence of an idea or object."
+    },
+    "compounds": [
+      {
+        "vi": "Khái quát",
+        "literal": "general + summarize",
+        "en": "to generalize / summary",
+        "root": "Khái"
+      },
+      {
+        "vi": "Khái lược",
+        "literal": "general + brief outline",
+        "en": "brief overview / sketch",
+        "root": "Khái"
+      },
+      {
+        "vi": "Đại khái",
+        "literal": "big + general",
+        "en": "roughly / approximately / in general",
+        "root": "Khái"
+      },
+      {
+        "vi": "Kỷ niệm",
+        "literal": "record + thought",
+        "en": "memory / souvenir",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Quan niệm",
+        "literal": "view + thought",
+        "en": "notion / viewpoint / perception",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Ý niệm",
+        "literal": "intent/mind + thought",
+        "en": "notion / mental idea",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Tưởng niệm",
+        "literal": "think/miss + thought",
+        "en": "to commemorate / memorialize",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Chánh niệm",
+        "literal": "correct/right + thought",
+        "en": "mindfulness",
+        "root": "Niệm"
+      }
+    ]
+  },
+  "khái niệm": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Khái",
+          "meaning": "General, summary, approximate, or broad outline"
+        },
+        {
+          "vi": "Niệm",
+          "meaning": "Thought, idea, to keep in mind, or mental state"
+        }
+      ],
+      "bridge": "A concept is a general thought that strips away specific details to capture the summarized essence of an idea or object."
+    },
+    "compounds": [
+      {
+        "vi": "Khái quát",
+        "literal": "general + summarize",
+        "en": "to generalize / summary",
+        "root": "Khái"
+      },
+      {
+        "vi": "Khái lược",
+        "literal": "general + brief outline",
+        "en": "brief overview / sketch",
+        "root": "Khái"
+      },
+      {
+        "vi": "Đại khái",
+        "literal": "big + general",
+        "en": "roughly / approximately / in general",
+        "root": "Khái"
+      },
+      {
+        "vi": "Kỷ niệm",
+        "literal": "record + thought",
+        "en": "memory / souvenir",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Quan niệm",
+        "literal": "view + thought",
+        "en": "notion / viewpoint / perception",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Ý niệm",
+        "literal": "intent/mind + thought",
+        "en": "notion / mental idea",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Tưởng niệm",
+        "literal": "think/miss + thought",
+        "en": "to commemorate / memorialize",
+        "root": "Niệm"
+      },
+      {
+        "vi": "Chánh niệm",
+        "literal": "correct/right + thought",
+        "en": "mindfulness",
+        "root": "Niệm"
+      }
+    ]
+  },
+  "7389a0dccfc6": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đỉnh",
+          "meaning": "Summit / Peak / Top"
+        },
+        {
+          "vi": "Điểm",
+          "meaning": "Point / Dot / Spot"
+        }
+      ],
+      "bridge": "The word identifies the specific point on a scale or timeline that represents the absolute summit of an event or trajectory."
+    },
+    "compounds": [
+      {
+        "vi": "Đỉnh cao",
+        "literal": "summit + high",
+        "en": "pinnacle / height of achievement",
+        "root": "Đỉnh"
+      },
+      {
+        "vi": "Thượng đỉnh",
+        "literal": "top + summit",
+        "en": "summit (meeting) / top-level",
+        "root": "Đỉnh"
+      },
+      {
+        "vi": "Đỉnh đầu",
+        "literal": "summit + head",
+        "en": "crown of the head",
+        "root": "Đỉnh"
+      },
+      {
+        "vi": "Địa điểm",
+        "literal": "earth + point",
+        "en": "location / venue",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Ưu điểm",
+        "literal": "superior + point",
+        "en": "advantage / merit / strength",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Điểm yếu",
+        "literal": "point + weak",
+        "en": "weak point / weakness",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Thời điểm",
+        "literal": "time + point",
+        "en": "moment / point in time",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Điểm số",
+        "literal": "point + number",
+        "en": "score / grade",
+        "root": "Điểm"
+      }
+    ]
+  },
+  "đỉnh điểm": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đỉnh",
+          "meaning": "Summit / Peak / Top"
+        },
+        {
+          "vi": "Điểm",
+          "meaning": "Point / Dot / Spot"
+        }
+      ],
+      "bridge": "The word identifies the specific point on a scale or timeline that represents the absolute summit of an event or trajectory."
+    },
+    "compounds": [
+      {
+        "vi": "Đỉnh cao",
+        "literal": "summit + high",
+        "en": "pinnacle / height of achievement",
+        "root": "Đỉnh"
+      },
+      {
+        "vi": "Thượng đỉnh",
+        "literal": "top + summit",
+        "en": "summit (meeting) / top-level",
+        "root": "Đỉnh"
+      },
+      {
+        "vi": "Đỉnh đầu",
+        "literal": "summit + head",
+        "en": "crown of the head",
+        "root": "Đỉnh"
+      },
+      {
+        "vi": "Địa điểm",
+        "literal": "earth + point",
+        "en": "location / venue",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Ưu điểm",
+        "literal": "superior + point",
+        "en": "advantage / merit / strength",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Điểm yếu",
+        "literal": "point + weak",
+        "en": "weak point / weakness",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Thời điểm",
+        "literal": "time + point",
+        "en": "moment / point in time",
+        "root": "Điểm"
+      },
+      {
+        "vi": "Điểm số",
+        "literal": "point + number",
+        "en": "score / grade",
+        "root": "Điểm"
+      }
+    ]
+  },
+  "0daed9b60ec1": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tư",
+          "meaning": "To think, reflect, or contemplate (Hán-Việt: 思)"
+        },
+        {
+          "vi": "Tưởng",
+          "meaning": "To imagine, conceive, or form an idea (Hán-Việt: 想)"
+        }
+      ],
+      "bridge": "By combining 'tư' (thinking) and 'tưởng' (imagining/conceiving), the word captures the deep mental process of contemplating and structuring complex ideas, forming a comprehensive system of thought or ideology."
+    },
+    "compounds": [
+      {
+        "vi": "Suy tư",
+        "literal": "to ponder + to think",
+        "en": "Pensive contemplation / deep reflection",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư duy",
+        "literal": "to think + to dimension/maintain",
+        "en": "Cognition / logical thinking",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tưới tiêu",
+        "literal": "private + to manage",
+        "en": "Private affairs (less common, alternative: Tôn tư)",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tưởng tượng",
+        "literal": "to imagine + to form concepts",
+        "en": "Imagination",
+        "root": "Tưởng"
+      },
+      {
+        "vi": "Chủ trương",
+        "literal": "master/main + to hold/advocate",
+        "en": "Policy / standpoint",
+        "root": "Tưởng"
+      },
+      {
+        "vi": "Hồi tưởng",
+        "literal": "to return + to recall/imagine",
+        "en": "Reminiscence / to reminisce",
+        "root": "Tưởng"
+      },
+      {
+        "vi": "Tưởng niệm",
+        "literal": "to remember + to miss/commemorate",
+        "en": "Commemoration / memorial",
+        "root": "Tưởng"
+      }
+    ]
+  },
+  "tư tưởng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tư",
+          "meaning": "To think, reflect, or contemplate (Hán-Việt: 思)"
+        },
+        {
+          "vi": "Tưởng",
+          "meaning": "To imagine, conceive, or form an idea (Hán-Việt: 想)"
+        }
+      ],
+      "bridge": "By combining 'tư' (thinking) and 'tưởng' (imagining/conceiving), the word captures the deep mental process of contemplating and structuring complex ideas, forming a comprehensive system of thought or ideology."
+    },
+    "compounds": [
+      {
+        "vi": "Suy tư",
+        "literal": "to ponder + to think",
+        "en": "Pensive contemplation / deep reflection",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tư duy",
+        "literal": "to think + to dimension/maintain",
+        "en": "Cognition / logical thinking",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tưới tiêu",
+        "literal": "private + to manage",
+        "en": "Private affairs (less common, alternative: Tôn tư)",
+        "root": "Tư"
+      },
+      {
+        "vi": "Tưởng tượng",
+        "literal": "to imagine + to form concepts",
+        "en": "Imagination",
+        "root": "Tưởng"
+      },
+      {
+        "vi": "Chủ trương",
+        "literal": "master/main + to hold/advocate",
+        "en": "Policy / standpoint",
+        "root": "Tưởng"
+      },
+      {
+        "vi": "Hồi tưởng",
+        "literal": "to return + to recall/imagine",
+        "en": "Reminiscence / to reminisce",
+        "root": "Tưởng"
+      },
+      {
+        "vi": "Tưởng niệm",
+        "literal": "to remember + to miss/commemorate",
+        "en": "Commemoration / memorial",
+        "root": "Tưởng"
+      }
+    ]
+  },
+  "459ccbd84dd4": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "liệu",
+          "meaning": "Treat / Care / Manage / Reckon"
+        },
+        {
+          "vi": "pháp",
+          "meaning": "Method / Law / Doctrine / System"
+        },
+        {
+          "vi": "tâm",
+          "meaning": "Heart / Mind / Spirit / Emotion"
+        },
+        {
+          "vi": "động",
+          "meaning": "Move / Motion / Active / Kinetic"
+        },
+        {
+          "vi": "học",
+          "meaning": "Study / Learn / Knowledge / Science"
+        },
+        {
+          "vi": "chuyên",
+          "meaning": "Specialized / Focused / Dedicated"
+        },
+        {
+          "vi": "sâu",
+          "meaning": "Deep / Profound"
+        },
+        {
+          "vi": "ngắn",
+          "meaning": "Short / Brief"
+        },
+        {
+          "vi": "hạn",
+          "meaning": "Limit / Boundary / Term / Period"
+        }
+      ],
+      "bridge": "ISTDP translates structurally as 'treatment-method mind-motion-study specialized deep short-term', reflecting a focused, profound psychological healing science centered on the active movements of the mind within a limited timeframe."
+    },
+    "compounds": [
+      {
+        "vi": "điều trị",
+        "meaning": "To medical treatment",
+        "literal": "adjust + cure",
+        "root": "liệu"
+      },
+      {
+        "vi": "pháp luật",
+        "meaning": "Laws / Legal system",
+        "literal": "law + statute",
+        "root": "pháp"
+      },
+      {
+        "vi": "tâm lý",
+        "meaning": "Psychology / Mentality",
+        "literal": "mind + logic",
+        "root": "tâm"
+      },
+      {
+        "vi": "vận động",
+        "meaning": "Physical movement / Exercise",
+        "literal": "carry + move",
+        "root": "động"
+      },
+      {
+        "vi": "khoa học",
+        "meaning": "Science",
+        "literal": "branch + study",
+        "root": "học"
+      },
+      {
+        "vi": "chuyên gia",
+        "meaning": "Specialist / Expert",
+        "literal": "specialized + person",
+        "root": "chuyên"
+      },
+      {
+        "vi": "thâm sâu",
+        "meaning": "Profound / Deep-seated",
+        "literal": "deep + deep",
+        "root": "sâu"
+      },
+      {
+        "vi": "thời hạn",
+        "meaning": "Time limit / Deadline",
+        "literal": "time + limit",
+        "root": "hạn"
+      }
+    ]
+  },
+  "liệu pháp tâm động học chuyên sâu ngắn hạn": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "liệu",
+          "meaning": "Treat / Care / Manage / Reckon"
+        },
+        {
+          "vi": "pháp",
+          "meaning": "Method / Law / Doctrine / System"
+        },
+        {
+          "vi": "tâm",
+          "meaning": "Heart / Mind / Spirit / Emotion"
+        },
+        {
+          "vi": "động",
+          "meaning": "Move / Motion / Active / Kinetic"
+        },
+        {
+          "vi": "học",
+          "meaning": "Study / Learn / Knowledge / Science"
+        },
+        {
+          "vi": "chuyên",
+          "meaning": "Specialized / Focused / Dedicated"
+        },
+        {
+          "vi": "sâu",
+          "meaning": "Deep / Profound"
+        },
+        {
+          "vi": "ngắn",
+          "meaning": "Short / Brief"
+        },
+        {
+          "vi": "hạn",
+          "meaning": "Limit / Boundary / Term / Period"
+        }
+      ],
+      "bridge": "ISTDP translates structurally as 'treatment-method mind-motion-study specialized deep short-term', reflecting a focused, profound psychological healing science centered on the active movements of the mind within a limited timeframe."
+    },
+    "compounds": [
+      {
+        "vi": "điều trị",
+        "meaning": "To medical treatment",
+        "literal": "adjust + cure",
+        "root": "liệu"
+      },
+      {
+        "vi": "pháp luật",
+        "meaning": "Laws / Legal system",
+        "literal": "law + statute",
+        "root": "pháp"
+      },
+      {
+        "vi": "tâm lý",
+        "meaning": "Psychology / Mentality",
+        "literal": "mind + logic",
+        "root": "tâm"
+      },
+      {
+        "vi": "vận động",
+        "meaning": "Physical movement / Exercise",
+        "literal": "carry + move",
+        "root": "động"
+      },
+      {
+        "vi": "khoa học",
+        "meaning": "Science",
+        "literal": "branch + study",
+        "root": "học"
+      },
+      {
+        "vi": "chuyên gia",
+        "meaning": "Specialist / Expert",
+        "literal": "specialized + person",
+        "root": "chuyên"
+      },
+      {
+        "vi": "thâm sâu",
+        "meaning": "Profound / Deep-seated",
+        "literal": "deep + deep",
+        "root": "sâu"
+      },
+      {
+        "vi": "thời hạn",
+        "meaning": "Time limit / Deadline",
+        "literal": "time + limit",
+        "root": "hạn"
+      }
+    ]
+  },
+  "986b4c4be14d": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nhân",
+          "meaning": "Person / Human being"
+        },
+        {
+          "vi": "Cách",
+          "meaning": "Form / Pattern / Character / Standard"
+        }
+      ],
+      "bridge": "Nhân cách literally translates to 'human form or standard', representing the moral qualities, character, and behavioral pattern that define a person's inner dignity and nature."
+    },
+    "compounds": [
+      {
+        "vi": "Nhân dân",
+        "literal": "Person + people/subjects",
+        "en": "The people / Populace",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân loại",
+        "literal": "Person + species/kind",
+        "en": "Mankind / Humanity",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân sự",
+        "literal": "Person + affairs/matters",
+        "en": "Personnel / Human resources",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân vật",
+        "literal": "Person + thing/creature",
+        "en": "Character (in a story) / Figure (notable person)",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Hình cách",
+        "literal": "Shape/Form + pattern",
+        "en": "Format / Style / Layout",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cải cách",
+        "literal": "Change + pattern",
+        "en": "Reform",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cách mạng",
+        "literal": "Change + decree/fate",
+        "en": "Revolution",
+        "root": "Cách"
+      },
+      {
+        "vi": "Phong cách",
+        "literal": "Wind/Custom + pattern",
+        "en": "Style / Manner",
+        "root": "Cách"
+      }
+    ]
+  },
+  "nhân cách": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nhân",
+          "meaning": "Person / Human being"
+        },
+        {
+          "vi": "Cách",
+          "meaning": "Form / Pattern / Character / Standard"
+        }
+      ],
+      "bridge": "Nhân cách literally translates to 'human form or standard', representing the moral qualities, character, and behavioral pattern that define a person's inner dignity and nature."
+    },
+    "compounds": [
+      {
+        "vi": "Nhân dân",
+        "literal": "Person + people/subjects",
+        "en": "The people / Populace",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân loại",
+        "literal": "Person + species/kind",
+        "en": "Mankind / Humanity",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân sự",
+        "literal": "Person + affairs/matters",
+        "en": "Personnel / Human resources",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân vật",
+        "literal": "Person + thing/creature",
+        "en": "Character (in a story) / Figure (notable person)",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Hình cách",
+        "literal": "Shape/Form + pattern",
+        "en": "Format / Style / Layout",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cải cách",
+        "literal": "Change + pattern",
+        "en": "Reform",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cách mạng",
+        "literal": "Change + decree/fate",
+        "en": "Revolution",
+        "root": "Cách"
+      },
+      {
+        "vi": "Phong cách",
+        "literal": "Wind/Custom + pattern",
+        "en": "Style / Manner",
+        "root": "Cách"
+      }
+    ]
+  },
+  "6ecea87e9687": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Định",
+          "meaning": "To fix, settle, establish, or determine"
+        },
+        {
+          "vi": "Nghĩa",
+          "meaning": "Meaning, sense, justice, or principle"
+        }
+      ],
+      "bridge": "To establish (định) the precise meaning or sense (nghĩa) of a concept, anchoring its boundaries so it is clearly understood."
+    },
+    "compounds": [
+      {
+        "vi": "Ổn định",
+        "meaning": "To stabilize / stable",
+        "literal": "settle + fixed",
+        "root": "Định"
+      },
+      {
+        "vi": "Quyết định",
+        "meaning": "To decide / decision",
+        "literal": "resolve + fix",
+        "root": "Định"
+      },
+      {
+        "vi": "Định cư",
+        "meaning": "To settle down (live permanently)",
+        "literal": "fix + reside",
+        "root": "Định"
+      },
+      {
+        "vi": "Ý nghĩa",
+        "meaning": "Meaning / significance",
+        "literal": "thought/idea + meaning",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Chính nghĩa",
+        "meaning": "Just cause / righteousness",
+        "literal": "righteous/correct + meaning/principle",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Nghĩa vụ",
+        "meaning": "Duty / obligation",
+        "literal": "principle/duty + affair",
+        "root": "Nghĩa"
+      }
+    ]
+  },
+  "định nghĩa": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Định",
+          "meaning": "To fix, settle, establish, or determine"
+        },
+        {
+          "vi": "Nghĩa",
+          "meaning": "Meaning, sense, justice, or principle"
+        }
+      ],
+      "bridge": "To establish (định) the precise meaning or sense (nghĩa) of a concept, anchoring its boundaries so it is clearly understood."
+    },
+    "compounds": [
+      {
+        "vi": "Ổn định",
+        "meaning": "To stabilize / stable",
+        "literal": "settle + fixed",
+        "root": "Định"
+      },
+      {
+        "vi": "Quyết định",
+        "meaning": "To decide / decision",
+        "literal": "resolve + fix",
+        "root": "Định"
+      },
+      {
+        "vi": "Định cư",
+        "meaning": "To settle down (live permanently)",
+        "literal": "fix + reside",
+        "root": "Định"
+      },
+      {
+        "vi": "Ý nghĩa",
+        "meaning": "Meaning / significance",
+        "literal": "thought/idea + meaning",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Chính nghĩa",
+        "meaning": "Just cause / righteousness",
+        "literal": "righteous/correct + meaning/principle",
+        "root": "Nghĩa"
+      },
+      {
+        "vi": "Nghĩa vụ",
+        "meaning": "Duty / obligation",
+        "literal": "principle/duty + affair",
+        "root": "Nghĩa"
+      }
+    ]
+  },
+  "4789c8598a0b": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tính",
+          "meaning": "Nature / Disposition / Quality"
+        },
+        {
+          "vi": "Cách",
+          "meaning": "Pattern / Form / Manner"
+        }
+      ],
+      "bridge": "Tính cách combines the inherent nature (tính) with the outward pattern or manner of behavior (cách), capturing a person's distinct disposition and behavioral patterns."
+    },
+    "compounds": [
+      {
+        "vi": "Tính tình",
+        "meaning": "Disposition / Temperament",
+        "literal": "Nature + disposition",
+        "root": "Tính"
+      },
+      {
+        "vi": "Tính chất",
+        "meaning": "Property / Characteristic (of an object)",
+        "literal": "Nature + substance",
+        "root": "Tính"
+      },
+      {
+        "vi": "Tính điểm",
+        "meaning": "To score points",
+        "literal": "Calculate + points",
+        "root": "Tính"
+      },
+      {
+        "vi": "Hình cách",
+        "meaning": "Form and manner",
+        "literal": "Form + pattern",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cách mạng",
+        "meaning": "Revolution",
+        "literal": "Alter + fate/mandate",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cách ly",
+        "meaning": "Quarantine / Isolate",
+        "literal": "Separate + depart",
+        "root": "Cách"
+      }
+    ]
+  },
+  "tính cách": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tính",
+          "meaning": "Nature / Disposition / Quality"
+        },
+        {
+          "vi": "Cách",
+          "meaning": "Pattern / Form / Manner"
+        }
+      ],
+      "bridge": "Tính cách combines the inherent nature (tính) with the outward pattern or manner of behavior (cách), capturing a person's distinct disposition and behavioral patterns."
+    },
+    "compounds": [
+      {
+        "vi": "Tính tình",
+        "meaning": "Disposition / Temperament",
+        "literal": "Nature + disposition",
+        "root": "Tính"
+      },
+      {
+        "vi": "Tính chất",
+        "meaning": "Property / Characteristic (of an object)",
+        "literal": "Nature + substance",
+        "root": "Tính"
+      },
+      {
+        "vi": "Tính điểm",
+        "meaning": "To score points",
+        "literal": "Calculate + points",
+        "root": "Tính"
+      },
+      {
+        "vi": "Hình cách",
+        "meaning": "Form and manner",
+        "literal": "Form + pattern",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cách mạng",
+        "meaning": "Revolution",
+        "literal": "Alter + fate/mandate",
+        "root": "Cách"
+      },
+      {
+        "vi": "Cách ly",
+        "meaning": "Quarantine / Isolate",
+        "literal": "Separate + depart",
+        "root": "Cách"
+      }
+    ]
+  },
+  "34a8482f10e7": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thao",
+          "meaning": "To hold, grasp, or operate (from the hand radical)"
+        },
+        {
+          "vi": "Túng",
+          "meaning": "To release, loosen, or let go of reins"
+        },
+        {
+          "vi": "Tâm",
+          "meaning": "Heart, mind, or core center"
+        },
+        {
+          "vi": "Lý",
+          "meaning": "Reason, logic, or underlying principle"
+        }
+      ],
+      "bridge": "To manipulate (thao túng) the mind (tâm lý) is to treat someone's internal logic and perception like a set of reins, tightening and loosening them to control their direction like a puppet."
+    },
+    "compounds": [
+      {
+        "vi": "Thao tác",
+        "literal": "operate + act",
+        "en": "to operate / manipulate a device",
+        "root": "Thao"
+      },
+      {
+        "vi": "Thao lược",
+        "literal": "operate + strategy",
+        "en": "tactical ability / military strategy",
+        "root": "Thao"
+      },
+      {
+        "vi": "Phóng túng",
+        "literal": "release + let go",
+        "en": "unrestrained / self-indulgent",
+        "root": "Túng"
+      },
+      {
+        "vi": "Dung túng",
+        "literal": "tolerate + let go",
+        "en": "to condone / to turn a blind eye to wrongdoings",
+        "root": "Túng"
+      },
+      {
+        "vi": "Tâm trí",
+        "literal": "heart + intellect",
+        "en": "mind / mental faculty",
+        "root": "Tâm"
+      },
+      {
+        "vi": "Quyết tâm",
+        "literal": "decide + heart",
+        "en": "determined / determination",
+        "root": "Tâm"
+      },
+      {
+        "vi": "Lý trí",
+        "literal": "reason + intellect",
+        "en": "rationality / presence of mind",
+        "root": "Lý"
+      },
+      {
+        "vi": "Xử lý",
+        "literal": "manage + reason/logic",
+        "en": "to process / to handle / to solve",
+        "root": "Lý"
+      }
+    ]
+  },
+  "thao túng tâm lý": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Thao",
+          "meaning": "To hold, grasp, or operate (from the hand radical)"
+        },
+        {
+          "vi": "Túng",
+          "meaning": "To release, loosen, or let go of reins"
+        },
+        {
+          "vi": "Tâm",
+          "meaning": "Heart, mind, or core center"
+        },
+        {
+          "vi": "Lý",
+          "meaning": "Reason, logic, or underlying principle"
+        }
+      ],
+      "bridge": "To manipulate (thao túng) the mind (tâm lý) is to treat someone's internal logic and perception like a set of reins, tightening and loosening them to control their direction like a puppet."
+    },
+    "compounds": [
+      {
+        "vi": "Thao tác",
+        "literal": "operate + act",
+        "en": "to operate / manipulate a device",
+        "root": "Thao"
+      },
+      {
+        "vi": "Thao lược",
+        "literal": "operate + strategy",
+        "en": "tactical ability / military strategy",
+        "root": "Thao"
+      },
+      {
+        "vi": "Phóng túng",
+        "literal": "release + let go",
+        "en": "unrestrained / self-indulgent",
+        "root": "Túng"
+      },
+      {
+        "vi": "Dung túng",
+        "literal": "tolerate + let go",
+        "en": "to condone / to turn a blind eye to wrongdoings",
+        "root": "Túng"
+      },
+      {
+        "vi": "Tâm trí",
+        "literal": "heart + intellect",
+        "en": "mind / mental faculty",
+        "root": "Tâm"
+      },
+      {
+        "vi": "Quyết tâm",
+        "literal": "decide + heart",
+        "en": "determined / determination",
+        "root": "Tâm"
+      },
+      {
+        "vi": "Lý trí",
+        "literal": "reason + intellect",
+        "en": "rationality / presence of mind",
+        "root": "Lý"
+      },
+      {
+        "vi": "Xử lý",
+        "literal": "manage + reason/logic",
+        "en": "to process / to handle / to solve",
+        "root": "Lý"
+      }
+    ]
+  },
+  "801bb13b315d": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tử",
+          "meaning": "Purple / Polar Star (Ziwei) / Astrological reference"
+        },
+        {
+          "vi": "Vi",
+          "meaning": "Tiny / Micro / Subtle / Minute observation"
+        }
+      ],
+      "bridge": "Derived from 'Tử Vi viên' (the purple forbidden enclosure of the North Star), 'tử vi' combines the celestial North Star with subtle calculations to map human destiny based on subtle stellar movements."
+    },
+    "compounds": [
+      {
+        "vi": "Tử khí",
+        "literal": "purple + vapor/qi",
+        "en": "auspicious purple clouds (sign of good fortune)",
+        "root": "Tử"
+      },
+      {
+        "vi": "Tử cấm thành",
+        "literal": "purple + forbidden + citadel",
+        "en": "Forbidden City (Imperial Palace)",
+        "root": "Tử"
+      },
+      {
+        "vi": "Tử đinh hương",
+        "literal": "purple + clove + fragrance",
+        "en": "lilac flower",
+        "root": "Tử"
+      },
+      {
+        "vi": "Vi mô",
+        "literal": "subtle/tiny + scale/dimension",
+        "en": "microscopic / micro scale",
+        "root": "Vi"
+      },
+      {
+        "vi": "Vi tế",
+        "literal": "subtle/tiny + detailed/fine",
+        "en": "subtle and meticulous / minute details",
+        "root": "Vi"
+      },
+      {
+        "vi": "Vi khuẩn",
+        "literal": "subtle/tiny + insect/germ",
+        "en": "bacteria / microbe",
+        "root": "Vi"
+      },
+      {
+        "vi": "Ti vi",
+        "literal": "distance + subtle/vision",
+        "en": "television",
+        "root": "Vi"
+      }
+    ]
+  },
+  "tử vi": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tử",
+          "meaning": "Purple / Polar Star (Ziwei) / Astrological reference"
+        },
+        {
+          "vi": "Vi",
+          "meaning": "Tiny / Micro / Subtle / Minute observation"
+        }
+      ],
+      "bridge": "Derived from 'Tử Vi viên' (the purple forbidden enclosure of the North Star), 'tử vi' combines the celestial North Star with subtle calculations to map human destiny based on subtle stellar movements."
+    },
+    "compounds": [
+      {
+        "vi": "Tử khí",
+        "literal": "purple + vapor/qi",
+        "en": "auspicious purple clouds (sign of good fortune)",
+        "root": "Tử"
+      },
+      {
+        "vi": "Tử cấm thành",
+        "literal": "purple + forbidden + citadel",
+        "en": "Forbidden City (Imperial Palace)",
+        "root": "Tử"
+      },
+      {
+        "vi": "Tử đinh hương",
+        "literal": "purple + clove + fragrance",
+        "en": "lilac flower",
+        "root": "Tử"
+      },
+      {
+        "vi": "Vi mô",
+        "literal": "subtle/tiny + scale/dimension",
+        "en": "microscopic / micro scale",
+        "root": "Vi"
+      },
+      {
+        "vi": "Vi tế",
+        "literal": "subtle/tiny + detailed/fine",
+        "en": "subtle and meticulous / minute details",
+        "root": "Vi"
+      },
+      {
+        "vi": "Vi khuẩn",
+        "literal": "subtle/tiny + insect/germ",
+        "en": "bacteria / microbe",
+        "root": "Vi"
+      },
+      {
+        "vi": "Ti vi",
+        "literal": "distance + subtle/vision",
+        "en": "television",
+        "root": "Vi"
+      }
+    ]
+  },
+  "a6c652ee1e57": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chính",
+          "meaning": "Main / Straight / Correct / Primary"
+        },
+        {
+          "vi": "Thức",
+          "meaning": "Pattern / Form / Rite / Regulation"
+        }
+      ],
+      "bridge": "When something follows the primary, correct form and established regulations, it becomes 'official'."
+    },
+    "compounds": [
+      {
+        "vi": "chính phủ",
+        "literal": "main + government/office",
+        "en": "government",
+        "root": "Chính"
+      },
+      {
+        "vi": "chính đáng",
+        "literal": "correct + reasonable/worthy",
+        "en": "legitimate / justified",
+        "root": "Chính"
+      },
+      {
+        "vi": "chính tả",
+        "literal": "correct + script/writing",
+        "en": "orthography / spelling",
+        "root": "Chính"
+      },
+      {
+        "vi": "hình thức",
+        "literal": "shape/figure + form/pattern",
+        "en": "form / format / formality",
+        "root": "Thức"
+      },
+      {
+        "vi": "kiến thức",
+        "literal": "establish/see + awareness/knowledge",
+        "en": "knowledge",
+        "root": "Thức"
+      },
+      {
+        "vi": "ý thức",
+        "literal": "mind/thought + awareness/form",
+        "en": "consciousness / awareness",
+        "root": "Thức"
+      }
+    ]
+  },
+  "chính thức": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Chính",
+          "meaning": "Main / Straight / Correct / Primary"
+        },
+        {
+          "vi": "Thức",
+          "meaning": "Pattern / Form / Rite / Regulation"
+        }
+      ],
+      "bridge": "When something follows the primary, correct form and established regulations, it becomes 'official'."
+    },
+    "compounds": [
+      {
+        "vi": "chính phủ",
+        "literal": "main + government/office",
+        "en": "government",
+        "root": "Chính"
+      },
+      {
+        "vi": "chính đáng",
+        "literal": "correct + reasonable/worthy",
+        "en": "legitimate / justified",
+        "root": "Chính"
+      },
+      {
+        "vi": "chính tả",
+        "literal": "correct + script/writing",
+        "en": "orthography / spelling",
+        "root": "Chính"
+      },
+      {
+        "vi": "hình thức",
+        "literal": "shape/figure + form/pattern",
+        "en": "form / format / formality",
+        "root": "Thức"
+      },
+      {
+        "vi": "kiến thức",
+        "literal": "establish/see + awareness/knowledge",
+        "en": "knowledge",
+        "root": "Thức"
+      },
+      {
+        "vi": "ý thức",
+        "literal": "mind/thought + awareness/form",
+        "en": "consciousness / awareness",
+        "root": "Thức"
+      }
+    ]
+  },
+  "4a43e157cec2": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nộp",
+          "meaning": "To pay, give, or surrender to an authority."
+        }
+      ],
+      "bridge": "The word 'nộp' historically originates as a native Vietnamese term describing the act of handing over goods, taxes, or documents to a higher authority, evolving to mean submitting anything required by an organization or government."
+    },
+    "compounds": [
+      {
+        "vi": "Nộp bài",
+        "literal": "submit + lesson/paper",
+        "en": "to submit an assignment or exam paper",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp thuế",
+        "literal": "submit + tax",
+        "en": "to pay taxes",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp phạt",
+        "literal": "submit + fine/penalty",
+        "en": "to pay a fine",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp đơn",
+        "literal": "submit + application/form",
+        "en": "to submit an application or petition",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp tiền",
+        "literal": "submit + money",
+        "en": "to deposit or hand in money",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp báo cáo",
+        "literal": "submit + report",
+        "en": "to submit a report",
+        "root": "Nộp"
+      }
+    ]
+  },
+  "nộp": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nộp",
+          "meaning": "To pay, give, or surrender to an authority."
+        }
+      ],
+      "bridge": "The word 'nộp' historically originates as a native Vietnamese term describing the act of handing over goods, taxes, or documents to a higher authority, evolving to mean submitting anything required by an organization or government."
+    },
+    "compounds": [
+      {
+        "vi": "Nộp bài",
+        "literal": "submit + lesson/paper",
+        "en": "to submit an assignment or exam paper",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp thuế",
+        "literal": "submit + tax",
+        "en": "to pay taxes",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp phạt",
+        "literal": "submit + fine/penalty",
+        "en": "to pay a fine",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp đơn",
+        "literal": "submit + application/form",
+        "en": "to submit an application or petition",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp tiền",
+        "literal": "submit + money",
+        "en": "to deposit or hand in money",
+        "root": "Nộp"
+      },
+      {
+        "vi": "Nộp báo cáo",
+        "literal": "submit + report",
+        "en": "to submit a report",
+        "root": "Nộp"
+      }
+    ]
+  },
+  "395bb28ed40d": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đơn",
+          "meaning": "Single / Individual / Document or Form"
+        }
+      ],
+      "bridge": "Originally meaning a single, individual sheet of paper used for a specific declaration, 'đơn' evolved to refer specifically to an individual's written application or permission letter submitted to an authority."
+    },
+    "compounds": [
+      {
+        "vi": "Đơn xin",
+        "literal": "document + request",
+        "en": "application form / petition",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn từ",
+        "literal": "document + words",
+        "en": "petitions / paperwork",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn khiếu nại",
+        "literal": "document + complain",
+        "en": "complaint letter",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn vị",
+        "literal": "single + unit",
+        "en": "unit / entity",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn độc",
+        "literal": "single + lonely",
+        "en": "solitary / alone",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn giản",
+        "literal": "single + simple",
+        "en": "simple / straightforward",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn phương",
+        "literal": "single + side",
+        "en": "unilateral",
+        "root": "Đơn"
+      }
+    ]
+  },
+  "đơn": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đơn",
+          "meaning": "Single / Individual / Document or Form"
+        }
+      ],
+      "bridge": "Originally meaning a single, individual sheet of paper used for a specific declaration, 'đơn' evolved to refer specifically to an individual's written application or permission letter submitted to an authority."
+    },
+    "compounds": [
+      {
+        "vi": "Đơn xin",
+        "literal": "document + request",
+        "en": "application form / petition",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn từ",
+        "literal": "document + words",
+        "en": "petitions / paperwork",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn khiếu nại",
+        "literal": "document + complain",
+        "en": "complaint letter",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn vị",
+        "literal": "single + unit",
+        "en": "unit / entity",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn độc",
+        "literal": "single + lonely",
+        "en": "solitary / alone",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn giản",
+        "literal": "single + simple",
+        "en": "simple / straightforward",
+        "root": "Đơn"
+      },
+      {
+        "vi": "Đơn phương",
+        "literal": "single + side",
+        "en": "unilateral",
+        "root": "Đơn"
+      }
+    ]
+  },
+  "1a12c188c2bb": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Quả",
+          "meaning": "Fruit / Round object / Sphere"
+        },
+        {
+          "vi": "Địa",
+          "meaning": "Earth / Ground / Land"
+        },
+        {
+          "vi": "Cầu",
+          "meaning": "Sphere / Globe / Ball"
+        }
+      ],
+      "bridge": "Literally translated as 'round object of the earthly sphere', 'quả địa cầu' uses 'quả' as a classifier for round things, paired with 'địa cầu' (earth + globe) to describe our spherical planet."
+    },
+    "compounds": [
+      {
+        "vi": "Quả đất",
+        "meaning": "Earth / The globe",
+        "literal": "Round object + earth",
+        "root": "Quả"
+      },
+      {
+        "vi": "Hoa quả",
+        "meaning": "Fruits",
+        "literal": "Flower + fruit",
+        "root": "Quả"
+      },
+      {
+        "vi": "Địa lý",
+        "meaning": "Geography",
+        "literal": "Earth + principles/science",
+        "root": "Địa"
+      },
+      {
+        "vi": "Địa phương",
+        "meaning": "Local / Locality",
+        "literal": "Land + direction/region",
+        "root": "Địa"
+      },
+      {
+        "vi": "Quả cầu",
+        "meaning": "Globe / Sphere",
+        "literal": "Round object + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Cầu lông",
+        "meaning": "Badminton",
+        "literal": "Ball + feather",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Địa điểm",
+        "meaning": "Location / Spot",
+        "literal": "Earth/Land + point",
+        "root": "Địa"
+      }
+    ]
+  },
+  "quả điạ cầu": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Quả",
+          "meaning": "Fruit / Round object / Sphere"
+        },
+        {
+          "vi": "Địa",
+          "meaning": "Earth / Ground / Land"
+        },
+        {
+          "vi": "Cầu",
+          "meaning": "Sphere / Globe / Ball"
+        }
+      ],
+      "bridge": "Literally translated as 'round object of the earthly sphere', 'quả địa cầu' uses 'quả' as a classifier for round things, paired with 'địa cầu' (earth + globe) to describe our spherical planet."
+    },
+    "compounds": [
+      {
+        "vi": "Quả đất",
+        "meaning": "Earth / The globe",
+        "literal": "Round object + earth",
+        "root": "Quả"
+      },
+      {
+        "vi": "Hoa quả",
+        "meaning": "Fruits",
+        "literal": "Flower + fruit",
+        "root": "Quả"
+      },
+      {
+        "vi": "Địa lý",
+        "meaning": "Geography",
+        "literal": "Earth + principles/science",
+        "root": "Địa"
+      },
+      {
+        "vi": "Địa phương",
+        "meaning": "Local / Locality",
+        "literal": "Land + direction/region",
+        "root": "Địa"
+      },
+      {
+        "vi": "Quả cầu",
+        "meaning": "Globe / Sphere",
+        "literal": "Round object + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Cầu lông",
+        "meaning": "Badminton",
+        "literal": "Ball + feather",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Địa điểm",
+        "meaning": "Location / Spot",
+        "literal": "Earth/Land + point",
+        "root": "Địa"
+      }
+    ]
+  },
+  "ec8bb073bf2b": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Toàn",
+          "meaning": "Whole / Entire / Complete"
+        },
+        {
+          "vi": "Cầu",
+          "meaning": "Sphere / Globe / Ball"
+        }
+      ],
+      "bridge": "By combining 'toàn' (whole) and 'cầu' (sphere), the word literally translates to 'the entire sphere,' describing anything that encompasses the whole planet Earth."
+    },
+    "compounds": [
+      {
+        "vi": "Toàn bộ",
+        "meaning": "Entire / Whole",
+        "literal": "whole + part/section",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn dân",
+        "meaning": "All the people / Entire population",
+        "literal": "whole + people",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn thắng",
+        "meaning": "Total victory / Complete triumph",
+        "literal": "whole + victory",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn diện",
+        "meaning": "Comprehensive / All-around",
+        "literal": "whole + face/aspect",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Quả cầu",
+        "meaning": "Globe / Orb",
+        "literal": "fruit/object + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Địa cầu",
+        "meaning": "The Earth / Globe",
+        "literal": "earth/ground + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Bán cầu",
+        "meaning": "Hemisphere",
+        "literal": "half + sphere",
+        "root": "Cầu"
+      }
+    ]
+  },
+  "toàn cầu": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Toàn",
+          "meaning": "Whole / Entire / Complete"
+        },
+        {
+          "vi": "Cầu",
+          "meaning": "Sphere / Globe / Ball"
+        }
+      ],
+      "bridge": "By combining 'toàn' (whole) and 'cầu' (sphere), the word literally translates to 'the entire sphere,' describing anything that encompasses the whole planet Earth."
+    },
+    "compounds": [
+      {
+        "vi": "Toàn bộ",
+        "meaning": "Entire / Whole",
+        "literal": "whole + part/section",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn dân",
+        "meaning": "All the people / Entire population",
+        "literal": "whole + people",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn thắng",
+        "meaning": "Total victory / Complete triumph",
+        "literal": "whole + victory",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn diện",
+        "meaning": "Comprehensive / All-around",
+        "literal": "whole + face/aspect",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Quả cầu",
+        "meaning": "Globe / Orb",
+        "literal": "fruit/object + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Địa cầu",
+        "meaning": "The Earth / Globe",
+        "literal": "earth/ground + sphere",
+        "root": "Cầu"
+      },
+      {
+        "vi": "Bán cầu",
+        "meaning": "Hemisphere",
+        "literal": "half + sphere",
+        "root": "Cầu"
+      }
+    ]
+  },
+  "c2b18a095275": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Quy",
+          "meaning": "Compass / Standard / Rule"
+        },
+        {
+          "vi": "Mô",
+          "meaning": "Model / Pattern / Scope"
+        }
+      ],
+      "bridge": "Combining a drafting compass (quy) used for drawing circles with a model or pattern (mô) establishes the standard boundaries and dimensions of a structure, which conceptualizes the overall extent or scale of something."
+    },
+    "compounds": [
+      {
+        "vi": "Quy tắc",
+        "meaning": "Rule + standard",
+        "literal": "compass + rule",
+        "en": "Rule / Regulation",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy định",
+        "meaning": "Standard + set/fix",
+        "literal": "standard + fix",
+        "en": "Regulation / Stipulation",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy luật",
+        "meaning": "Standard + law/rhythm",
+        "literal": "standard + law",
+        "en": "Law / Regularity",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy hoạch",
+        "meaning": "Standard + plan/layout",
+        "literal": "standard + layout",
+        "en": "Urban planning / Zoning",
+        "root": "Quy"
+      },
+      {
+        "vi": "Mô hình",
+        "meaning": "Model + shape/pattern",
+        "literal": "model + pattern",
+        "en": "Model / Prototype",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô tả",
+        "meaning": "Model + express/depict",
+        "literal": "model + depict",
+        "en": "To describe",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô phỏng",
+        "meaning": "Model + imitate/copy",
+        "literal": "model + imitate",
+        "en": "To simulate / To emulate",
+        "root": "Mô"
+      }
+    ]
+  },
+  "quy mô: độ lớ": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Quy",
+          "meaning": "Compass / Standard / Rule"
+        },
+        {
+          "vi": "Mô",
+          "meaning": "Model / Pattern / Scope"
+        }
+      ],
+      "bridge": "Combining a drafting compass (quy) used for drawing circles with a model or pattern (mô) establishes the standard boundaries and dimensions of a structure, which conceptualizes the overall extent or scale of something."
+    },
+    "compounds": [
+      {
+        "vi": "Quy tắc",
+        "meaning": "Rule + standard",
+        "literal": "compass + rule",
+        "en": "Rule / Regulation",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy định",
+        "meaning": "Standard + set/fix",
+        "literal": "standard + fix",
+        "en": "Regulation / Stipulation",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy luật",
+        "meaning": "Standard + law/rhythm",
+        "literal": "standard + law",
+        "en": "Law / Regularity",
+        "root": "Quy"
+      },
+      {
+        "vi": "Quy hoạch",
+        "meaning": "Standard + plan/layout",
+        "literal": "standard + layout",
+        "en": "Urban planning / Zoning",
+        "root": "Quy"
+      },
+      {
+        "vi": "Mô hình",
+        "meaning": "Model + shape/pattern",
+        "literal": "model + pattern",
+        "en": "Model / Prototype",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô tả",
+        "meaning": "Model + express/depict",
+        "literal": "model + depict",
+        "en": "To describe",
+        "root": "Mô"
+      },
+      {
+        "vi": "Mô phỏng",
+        "meaning": "Model + imitate/copy",
+        "literal": "model + imitate",
+        "en": "To simulate / To emulate",
+        "root": "Mô"
+      }
+    ]
+  },
+  "a23771352fc9": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Dự",
+          "meaning": "To prepare / To participate / beforehand"
+        },
+        {
+          "vi": "Kiến",
+          "meaning": "To see / To observe / View"
+        }
+      ],
+      "bridge": "To predict is to 'prepare-see' (dự kiến), casting one's vision beforehand into future possibilities to map out a plan."
+    },
+    "compounds": [
+      {
+        "vi": "Dự trù",
+        "meaning": "To budget / To estimate",
+        "literal": "prepare + stockpile/reserve",
+        "root": "Dự"
+      },
+      {
+        "vi": "Dự báo",
+        "meaning": "To forecast / To predict",
+        "literal": "prepare + report/announce",
+        "root": "Dự"
+      },
+      {
+        "vi": "Dự thi",
+        "meaning": "To take an exam / To compete",
+        "literal": "participate + test",
+        "root": "Dự"
+      },
+      {
+        "vi": "Dự thảo",
+        "meaning": "Draft (document)",
+        "literal": "prepare + grass/rough draft",
+        "root": "Dự"
+      },
+      {
+        "vi": "Kiến thức",
+        "meaning": "Knowledge",
+        "literal": "see/observe + grasp/know",
+        "root": "Kiến"
+      },
+      {
+        "vi": "Kiến lập",
+        "meaning": "To establish / To found",
+        "literal": "see/envision + establish",
+        "root": "Kiến"
+      },
+      {
+        "vi": "Ý kiến",
+        "meaning": "Opinion / Idea",
+        "literal": "mind/thought + view/see",
+        "root": "Kiến"
+      },
+      {
+        "vi": "Kiến trúc",
+        "meaning": "Architecture",
+        "literal": "see/design + build/structure",
+        "root": "Kiến"
+      }
+    ]
+  },
+  "dự kiến": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Dự",
+          "meaning": "To prepare / To participate / beforehand"
+        },
+        {
+          "vi": "Kiến",
+          "meaning": "To see / To observe / View"
+        }
+      ],
+      "bridge": "To predict is to 'prepare-see' (dự kiến), casting one's vision beforehand into future possibilities to map out a plan."
+    },
+    "compounds": [
+      {
+        "vi": "Dự trù",
+        "meaning": "To budget / To estimate",
+        "literal": "prepare + stockpile/reserve",
+        "root": "Dự"
+      },
+      {
+        "vi": "Dự báo",
+        "meaning": "To forecast / To predict",
+        "literal": "prepare + report/announce",
+        "root": "Dự"
+      },
+      {
+        "vi": "Dự thi",
+        "meaning": "To take an exam / To compete",
+        "literal": "participate + test",
+        "root": "Dự"
+      },
+      {
+        "vi": "Dự thảo",
+        "meaning": "Draft (document)",
+        "literal": "prepare + grass/rough draft",
+        "root": "Dự"
+      },
+      {
+        "vi": "Kiến thức",
+        "meaning": "Knowledge",
+        "literal": "see/observe + grasp/know",
+        "root": "Kiến"
+      },
+      {
+        "vi": "Kiến lập",
+        "meaning": "To establish / To found",
+        "literal": "see/envision + establish",
+        "root": "Kiến"
+      },
+      {
+        "vi": "Ý kiến",
+        "meaning": "Opinion / Idea",
+        "literal": "mind/thought + view/see",
+        "root": "Kiến"
+      },
+      {
+        "vi": "Kiến trúc",
+        "meaning": "Architecture",
+        "literal": "see/design + build/structure",
+        "root": "Kiến"
+      }
+    ]
+  },
+  "a1d0b8e85463": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Vĩ",
+          "meaning": "Great / Tail / End / Huge (Sino-Vietnamese: 偉)"
+        },
+        {
+          "vi": "Đại",
+          "meaning": "Big / Great / Large (Sino-Vietnamese: 大)"
+        }
+      ],
+      "bridge": "Combining 'Vĩ' (towering/grand) and 'Đại' (vast/big) creates an emphatic compound meaning overwhelmingly huge, grand, or monumental."
+    },
+    "compounds": [
+      {
+        "vi": "Vĩ nhân",
+        "literal": "grand + person",
+        "en": "great person / historical giant",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Vĩ tuyến",
+        "literal": "grand + thread/line",
+        "en": "latitude (line of latitude)",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Vĩ mô",
+        "literal": "grand + model/macro",
+        "en": "macro (as in macroeconomics)",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Đại gia",
+        "literal": "big + family/person",
+        "en": "tycoon / mega-wealthy person",
+        "root": "Đại"
+      },
+      {
+        "vi": "Đại học",
+        "literal": "big + study",
+        "en": "university",
+        "root": "Đại"
+      },
+      {
+        "vi": "Đại dương",
+        "literal": "big + ocean",
+        "en": "ocean",
+        "root": "Đại"
+      },
+      {
+        "vi": "Đại biểu",
+        "literal": "big/main + represent",
+        "en": "delegate / representative",
+        "root": "Đại"
+      }
+    ]
+  },
+  "vĩ đại": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Vĩ",
+          "meaning": "Great / Tail / End / Huge (Sino-Vietnamese: 偉)"
+        },
+        {
+          "vi": "Đại",
+          "meaning": "Big / Great / Large (Sino-Vietnamese: 大)"
+        }
+      ],
+      "bridge": "Combining 'Vĩ' (towering/grand) and 'Đại' (vast/big) creates an emphatic compound meaning overwhelmingly huge, grand, or monumental."
+    },
+    "compounds": [
+      {
+        "vi": "Vĩ nhân",
+        "literal": "grand + person",
+        "en": "great person / historical giant",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Vĩ tuyến",
+        "literal": "grand + thread/line",
+        "en": "latitude (line of latitude)",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Vĩ mô",
+        "literal": "grand + model/macro",
+        "en": "macro (as in macroeconomics)",
+        "root": "Vĩ"
+      },
+      {
+        "vi": "Đại gia",
+        "literal": "big + family/person",
+        "en": "tycoon / mega-wealthy person",
+        "root": "Đại"
+      },
+      {
+        "vi": "Đại học",
+        "literal": "big + study",
+        "en": "university",
+        "root": "Đại"
+      },
+      {
+        "vi": "Đại dương",
+        "literal": "big + ocean",
+        "en": "ocean",
+        "root": "Đại"
+      },
+      {
+        "vi": "Đại biểu",
+        "literal": "big/main + represent",
+        "en": "delegate / representative",
+        "root": "Đại"
+      }
+    ]
+  },
+  "e779c65d7108": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nhân",
+          "meaning": "Person / Human being / Mankind"
+        },
+        {
+          "vi": "Sự",
+          "meaning": "Matter / Affair / Work / Business"
+        }
+      ],
+      "bridge": "Literally translating to 'human affairs,' 'nhân sự' captures the essence of managing human resources by viewing people as the core subjects and affairs of an organization."
+    },
+    "compounds": [
+      {
+        "vi": "Nhân dân",
+        "literal": "Person + subjects/masses",
+        "en": "The people / Population",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân loại",
+        "literal": "Person + kind/species",
+        "en": "Mankind / Humanity",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân tài",
+        "literal": "Person + talent",
+        "en": "Talented person / Man of talent",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân viên",
+        "literal": "Person + member/employee",
+        "en": "Staff member / Employee",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Sự vụ",
+        "literal": "Matter + affairs",
+        "en": "Administrative affairs / Routine business",
+        "root": "Sự"
+      },
+      {
+        "vi": "Sự nghiệp",
+        "literal": "Affair + enterprise/career",
+        "en": "Career / Life's work",
+        "root": "Sự"
+      },
+      {
+        "vi": "Sự kiện",
+        "literal": "Matter + item/event",
+        "en": "Event / Incident",
+        "root": "Sự"
+      },
+      {
+        "vi": "Sự việc",
+        "literal": "Matter + thing/work",
+        "en": "Matter / Incident / Affair",
+        "root": "Sự"
+      }
+    ]
+  },
+  "nhân sự": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nhân",
+          "meaning": "Person / Human being / Mankind"
+        },
+        {
+          "vi": "Sự",
+          "meaning": "Matter / Affair / Work / Business"
+        }
+      ],
+      "bridge": "Literally translating to 'human affairs,' 'nhân sự' captures the essence of managing human resources by viewing people as the core subjects and affairs of an organization."
+    },
+    "compounds": [
+      {
+        "vi": "Nhân dân",
+        "literal": "Person + subjects/masses",
+        "en": "The people / Population",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân loại",
+        "literal": "Person + kind/species",
+        "en": "Mankind / Humanity",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân tài",
+        "literal": "Person + talent",
+        "en": "Talented person / Man of talent",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Nhân viên",
+        "literal": "Person + member/employee",
+        "en": "Staff member / Employee",
+        "root": "Nhân"
+      },
+      {
+        "vi": "Sự vụ",
+        "literal": "Matter + affairs",
+        "en": "Administrative affairs / Routine business",
+        "root": "Sự"
+      },
+      {
+        "vi": "Sự nghiệp",
+        "literal": "Affair + enterprise/career",
+        "en": "Career / Life's work",
+        "root": "Sự"
+      },
+      {
+        "vi": "Sự kiện",
+        "literal": "Matter + item/event",
+        "en": "Event / Incident",
+        "root": "Sự"
+      },
+      {
+        "vi": "Sự việc",
+        "literal": "Matter + thing/work",
+        "en": "Matter / Incident / Affair",
+        "root": "Sự"
+      }
+    ]
+  },
+  "443f491b8b78": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tác",
+          "meaning": "Make, create, cause, or initiate (Sino-Vietnamese: 作)"
+        },
+        {
+          "vi": "Động",
+          "meaning": "Move, action, activity, or stir (Sino-Vietnamese: 動)"
+        }
+      ],
+      "bridge": "To 'affect' something is to 'create movement' or initiate an action that stirs and influences another entity."
+    },
+    "compounds": [
+      {
+        "vi": "Tác giả",
+        "meaning": "Author",
+        "literal": "make + person/thing",
+        "en": "author / creator",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác phẩm",
+        "meaning": "Work of art or literature",
+        "literal": "make + product/item",
+        "en": "literary or artistic work",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác chiến",
+        "meaning": "Combat / Military operations",
+        "literal": "make + battle/war",
+        "en": "combat operations",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác oai tác quái",
+        "meaning": "To wreak havoc",
+        "literal": "make might + make ghost/evil",
+        "en": "to cause trouble and mischief",
+        "root": "Tác"
+      },
+      {
+        "vi": "Hành động",
+        "meaning": "Action",
+        "literal": "execute + move/action",
+        "en": "action / act",
+        "root": "Động"
+      },
+      {
+        "vi": "Di chuyển",
+        "meaning": "Move",
+        "literal": "move + transfer",
+        "en": "to move / relocate",
+        "root": "Động"
+      },
+      {
+        "vi": "Động lực",
+        "meaning": "Motivation",
+        "literal": "move + strength/force",
+        "en": "driving force / motivation",
+        "root": "Động"
+      },
+      {
+        "vi": "Hoạt động",
+        "meaning": "Activity",
+        "literal": "live/active + move/action",
+        "en": "activity / operation",
+        "root": "Động"
+      }
+    ]
+  },
+  "tác động": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tác",
+          "meaning": "Make, create, cause, or initiate (Sino-Vietnamese: 作)"
+        },
+        {
+          "vi": "Động",
+          "meaning": "Move, action, activity, or stir (Sino-Vietnamese: 動)"
+        }
+      ],
+      "bridge": "To 'affect' something is to 'create movement' or initiate an action that stirs and influences another entity."
+    },
+    "compounds": [
+      {
+        "vi": "Tác giả",
+        "meaning": "Author",
+        "literal": "make + person/thing",
+        "en": "author / creator",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác phẩm",
+        "meaning": "Work of art or literature",
+        "literal": "make + product/item",
+        "en": "literary or artistic work",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác chiến",
+        "meaning": "Combat / Military operations",
+        "literal": "make + battle/war",
+        "en": "combat operations",
+        "root": "Tác"
+      },
+      {
+        "vi": "Tác oai tác quái",
+        "meaning": "To wreak havoc",
+        "literal": "make might + make ghost/evil",
+        "en": "to cause trouble and mischief",
+        "root": "Tác"
+      },
+      {
+        "vi": "Hành động",
+        "meaning": "Action",
+        "literal": "execute + move/action",
+        "en": "action / act",
+        "root": "Động"
+      },
+      {
+        "vi": "Di chuyển",
+        "meaning": "Move",
+        "literal": "move + transfer",
+        "en": "to move / relocate",
+        "root": "Động"
+      },
+      {
+        "vi": "Động lực",
+        "meaning": "Motivation",
+        "literal": "move + strength/force",
+        "en": "driving force / motivation",
+        "root": "Động"
+      },
+      {
+        "vi": "Hoạt động",
+        "meaning": "Activity",
+        "literal": "live/active + move/action",
+        "en": "activity / operation",
+        "root": "Động"
+      }
+    ]
+  },
+  "be95dc43a555": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Công",
+          "meaning": "Public / Common / Fair (Chinese: 公)"
+        },
+        {
+          "vi": "Bố",
+          "meaning": "Spread / Distribute / Announce (Chinese: 布)"
+        }
+      ],
+      "bridge": "To announce publicly is to \"distribute\" (bố) information so that it becomes \"public\" (công) knowledge for everyone."
+    },
+    "compounds": [
+      {
+        "vi": "Công cộng",
+        "meaning": "Public",
+        "literal": "public + common",
+        "en": "Public / Communal",
+        "root": "Công"
+      },
+      {
+        "vi": "Công dân",
+        "meaning": "Citizen",
+        "literal": "public + subject/person",
+        "en": "Citizen",
+        "root": "Công"
+      },
+      {
+        "vi": "Công ty",
+        "meaning": "Company",
+        "literal": "public + association/firm",
+        "en": "Company / Corporation",
+        "root": "Công"
+      },
+      {
+        "vi": "Công bằng",
+        "meaning": "Fair / Just",
+        "literal": "public + equal",
+        "en": "Fair / Just",
+        "root": "Công"
+      },
+      {
+        "vi": "Bố trí",
+        "meaning": "Arrange",
+        "literal": "spread + place",
+        "en": "To arrange / layout",
+        "root": "Bố"
+      },
+      {
+        "vi": "Phân bố",
+        "meaning": "Distribute",
+        "literal": "divide + spread",
+        "en": "Distribution / To distribute",
+        "root": "Bố"
+      },
+      {
+        "vi": "Bố cục",
+        "meaning": "Composition",
+        "literal": "spread + structure/frame",
+        "en": "Composition / Layout",
+        "root": "Bố"
+      }
+    ]
+  },
+  "công bố": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Công",
+          "meaning": "Public / Common / Fair (Chinese: 公)"
+        },
+        {
+          "vi": "Bố",
+          "meaning": "Spread / Distribute / Announce (Chinese: 布)"
+        }
+      ],
+      "bridge": "To announce publicly is to \"distribute\" (bố) information so that it becomes \"public\" (công) knowledge for everyone."
+    },
+    "compounds": [
+      {
+        "vi": "Công cộng",
+        "meaning": "Public",
+        "literal": "public + common",
+        "en": "Public / Communal",
+        "root": "Công"
+      },
+      {
+        "vi": "Công dân",
+        "meaning": "Citizen",
+        "literal": "public + subject/person",
+        "en": "Citizen",
+        "root": "Công"
+      },
+      {
+        "vi": "Công ty",
+        "meaning": "Company",
+        "literal": "public + association/firm",
+        "en": "Company / Corporation",
+        "root": "Công"
+      },
+      {
+        "vi": "Công bằng",
+        "meaning": "Fair / Just",
+        "literal": "public + equal",
+        "en": "Fair / Just",
+        "root": "Công"
+      },
+      {
+        "vi": "Bố trí",
+        "meaning": "Arrange",
+        "literal": "spread + place",
+        "en": "To arrange / layout",
+        "root": "Bố"
+      },
+      {
+        "vi": "Phân bố",
+        "meaning": "Distribute",
+        "literal": "divide + spread",
+        "en": "Distribution / To distribute",
+        "root": "Bố"
+      },
+      {
+        "vi": "Bố cục",
+        "meaning": "Composition",
+        "literal": "spread + structure/frame",
+        "en": "Composition / Layout",
+        "root": "Bố"
+      }
+    ]
+  },
+  "d261f4a2113a": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hiếu",
+          "meaning": "Filial piety / Reverence towards parents (Hán-Việt: 孝)"
+        },
+        {
+          "vi": "Thảo",
+          "meaning": "Submissive / Obedient / Grassy lushness extended to gentle compliance (Hán-Việt:  thảo)"
+        },
+        {
+          "vi": "Thành",
+          "meaning": "Accomplish / Complete / Realize / Sincere (Hán-Việt: 成)"
+        },
+        {
+          "vi": "Công",
+          "meaning": "Merit / Achievement / Work / Labor (Hán-Việt: 功)"
+        },
+        {
+          "vi": "Lo",
+          "meaning": "Worry / Anxious / Care for (Native Vietnamese root: lo lắng)"
+        },
+        {
+          "vi": "Nghe lời",
+          "meaning": "Listen to words / Obey instructions (Native Vietnamese phrase, sometimes phonetically or colloquially rendered as 'nghe lồi')"
+        }
+      ],
+      "bridge": "The phrase weaves together traditional Confucian virtues of filial devotion (hiếu thảo) and personal achievement (thành công) as the ultimate duty to spare parents anxiety (không lo) through absolute obedience and respect (nghe lời)."
+    },
+    "compounds": [
+      {
+        "vi": "Hiếu kính",
+        "meaning": "Filial + Respect",
+        "literal": "filial piety + respect",
+        "en": "deep filial respect and devotion",
+        "root": "Hiếu"
+      },
+      {
+        "vi": "Thảo hiền",
+        "meaning": "Obedient + Virtuous",
+        "literal": "obedient + virtuous",
+        "en": "dutiful and good-natured child",
+        "root": "Thảo"
+      },
+      {
+        "vi": "Thành tựu",
+        "meaning": "Accomplish + Result",
+        "literal": "achieve + result",
+        "en": "achievement / success",
+        "root": "Thành"
+      },
+      {
+        "vi": "Công lao",
+        "meaning": "Merit + Labor",
+        "literal": "merit + effort",
+        "en": "contribution / hard-earned merit",
+        "root": "Công"
+      },
+      {
+        "vi": "Lo âu",
+        "meaning": "Worry + Anxious",
+        "literal": "worry + anxiety",
+        "en": "anxiety / worry",
+        "root": "Lo"
+      },
+      {
+        "vi": "Vâng lời",
+        "meaning": "Obey + Words",
+        "literal": "obey + words",
+        "en": "to obey / follow instructions",
+        "root": "Nghe lời"
+      }
+    ]
+  },
+  "hiếu thảo - thành công, không cho ba mẹ lo, nghe lồi": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Hiếu",
+          "meaning": "Filial piety / Reverence towards parents (Hán-Việt: 孝)"
+        },
+        {
+          "vi": "Thảo",
+          "meaning": "Submissive / Obedient / Grassy lushness extended to gentle compliance (Hán-Việt:  thảo)"
+        },
+        {
+          "vi": "Thành",
+          "meaning": "Accomplish / Complete / Realize / Sincere (Hán-Việt: 成)"
+        },
+        {
+          "vi": "Công",
+          "meaning": "Merit / Achievement / Work / Labor (Hán-Việt: 功)"
+        },
+        {
+          "vi": "Lo",
+          "meaning": "Worry / Anxious / Care for (Native Vietnamese root: lo lắng)"
+        },
+        {
+          "vi": "Nghe lời",
+          "meaning": "Listen to words / Obey instructions (Native Vietnamese phrase, sometimes phonetically or colloquially rendered as 'nghe lồi')"
+        }
+      ],
+      "bridge": "The phrase weaves together traditional Confucian virtues of filial devotion (hiếu thảo) and personal achievement (thành công) as the ultimate duty to spare parents anxiety (không lo) through absolute obedience and respect (nghe lời)."
+    },
+    "compounds": [
+      {
+        "vi": "Hiếu kính",
+        "meaning": "Filial + Respect",
+        "literal": "filial piety + respect",
+        "en": "deep filial respect and devotion",
+        "root": "Hiếu"
+      },
+      {
+        "vi": "Thảo hiền",
+        "meaning": "Obedient + Virtuous",
+        "literal": "obedient + virtuous",
+        "en": "dutiful and good-natured child",
+        "root": "Thảo"
+      },
+      {
+        "vi": "Thành tựu",
+        "meaning": "Accomplish + Result",
+        "literal": "achieve + result",
+        "en": "achievement / success",
+        "root": "Thành"
+      },
+      {
+        "vi": "Công lao",
+        "meaning": "Merit + Labor",
+        "literal": "merit + effort",
+        "en": "contribution / hard-earned merit",
+        "root": "Công"
+      },
+      {
+        "vi": "Lo âu",
+        "meaning": "Worry + Anxious",
+        "literal": "worry + anxiety",
+        "en": "anxiety / worry",
+        "root": "Lo"
+      },
+      {
+        "vi": "Vâng lời",
+        "meaning": "Obey + Words",
+        "literal": "obey + words",
+        "en": "to obey / follow instructions",
+        "root": "Nghe lời"
+      }
+    ]
+  },
+  "42ccfca60310": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đáng",
+          "meaning": "Worth / To be worthy / Deserving"
+        },
+        {
+          "vi": "Đồng",
+          "meaning": "Same / Equal / Similar / Together"
+        }
+      ],
+      "bridge": "The phrase combines 'đáng' (to be worthy/equivalent) and 'đồng' (the same/equal), conceptually mapping to the idea of two things being weighed as equivalent or matching in value and nature."
+    },
+    "compounds": [
+      {
+        "vi": "Đáng giá",
+        "literal": "Worth + price/value",
+        "en": "Valuable / Worthwhile",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đáng tin",
+        "literal": "Worth + to believe",
+        "en": "Trustworthy / Reliable",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đáng yêu",
+        "literal": "Worth + to love",
+        "en": "Adorable / Cute",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đáng kể",
+        "literal": "Worth + to recount/mention",
+        "en": "Significant / Considerable",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đồng hương",
+        "literal": "Same + native village",
+        "en": "Compatriot / Fellow townsman",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng ý",
+        "literal": "Same + will/mind",
+        "en": "To agree / To consent",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng nghiệp",
+        "literal": "Same + profession/task",
+        "en": "Colleague / Coworker",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng đều",
+        "literal": "Same + even/uniform",
+        "en": "Uniform / Evenly distributed",
+        "root": "Đồng"
+      }
+    ]
+  },
+  "đáng đồng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Đáng",
+          "meaning": "Worth / To be worthy / Deserving"
+        },
+        {
+          "vi": "Đồng",
+          "meaning": "Same / Equal / Similar / Together"
+        }
+      ],
+      "bridge": "The phrase combines 'đáng' (to be worthy/equivalent) and 'đồng' (the same/equal), conceptually mapping to the idea of two things being weighed as equivalent or matching in value and nature."
+    },
+    "compounds": [
+      {
+        "vi": "Đáng giá",
+        "literal": "Worth + price/value",
+        "en": "Valuable / Worthwhile",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đáng tin",
+        "literal": "Worth + to believe",
+        "en": "Trustworthy / Reliable",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đáng yêu",
+        "literal": "Worth + to love",
+        "en": "Adorable / Cute",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đáng kể",
+        "literal": "Worth + to recount/mention",
+        "en": "Significant / Considerable",
+        "root": "Đáng"
+      },
+      {
+        "vi": "Đồng hương",
+        "literal": "Same + native village",
+        "en": "Compatriot / Fellow townsman",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng ý",
+        "literal": "Same + will/mind",
+        "en": "To agree / To consent",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng nghiệp",
+        "literal": "Same + profession/task",
+        "en": "Colleague / Coworker",
+        "root": "Đồng"
+      },
+      {
+        "vi": "Đồng đều",
+        "literal": "Same + even/uniform",
+        "en": "Uniform / Evenly distributed",
+        "root": "Đồng"
+      }
+    ]
+  },
+  "07a048b0bc53": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Biểu",
+          "meaning": "Exterior / Surface / To show"
+        },
+        {
+          "vi": "Hiện",
+          "meaning": "To appear / Visible / Current"
+        }
+      ],
+      "bridge": "When something hidden is brought to the surface (biểu) so that it becomes visible (hiện), it is a manifestation of an underlying condition."
+    },
+    "compounds": [
+      {
+        "vi": "Phát biểu",
+        "literal": "emit + show",
+        "en": "to state / to deliver a speech",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Biểu diễn",
+        "literal": "show + perform",
+        "en": "to perform (on stage)",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Tiêu biểu",
+        "literal": "mark + show",
+        "en": "typical / representative",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Đại biểu",
+        "literal": "replace + show",
+        "en": "delegate / representative",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Hiện tại",
+        "literal": "appear + exist",
+        "en": "the present / currently",
+        "root": "Hiện"
+      },
+      {
+        "vi": "Phát hiện",
+        "literal": "emit + appear",
+        "en": "to discover / to find out",
+        "root": "Hiện"
+      },
+      {
+        "vi": "Thực hiện",
+        "literal": "real + appear",
+        "en": "to implement / to carry out",
+        "root": "Hiện"
+      },
+      {
+        "vi": "Hiện tượng",
+        "literal": "appear + shape",
+        "en": "phenomenon",
+        "root": "Hiện"
+      }
+    ]
+  },
+  "biểu hiện": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Biểu",
+          "meaning": "Exterior / Surface / To show"
+        },
+        {
+          "vi": "Hiện",
+          "meaning": "To appear / Visible / Current"
+        }
+      ],
+      "bridge": "When something hidden is brought to the surface (biểu) so that it becomes visible (hiện), it is a manifestation of an underlying condition."
+    },
+    "compounds": [
+      {
+        "vi": "Phát biểu",
+        "literal": "emit + show",
+        "en": "to state / to deliver a speech",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Biểu diễn",
+        "literal": "show + perform",
+        "en": "to perform (on stage)",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Tiêu biểu",
+        "literal": "mark + show",
+        "en": "typical / representative",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Đại biểu",
+        "literal": "replace + show",
+        "en": "delegate / representative",
+        "root": "Biểu"
+      },
+      {
+        "vi": "Hiện tại",
+        "literal": "appear + exist",
+        "en": "the present / currently",
+        "root": "Hiện"
+      },
+      {
+        "vi": "Phát hiện",
+        "literal": "emit + appear",
+        "en": "to discover / to find out",
+        "root": "Hiện"
+      },
+      {
+        "vi": "Thực hiện",
+        "literal": "real + appear",
+        "en": "to implement / to carry out",
+        "root": "Hiện"
+      },
+      {
+        "vi": "Hiện tượng",
+        "literal": "appear + shape",
+        "en": "phenomenon",
+        "root": "Hiện"
+      }
+    ]
+  },
+  "55b8df3aefb5": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Toàn",
+          "meaning": "Complete / Whole / Entire"
+        },
+        {
+          "vi": "Bộ",
+          "meaning": "Section / Department / Collection"
+        }
+      ],
+      "bridge": "Combining 'toàn' (complete) and ' bộ' (collection/section) literally means a complete collection, bringing all parts together to form the whole."
+    },
+    "compounds": [
+      {
+        "vi": "Toàn diện",
+        "meaning": "comprehensive",
+        "literal": "whole + face/aspect",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn cầu",
+        "meaning": "global",
+        "literal": "whole + globe",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn tâm",
+        "meaning": "wholehearted",
+        "literal": "whole + heart",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn thắng",
+        "meaning": "complete victory",
+        "literal": "whole + victory",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Bộ phận",
+        "meaning": "part / component",
+        "literal": "section + part",
+        "root": "Bộ"
+      },
+      {
+        "vi": "Bộ máy",
+        "meaning": "apparatus / machinery",
+        "literal": "department/system + machine",
+        "root": "Bộ"
+      },
+      {
+        "vi": "Trang phục",
+        "meaning": "clothing / outfit",
+        "literal": "decorate + attire/garment (Bộ)",
+        "root": "Bộ"
+      }
+    ]
+  },
+  "toàn bộ": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Toàn",
+          "meaning": "Complete / Whole / Entire"
+        },
+        {
+          "vi": "Bộ",
+          "meaning": "Section / Department / Collection"
+        }
+      ],
+      "bridge": "Combining 'toàn' (complete) and ' bộ' (collection/section) literally means a complete collection, bringing all parts together to form the whole."
+    },
+    "compounds": [
+      {
+        "vi": "Toàn diện",
+        "meaning": "comprehensive",
+        "literal": "whole + face/aspect",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn cầu",
+        "meaning": "global",
+        "literal": "whole + globe",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn tâm",
+        "meaning": "wholehearted",
+        "literal": "whole + heart",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Toàn thắng",
+        "meaning": "complete victory",
+        "literal": "whole + victory",
+        "root": "Toàn"
+      },
+      {
+        "vi": "Bộ phận",
+        "meaning": "part / component",
+        "literal": "section + part",
+        "root": "Bộ"
+      },
+      {
+        "vi": "Bộ máy",
+        "meaning": "apparatus / machinery",
+        "literal": "department/system + machine",
+        "root": "Bộ"
+      },
+      {
+        "vi": "Trang phục",
+        "meaning": "clothing / outfit",
+        "literal": "decorate + attire/garment (Bộ)",
+        "root": "Bộ"
+      }
+    ]
+  },
+  "41fda004a396": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Kết",
+          "meaning": "Tie / Bind / Conclude"
+        },
+        {
+          "vi": "Quả",
+          "meaning": "Fruit / Result / Outcome"
+        },
+        {
+          "vi": "Tuyển",
+          "meaning": "Select / Choose"
+        },
+        {
+          "vi": "Dụng",
+          "meaning": "Use / Employ / Utilize"
+        }
+      ],
+      "bridge": "The phrase literally means 'tied fruits of selection and employment,' representing the final harvested outcome of choosing and putting candidates to use."
+    },
+    "compounds": [
+      {
+        "vi": "Kết thúc",
+        "literal": "Tie + end",
+        "en": "To finish / Conclusion",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết hôn",
+        "literal": "Tie + marriage",
+        "en": "To marry / Marriage",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết cục",
+        "literal": "Tie + end",
+        "en": "Outcome / Conclusion",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết quả",
+        "literal": "Fruit + result",
+        "en": "Result / Achievement",
+        "root": "Quả"
+      },
+      {
+        "vi": "Tuyển chọn",
+        "literal": "Select + choose",
+        "en": "To select / Selection",
+        "root": "Tuyển"
+      },
+      {
+        "vi": "Tuyển cư",
+        "literal": "Select + live",
+        "en": "Casting call / Audition (arts)",
+        "root": "Tuyển"
+      },
+      {
+        "vi": "Sử dụng",
+        "literal": "Use + employ",
+        "en": "To use / To utilize",
+        "root": "Dụng"
+      },
+      {
+        "vi": "Dụng cụ",
+        "literal": "Use + tool",
+        "en": "Tool / Instrument / Equipment",
+        "root": "Dụng"
+      }
+    ]
+  },
+  "kết quả tuyển dụng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Kết",
+          "meaning": "Tie / Bind / Conclude"
+        },
+        {
+          "vi": "Quả",
+          "meaning": "Fruit / Result / Outcome"
+        },
+        {
+          "vi": "Tuyển",
+          "meaning": "Select / Choose"
+        },
+        {
+          "vi": "Dụng",
+          "meaning": "Use / Employ / Utilize"
+        }
+      ],
+      "bridge": "The phrase literally means 'tied fruits of selection and employment,' representing the final harvested outcome of choosing and putting candidates to use."
+    },
+    "compounds": [
+      {
+        "vi": "Kết thúc",
+        "literal": "Tie + end",
+        "en": "To finish / Conclusion",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết hôn",
+        "literal": "Tie + marriage",
+        "en": "To marry / Marriage",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết cục",
+        "literal": "Tie + end",
+        "en": "Outcome / Conclusion",
+        "root": "Kết"
+      },
+      {
+        "vi": "Kết quả",
+        "literal": "Fruit + result",
+        "en": "Result / Achievement",
+        "root": "Quả"
+      },
+      {
+        "vi": "Tuyển chọn",
+        "literal": "Select + choose",
+        "en": "To select / Selection",
+        "root": "Tuyển"
+      },
+      {
+        "vi": "Tuyển cư",
+        "literal": "Select + live",
+        "en": "Casting call / Audition (arts)",
+        "root": "Tuyển"
+      },
+      {
+        "vi": "Sử dụng",
+        "literal": "Use + employ",
+        "en": "To use / To utilize",
+        "root": "Dụng"
+      },
+      {
+        "vi": "Dụng cụ",
+        "literal": "Use + tool",
+        "en": "Tool / Instrument / Equipment",
+        "root": "Dụng"
+      }
+    ]
+  },
+  "476cf1ac781d": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Dấu",
+          "meaning": "Mark, trace, or imprint"
+        },
+        {
+          "vi": "Hiệu",
+          "meaning": "Sign, signal, or label"
+        }
+      ],
+      "bridge": "A physical mark (dấu) combined with a symbolic signal (hiệu) creates a recognizable indicator used to identify or predict a specific state or meaning."
+    },
+    "compounds": [
+      {
+        "vi": "Dấu vết",
+        "literal": "mark + trace",
+        "en": "trace / vestige",
+        "root": "Dấu"
+      },
+      {
+        "vi": "Dấu ấn",
+        "literal": "mark + seal",
+        "en": "imprint / impression",
+        "root": "Dấu"
+      },
+      {
+        "vi": "Dấu chân",
+        "literal": "mark + foot",
+        "en": "footprint",
+        "root": "Dấu"
+      },
+      {
+        "vi": "Tín hiệu",
+        "literal": "trust/message + signal",
+        "en": "signal",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Ký hiệu",
+        "literal": "written note + sign",
+        "en": "symbol / notation",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Thương hiệu",
+        "literal": "commerce + label",
+        "en": "brand / trademark",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Danh hiệu",
+        "literal": "name + title",
+        "en": "title / honorific",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Số hiệu",
+        "literal": "number + sign",
+        "en": "serial number / identification number",
+        "root": "Hiệu"
+      }
+    ]
+  },
+  "dấu hiệu": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Dấu",
+          "meaning": "Mark, trace, or imprint"
+        },
+        {
+          "vi": "Hiệu",
+          "meaning": "Sign, signal, or label"
+        }
+      ],
+      "bridge": "A physical mark (dấu) combined with a symbolic signal (hiệu) creates a recognizable indicator used to identify or predict a specific state or meaning."
+    },
+    "compounds": [
+      {
+        "vi": "Dấu vết",
+        "literal": "mark + trace",
+        "en": "trace / vestige",
+        "root": "Dấu"
+      },
+      {
+        "vi": "Dấu ấn",
+        "literal": "mark + seal",
+        "en": "imprint / impression",
+        "root": "Dấu"
+      },
+      {
+        "vi": "Dấu chân",
+        "literal": "mark + foot",
+        "en": "footprint",
+        "root": "Dấu"
+      },
+      {
+        "vi": "Tín hiệu",
+        "literal": "trust/message + signal",
+        "en": "signal",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Ký hiệu",
+        "literal": "written note + sign",
+        "en": "symbol / notation",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Thương hiệu",
+        "literal": "commerce + label",
+        "en": "brand / trademark",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Danh hiệu",
+        "literal": "name + title",
+        "en": "title / honorific",
+        "root": "Hiệu"
+      },
+      {
+        "vi": "Số hiệu",
+        "literal": "number + sign",
+        "en": "serial number / identification number",
+        "root": "Hiệu"
+      }
+    ]
+  },
+  "d37ef467b813": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tiềm",
+          "meaning": "Submerged / Hidden / Latent"
+        },
+        {
+          "vi": "Năng",
+          "meaning": "Ability / Capacity / Power"
+        }
+      ],
+      "bridge": "Potential is understood as an internal ability or capacity that is currently submerged or hidden beneath the surface, awaiting development or expression."
+    },
+    "compounds": [
+      {
+        "vi": "Tiềm thức",
+        "literal": "hidden + consciousness",
+        "en": "subconscious",
+        "root": "Tiềm"
+      },
+      {
+        "vi": "Tiềm ẩn",
+        "literal": "hidden + hidden",
+        "en": "latent / underlying",
+        "root": "Tiềm"
+      },
+      {
+        "vi": "Tiềm thủy đỉnh",
+        "literal": "hidden + water + boat",
+        "en": "submarine",
+        "root": "Tiềm"
+      },
+      {
+        "vi": "Khả năng",
+        "literal": "possible + ability",
+        "en": "ability / capability",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng lượng",
+        "literal": "ability + amount",
+        "en": "energy",
+        "root": "Năng"
+      },
+      {
+        "vi": "Bản năng",
+        "literal": "root + ability",
+        "en": "instinct",
+        "root": "Năng"
+      },
+      {
+        "vi": "Kỹ năng",
+        "literal": "technique + ability",
+        "en": "skill",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng động",
+        "literal": "ability + move",
+        "en": "dynamic / active",
+        "root": "Năng"
+      }
+    ]
+  },
+  "tiềm năng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tiềm",
+          "meaning": "Submerged / Hidden / Latent"
+        },
+        {
+          "vi": "Năng",
+          "meaning": "Ability / Capacity / Power"
+        }
+      ],
+      "bridge": "Potential is understood as an internal ability or capacity that is currently submerged or hidden beneath the surface, awaiting development or expression."
+    },
+    "compounds": [
+      {
+        "vi": "Tiềm thức",
+        "literal": "hidden + consciousness",
+        "en": "subconscious",
+        "root": "Tiềm"
+      },
+      {
+        "vi": "Tiềm ẩn",
+        "literal": "hidden + hidden",
+        "en": "latent / underlying",
+        "root": "Tiềm"
+      },
+      {
+        "vi": "Tiềm thủy đỉnh",
+        "literal": "hidden + water + boat",
+        "en": "submarine",
+        "root": "Tiềm"
+      },
+      {
+        "vi": "Khả năng",
+        "literal": "possible + ability",
+        "en": "ability / capability",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng lượng",
+        "literal": "ability + amount",
+        "en": "energy",
+        "root": "Năng"
+      },
+      {
+        "vi": "Bản năng",
+        "literal": "root + ability",
+        "en": "instinct",
+        "root": "Năng"
+      },
+      {
+        "vi": "Kỹ năng",
+        "literal": "technique + ability",
+        "en": "skill",
+        "root": "Năng"
+      },
+      {
+        "vi": "Năng động",
+        "literal": "ability + move",
+        "en": "dynamic / active",
+        "root": "Năng"
+      }
+    ]
+  },
+  "e5790443419e": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nghỉ",
+          "meaning": "Rest / Stop / Pause"
+        },
+        {
+          "vi": "Dưỡng",
+          "meaning": "Nourish / Care for / Cultivate"
+        }
+      ],
+      "bridge": "To 'nghỉ dưỡng' is to pause work in order to nourish and restore one's physical and mental well-being."
+    },
+    "compounds": [
+      {
+        "vi": "Nghỉ ngơi",
+        "meaning": "Rest + Relax",
+        "literal": "Rest and relax",
+        "en": "to rest / to take a break",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nghỉ việc",
+        "meaning": "Rest + Job/Work",
+        "literal": "Stop work",
+        "en": "to quit a job / to retire",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nghỉ hè",
+        "meaning": "Rest + Summer",
+        "literal": "Summer rest",
+        "en": "summer vacation",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nuôi dưỡng",
+        "meaning": "Raise + Nourish",
+        "literal": "Nurture and care for",
+        "en": "to nurture / to foster",
+        "root": "Dưỡng"
+      },
+      {
+        "vi": "Bồi dưỡng",
+        "meaning": "Supplement + Nourish",
+        "literal": "Nourish and replenish",
+        "en": "to improve / to train / to nourish",
+        "root": "Dưỡng"
+      },
+      {
+        "vi": "Dưỡng sinh",
+        "meaning": "Nourish + Life",
+        "literal": "Nourishing life",
+        "en": " menjaga kesehatan / longevity preservation / wellness",
+        "root": "Dưỡng"
+      }
+    ]
+  },
+  "nghỉ dưởng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nghỉ",
+          "meaning": "Rest / Stop / Pause"
+        },
+        {
+          "vi": "Dưỡng",
+          "meaning": "Nourish / Care for / Cultivate"
+        }
+      ],
+      "bridge": "To 'nghỉ dưỡng' is to pause work in order to nourish and restore one's physical and mental well-being."
+    },
+    "compounds": [
+      {
+        "vi": "Nghỉ ngơi",
+        "meaning": "Rest + Relax",
+        "literal": "Rest and relax",
+        "en": "to rest / to take a break",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nghỉ việc",
+        "meaning": "Rest + Job/Work",
+        "literal": "Stop work",
+        "en": "to quit a job / to retire",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nghỉ hè",
+        "meaning": "Rest + Summer",
+        "literal": "Summer rest",
+        "en": "summer vacation",
+        "root": "Nghỉ"
+      },
+      {
+        "vi": "Nuôi dưỡng",
+        "meaning": "Raise + Nourish",
+        "literal": "Nurture and care for",
+        "en": "to nurture / to foster",
+        "root": "Dưỡng"
+      },
+      {
+        "vi": "Bồi dưỡng",
+        "meaning": "Supplement + Nourish",
+        "literal": "Nourish and replenish",
+        "en": "to improve / to train / to nourish",
+        "root": "Dưỡng"
+      },
+      {
+        "vi": "Dưỡng sinh",
+        "meaning": "Nourish + Life",
+        "literal": "Nourishing life",
+        "en": " menjaga kesehatan / longevity preservation / wellness",
+        "root": "Dưỡng"
+      }
+    ]
+  },
+  "790a2bb0d598": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cải",
+          "meaning": "Change / alter / modify (Hán-Việt: 改)"
+        },
+        {
+          "vi": "Tạo",
+          "meaning": "Create / build / make (Hán-Việt: 造)"
+        }
+      ],
+      "bridge": "To reform or renovate is to 'change and create' something anew, transforming existing structures or behaviors into a better state."
+    },
+    "compounds": [
+      {
+        "vi": "Cải cách",
+        "meaning": "reform",
+        "literal": "change + pattern/system",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải lương",
+        "meaning": "reformed theater (traditional Vietnamese opera genre)",
+        "literal": "change + good/better",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải thiện",
+        "meaning": "to improve",
+        "literal": "change + good/fine",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải chính",
+        "meaning": "to correct / retraction",
+        "literal": "change + correct/right",
+        "root": "Cải"
+      },
+      {
+        "vi": "Tạo vật",
+        "meaning": "creature / creation",
+        "literal": "create + thing/object",
+        "root": "Tạo"
+      },
+      {
+        "vi": "Tạo hình",
+        "meaning": "plastic arts / sculpting / molding",
+        "literal": "create + shape/form",
+        "root": "Tạo"
+      },
+      {
+        "vi": "Tạo phản",
+        "meaning": "to rebel / revolt",
+        "literal": "create/start + rebellion",
+        "root": "Tạo"
+      },
+      {
+        "vi": "Kiến tạo",
+        "meaning": "to construct / tectonic",
+        "literal": "build + create",
+        "root": "Tạo"
+      }
+    ]
+  },
+  "cải tạo": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cải",
+          "meaning": "Change / alter / modify (Hán-Việt: 改)"
+        },
+        {
+          "vi": "Tạo",
+          "meaning": "Create / build / make (Hán-Việt: 造)"
+        }
+      ],
+      "bridge": "To reform or renovate is to 'change and create' something anew, transforming existing structures or behaviors into a better state."
+    },
+    "compounds": [
+      {
+        "vi": "Cải cách",
+        "meaning": "reform",
+        "literal": "change + pattern/system",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải lương",
+        "meaning": "reformed theater (traditional Vietnamese opera genre)",
+        "literal": "change + good/better",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải thiện",
+        "meaning": "to improve",
+        "literal": "change + good/fine",
+        "root": "Cải"
+      },
+      {
+        "vi": "Cải chính",
+        "meaning": "to correct / retraction",
+        "literal": "change + correct/right",
+        "root": "Cải"
+      },
+      {
+        "vi": "Tạo vật",
+        "meaning": "creature / creation",
+        "literal": "create + thing/object",
+        "root": "Tạo"
+      },
+      {
+        "vi": "Tạo hình",
+        "meaning": "plastic arts / sculpting / molding",
+        "literal": "create + shape/form",
+        "root": "Tạo"
+      },
+      {
+        "vi": "Tạo phản",
+        "meaning": "to rebel / revolt",
+        "literal": "create/start + rebellion",
+        "root": "Tạo"
+      },
+      {
+        "vi": "Kiến tạo",
+        "meaning": "to construct / tectonic",
+        "literal": "build + create",
+        "root": "Tạo"
+      }
+    ]
+  },
+  "7b3158bfdbb1": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cực",
+          "meaning": "Pole / Extreme / Utmost"
+        },
+        {
+          "vi": "Đoan",
+          "meaning": "Tip / End / Beginning / Boundary"
+        }
+      ],
+      "bridge": "Combining 'cực' (pole/utmost) and 'đoan' (tip/boundary) creates a concept that describes standing at the very farthest end or boundary of a spectrum, leading to the meaning of 'extreme'."
+    },
+    "compounds": [
+      {
+        "vi": "Cực hạn",
+        "literal": "extreme + limit",
+        "en": "Ultimate limit / maximum threshold",
+        "root": "Cực"
+      },
+      {
+        "vi": "Cực điểm",
+        "literal": "extreme + point",
+        "en": "Peak / extreme point",
+        "root": "Cực"
+      },
+      {
+        "vi": "Cực khổ",
+        "literal": "extreme + bitter/hardship",
+        "en": "Extremely hard / miserable",
+        "root": "Cực"
+      },
+      {
+        "vi": "Vô cực",
+        "literal": "without + pole/limit",
+        "en": "Infinity",
+        "root": "Cực"
+      },
+      {
+        "vi": "Đoan chính",
+        "literal": "tip/bound + upright",
+        "en": "Upright and proper / decorous",
+        "root": "Đoan"
+      },
+      {
+        "vi": "Đầu đoan",
+        "literal": "head + beginning",
+        "en": "Beginning / clue / origin",
+        "root": "Đoan"
+      },
+      {
+        "vi": "Thủ đoan",
+        "literal": "hand + tip/method",
+        "en": "Tricked method / scheme / tactic",
+        "root": "Đoan"
+      }
+    ]
+  },
+  "cực đoan": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Cực",
+          "meaning": "Pole / Extreme / Utmost"
+        },
+        {
+          "vi": "Đoan",
+          "meaning": "Tip / End / Beginning / Boundary"
+        }
+      ],
+      "bridge": "Combining 'cực' (pole/utmost) and 'đoan' (tip/boundary) creates a concept that describes standing at the very farthest end or boundary of a spectrum, leading to the meaning of 'extreme'."
+    },
+    "compounds": [
+      {
+        "vi": "Cực hạn",
+        "literal": "extreme + limit",
+        "en": "Ultimate limit / maximum threshold",
+        "root": "Cực"
+      },
+      {
+        "vi": "Cực điểm",
+        "literal": "extreme + point",
+        "en": "Peak / extreme point",
+        "root": "Cực"
+      },
+      {
+        "vi": "Cực khổ",
+        "literal": "extreme + bitter/hardship",
+        "en": "Extremely hard / miserable",
+        "root": "Cực"
+      },
+      {
+        "vi": "Vô cực",
+        "literal": "without + pole/limit",
+        "en": "Infinity",
+        "root": "Cực"
+      },
+      {
+        "vi": "Đoan chính",
+        "literal": "tip/bound + upright",
+        "en": "Upright and proper / decorous",
+        "root": "Đoan"
+      },
+      {
+        "vi": "Đầu đoan",
+        "literal": "head + beginning",
+        "en": "Beginning / clue / origin",
+        "root": "Đoan"
+      },
+      {
+        "vi": "Thủ đoan",
+        "literal": "hand + tip/method",
+        "en": "Tricked method / scheme / tactic",
+        "root": "Đoan"
+      }
+    ]
+  },
+  "a230a89481c9": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nương",
+          "meaning": "To lean against, depend on, or take shelter"
+        },
+        {
+          "vi": "Nhờ",
+          "meaning": "To rely on, ask for help, or be indebted to for assistance"
+        }
+      ],
+      "bridge": "Combining 'nương' (to lean/shelter) and 'nhờ' (to rely/depend) creates a synonymous compound where both elements reinforce the act of seeking refuge, support, or dependence upon someone else for survival or protection."
+    },
+    "compounds": [
+      {
+        "vi": "Nương tựa",
+        "literal": "lean + rely",
+        "en": "to depend on each other / to find solace or support",
+        "root": "Nương"
+      },
+      {
+        "vi": "Nương náu",
+        "literal": "lean + hide/stay",
+        "en": "to take shelter / to seek refuge",
+        "root": "Nương"
+      },
+      {
+        "vi": "Nương tay",
+        "literal": "lean + hand",
+        "en": "to show mercy / to be lenient",
+        "root": "Nương"
+      },
+      {
+        "vi": "Nhờ vả",
+        "literal": "rely + request",
+        "en": "to ask for a favor / to ask for help",
+        "root": "Nhờ"
+      },
+      {
+        "vi": "Nhờ cậy",
+        "literal": "rely + trust",
+        "en": "to place one's trust and reliance on someone",
+        "root": "Nhờ"
+      },
+      {
+        "vi": "Nhờ ơn",
+        "literal": "rely + grace/favor",
+        "en": "thanks to the kindness or grace of someone",
+        "root": "Nhờ"
+      }
+    ]
+  },
+  "nương nhờ": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Nương",
+          "meaning": "To lean against, depend on, or take shelter"
+        },
+        {
+          "vi": "Nhờ",
+          "meaning": "To rely on, ask for help, or be indebted to for assistance"
+        }
+      ],
+      "bridge": "Combining 'nương' (to lean/shelter) and 'nhờ' (to rely/depend) creates a synonymous compound where both elements reinforce the act of seeking refuge, support, or dependence upon someone else for survival or protection."
+    },
+    "compounds": [
+      {
+        "vi": "Nương tựa",
+        "literal": "lean + rely",
+        "en": "to depend on each other / to find solace or support",
+        "root": "Nương"
+      },
+      {
+        "vi": "Nương náu",
+        "literal": "lean + hide/stay",
+        "en": "to take shelter / to seek refuge",
+        "root": "Nương"
+      },
+      {
+        "vi": "Nương tay",
+        "literal": "lean + hand",
+        "en": "to show mercy / to be lenient",
+        "root": "Nương"
+      },
+      {
+        "vi": "Nhờ vả",
+        "literal": "rely + request",
+        "en": "to ask for a favor / to ask for help",
+        "root": "Nhờ"
+      },
+      {
+        "vi": "Nhờ cậy",
+        "literal": "rely + trust",
+        "en": "to place one's trust and reliance on someone",
+        "root": "Nhờ"
+      },
+      {
+        "vi": "Nhờ ơn",
+        "literal": "rely + grace/favor",
+        "en": "thanks to the kindness or grace of someone",
+        "root": "Nhờ"
+      }
+    ]
+  },
+  "41326f21c2ee": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tham",
+          "meaning": "To desire, to covet, to have an excessive craving for"
+        },
+        {
+          "vi": "Vọng",
+          "meaning": "To look into the distance, to hope, to aspire, to gaze toward"
+        }
+      ],
+      "bridge": "Tham vọng literally means \"craving for distant sights,\" connecting an insatiable desire (tham) with looking far ahead at grand future goals (vọng)."
+    },
+    "compounds": [
+      {
+        "vi": "Tham lam",
+        "literal": "Desire + greedy",
+        "en": "Greedy / Covetous",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham ô",
+        "literal": "Desire + corrupt",
+        "en": "Embezzlement / Corruption",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham ăn",
+        "literal": "Desire + eat",
+        "en": "Gluttonous / Fond of eating",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham quan",
+        "literal": "Desire + look",
+        "en": "To sightsee / Visit",
+        "root": "Tham"
+      },
+      {
+        "vi": "Hy vọng",
+        "literal": "Hope + look toward",
+        "en": "To hope / Expectation",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Trông vọng",
+        "literal": "Look + look toward",
+        "en": "To look forward to / Await",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Vọng ngoại",
+        "literal": "Look toward + outside",
+        "en": "Adoring foreign things / Xenocentric",
+        "root": "Vọng"
+      }
+    ]
+  },
+  "tham vộng": {
+    "etymology": {
+      "roots": [
+        {
+          "vi": "Tham",
+          "meaning": "To desire, to covet, to have an excessive craving for"
+        },
+        {
+          "vi": "Vọng",
+          "meaning": "To look into the distance, to hope, to aspire, to gaze toward"
+        }
+      ],
+      "bridge": "Tham vọng literally means \"craving for distant sights,\" connecting an insatiable desire (tham) with looking far ahead at grand future goals (vọng)."
+    },
+    "compounds": [
+      {
+        "vi": "Tham lam",
+        "literal": "Desire + greedy",
+        "en": "Greedy / Covetous",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham ô",
+        "literal": "Desire + corrupt",
+        "en": "Embezzlement / Corruption",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham ăn",
+        "literal": "Desire + eat",
+        "en": "Gluttonous / Fond of eating",
+        "root": "Tham"
+      },
+      {
+        "vi": "Tham quan",
+        "literal": "Desire + look",
+        "en": "To sightsee / Visit",
+        "root": "Tham"
+      },
+      {
+        "vi": "Hy vọng",
+        "literal": "Hope + look toward",
+        "en": "To hope / Expectation",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Trông vọng",
+        "literal": "Look + look toward",
+        "en": "To look forward to / Await",
+        "root": "Vọng"
+      },
+      {
+        "vi": "Vọng ngoại",
+        "literal": "Look toward + outside",
+        "en": "Adoring foreign things / Xenocentric",
+        "root": "Vọng"
+      }
+    ]
   }
 }

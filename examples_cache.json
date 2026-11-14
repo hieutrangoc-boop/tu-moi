@@ -3838,5 +3838,685 @@
       "vi": "Hãy <b>can đảm</b> đối mặt với khó khăn này nhé, mọi người sẽ luôn ở bên cậu.",
       "en": "Be brave in facing this difficulty, everyone will always be by your side."
     }
+  ],
+  "d29421984bf3": [
+    {
+      "vi": "Cậu có thể <b>diễn giải</b> lại câu này giúp tớ được không?",
+      "en": "Could you explain this sentence for me again?"
+    },
+    {
+      "vi": "Chị ấy đã <b>diễn giải</b> rất rõ ràng nên ai cũng hiểu.",
+      "en": "She explained it very clearly so everyone understood."
+    }
+  ],
+  "diễn giải": [
+    {
+      "vi": "Cậu có thể <b>diễn giải</b> lại câu này giúp tớ được không?",
+      "en": "Could you explain this sentence for me again?"
+    },
+    {
+      "vi": "Chị ấy đã <b>diễn giải</b> rất rõ ràng nên ai cũng hiểu.",
+      "en": "She explained it very clearly so everyone understood."
+    }
+  ],
+  "0daed9b60ec1": [
+    {
+      "vi": "Thế hệ trẻ ngày nay có <b>tư tưởng</b> cởi mở và tiến bộ hơn rất nhiều.",
+      "en": "Today's younger generation has a much more open and progressive ideology."
+    },
+    {
+      "vi": "Hai đứa mình tuy khác nhau về <b>tư tưởng</b> nhưng vẫn luôn tôn trọng lẫn nhau.",
+      "en": "Even though the two of us differ in ideology, we always respect each other."
+    }
+  ],
+  "tư tưởng": [
+    {
+      "vi": "Thế hệ trẻ ngày nay có <b>tư tưởng</b> cởi mở và tiến bộ hơn rất nhiều.",
+      "en": "Today's younger generation has a much more open and progressive ideology."
+    },
+    {
+      "vi": "Hai đứa mình tuy khác nhau về <b>tư tưởng</b> nhưng vẫn luôn tôn trọng lẫn nhau.",
+      "en": "Even though the two of us differ in ideology, we always respect each other."
+    }
+  ],
+  "6ecea87e9687": [
+    {
+      "vi": "Cậu có thể giải thích <b>định nghĩa</b> của từ này bằng một ví dụ thực tế được không?",
+      "en": "Can you explain the definition of this word with a real-life example?"
+    },
+    {
+      "vi": "Mỗi người sẽ có một <b>định nghĩa</b> khác nhau về sự thành công trong cuộc sống.",
+      "en": "Everyone has a different definition of success in life."
+    }
+  ],
+  "định nghĩa": [
+    {
+      "vi": "Cậu có thể giải thích <b>định nghĩa</b> của từ này bằng một ví dụ thực tế được không?",
+      "en": "Can you explain the definition of this word with a real-life example?"
+    },
+    {
+      "vi": "Mỗi người sẽ có một <b>định nghĩa</b> khác nhau về sự thành công trong cuộc sống.",
+      "en": "Everyone has a different definition of success in life."
+    }
+  ],
+  "395bb28ed40d": [
+    {
+      "vi": "Chị ơi, ngày mai em có việc bận nên em xin phép nộp <b>đơn</b> nghỉ phép nhé!",
+      "en": "Older sister, I have something to take care of tomorrow, so may I please submit a permission letter for leave?"
+    },
+    {
+      "vi": "Con đã viết <b>đơn</b> xin vắng mặt gửi thầy giáo chủ nhiệm rồi ạ.",
+      "en": "I have already written and sent the permission letter for absence to my homeroom teacher."
+    }
+  ],
+  "đơn": [
+    {
+      "vi": "Chị ơi, ngày mai em có việc bận nên em xin phép nộp <b>đơn</b> nghỉ phép nhé!",
+      "en": "Older sister, I have something to take care of tomorrow, so may I please submit a permission letter for leave?"
+    },
+    {
+      "vi": "Con đã viết <b>đơn</b> xin vắng mặt gửi thầy giáo chủ nhiệm rồi ạ.",
+      "en": "I have already written and sent the permission letter for absence to my homeroom teacher."
+    }
+  ],
+  "c2b18a095275": [
+    {
+      "vi": "Quán cà phê mới mở tuy nhỏ nhưng <b>quy mô</b> dịch vụ rất chuyên nghiệp.",
+      "en": "The newly opened café is small, but the extent of its service is very professional."
+    },
+    {
+      "vi": "Chúng ta cần bàn kỹ hơn về <b>quy mô</b> của bữa tiệc sinh nhật sắp tới.",
+      "en": "We need to discuss the size of the upcoming birthday party in more detail."
+    }
+  ],
+  "quy mô: độ lớ": [
+    {
+      "vi": "Quán cà phê mới mở tuy nhỏ nhưng <b>quy mô</b> dịch vụ rất chuyên nghiệp.",
+      "en": "The newly opened café is small, but the extent of its service is very professional."
+    },
+    {
+      "vi": "Chúng ta cần bàn kỹ hơn về <b>quy mô</b> của bữa tiệc sinh nhật sắp tới.",
+      "en": "We need to discuss the size of the upcoming birthday party in more detail."
+    }
+  ],
+  "443f491b8b78": [
+    {
+      "vi": "Thời tiết thay đổi thường <b>tác động</b> đến tâm trạng của mình nhiều lắm.",
+      "en": "Changes in the weather often affect my mood a lot."
+    },
+    {
+      "vi": "Đừng để lời nói của người khác <b>tác động</b> quá nhiều đến quyết định của bạn.",
+      "en": "Don't let other people's words affect your decisions too much."
+    }
+  ],
+  "tác động": [
+    {
+      "vi": "Thời tiết thay đổi thường <b>tác động</b> đến tâm trạng của mình nhiều lắm.",
+      "en": "Changes in the weather often affect my mood a lot."
+    },
+    {
+      "vi": "Đừng để lời nói của người khác <b>tác động</b> quá nhiều đến quyết định của bạn.",
+      "en": "Don't let other people's words affect your decisions too much."
+    }
+  ],
+  "55b8df3aefb5": [
+    {
+      "vi": "Tối qua mình đã thức khuya để xem <b>toàn bộ</b> bộ phim đó luôn.",
+      "en": "I stayed up late last night to watch that whole movie."
+    },
+    {
+      "vi": "<b>Toàn bộ</b> chi phí cho chuyến đi lần này sẽ do công ty chi trả.",
+      "en": "The whole cost of this trip will be covered by the company."
+    }
+  ],
+  "toàn bộ": [
+    {
+      "vi": "Tối qua mình đã thức khuya để xem <b>toàn bộ</b> bộ phim đó luôn.",
+      "en": "I stayed up late last night to watch that whole movie."
+    },
+    {
+      "vi": "<b>Toàn bộ</b> chi phí cho chuyến đi lần này sẽ do công ty chi trả.",
+      "en": "The whole cost of this trip will be covered by the company."
+    }
+  ],
+  "790a2bb0d598": [
+    {
+      "vi": "Vợ chồng mình đang tính <b>cải tạo</b> lại căn bếp cho hiện đại và tiện nghi hơn.",
+      "en": "My husband and I are planning to renovate the kitchen to make it more modern and convenient."
+    },
+    {
+      "vi": "Đất ở đây hơi bạc màu, nên mình phải <b>cải tạo</b> lại một chút mới trồng rau được.",
+      "en": "The soil here is a bit depleted, so I have to improve it a little before I can grow vegetables."
+    }
+  ],
+  "cải tạo": [
+    {
+      "vi": "Vợ chồng mình đang tính <b>cải tạo</b> lại căn bếp cho hiện đại và tiện nghi hơn.",
+      "en": "My husband and I are planning to renovate the kitchen to make it more modern and convenient."
+    },
+    {
+      "vi": "Đất ở đây hơi bạc màu, nên mình phải <b>cải tạo</b> lại một chút mới trồng rau được.",
+      "en": "The soil here is a bit depleted, so I have to improve it a little before I can grow vegetables."
+    }
+  ],
+  "34a8482f10e7": [
+    {
+      "vi": "Đừng nghe lời anh ta nói, cậu đang bị <b>thao túng tâm lý</b> đấy!",
+      "en": "Don't listen to what he says, you are being gaslit!"
+    },
+    {
+      "vi": "Cô ấy nhận ra chồng mình thường xuyên <b>thao túng tâm lý</b> để cô ấy luôn cảm thấy có lỗi.",
+      "en": "She realized that her husband constantly gaslit her so that she would always feel guilty."
+    }
+  ],
+  "thao túng tâm lý": [
+    {
+      "vi": "Đừng nghe lời anh ta nói, cậu đang bị <b>thao túng tâm lý</b> đấy!",
+      "en": "Don't listen to what he says, you are being gaslit!"
+    },
+    {
+      "vi": "Cô ấy nhận ra chồng mình thường xuyên <b>thao túng tâm lý</b> để cô ấy luôn cảm thấy có lỗi.",
+      "en": "She realized that her husband constantly gaslit her so that she would always feel guilty."
+    }
+  ],
+  "b79606d54d1a": [
+    {
+      "vi": "Mình có thể <b>kết hợp</b> hai ý tưởng này lại để làm bài thuyết trình ấn tượng hơn.",
+      "en": "We can combine these two ideas to make the presentation more impressive."
+    },
+    {
+      "vi": "Món này <b>kết hợp</b> giữa vị cay của ớt và vị béo của nước cốt dừa rất ngon.",
+      "en": "This dish combines the spiciness of chili and the richness of coconut milk very well."
+    }
+  ],
+  "kết hợp": [
+    {
+      "vi": "Mình có thể <b>kết hợp</b> hai ý tưởng này lại để làm bài thuyết trình ấn tượng hơn.",
+      "en": "We can combine these two ideas to make the presentation more impressive."
+    },
+    {
+      "vi": "Món này <b>kết hợp</b> giữa vị cay của ớt và vị béo của nước cốt dừa rất ngon.",
+      "en": "This dish combines the spiciness of chili and the richness of coconut milk very well."
+    }
+  ],
+  "7b3158bfdbb1": [
+    {
+      "vi": "Đừng nhìn nhận mọi việc một cách <b>cực đoan</b> quá, hãy thử đặt mình vào vị trí của người khác xem.",
+      "en": "Don't look at things in such an extreme way; try putting yourself in someone else's shoes."
+    },
+    {
+      "vi": "Trong chuyện tình cảm, ghen tuông <b>cực đoan</b> chỉ làm cả hai thêm mệt mỏi và dễ đổ vỡ thôi.",
+      "en": "In a relationship, extreme jealousy only makes both of you more exhausted and leads to a breakup easily."
+    }
+  ],
+  "cực đoan": [
+    {
+      "vi": "Đừng nhìn nhận mọi việc một cách <b>cực đoan</b> quá, hãy thử đặt mình vào vị trí của người khác xem.",
+      "en": "Don't look at things in such an extreme way; try putting yourself in someone else's shoes."
+    },
+    {
+      "vi": "Trong chuyện tình cảm, ghen tuông <b>cực đoan</b> chỉ làm cả hai thêm mệt mỏi và dễ đổ vỡ thôi.",
+      "en": "In a relationship, extreme jealousy only makes both of you more exhausted and leads to a breakup easily."
+    }
+  ],
+  "4789c8598a0b": [
+    {
+      "vi": "Qua cách nói chuyện, mình thấy anh ấy là người có <b>tính cách</b> rất phóng khoáng và cởi mở.",
+      "en": "Through the way he talks, I find him to be a person with a very free-spirited and open personality."
+    },
+    {
+      "vi": "Hai đứa mình tuy <b>tính cách</b> trái ngược nhau hoàn toàn nhưng lại chơi thân với nhau từ nhỏ.",
+      "en": "Even though the two of us have completely opposite personalities, we have been close friends since childhood."
+    }
+  ],
+  "tính cách": [
+    {
+      "vi": "Qua cách nói chuyện, mình thấy anh ấy là người có <b>tính cách</b> rất phóng khoáng và cởi mở.",
+      "en": "Through the way he talks, I find him to be a person with a very free-spirited and open personality."
+    },
+    {
+      "vi": "Hai đứa mình tuy <b>tính cách</b> trái ngược nhau hoàn toàn nhưng lại chơi thân với nhau từ nhỏ.",
+      "en": "Even though the two of us have completely opposite personalities, we have been close friends since childhood."
+    }
+  ],
+  "986b4c4be14d": [
+    {
+      "vi": "Người ta thường đánh giá con người qua <b>nhân cách</b> chứ không phải bề ngoài.",
+      "en": "People usually judge a person by their personality rather than their appearance."
+    },
+    {
+      "vi": "Làm bạn lâu năm với nhau, mình rất nể <b>nhân cách</b> của anh ấy.",
+      "en": "Having been friends for a long time, I really respect his character."
+    }
+  ],
+  "nhân cách": [
+    {
+      "vi": "Người ta thường đánh giá con người qua <b>nhân cách</b> chứ không phải bề ngoài.",
+      "en": "People usually judge a person by their personality rather than their appearance."
+    },
+    {
+      "vi": "Làm bạn lâu năm với nhau, mình rất nể <b>nhân cách</b> của anh ấy.",
+      "en": "Having been friends for a long time, I really respect his character."
+    }
+  ],
+  "459ccbd84dd4": [
+    {
+      "vi": "Dạo này tớ đang học về <b>liệu pháp tâm động học chuyên sâu ngắn hạn</b> để hiểu rõ hơn về các tổn thương thời thơ ấu.",
+      "en": "Lately I've been studying ISTDP to better understand childhood traumas."
+    },
+    {
+      "vi": "Bác sĩ khuyên mình nên thử phương pháp <b>liệu pháp tâm động học chuyên sâu ngắn hạn</b> vì nó mang lại kết quả khá nhanh.",
+      "en": "The doctor advised me to try ISTDP because it yields results pretty quickly."
+    }
+  ],
+  "liệu pháp tâm động học chuyên sâu ngắn hạn": [
+    {
+      "vi": "Dạo này tớ đang học về <b>liệu pháp tâm động học chuyên sâu ngắn hạn</b> để hiểu rõ hơn về các tổn thương thời thơ ấu.",
+      "en": "Lately I've been studying ISTDP to better understand childhood traumas."
+    },
+    {
+      "vi": "Bác sĩ khuyên mình nên thử phương pháp <b>liệu pháp tâm động học chuyên sâu ngắn hạn</b> vì nó mang lại kết quả khá nhanh.",
+      "en": "The doctor advised me to try ISTDP because it yields results pretty quickly."
+    }
+  ],
+  "45837d1c4a07": [
+    {
+      "vi": "Cái <b>khái niệm</b> yêu xa này nghe thì lãng mạn nhưng thực tế mệt mỏi lắm.",
+      "en": "This concept of long-distance relationships sounds romantic, but in reality, it's very tiring."
+    },
+    {
+      "vi": "Chị giải thích <b>khái niệm</b> này đơn giản thôi để em dễ hiểu nhé.",
+      "en": "Please explain this concept simply so that I can easily understand it."
+    }
+  ],
+  "khái niệm": [
+    {
+      "vi": "Cái <b>khái niệm</b> yêu xa này nghe thì lãng mạn nhưng thực tế mệt mỏi lắm.",
+      "en": "This concept of long-distance relationships sounds romantic, but in reality, it's very tiring."
+    },
+    {
+      "vi": "Chị giải thích <b>khái niệm</b> này đơn giản thôi để em dễ hiểu nhé.",
+      "en": "Please explain this concept simply so that I can easily understand it."
+    }
+  ],
+  "801bb13b315d": [
+    {
+      "vi": "Dạo này hay gặp chuyện xui nên tối nay mình tính đi xem <b>tử vi</b> xem sao.",
+      "en": "Lately I've been running into bad luck so tonight I'm thinking of going to check my horoscope to see what's up."
+    },
+    {
+      "vi": "Hôm qua mẹ mới đi xem <b>tử vi</b> về và bảo tuổi của hai đứa rất hợp nhau.",
+      "en": "Yesterday my mom went to check our horoscopes and said our zodiac ages are a great match."
+    }
+  ],
+  "tử vi": [
+    {
+      "vi": "Dạo này hay gặp chuyện xui nên tối nay mình tính đi xem <b>tử vi</b> xem sao.",
+      "en": "Lately I've been running into bad luck so tonight I'm thinking of going to check my horoscope to see what's up."
+    },
+    {
+      "vi": "Hôm qua mẹ mới đi xem <b>tử vi</b> về và bảo tuổi của hai đứa rất hợp nhau.",
+      "en": "Yesterday my mom went to check our horoscopes and said our zodiac ages are a great match."
+    }
+  ],
+  "a6c652ee1e57": [
+    {
+      "vi": "Họ đã <b>chính thức</b> chuyển về sống chung sau vài năm hẹn hò.",
+      "en": "They have officially moved in together after dating for a few years."
+    },
+    {
+      "vi": "Cuối tuần này công ty mình sẽ <b>chính thức</b> khai trương chi nhánh mới.",
+      "en": "This weekend my company will officially open the new branch."
+    }
+  ],
+  "chính thức": [
+    {
+      "vi": "Họ đã <b>chính thức</b> chuyển về sống chung sau vài năm hẹn hò.",
+      "en": "They have officially moved in together after dating for a few years."
+    },
+    {
+      "vi": "Cuối tuần này công ty mình sẽ <b>chính thức</b> khai trương chi nhánh mới.",
+      "en": "This weekend my company will officially open the new branch."
+    }
+  ],
+  "4a43e157cec2": [
+    {
+      "vi": "Cậu nhớ <b>nộp</b> bài tập trước hạn tối nay nhé!",
+      "en": "Remember to submit your homework before the deadline tonight!"
+    },
+    {
+      "vi": "Anh đã <b>nộp</b> đơn xin nghỉ phép cho sếp chưa?",
+      "en": "Have you submitted your leave request to the boss yet?"
+    }
+  ],
+  "nộp": [
+    {
+      "vi": "Cậu nhớ <b>nộp</b> bài tập trước hạn tối nay nhé!",
+      "en": "Remember to submit your homework before the deadline tonight!"
+    },
+    {
+      "vi": "Anh đã <b>nộp</b> đơn xin nghỉ phép cho sếp chưa?",
+      "en": "Have you submitted your leave request to the boss yet?"
+    }
+  ],
+  "ec8bb073bf2b": [
+    {
+      "vi": "Món ăn này đã trở nên nổi tiếng <b>toàn cầu</b> nhờ mạng xã hội.",
+      "en": "This dish has become famous worldwide thanks to social media."
+    },
+    {
+      "vi": "Công ty này có mạng lưới đối tác rộng lớn trên <b>toàn cầu</b>.",
+      "en": "This company has a vast partner network worldwide."
+    }
+  ],
+  "toàn cầu": [
+    {
+      "vi": "Món ăn này đã trở nên nổi tiếng <b>toàn cầu</b> nhờ mạng xã hội.",
+      "en": "This dish has become famous worldwide thanks to social media."
+    },
+    {
+      "vi": "Công ty này có mạng lưới đối tác rộng lớn trên <b>toàn cầu</b>.",
+      "en": "This company has a vast partner network worldwide."
+    }
+  ],
+  "1a12c188c2bb": [
+    {
+      "vi": "Con hãy xoay cái <b>quả địa cầu</b> này để tìm vị trí đất nước Việt Nam nhé.",
+      "en": "Can you spin this globe to find where Vietnam is?"
+    },
+    {
+      "vi": "Thầy giáo dùng <b>quả địa cầu</b> trên bàn để giảng bài về các châu lục cho chúng tôi.",
+      "en": "The teacher used the globe on the desk to teach us about the continents."
+    }
+  ],
+  "quả điạ cầu": [
+    {
+      "vi": "Con hãy xoay cái <b>quả địa cầu</b> này để tìm vị trí đất nước Việt Nam nhé.",
+      "en": "Can you spin this globe to find where Vietnam is?"
+    },
+    {
+      "vi": "Thầy giáo dùng <b>quả địa cầu</b> trên bàn để giảng bài về các châu lục cho chúng tôi.",
+      "en": "The teacher used the globe on the desk to teach us about the continents."
+    }
+  ],
+  "a23771352fc9": [
+    {
+      "vi": "Họ <b>dự kiến</b> sẽ hoàn thành xong dự án này vào cuối tuần sau.",
+      "en": "They predict they will finish this project by the end of next week."
+    },
+    {
+      "vi": "Trời đang âm u lắm, mình <b>dự kiến</b> chiều nay trời sẽ đổ mưa to đấy.",
+      "en": "It's very overcast, I predict it's going to pour rain this afternoon."
+    }
+  ],
+  "dự kiến": [
+    {
+      "vi": "Họ <b>dự kiến</b> sẽ hoàn thành xong dự án này vào cuối tuần sau.",
+      "en": "They predict they will finish this project by the end of next week."
+    },
+    {
+      "vi": "Trời đang âm u lắm, mình <b>dự kiến</b> chiều nay trời sẽ đổ mưa to đấy.",
+      "en": "It's very overcast, I predict it's going to pour rain this afternoon."
+    }
+  ],
+  "a1d0b8e85463": [
+    {
+      "vi": "Cái cây <b>vĩ đại</b> này đã đứng ở góc sân từ thời ông bà tôi còn trẻ.",
+      "en": "This very large tree has been standing in the courtyard corner since my grandparents were young."
+    },
+    {
+      "vi": "Họ mới chuyển về căn nhà có phòng khách <b>vĩ đại</b> nhìn ra biển.",
+      "en": "They just moved into a house with a very large living room overlooking the sea."
+    }
+  ],
+  "vĩ đại": [
+    {
+      "vi": "Cái cây <b>vĩ đại</b> này đã đứng ở góc sân từ thời ông bà tôi còn trẻ.",
+      "en": "This very large tree has been standing in the courtyard corner since my grandparents were young."
+    },
+    {
+      "vi": "Họ mới chuyển về căn nhà có phòng khách <b>vĩ đại</b> nhìn ra biển.",
+      "en": "They just moved into a house with a very large living room overlooking the sea."
+    }
+  ],
+  "e779c65d7108": [
+    {
+      "vi": "Em cần lên gặp phòng <b>nhân sự</b> để hỏi lại về mấy cái giấy tờ hợp đồng.",
+      "en": "I need to go see the HR department to double-check some contract documents."
+    },
+    {
+      "vi": "Công ty đang mở rộng quy mô nên đợt này họ tuyển thêm rất nhiều <b>nhân sự</b> mới.",
+      "en": "The company is expanding its scale, so they are recruiting a lot of new personnel this time."
+    }
+  ],
+  "nhân sự": [
+    {
+      "vi": "Em cần lên gặp phòng <b>nhân sự</b> để hỏi lại về mấy cái giấy tờ hợp đồng.",
+      "en": "I need to go see the HR department to double-check some contract documents."
+    },
+    {
+      "vi": "Công ty đang mở rộng quy mô nên đợt này họ tuyển thêm rất nhiều <b>nhân sự</b> mới.",
+      "en": "The company is expanding its scale, so they are recruiting a lot of new personnel this time."
+    }
+  ],
+  "be95dc43a555": [
+    {
+      "vi": "Công ty vừa mới <b>công bố</b> danh sách những người trúng thưởng trên fanpage đấy.",
+      "en": "The company just publicly announced the list of prize winners on their fanpage."
+    },
+    {
+      "vi": "Khi nào hai bạn định <b>công bố</b> chuyện kết hôn với mọi người thế?",
+      "en": "When do you two plan to officially announce your marriage to everyone?"
+    }
+  ],
+  "công bố": [
+    {
+      "vi": "Công ty vừa mới <b>công bố</b> danh sách những người trúng thưởng trên fanpage đấy.",
+      "en": "The company just publicly announced the list of prize winners on their fanpage."
+    },
+    {
+      "vi": "Khi nào hai bạn định <b>công bố</b> chuyện kết hôn với mọi người thế?",
+      "en": "When do you two plan to officially announce your marriage to everyone?"
+    }
+  ],
+  "d261f4a2113a": [
+    {
+      "vi": "Đối với người Việt Nam, <b>hiếu thảo - thành công, không cho ba mẹ lo, nghe lời</b> luôn là những chuẩn mực đạo đức quan trọng nhất của người con.",
+      "en": "For Vietnamese people, filial piety leads to success, not causing parents worry, and obedience are always the most important moral standards for a child."
+    },
+    {
+      "vi": "Ông bà mình thường dạy rằng <b>hiếu thảo - thành công, không cho ba mẹ lo, nghe lời</b> chính là gốc rễ để làm người.",
+      "en": "Our grandparents often taught that filial piety leads to success, not causing parents worry, and obedience are the very roots of becoming a good person."
+    }
+  ],
+  "hiếu thảo - thành công, không cho ba mẹ lo, nghe lồi": [
+    {
+      "vi": "Đối với người Việt Nam, <b>hiếu thảo - thành công, không cho ba mẹ lo, nghe lời</b> luôn là những chuẩn mực đạo đức quan trọng nhất của người con.",
+      "en": "For Vietnamese people, filial piety leads to success, not causing parents worry, and obedience are always the most important moral standards for a child."
+    },
+    {
+      "vi": "Ông bà mình thường dạy rằng <b>hiếu thảo - thành công, không cho ba mẹ lo, nghe lời</b> chính là gốc rễ để làm người.",
+      "en": "Our grandparents often taught that filial piety leads to success, not causing parents worry, and obedience are the very roots of becoming a good person."
+    }
+  ],
+  "42ccfca60310": [
+    {
+      "vi": "Nhiều người hay <b>đáng đồng</b> hai khái niệm này với nhau nhưng thực ra chúng rất khác.",
+      "en": "Many people often think these two concepts are similar to each other, but actually they are very different."
+    },
+    {
+      "vi": "Bạn đừng <b>đáng đồng</b> chuyện công việc với chuyện cá nhân nhé.",
+      "en": "Please don't think that work matters and personal matters are the same."
+    }
+  ],
+  "đáng đồng": [
+    {
+      "vi": "Nhiều người hay <b>đáng đồng</b> hai khái niệm này với nhau nhưng thực ra chúng rất khác.",
+      "en": "Many people often think these two concepts are similar to each other, but actually they are very different."
+    },
+    {
+      "vi": "Bạn đừng <b>đáng đồng</b> chuyện công việc với chuyện cá nhân nhé.",
+      "en": "Please don't think that work matters and personal matters are the same."
+    }
+  ],
+  "41fda004a396": [
+    {
+      "vi": "Cậu đã nhận được <b>kết quả tuyển dụng</b> của công ty đó chưa?",
+      "en": "Have you received the recruitment result from that company yet?"
+    },
+    {
+      "vi": "Họ hứa là tuần sau sẽ gửi <b>kết quả tuyển dụng</b> cho ứng viên.",
+      "en": "They promised to send the recruitment results to the candidates next week."
+    }
+  ],
+  "kết quả tuyển dụng": [
+    {
+      "vi": "Cậu đã nhận được <b>kết quả tuyển dụng</b> của công ty đó chưa?",
+      "en": "Have you received the recruitment result from that company yet?"
+    },
+    {
+      "vi": "Họ hứa là tuần sau sẽ gửi <b>kết quả tuyển dụng</b> cho ứng viên.",
+      "en": "They promised to send the recruitment results to the candidates next week."
+    }
+  ],
+  "d37ef467b813": [
+    {
+      "vi": "Con cái mình có <b>tiềm năng</b> lớn về nghệ thuật lắm, mẹ ạ.",
+      "en": "Our child has a lot of potential in the arts, you know."
+    },
+    {
+      "vi": "Dự án mới này có nhiều <b>tiềm năng</b> phát triển trong tương lai.",
+      "en": "This new project has a lot of potential for future development."
+    }
+  ],
+  "tiềm năng": [
+    {
+      "vi": "Con cái mình có <b>tiềm năng</b> lớn về nghệ thuật lắm, mẹ ạ.",
+      "en": "Our child has a lot of potential in the arts, you know."
+    },
+    {
+      "vi": "Dự án mới này có nhiều <b>tiềm năng</b> phát triển trong tương lai.",
+      "en": "This new project has a lot of potential for future development."
+    }
+  ],
+  "7389a0dccfc6": [
+    {
+      "vi": "Cuối tuần này trời nắng nóng <b>đỉnh điểm</b>, tốt nhất là chúng ta nên ở nhà.",
+      "en": "It's going to be peak hot weather this weekend, it's best we just stay home."
+    },
+    {
+      "vi": "Cơn giận của cô ấy đã lên đến <b>đỉnh điểm</b> khi anh ấy lại đến muộn một lần nữa.",
+      "en": "Her anger reached its peak when he arrived late yet again."
+    }
+  ],
+  "đỉnh điểm": [
+    {
+      "vi": "Cuối tuần này trời nắng nóng <b>đỉnh điểm</b>, tốt nhất là chúng ta nên ở nhà.",
+      "en": "It's going to be peak hot weather this weekend, it's best we just stay home."
+    },
+    {
+      "vi": "Cơn giận của cô ấy đã lên đến <b>đỉnh điểm</b> khi anh ấy lại đến muộn một lần nữa.",
+      "en": "Her anger reached its peak when he arrived late yet again."
+    }
+  ],
+  "a230a89481c9": [
+    {
+      "vi": "Sau khi chồng mất, bà ấy phải đưa con về quê <b>nương nhờ</b> nhà bố mẹ đẻ.",
+      "en": "After her husband passed away, she had to take her children back to her hometown to seek shelter at her parents' house."
+    },
+    {
+      "vi": "Sống ở đất khách quê người, anh em chúng tôi chỉ biết <b>nương nhờ</b> vào nhau để qua ngày.",
+      "en": "Living in a foreign land, my siblings and I only knew how to rely on each other to get by day by day."
+    }
+  ],
+  "nương nhờ": [
+    {
+      "vi": "Sau khi chồng mất, bà ấy phải đưa con về quê <b>nương nhờ</b> nhà bố mẹ đẻ.",
+      "en": "After her husband passed away, she had to take her children back to her hometown to seek shelter at her parents' house."
+    },
+    {
+      "vi": "Sống ở đất khách quê người, anh em chúng tôi chỉ biết <b>nương nhờ</b> vào nhau để qua ngày.",
+      "en": "Living in a foreign land, my siblings and I only knew how to rely on each other to get by day by day."
+    }
+  ],
+  "476cf1ac781d": [
+    {
+      "vi": "Cơn đau đầu này có thể là <b>dấu hiệu</b> cho thấy bạn cần được nghỉ ngơi.",
+      "en": "This headache might be a sign that you need to rest."
+    },
+    {
+      "vi": "Mọi người nói việc anh ta im lặng là <b>dấu hiệu</b> của sự đồng ý.",
+      "en": "Everyone says his silence is a sign of agreement."
+    }
+  ],
+  "dấu hiệu": [
+    {
+      "vi": "Cơn đau đầu này có thể là <b>dấu hiệu</b> cho thấy bạn cần được nghỉ ngơi.",
+      "en": "This headache might be a sign that you need to rest."
+    },
+    {
+      "vi": "Mọi người nói việc anh ta im lặng là <b>dấu hiệu</b> của sự đồng ý.",
+      "en": "Everyone says his silence is a sign of agreement."
+    }
+  ],
+  "41326f21c2ee": [
+    {
+      "vi": "Mình thấy anh ấy có <b>tham vọng</b> lớn lắm, chắc chắn sau này sẽ làm nên chuyện.",
+      "en": "I see that he has great ambition; he will definitely do something big in the future."
+    },
+    {
+      "vi": "Dù có <b>tham vọng</b> đến đâu thì cũng đừng quên dành thời gian cho gia đình nhé.",
+      "en": "No matter how much ambition you have, don't forget to spend time with your family."
+    }
+  ],
+  "tham vộng": [
+    {
+      "vi": "Mình thấy anh ấy có <b>tham vọng</b> lớn lắm, chắc chắn sau này sẽ làm nên chuyện.",
+      "en": "I see that he has great ambition; he will definitely do something big in the future."
+    },
+    {
+      "vi": "Dù có <b>tham vọng</b> đến đâu thì cũng đừng quên dành thời gian cho gia đình nhé.",
+      "en": "No matter how much ambition you have, don't forget to spend time with your family."
+    }
+  ],
+  "e5790443419e": [
+    {
+      "vi": "Cuối tuần này cả nhà mình sẽ đi <b>nghỉ dưỡng</b> ở một resort tại Vũng Tàu.",
+      "en": "This weekend, my whole family is going on a retreat vacation at a resort in Vung Tau."
+    },
+    {
+      "vi": "Sau dự án này, mình nhất định phải đi <b>nghỉ dưỡng</b> vài ngày để nạp lại năng lượng.",
+      "en": "After this project, I definitely have to go on a retreat vacation for a few days to recharge my energy."
+    }
+  ],
+  "nghỉ dưởng": [
+    {
+      "vi": "Cuối tuần này cả nhà mình sẽ đi <b>nghỉ dưỡng</b> ở một resort tại Vũng Tàu.",
+      "en": "This weekend, my whole family is going on a retreat vacation at a resort in Vung Tau."
+    },
+    {
+      "vi": "Sau dự án này, mình nhất định phải đi <b>nghỉ dưỡng</b> vài ngày để nạp lại năng lượng.",
+      "en": "After this project, I definitely have to go on a retreat vacation for a few days to recharge my energy."
+    }
+  ],
+  "07a048b0bc53": [
+    {
+      "vi": "Dạo này anh ấy hay mệt mỏi, đó là <b>biểu hiện</b> của việc làm quá sức.",
+      "en": "Lately he has been frequently tired; that is a manifestation of overworking."
+    },
+    {
+      "vi": "Những <b>biểu hiện</b> nhỏ nhặt đó lại cho thấy cô ấy rất quan tâm đến bạn.",
+      "en": "Those minor manifestations actually show that she cares a lot about you."
+    }
+  ],
+  "biểu hiện": [
+    {
+      "vi": "Dạo này anh ấy hay mệt mỏi, đó là <b>biểu hiện</b> của việc làm quá sức.",
+      "en": "Lately he has been frequently tired; that is a manifestation of overworking."
+    },
+    {
+      "vi": "Những <b>biểu hiện</b> nhỏ nhặt đó lại cho thấy cô ấy rất quan tâm đến bạn.",
+      "en": "Those minor manifestations actually show that she cares a lot about you."
+    }
   ]
 }
